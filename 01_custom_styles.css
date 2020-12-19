@@ -2,15 +2,15 @@
 
 /* Example of extending a given magpie-style */
 
-/*.magpie-view-stimulus-container {
+.magpie-view-stimulus-container {
     height: auto;
     max-height: 350px;
-} */
+}
 
 /* Display all titles in red */
-/*.magpie-view-title {
-    color: red;
-}*/
+.magpie-view-title {
+    color: lightpink;
+}
 
 /* Example of declaring your own style */
 .custom-border {
