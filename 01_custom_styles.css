@@ -14,17 +14,21 @@
 
 /* Example of declaring your own style */
 .custom-border {
-   border: 1px solid powderblue;
+    border: 1px solid powderblue;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
 }
 
 
-
-
 .annotation-head {
-	padding-top: 7px;
+    padding-top: 7px;
     color: rgba(0, 0, 0, 0.87);
     font-family: "Playfair Display", "Noto Serif", serif;
-    font-size: 12px;
+    font-size: 20px;
     /*text-align: center;*/
 }
 
@@ -35,41 +39,78 @@
 .annotation-segment {
     color: rgba(0, 0, 0, 0.87);
     font-family: "Playfair Display", "Noto Serif", serif;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
 }
 
 .marker {
     background: lightgreen;
+    font-family: "Playfair Display", "Noto Serif", serif;
 }
 
 .anno {
-	position: relative;
+    position: relative;
     text-align: center;
 
 }
 
 .label {
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 
-	display: inline-block;
-	padding: 2px 0 ;
-	font-size: 11.844px;
-	font-weight: bold;
-	line-height: 14px;
-	color: #ffffff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	white-space: nowrap;
-	vertical-align: baseline;
-	background-color: #999999;
+    display: inline-block;
+    padding: 4px 0;
+    font-family: "Playfair Display", "Noto Serif", serif;
+    font-size: 20px;
+    /*font-weight: bold;*/
+    line-height: 24px;
+    color: #ffffff;
+    /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999999;
+}
+
+.label_colored {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    display: inline-block;
+    padding: 4px 0;
+    font-family: "Playfair Display", "Noto Serif", serif;
+    font-size: 20px;
+    /*font-weight: bold;*/
+    line-height: 24px;
+    color: hotpink;
+    /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);*/
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: darkgreen;
 }
 
 #parent #popup {
-  display: none;
+    display: none;
 }
 
 #parent:hover #popup {
-  display: block;
+    display: block;
+}
+
+/*Flex */
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-child {
+    -webkit-box-flex: 1 1 auto;
+    -moz-box-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }

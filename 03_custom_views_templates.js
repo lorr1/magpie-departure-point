@@ -75,28 +75,68 @@ const custom_press_a_button = function (config) {
                                 <span class="marker" data-anno-id="2">another one</span> 
                                 text
                                 <span class="marker" data-anno-id="3">one mooooorreee</span> 
-                            </div>
-                            
-                            <div id="popup">description text here</div>
+                            </div>                            
                         </div>
-                        <button id="first" class='magpie-response-sentence'>Q123 (David Beckham)</button>
-                        <button id="second" class='magpie-response-sentence'>Q234 (David Mitchell)</button>
+                        
+                        <div class="flex">
+                            <button id="first" class='flex-child magpie-response-sentence'>[0] Q123</button>
+                            <div id="first-sentence" class='flex-child magpie-view-text'>
+                                <b><a href="https://en.wikipedia.org/wiki/David_Beckham" target="_blank">
+                                    David_Beckham
+                                </a></b> 
+                                    is the best footballer that England ever had for a very very very very long time.
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <button id="second" class='flex-child magpie-response-sentence'>[1] Q234</button>
+                            <div id="second-sentence" class='flex-child magpie-view-text'>
+                                <b><a href="https://en.wikipedia.org/wiki/David_Mitchell" target="_blank">
+                                    David_Mitchell
+                                </a></b> 
+                                    is the best comedian that England ever had for a very very very very long time.
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <button id="third" class='flex-child magpie-response-sentence'>[2] Q345</button>
+                            <div id="third-sentence" class='flex-child magpie-view-text'>
+                                <b><a href="https://en.wikipedia.org/wiki/David_Beckham" target="_blank">
+                                    David_Beckham
+                                </a></b> 
+                                    is the best footballer that England ever had for a very very very very long time.
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <button id="second" class='flex-child magpie-response-sentence'>[1] Q234</button>
+                            <div id="second-sentence" class='flex-child magpie-view-text'>
+                                <b><a href="https://en.wikipedia.org/wiki/David_Mitchell" target="_blank">
+                                    David_Mitchell
+                                </a></b> 
+                                    is the best comedian that England ever had for a very very very very long time.
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <button id="third" class='flex-child magpie-response-sentence'>[2] Q345</button>
+                            <div id="third-sentence" class='flex-child magpie-view-text'>
+                                <b><a href="https://en.wikipedia.org/wiki/David_Beckham" target="_blank">
+                                    David_Beckham
+                                </a></b> 
+                                    is the best footballer that England ever had for a very very very very long time.
+                            </div>
+                        </div>
+                        
+                        
                         
                         `)
 
 
-
-            var e = document.getElementById('parent');
-            e.onmouseover = function () {
-                document.getElementById('popup').style.display = 'block';
-            };
-            e.onmouseout = function () {
-                document.getElementById('popup').style.display = 'none';
-            };
-
             $(document).ready(function () {
 
-                var annos = ['first', 'second', 'third', 'forth']; // your annotation data
+                var annos = ['FIRST-THING', 'second', 'third', 'forth']; // your annotation data
+                const idx = 2;
 
                 $('.marker').each(function () {
                     var $t = $(this),
@@ -112,7 +152,13 @@ const custom_press_a_button = function (config) {
                         width = $t.width(),
                         style = 'style="top:' + top + 'px; left:' + left + 'px;width:' + width + 'px;"';
 
-                    $('.annotation-head').append('<span class="anno label" ' + style + '>' + annoStr + '</span>');
+                    if (pos == idx){
+                        $('.annotation-head').append('<span class="anno label_colored" ' + style + '>' + annoStr + '</span>');
+                    }
+                    else {
+                        $('.annotation-head').append('<span class="anno label" ' + style + '>' + annoStr + '</span>');
+                    }
+
                 });
             });
 
