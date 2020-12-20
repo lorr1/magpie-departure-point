@@ -9,8 +9,8 @@
 // and has to call magpie.findNextView() eventually to proceed to the next view (or the next trial in this view),
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
 
-// In this view the user can click on one of two buttons
-const custom_press_a_button = function (config) {
+// In this view the user can click on buttons to label entities
+const custom_entity_choice = function (config) {
     const view = {
         name: config.name,
         CT: 0,
@@ -30,8 +30,13 @@ const custom_press_a_button = function (config) {
                 // We will just save the response and continue to the next view
                 let trial_data = {
                     trial_name: config.name,
-                    trial_number: CT + 1,
-                    response: e.target.id
+                    trial_number: CT,
+                    response_id: e.target.id,
+                    response_alias: e.target.alias,
+                    response_cand_qid: e.target.cand_qid,
+                    response_alias_idx: e.target.alias_idx,
+                    response_sent_idx: e.target.sent_idx,
+                    response_doc_title: e.target.doc_title
                 };
                 // Often it makes sense to also save the config information
                 // trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
@@ -43,133 +48,85 @@ const custom_press_a_button = function (config) {
                 magpie.findNextView();
             };
 
-            // var submitAnswer = function () {
-            //     var radios = document.getElementsByName('choice');
-            //     var val = "";
-            //     for (var i = 0, length = radios.length; i < length; i++) {
-            //         if (radios[i].checked) {
-            //             val = radios[i].value;
-            //             break;
-            //         }
-            //     }
-            //
-            //     if (val == "") {
-            //         alert('please select choice answer');
-            //     } else if (val == "2") {
-            //         alert('Answer is correct !');
-            //     } else {
-            //         alert('Answer is wrong');
-            //     }
-            // };
-
-
             $("main").html(`
                         <div class='magpie-view'>
                         
                         <h1 class='magpie-view-title'>Pick the right entity</h1>
                         <div class="annotation-head"></div>
-                            <div class="annotation-segment">
-                            <span class="marker" data-anno-id="0"><span id="parent">This is a</span></span> 
-                                <span class="marker" data-anno-id="1">sample</span> 
-                                text
-                                <span class="marker" data-anno-id="2">another one</span> 
-                                text
-                                <span class="marker" data-anno-id="3">one mooooorreee</span> 
+                            <div id="sentence_text" class="annotation-segment">
                             </div>                            
                         </div>
-                        
-                        <div class="flex">
-                            <button id="first" class='flex-child magpie-response-sentence'>[0] Q123</button>
-                            <div id="first-sentence" class='flex-child magpie-view-text'>
-                                <b><a href="https://en.wikipedia.org/wiki/David_Beckham" target="_blank">
-                                    David_Beckham
-                                </a></b> 
-                                    is the best footballer that England ever had for a very very very very long time.
-                            </div>
-                        </div>
-                        
-                        <div class="flex">
-                            <button id="second" class='flex-child magpie-response-sentence'>[1] Q234</button>
-                            <div id="second-sentence" class='flex-child magpie-view-text'>
-                                <b><a href="https://en.wikipedia.org/wiki/David_Mitchell" target="_blank">
-                                    David_Mitchell
-                                </a></b> 
-                                    is the best comedian that England ever had for a very very very very long time.
-                            </div>
-                        </div>
-                        
-                        <div class="flex">
-                            <button id="third" class='flex-child magpie-response-sentence'>[2] Q345</button>
-                            <div id="third-sentence" class='flex-child magpie-view-text'>
-                                <b><a href="https://en.wikipedia.org/wiki/David_Beckham" target="_blank">
-                                    David_Beckham
-                                </a></b> 
-                                    is the best footballer that England ever had for a very very very very long time.
-                            </div>
-                        </div>
-                        
-                        <div class="flex">
-                            <button id="second" class='flex-child magpie-response-sentence'>[1] Q234</button>
-                            <div id="second-sentence" class='flex-child magpie-view-text'>
-                                <b><a href="https://en.wikipedia.org/wiki/David_Mitchell" target="_blank">
-                                    David_Mitchell
-                                </a></b> 
-                                    is the best comedian that England ever had for a very very very very long time.
-                            </div>
-                        </div>
-                        
-                        <div class="flex">
-                            <button id="third" class='flex-child magpie-response-sentence'>[2] Q345</button>
-                            <div id="third-sentence" class='flex-child magpie-view-text'>
-                                <b><a href="https://en.wikipedia.org/wiki/David_Beckham" target="_blank">
-                                    David_Beckham
-                                </a></b> 
-                                    is the best footballer that England ever had for a very very very very long time.
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        `)
+                        <div id="annotation-choices"></div>
+                      `)
 
 
             $(document).ready(function () {
-
-                var annos = ['FIRST-THING', 'second', 'third', 'forth']; // your annotation data
-                const idx = 2;
-
-                $('.marker').each(function () {
-                    var $t = $(this),
-                        pos = parseInt($t.attr('data-anno-id')),
-                        annoStr = annos[pos];
-                    var total_width = 0;
-                    $('.annotation-head .anno').each(function () {
-                        total_width += $(this).width();
-                    })
-                    // create an annotation for each marker
-                    var top = this.offsetTop - 5,
-                        left = this.offsetLeft - total_width,
-                        width = $t.width(),
-                        style = 'style="top:' + top + 'px; left:' + left + 'px;width:' + width + 'px;"';
-
-                    if (pos == idx){
-                        $('.annotation-head').append('<span class="anno label_colored" ' + style + '>' + annoStr + '</span>');
+                // mentions is config.data[CT]
+                var sentence = config.data[CT].sentence;
+                //===========================================
+                // ADDS THE SENTENCE
+                //===========================================
+                var sentence_split = sentence.split(" ");
+                var prior_word_idx = 0
+                config.data[CT].all_spans.forEach(function (mention_span, span_idx) {
+                    // Add the left "plain text" span
+                    if (prior_word_idx < mention_span[0]) {
+                        var new_span = document.createElement('span');
+                        // Add white spaces around spans without the "marker" class as those are highlighted
+                        new_span.textContent = sentence_split.slice(prior_word_idx, mention_span[0]) + " "
+                        if (span_idx > 0) {
+                            new_span.textContent = " " + new_span.textContent;
+                        }
+                        $("#sentence_text").append(new_span)
                     }
-                    else {
-                        $('.annotation-head').append('<span class="anno label" ' + style + '>' + annoStr + '</span>');
+                    // Add the "highlighted" mention span
+                    var new_span = document.createElement('span');
+                    if (span_idx === config.data[CT].alias_idx) {
+                        new_span.className = "marker-anno"
+                    } else {
+                        new_span.className = "marker"
                     }
+                    new_span.anno_id = span_idx
+                    console.log(sentence_split.slice(mention_span[0], mention_span[1]))
+                    new_span.textContent = sentence_split.slice(mention_span[0], mention_span[1])
+                    $("#sentence_text").append(new_span)
+                    prior_word_idx = mention_span[1]
+                });
+                // Add the right "plain text" span
+                if (prior_word_idx < sentence_split.length) {
+                    var new_span = document.createElement('span');
+                    new_span.textContent = " " + sentence_split.slice(prior_word_idx, sentence_split.length)
+                    $("#sentence_text").append(new_span)
+                }
 
+                //===========================================
+                // ADDS THE BUTTONS
+                //===========================================
+                config.data[CT].candidates.forEach(function (cand_qid, cand_idx) {
+                    var new_div = document.createElement('div');
+                    new_div.className = "flex"
+                    // The button carries the information to the click handler. So we need to store relevant mention information in the button
+                    var button_div = document.createElement("button");
+                    button_div.className = "flex-child magpie-response-sentence";
+                    button_div.id = "button_" + cand_idx.toString();
+                    button_div.alias = config.data[CT].alias;
+                    button_div.cand_qid = cand_qid;
+                    button_div.alias_idx = config.data[CT].alias_idx;
+                    button_div.sent_idx = config.data[CT].sent_idx;
+                    button_div.doc_title = config.data[CT].doc_title;
+                    button_div.textContent = cand_qid;
+                    // Div for button and description
+                    var sub_div = document.createElement("div");
+                    sub_div.className = "flex-child magpie-view-text";
+                    sub_div.innerHTML = "<b></b><a href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
+                        config.data[CT].candidate_titles[cand_idx]  + "</a></b>"
+                    sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx]
+                    new_div.appendChild(button_div);
+                    new_div.appendChild(sub_div);
+                    $('#annotation-choices').append(new_div);
+                    $('#button_' + cand_idx.toString()).on("click", handle_click);
                 });
             });
-
-
-            // We will add the handle_click functions to both buttons
-            $('#first').on("click", handle_click);
-            $('#second').on("click", handle_click);
-
-            // $('#mybutton').on("click", submitAnswer);
-
-            // That's everything for this view
         }
     };
     // We have to return the view, so that it can be used in 05_views.js

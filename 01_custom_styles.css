@@ -48,6 +48,11 @@
     font-family: "Playfair Display", "Noto Serif", serif;
 }
 
+.marker-anno {
+    background: lightpink;
+    font-family: "Playfair Display", "Noto Serif", serif;
+}
+
 .anno {
     position: relative;
     text-align: center;

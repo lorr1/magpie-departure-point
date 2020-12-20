@@ -17,9 +17,8 @@ $("document").ready(function() {
         views_seq: [
             // intro,
             // instructions,
-            // forced_choice_2A,
-            press_a_button, // TODO (karan)
-            post_test,
+            entity_choice,
+            // post_test,
             thanks,
         ],
         // Here, you can specify all information for the deployment
@@ -38,7 +37,7 @@ $("document").ready(function() {
             in: [
                 // list the view-names of the views for which you want a progress bar
                 // forced_choice_2A.name,
-                press_a_button.name,
+                entity_choice.name,
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "separate",

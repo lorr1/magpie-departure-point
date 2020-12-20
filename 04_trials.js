@@ -1,51 +1,49 @@
-// In this file you can specify the trial data for your experiment
-
-
-const trial_info = {
-    forced_choice: [
+const ned_info = {
+    "mentions": [
         {
-            question: "What's on the bread?",
-            picture: "images/question_mark_02.png",
-            option1: 'jam',
-            option2: 'ham',
-            correct: 'jam'
+            "doc_qids": "Q1",
+            "doc_title": "Rose",
+            "alias": "david",
+            "candidates": ["Q3", "Q4", "Q5"],
+            "candidate_titles": ["Rock", "Paper", "Scissors"],
+            "candidate_descriptions": ["The ballers", "The caller", "The fallter"],
+            "span_l": 0,
+            "span_r": 1,
+            "sent_idx": 0,
+            "alias_idx": 0,
+            "sentence": "David and Victoria got married",
+            "all_aliases": ["david", "victoria", "married"],
+            "all_spans": [[0,1], [2,3], [4,5]]
         },
         {
-            question: "What's the weather like?",
-            picture: "images/weather.jpg",
-            option1: "shiny",
-            option2: "rainbow",
-            correct: "shiny"
-        }
-    ]
-};
-
-
-const example_ned_info = {
-    forced_choice: [
+            "doc_qids": "Q1",
+            "doc_title": "Rose",
+            "alias": "victoria",
+            "candidates": ["Q3", "Q4", "Q5", "Q6"],
+            "candidate_titles": ["Spock", "Mock", "Quock", "Owock"],
+            "candidate_descriptions": ["The bird", "The curd", "The shmurd", "The lurd"],
+            "span_l": 2,
+            "span_r": 3,
+            "sent_idx": 0,
+            "alias_idx": 1,
+            "sentence": "David and Victoria got married",
+            "all_aliases": ["david", "victoria", "married"],
+            "all_spans": [[0,1], [2,3], [4,5]]
+        },
         {
-            question: "What's the right entity?",
-            sentence: "David and Victoria couldn't wait to be on QI.",
-            sentence_idx: 10,
-            spans: [[0, 4], [10, 17], [43, 44]],
-            annotations: ['PERSON', 'PERSON', 'TV SHOW'],
-            candidates: [
-                [
-                    ['Q123', 'David Beckham', 'DB is'],
-                    ['Q234', 'David Mitchell', 'DM is'],
-                    ['Q345', 'David Wallace', 'DW is']
-                ],
-                [
-                    ['Q987', 'Victoria Beckham', 'VB is'],
-                    ['Q876', 'Victoria Coren Mitchell', 'VCM is'],
-                    ['Q765', 'Victoria Cross', 'VC is'],
-                    ['Q654', 'Queen Victoria', 'QV is'],
-                ],
-                [
-                    ['Q1010', 'Quite Interesting', 'QI is'],
-                    ['Q3030', 'Qi', 'Qi is']
-                ],
-            ],
+            "doc_qids": "Q1",
+            "doc_title": "Rose",
+            "alias": "married",
+            "candidates": ["Q3", "Q4", "Q5"],
+            "candidate_titles": ["Bibbity", "Boppity", "Boop"],
+            "candidate_descriptions": ["Long def", "Who cares", "Shhhhhh"],
+            "span_l": 4,
+            "span_r": 5,
+            "sent_idx": 0,
+            "alias_idx": 2,
+            "sentence": "David and Victoria got married",
+            "all_aliases": ["david", "victoria", "married"],
+            "all_spans": [[0,1], [2,3], [4,5]]
         }
     ]
 };
