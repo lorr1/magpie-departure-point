@@ -12,7 +12,7 @@ def get_arg_parser():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     # Data and runs
     parser.add_argument('--data_dir', type=str, default='/lfs/raiders8/0/lorr1/data/wiki_dump/alias_filtered_sentences', help='Where files loaded')
-    parser.add_argument('--out_dir', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-labeling/data', help='Where files saved')
+    parser.add_argument('--out_dir', type=str, default='/dfs/scratch0/lorr1/bootleg/magpie-departure-point/bootleg-labeling/data', help='Where files saved')
     parser.add_argument('--alias2cands', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-internal/tutorial_data/data/wiki_entity_data/entity_mappings/alias2qids.json')
     parser.add_argument('--qid2title', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-internal/tutorial_data/data/wiki_entity_data/entity_mappings/qid2title.json')
     parser.add_argument('--qid2desc', type=str, default='/lfs/raiders8/0/lorr1/qid2desc.json')
@@ -240,7 +240,6 @@ def main():
     print(f"Loading qid2desc from {args.qid2desc}")
     with open(args.qid2desc) as in_f:
         qid2desc = ujson.load(in_f)
-    qid2desc = {}
     dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentences)
 
     print(f"Finished in {time.time()-gl_start}s. Data saved in {args.out_data_dir}")
