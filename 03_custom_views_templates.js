@@ -53,15 +53,7 @@ const custom_entity_choice = function (config) {
                         
                         <h1 class='magpie-view-title'>Pick the right entity</h1>
                         <div class="annotation-head"></div>
-                            <div  id="sentence-text"  class="annotation-segment">
-                            <span class="marker" data-anno-id="0"><span id="parent">David</span></span>
-                                and 
-                                <span class="marker" data-anno-id="1">Victoria</span> 
-                                walked to the set of 
-                                <span class="marker" data-anno-id="2">QI</span> 
-                                and drank a 
-                                <span class="marker" data-anno-id="3">Manhattan</span>. 
-                            </div>                            
+                            <div  id="sentence-text"  class="annotation-segment">                   
                         </div>
                         <div  id="entity-choices" class="annotation-choices-parent"></div>
                       `)
@@ -74,12 +66,14 @@ const custom_entity_choice = function (config) {
                 // ADDS THE SENTENCE
                 //===========================================
                 var sentence_split = sentence.split(" ");
+                console.log(sentence_split)
                 var prior_word_idx = 0
                 config.data[CT].all_spans.forEach(function (mention_span, span_idx) {
                     // Add the left "plain text" span
                     if (prior_word_idx < mention_span[0]) {
                         var new_span = document.createElement('span');
                         // Add white spaces around spans without the "marker" class as those are highlighted
+                        console.log(sentence_split.slice(prior_word_idx, mention_span[0]) + " ")
                         new_span.textContent = sentence_split.slice(prior_word_idx, mention_span[0]) + " "
                         if (span_idx > 0) {
                             new_span.textContent = " " + new_span.textContent;
@@ -113,7 +107,7 @@ const custom_entity_choice = function (config) {
                     new_div.className = "annotation-choice"
                     // The button carries the information to the click handler. So we need to store relevant mention information in the button
                     var button_div = document.createElement("button");
-                    button_div.className = "button-choice";
+                    button_div.className = "button-choice magpie-respond-sentence";
                     button_div.id = "button_" + cand_idx.toString();
                     button_div.alias = config.data[CT].alias;
                     button_div.cand_qid = cand_qid;
@@ -124,7 +118,7 @@ const custom_entity_choice = function (config) {
 
                     // Div for button and description
                     var sub_div = document.createElement("div");
-                    sub_div.className = "button-desc";
+                    sub_div.className = "button-desc magpie-view-text";
                     sub_div.innerHTML = "<b></b><a href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
                         config.data[CT].candidate_titles[cand_idx]  + "</a></b>"
                     sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx]
