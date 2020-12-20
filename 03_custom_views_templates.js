@@ -53,7 +53,14 @@ const custom_entity_choice = function (config) {
                         
                         <h1 class='magpie-view-title'>Pick the right entity</h1>
                         <div class="annotation-head"></div>
-                            <div id="sentence-text" class="annotation-segment">
+                            <div  id="sentence-text"  class="annotation-segment">
+                            <span class="marker" data-anno-id="0"><span id="parent">David</span></span>
+                                and 
+                                <span class="marker" data-anno-id="1">Victoria</span> 
+                                walked to the set of 
+                                <span class="marker" data-anno-id="2">QI</span> 
+                                and drank a 
+                                <span class="marker" data-anno-id="3">Manhattan</span>. 
                             </div>                            
                         </div>
                         <div  id="entity-choices" class="annotation-choices-parent"></div>

@@ -74,6 +74,8 @@
 .marker {
     background: lightgreen;
     font-family: "Playfair Display", "Noto Serif", serif;
+      white-space: nowrap;
+
 }
 
 .marker-anno {
@@ -92,7 +94,11 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
 
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    /*display: inline-block;*/
     padding: 4px 0;
     font-family: "Playfair Display", "Noto Serif", serif;
     font-size: 20px;
