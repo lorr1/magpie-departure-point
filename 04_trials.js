@@ -26,6 +26,7 @@ const example_ned_info = {
         {
             question: "What's the right entity?",
             sentence: "David and Victoria couldn't wait to be on QI.",
+            sentence_idx: 10,
             spans: [[0, 4], [10, 17], [43, 44]],
             annotations: ['PERSON', 'PERSON', 'TV SHOW'],
             candidates: [
