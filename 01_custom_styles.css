@@ -16,3 +16,60 @@
 .custom-border {
    border: 1px solid powderblue;
 }
+
+
+
+
+.annotation-head {
+	padding-top: 7px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Playfair Display", "Noto Serif", serif;
+    font-size: 12px;
+    /*text-align: center;*/
+}
+
+.annotation-segment, .annotation-head {
+    position: relative;
+}
+
+.annotation-segment {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Playfair Display", "Noto Serif", serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.marker {
+    background: lightgreen;
+}
+
+.anno {
+	position: relative;
+    text-align: center;
+
+}
+
+.label {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	display: inline-block;
+	padding: 2px 0 ;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #999999;
+}
+
+#parent #popup {
+  display: none;
+}
+
+#parent:hover #popup {
+  display: block;
+}

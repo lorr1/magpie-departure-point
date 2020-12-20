@@ -10,7 +10,7 @@
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
 
 // In this view the user can click on one of two buttons
-const custom_press_a_button = function(config) {
+const custom_press_a_button = function (config) {
     const view = {
         name: config.name,
         CT: 0,
@@ -25,36 +25,8 @@ const custom_press_a_button = function(config) {
             // You could use one of our predefined html-templates, with (magpie.)stimulus_container_generators["<view_name>"](config, CT)
             // console.log(magpie.stimulus_container_generators["fixed_text"]({title: 'My Stupid Title', text: 'Some text'}, CT))
 
-            $("main").html(`<div class="magpie-view">
-                            <div class="annotation-head"></div>
-                            <div class="annotation-segment">
-                            <span class="marker" data-anno-id="0"><span id="parent">This is a</span></span> 
-                                <span class="marker" data-anno-id="1">sample</span> 
-                                text
-                                <span class="marker" data-anno-id="2">another one</span> 
-                                text
-                                <span class="marker" data-anno-id="3">one mooooorreee</span> 
-                            </div>
-                            
-                            <form >
-                            <input type="radio" name="choice" value="1"> Q123
-                            <input type="radio" name="choice" value="2"> Q234
-                            <input type="radio" name="choice" value="3"> Q456
-                            <input type="radio" name="choice" value="None of These"> None of These
-                            </form>
-                            <button onclick="submitAnswer()">Submit Answer</button>
-                            
-                            <div id="popup">description text here</div>
-                        </div>
-                        
-                        <div class='magpie-view'>
-                        <h1 class='magpie-view-title'>Click on one of the buttons!</h1>
-                        <button id="first" class='magpie-view-button'>First Button</button>
-                        <button id="second" class='magpie-view-button'>Second Button</button>
-                        </div>`)
-
             // This function will handle  the response
-            const handle_click = function(e) {
+            const handle_click = function (e) {
                 // We will just save the response and continue to the next view
                 let trial_data = {
                     trial_name: config.name,
@@ -71,9 +43,85 @@ const custom_press_a_button = function(config) {
                 magpie.findNextView();
             };
 
+            // var submitAnswer = function () {
+            //     var radios = document.getElementsByName('choice');
+            //     var val = "";
+            //     for (var i = 0, length = radios.length; i < length; i++) {
+            //         if (radios[i].checked) {
+            //             val = radios[i].value;
+            //             break;
+            //         }
+            //     }
+            //
+            //     if (val == "") {
+            //         alert('please select choice answer');
+            //     } else if (val == "2") {
+            //         alert('Answer is correct !');
+            //     } else {
+            //         alert('Answer is wrong');
+            //     }
+            // };
+
+
+            $("main").html(`
+                        <div class='magpie-view'>
+                        
+                        <h1 class='magpie-view-title'>Pick the right entity</h1>
+                        <div class="annotation-head"></div>
+                            <div class="annotation-segment">
+                            <span class="marker" data-anno-id="0"><span id="parent">This is a</span></span> 
+                                <span class="marker" data-anno-id="1">sample</span> 
+                                text
+                                <span class="marker" data-anno-id="2">another one</span> 
+                                text
+                                <span class="marker" data-anno-id="3">one mooooorreee</span> 
+                            </div>
+                            
+                            <div id="popup">description text here</div>
+                        </div>
+                        <button id="first" class='magpie-response-sentence'>Q123 (David Beckham)</button>
+                        <button id="second" class='magpie-response-sentence'>Q234 (David Mitchell)</button>
+                        
+                        `)
+
+
+
+            var e = document.getElementById('parent');
+            e.onmouseover = function () {
+                document.getElementById('popup').style.display = 'block';
+            };
+            e.onmouseout = function () {
+                document.getElementById('popup').style.display = 'none';
+            };
+
+            $(document).ready(function () {
+
+                var annos = ['first', 'second', 'third', 'forth']; // your annotation data
+
+                $('.marker').each(function () {
+                    var $t = $(this),
+                        pos = parseInt($t.attr('data-anno-id')),
+                        annoStr = annos[pos];
+                    var total_width = 0;
+                    $('.annotation-head .anno').each(function () {
+                        total_width += $(this).width();
+                    })
+                    // create an annotation for each marker
+                    var top = this.offsetTop - 5,
+                        left = this.offsetLeft - total_width,
+                        width = $t.width(),
+                        style = 'style="top:' + top + 'px; left:' + left + 'px;width:' + width + 'px;"';
+
+                    $('.annotation-head').append('<span class="anno label" ' + style + '>' + annoStr + '</span>');
+                });
+            });
+
+
             // We will add the handle_click functions to both buttons
             $('#first').on("click", handle_click);
             $('#second').on("click", handle_click);
+
+            // $('#mybutton').on("click", submitAnswer);
 
             // That's everything for this view
         }
