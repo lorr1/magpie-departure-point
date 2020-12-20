@@ -24,6 +24,34 @@
 }
 
 
+.annotation-choices-parent {
+    text-align: center;
+}
+
+.annotation-choice {
+    /*margin-right: 50px;*/
+    /*max-width: 50px;*/
+    text-align: center;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.button-choice {
+    max-width: 80px;
+    /*flex: 5px;*/
+}
+
+.button-desc {
+    /*width: 95%;*/
+    text-align: center;
+    padding-left: 8px;
+    /*flex: 50px;*/
+    /*margin-top: 15px;*/
+}
+
 .annotation-head {
     padding-top: 7px;
     color: rgba(0, 0, 0, 0.87);

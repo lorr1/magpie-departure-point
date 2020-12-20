@@ -53,10 +53,10 @@ const custom_entity_choice = function (config) {
                         
                         <h1 class='magpie-view-title'>Pick the right entity</h1>
                         <div class="annotation-head"></div>
-                            <div id="sentence_text" class="annotation-segment">
+                            <div id="sentence-text" class="annotation-segment">
                             </div>                            
                         </div>
-                        <div id="annotation-choices"></div>
+                        <div  id="entity-choices" class="annotation-choices-parent"></div>
                       `)
 
 
@@ -77,9 +77,9 @@ const custom_entity_choice = function (config) {
                         if (span_idx > 0) {
                             new_span.textContent = " " + new_span.textContent;
                         }
-                        $("#sentence_text").append(new_span)
+                        $("#sentence-text").append(new_span)
                     }
-                    // Add the "highlighted" mention span
+                    // Adds the "highlighted" mention span
                     var new_span = document.createElement('span');
                     if (span_idx === config.data[CT].alias_idx) {
                         new_span.className = "marker-anno"
@@ -87,16 +87,15 @@ const custom_entity_choice = function (config) {
                         new_span.className = "marker"
                     }
                     new_span.anno_id = span_idx
-                    console.log(sentence_split.slice(mention_span[0], mention_span[1]))
                     new_span.textContent = sentence_split.slice(mention_span[0], mention_span[1])
-                    $("#sentence_text").append(new_span)
+                    $("#sentence-text").append(new_span)
                     prior_word_idx = mention_span[1]
                 });
-                // Add the right "plain text" span
+                // Add the final right "plain text" span
                 if (prior_word_idx < sentence_split.length) {
                     var new_span = document.createElement('span');
                     new_span.textContent = " " + sentence_split.slice(prior_word_idx, sentence_split.length)
-                    $("#sentence_text").append(new_span)
+                    $("#sentence-text").append(new_span)
                 }
 
                 //===========================================
@@ -104,28 +103,42 @@ const custom_entity_choice = function (config) {
                 //===========================================
                 config.data[CT].candidates.forEach(function (cand_qid, cand_idx) {
                     var new_div = document.createElement('div');
-                    new_div.className = "flex"
+                    new_div.className = "annotation-choice"
                     // The button carries the information to the click handler. So we need to store relevant mention information in the button
                     var button_div = document.createElement("button");
-                    button_div.className = "flex-child magpie-response-sentence";
+                    button_div.className = "button-choice";
                     button_div.id = "button_" + cand_idx.toString();
                     button_div.alias = config.data[CT].alias;
                     button_div.cand_qid = cand_qid;
                     button_div.alias_idx = config.data[CT].alias_idx;
                     button_div.sent_idx = config.data[CT].sent_idx;
                     button_div.doc_title = config.data[CT].doc_title;
-                    button_div.textContent = cand_qid;
+                    button_div.textContent = "[" + ((cand_idx+1)%10).toString() + "] " + cand_qid;
+
                     // Div for button and description
                     var sub_div = document.createElement("div");
-                    sub_div.className = "flex-child magpie-view-text";
+                    sub_div.className = "button-desc";
                     sub_div.innerHTML = "<b></b><a href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
                         config.data[CT].candidate_titles[cand_idx]  + "</a></b>"
                     sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx]
                     new_div.appendChild(button_div);
                     new_div.appendChild(sub_div);
-                    $('#annotation-choices').append(new_div);
-                    $('#button_' + cand_idx.toString()).on("click", handle_click);
+                    $('#entity-choices').append(new_div);
+
+                    // Add button call backs after being added to DOM
+                    $("#button_" + cand_idx.toString()).on("click", handle_click);
                 });
+
+                window.addEventListener("keydown", function (event) {
+                    event.preventDefault();
+                    // If key is 0-9
+                    if(event.keyCode >= 48 && event.keyCode <= 57) {
+                        cand_idx = (parseInt(event.key)+9)%10
+                        if (cand_idx < config.data[CT].candidates.length) {
+                            $("#button_" + cand_idx.toString()).click();
+                        }
+                    }
+                }, true);
             });
         }
     };

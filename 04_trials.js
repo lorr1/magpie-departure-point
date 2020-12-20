@@ -1,7 +1,7 @@
 const ned_info = {
     "mentions": [
         {
-            "doc_qids": "Q1",
+            "doc_qid": "Q1",
             "doc_title": "Rose",
             "alias": "david",
             "candidates": ["Q3", "Q4", "Q5"],
@@ -16,7 +16,7 @@ const ned_info = {
             "all_spans": [[0,1], [2,3], [4,5]]
         },
         {
-            "doc_qids": "Q1",
+            "doc_qid": "Q1",
             "doc_title": "Rose",
             "alias": "victoria",
             "candidates": ["Q3", "Q4", "Q5", "Q6"],
@@ -31,7 +31,7 @@ const ned_info = {
             "all_spans": [[0,1], [2,3], [4,5]]
         },
         {
-            "doc_qids": "Q1",
+            "doc_qid": "Q1",
             "doc_title": "Rose",
             "alias": "married",
             "candidates": ["Q3", "Q4", "Q5"],
