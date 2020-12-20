@@ -115,6 +115,19 @@ const forced_choice_2A = magpieViews.view_generator("forced_choice", {
   // }
 });
 
+// Here, we initialize a normal forced_choice view
+const press_a_button = custom_press_a_button({
+  // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+  trials: example_ned_info.forced_choice.length,
+  // name should be identical to the variable name
+  name: 'press_a_button',
+  data: example_ned_info.forced_choice,
+  // you can add custom functions at different stages through a view's life cycle
+  // hook: {
+  //     after_response_enabled: check_response
+  // }
+});
+
 // There are many more templates available:
 // forced_choice, slider_rating, dropdown_choice, testbox_input, rating_scale, image_selection, sentence_choice,
 // key_press, self_paced_reading and self_paced_reading_rating_scale
