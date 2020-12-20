@@ -123,13 +123,14 @@ class MentionExtractor:
         return cls(max_alias_len, max_candidates, tri_collection=tri_collection)
 
     def get_candidates(self, alias):
-        return self.tri_collection.get_value(ALIAS2QID, alias)
+        return self.tri_collection.get_value(ALIAS2QID, alias)[:self.max_candidates]
 
     def does_alias_exist(self, alias):
         return self.tri_collection.is_key_in_trie(ALIAS2QID, alias)
 
     def extract_mentions(self, sentence):
         PUNC = string.punctuation
+        NOUNS = set(["PNOUN", "NOUN"])
         plural = set(["s", "'s"])
         table = str.maketrans(dict.fromkeys(PUNC))  # OR {key: None for key in string.punctuation}
         used_aliases = []
@@ -153,6 +154,13 @@ class MentionExtractor:
                 is_subword = is_subword | (j_end_adjusted == new_to_old_span[j_end - 1])
                 if is_subword:
                     continue
+
+                if len(gram_words) == 1 and gram_words[0].pos_ not in NOUNS:
+                    continue
+
+                if len(gram_words) > 1 and not any(g.pos_ in NOUNS for g in gram_words):
+                    continue
+
                 if len(gram_words) == 1 and gram_words[0].pos_ == "PROPN":
                     if j_st > 0 and doc[j_st - 1].pos_ == "PROPN":
                         continue
