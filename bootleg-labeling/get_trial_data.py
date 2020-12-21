@@ -3,7 +3,7 @@ import multiprocessing
 import os, pickle, shutil, time, ujson
 from datetime import datetime
 from collections import defaultdict
-import glob
+import glob, random
 from tqdm import tqdm
 from data_sampler import DocSampler
 from mention_extraction import MentionExtractor
@@ -12,12 +12,14 @@ def get_arg_parser():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     # Data and runs
     parser.add_argument('--data_dir', type=str, default='/lfs/raiders8/0/lorr1/data/wiki_dump/alias_filtered_sentences', help='Where files loaded')
-    parser.add_argument('--out_dir', type=str, default='/dfs/scratch0/lorr1/bootleg/magpie-departure-point/bootleg-labeling/data', help='Where files saved')
+    parser.add_argument('--out_dir', type=str, default='/dfs/scratch0/lorr1/magpie-departure-point/bootleg-labeling/data', help='Where files saved')
+    parser.add_argument('--subfolder', type=str, default='final')
     parser.add_argument('--alias2cands', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-internal/tutorial_data/data/wiki_entity_data/entity_mappings/alias2qids.json')
     parser.add_argument('--qid2title', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-internal/tutorial_data/data/wiki_entity_data/entity_mappings/qid2title.json')
     parser.add_argument('--qid2desc', type=str, default='/lfs/raiders8/0/lorr1/qid2desc.json')
     parser.add_argument('--sampler', type=str, default='Doc', choices=['Doc'])
     parser.add_argument('--sample_perc', type=float, default=0.0005)
+    parser.add_argument('--seed', type=int, default=1234)
     parser.add_argument('--strip', action='store_true', help='If set, will strip punctuation of aliases.')
     parser.add_argument('--lower', action='store_true', help='If set, will lower case aliases.')
     parser.add_argument('--test', action='store_true', help='If set, will only generate for one file.')
@@ -96,6 +98,7 @@ def sample_data(args, sampler, in_files):
 def sample_data_hlp(all_args):
     i, total, args, in_filepath, out_filepath = all_args
     total_lines = sum(1 for _ in open(in_filepath))
+    random.seed(args.seed)
     with open(in_filepath) as in_f, open(out_filepath, "w") as out_f:
         for doc in tqdm(in_f, total=total_lines, desc=f"Processing {in_filepath}"):
             doc = ujson.loads(doc)
@@ -117,6 +120,8 @@ def dump_data_init(mention_dump_dir):
     mention_extractor_global = MentionExtractor.load(mention_dump_dir)
 
 def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentences):
+    # Make sure sentences are in order
+    list_of_kept_sentences = sorted(list_of_kept_sentences, key = lambda x: [x["doc_title"], x["doc_sent_idx"]])
     # Do mention extraction in parallel
     print(f"Creating pool with {args.processes} processes")
     pool = multiprocessing.Pool(processes=args.processes, initializer=dump_data_init, initargs=[mention_dump_dir])
@@ -128,21 +133,38 @@ def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentence
         mention_aliases_spans.append(res)
     pool.close()
     print(f"Finished mention extraction in {time.time() - st}s")
+
+    # Add the Not in List candidate
+    random.seed(args.seed)
     mention_extractor = MentionExtractor.load(mention_dump_dir)
     out_file = os.path.join(args.out_data_dir, "04_trials.js")
     mentions = []
     sent_idx = 0
+    window_offset = 0
+    max_context_window = 3
+    end_context_len = max_context_window
+    start_context_len = 0
     unique_sents = {}
     for line_idx, mention_pair in tqdm(enumerate(mention_aliases_spans), desc="Dumping mentions"):
-        aliases, spans = mention_pair
+        # Ensure uniqueness
         line = list_of_kept_sentences[line_idx]
         if line["doc_title"] not in unique_sents:
             unique_sents[line["doc_title"]] = set()
         assert line["doc_sent_idx"] not in unique_sents[line["doc_title"]], line
         unique_sents[line["doc_title"]].add(line["doc_sent_idx"])
 
-        for al_idx, (alias, span) in enumerate(zip(aliases, spans)):
+        # Gather aliases and spans for a 5 line window, making sure spans are consistent within this block and the rest of the doc
+        sentence_window = [x["sentence"] for x in list_of_kept_sentences[line_idx-start_context_len:line_idx+end_context_len]]
+        all_aliases, all_spans = zip(*mention_aliases_spans[line_idx-start_context_len:line_idx+end_context_len])
+        all_spans_adjusted = [all_spans[0]]
+        for i in range(1, len(all_spans)):
+            offset = len(sentence_window[i-1].split())
+            all_spans_adjusted.append([[sp[0]+offset+window_offset, sp[1]+offset+window_offset] for sp in all_spans[i]])
+        print(sentence_window, all_spans, all_spans_adjusted)
+        for al_idx, (alias, span) in enumerate(zip(all_aliases[start_context_len], all_spans_adjusted[start_context_len])):
+            # Shuffle the candidate lists to not add bias toward selecting the first entity
             cands = mention_extractor.get_candidates(alias)
+            random.shuffle(cands)
             res = {
                 "doc_qid": line["doc_qid"],
                 "doc_title": line["doc_title"],
@@ -156,13 +178,17 @@ def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentence
                 "sent_idx": sent_idx,
                 "alias_idx": al_idx,
                 "guid_idx": f"{sent_idx}_{al_idx}",
-                "sentence": line["sentence"],
-                "all_aliases": aliases,
-                "all_spans": spans
+                "sentence": " ".join(sentence_window),
+                "all_aliases": flatten(all_aliases),
+                "all_spans": flatten(all_spans_adjusted)
             }
             mentions.append(res)
         sent_idx += 1
-
+        if start_context_len < int(max_context_window/2):
+            start_context_len += 1
+            end_context_len -= 1
+        else:
+            window_offset += len(line["sentence"].split())+1
     flattened_data = {"mentions": mentions}
 
     with open(out_file, "w") as out_f:
@@ -172,14 +198,17 @@ def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentence
 def dump_data_hlp(line):
     return mention_extractor_global.extract_mentions(line["sentence"])
 
+def flatten(t):
+    return [item for sublist in t for item in sublist]
+
 def main():
     gl_start = time.time()
     multiprocessing.set_start_method("spawn")
     args = get_arg_parser().parse_args()
     print(ujson.dumps(vars(args), indent=4))
+    random.seed(args.seed)
 
-
-    args.out_data_dir = os.path.join(args.out_dir, datetime.now().strftime("%d-%m-%Y-%H-%M-%S"))
+    args.out_data_dir = os.path.join(args.out_dir, args.subfolder)
 
     if os.path.exists(args.out_data_dir):
         print(f"Removing {args.out_data_dir}")
@@ -235,14 +264,14 @@ def main():
     if not os.path.exists(mention_dump_dir) or args.overwrite:
         os.makedirs(mention_dump_dir, exist_ok=True)
         print(f"Building mention extractor for {mention_dump_dir}")
-        mention_extractor = MentionExtractor(max_alias_len=5, max_candidates=10, alias2qids=args.alias2cands, qid2title=qid2title)
+        mention_extractor = MentionExtractor(max_alias_len=5, max_candidates=9, alias2qids=args.alias2cands, qid2title=qid2title)
         mention_extractor.dump(mention_dump_dir)
     print(f"Loading qid2desc from {args.qid2desc}")
     with open(args.qid2desc) as in_f:
         qid2desc = ujson.load(in_f)
     dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentences)
 
-    print(f"Finished in {time.time()-gl_start}s. Data saved in {args.out_data_dir}")
+    print(f"Finished in {time.time()-gl_start}s. Data saved in {os.path.join(args.out_data_dir, '04_trials.js')}")
 
 
 

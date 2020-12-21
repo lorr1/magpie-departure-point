@@ -4,7 +4,7 @@ from collections import defaultdict
 import spacy, nltk, unicodedata
 from bootleg_data_prep.utils.classes.record_trie_collection import RecordTrieCollection
 nlp = spacy.load("en_core_web_sm", disable=['parser', 'ner'])
-
+all_stopwords = nlp.Defaults.stop_words
 ALIAS2QID = "alias2qid"
 
 def get_lnrm(s, strip, lower):
@@ -130,7 +130,7 @@ class MentionExtractor:
 
     def extract_mentions(self, sentence):
         PUNC = string.punctuation
-        NOUNS = set(["PNOUN", "NOUN"])
+        KEEP_POS = set(["PROPN", "NOUN", "ADJ", "ADV", "VERB"]) # VERB, ADV, SYM
         plural = set(["s", "'s"])
         table = str.maketrans(dict.fromkeys(PUNC))  # OR {key: None for key in string.punctuation}
         used_aliases = []
@@ -154,23 +154,24 @@ class MentionExtractor:
                 is_subword = is_subword | (j_end_adjusted == new_to_old_span[j_end - 1])
                 if is_subword:
                     continue
-
-                if len(gram_words) == 1 and gram_words[0].pos_ not in NOUNS:
+                if len(gram_words) == 1 and gram_words[0].pos_ not in KEEP_POS:
                     continue
 
-                if len(gram_words) > 1 and not any(g.pos_ in NOUNS for g in gram_words):
+                # print(gram_words, [g.pos_ for g in gram_words])
+                if len(gram_words) > 1 and not any(g.pos_ in KEEP_POS for g in gram_words):
                     continue
-
-                if len(gram_words) == 1 and gram_words[0].pos_ == "PROPN":
-                    if j_st > 0 and doc[j_st - 1].pos_ == "PROPN":
-                        continue
-                    # End spans are exclusive so no +1
-                    if j_end < len(doc) and doc[j_end].pos_ == "PROPN":
-                        continue
-
+                # print("@", gram_words, [g.pos_ for g in gram_words])
+                # if len(gram_words) == 1 and gram_words[0].pos_ == "PROPN":
+                #     if j_st > 0 and doc[j_st - 1].pos_ == "PROPN":
+                #         continue
+                #     # End spans are exclusive so no +1
+                #     if j_end < len(doc) and doc[j_end].pos_ == "PROPN":
+                #         continue
+                print("3", gram_words, [g.pos_ for g in gram_words])
                 # We don't want punctuation words to be used at the beginning/end
                 if len(gram_words[0].text.translate(table).strip()) == 0 or len(gram_words[-1].text.translate(table).strip()) == 0 \
-                        or gram_words[-1].text in plural or gram_words[0].text in plural:
+                        or gram_words[-1].text in plural or gram_words[0].text in plural or \
+                        (gram_words[0].text in all_stopwords and not gram_words[0].text[0].isupper()):
                     continue
                 assert j_st_adjusted != j_end_adjusted
                 joined_gram = " ".join(split_sent[j_st_adjusted:j_end_adjusted])
@@ -182,11 +183,13 @@ class MentionExtractor:
                 if gram_attempt.isnumeric():
                     continue
                 final_gram = None
+                # print("4", gram_attempt, [g.pos_ for g in gram_words])
                 if self.does_alias_exist(gram_attempt):
                     final_gram = gram_attempt
                 elif self.does_alias_exist(gram_attempt_merged_plural):
                     final_gram = gram_attempt_merged_plural
-
+                    # print("5", final_gram, [g.pos_ for g in gram_words])
+                # print("FINAL GRAM", final_gram)
                 if final_gram is not None:
                     keep = True
                     # We start from the largest n-grams and go down in size. This prevents us from adding an alias that is a subset of another.
