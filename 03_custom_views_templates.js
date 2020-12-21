@@ -17,6 +17,10 @@ const custom_entity_choice = function (config) {
         trials: config.trials,
         // The render functions gets the magpie object as well as the current trial in view counter as input
         render: function (CT, magpie) {
+            let startTime = Date.now();
+            const links_clicked = [];
+            var selection = null;
+
             // Here, you can do whatever you want, eventually you should call magpie.findNextView()
             // to proceed to the next view and if it is an trial type view,
             // you should save the trial information with magpie.trial_data.push(trial_data)
@@ -31,12 +35,14 @@ const custom_entity_choice = function (config) {
                 let trial_data = {
                     trial_name: config.name,
                     trial_number: CT,
-                    response_id: e.target.id,
-                    response_alias: e.target.alias,
-                    response_cand_qid: e.target.cand_qid,
-                    response_alias_idx: e.target.alias_idx,
-                    response_sent_idx: e.target.sent_idx,
-                    response_doc_title: e.target.doc_title
+                    trial_time: Date.now() - startTime,
+                    response_id: selection.target.id,
+                    response_alias: selection.target.alias,
+                    response_cand_qid: selection.target.cand_qid,
+                    response_alias_idx: selection.target.alias_idx,
+                    response_sent_idx: selection.target.sent_idx,
+                    response_doc_title: selection.target.doc_title,
+                    metadata_links_clicked: links_clicked,
                 };
                 // Often it makes sense to also save the config information
                 // trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
@@ -46,6 +52,30 @@ const custom_entity_choice = function (config) {
 
                 // Now, we will continue with the next view
                 magpie.findNextView();
+                console.log('Moving on.');
+            };
+
+            const handle_button_click = function (e) {
+                // Any earlier button selection should be cleared
+                if (selection != null) {
+                    $('#' + selection.target.id).css('background-color', 'white');
+                }
+                else {
+                    // Add button call backs after being added to DOM
+                    $("#enter").on("click", handle_click);
+                }
+                // Assign the button to be selected
+                selection = e;
+
+                $(`#${selection.target.id}`).css('background-color', 'green');
+
+            };
+
+
+            const handle_link_click = function (e) {
+                links_clicked.push(
+                    [e.target.id.split('_')[1], e.target.href]
+                );
             };
 
             $("main").html(`
@@ -56,18 +86,18 @@ const custom_entity_choice = function (config) {
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
                         </div>
                         <div  id="entity-choices" class="annotation-choices-parent my-magpie-view-text"></div>
-                      `)
-
+                      `);
 
             $(document).ready(function () {
+
                 // mentions is config.data[CT]
                 var sentence = config.data[CT].sentence;
                 //===========================================
                 // ADDS THE SENTENCE
                 //===========================================
                 var sentence_split = sentence.split(" ");
-                console.log(sentence_split)
-                var prior_word_idx = 0
+                console.log(sentence_split);
+                var prior_word_idx = 0;
                 config.data[CT].all_spans.forEach(function (mention_span, span_idx) {
                     // Add the left "plain text" span
                     if (prior_word_idx > 0 && prior_word_idx <= mention_span[0]) {
@@ -87,15 +117,15 @@ const custom_entity_choice = function (config) {
                     } else {
                         new_span.className = "marker"
                     }
-                    new_span.anno_id = span_idx
-                    new_span.textContent = sentence_split.slice(mention_span[0], mention_span[1]).join(" ")
-                    $("#sentence-text").append(new_span)
+                    new_span.anno_id = span_idx;
+                    new_span.textContent = sentence_split.slice(mention_span[0], mention_span[1]).join(" ");
+                    $("#sentence-text").append(new_span);
                     prior_word_idx = mention_span[1]
                 });
                 // Add the final right "plain text" span
                 if (prior_word_idx < sentence_split.length) {
                     var new_span = document.createElement('span');
-                    new_span.textContent = " " + sentence_split.slice(prior_word_idx, sentence_split.length).join(" ")
+                    new_span.textContent = " " + sentence_split.slice(prior_word_idx, sentence_split.length).join(" ");
                     $("#sentence-text").append(new_span)
                 }
 
@@ -104,38 +134,43 @@ const custom_entity_choice = function (config) {
                 //===========================================
                 config.data[CT].candidates.forEach(function (cand_qid, cand_idx) {
                     var new_div = document.createElement('div');
-                    new_div.className = "annotation-choice"
+                    new_div.className = "annotation-choice";
                     // The button carries the information to the click handler. So we need to store relevant mention information in the button
                     var button_div = document.createElement("button");
                     button_div.className = "button-choice magpie-respond-sentence";
-                    button_div.id = "button_" + cand_idx.toString();
+                    button_div.id = "button_" + (cand_idx + 1).toString();
                     button_div.alias = config.data[CT].alias;
                     button_div.cand_qid = cand_qid;
                     button_div.alias_idx = config.data[CT].alias_idx;
                     button_div.sent_idx = config.data[CT].sent_idx;
                     button_div.doc_title = config.data[CT].doc_title;
-                    button_div.textContent = "[" + ((cand_idx+1)%10).toString() + "] " + cand_qid;
+                    button_div.textContent = "[" + ((cand_idx + 1) % 10).toString() + "] " + cand_qid;
 
                     // Div for button and description
                     var sub_div = document.createElement("div");
                     sub_div.className = "button-desc my-magpie-view-text";
-                    sub_div.innerHTML = "<b></b><a href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
-                        config.data[CT].candidate_titles[cand_idx]  + "</a></b>"
-                    sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx]
+                    link_id = "link_" + cand_idx.toString();
+                    sub_div.innerHTML = "" +
+                        "<b></b>" +
+                        "<a id=" + link_id +
+                        " href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
+                        config.data[CT].candidate_titles[cand_idx] + "</a></b>";
+                    sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx];
                     new_div.appendChild(button_div);
                     new_div.appendChild(sub_div);
                     $('#entity-choices').append(new_div);
 
                     // Add button call backs after being added to DOM
-                    $("#button_" + cand_idx.toString()).on("click", handle_click);
+                    $("#button_" + (cand_idx + 1).toString()).on("click", handle_button_click);
+                    $("#link_" + (cand_idx + 1).toString()).on("click", handle_link_click);
                 });
                 // ADD NONE OF THE ABOVE OPTION
                 var new_div = document.createElement('div');
-                new_div.className = "annotation-choice"
+                new_div.className = "annotation-choice";
                 // The button carries the information to the click handler. So we need to store relevant mention information in the button
                 var button_div = document.createElement("button");
                 button_div.className = "magpie-respond-sentence button-choice";
-                button_div.id = "button_9";
+                button_div.id = "button_0";
                 button_div.alias = config.data[CT].alias;
                 button_div.cand_qid = "NA";
                 button_div.alias_idx = config.data[CT].alias_idx;
@@ -152,20 +187,40 @@ const custom_entity_choice = function (config) {
                 $('#entity-choices').append(new_div);
 
                 // Add button call backs after being added to DOM
-                $("#button_9").on("click", handle_click);
+                $("#button_0").on("click", handle_button_click);
+
+
+                // Tell the user they have to press Enter
+                var new_div = document.createElement('div');
+                new_div.className = "annotation-choice";
+                var button_div = document.createElement("button");
+                button_div.className = "magpie-respond-sentence button-choice";
+                button_div.id = "enter";
+                button_div.textContent = "[Enter] Confirm Selection";
+                new_div.appendChild(button_div);
+                $('#entity-choices').append(new_div);
 
 
                 window.addEventListener("keydown", function (event) {
                     event.preventDefault();
                     // If key is 0-9
-                    if(event.keyCode >= 48 && event.keyCode <= 57) {
-                        cand_idx = (parseInt(event.key)+9)%10
+                    if (event.keyCode >= 48 && event.keyCode <= 57) {
+                        // cand_idx = (parseInt(event.key) + 9) % 10;
+                        cand_idx = parseInt(event.key);
                         // +1 for None of the Above option
-                        if (cand_idx < config.data[CT].candidates.length+1) {
+                        if (cand_idx < config.data[CT].candidates.length + 1) {
                             $("#button_" + cand_idx.toString()).click();
                         }
                     }
+                    // If key is 0-9
+                    if (event.keyCode === 13) {
+                        $("#enter").click();
+                    }
                 }, true);
+
+
+                // Start the clock
+                // magpieTimer()
             });
         }
     };
