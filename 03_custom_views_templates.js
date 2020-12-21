@@ -70,7 +70,7 @@ const custom_entity_choice = function (config) {
                 var prior_word_idx = 0
                 config.data[CT].all_spans.forEach(function (mention_span, span_idx) {
                     // Add the left "plain text" span
-                    if (prior_word_idx < mention_span[0]) {
+                    if (prior_word_idx > 0 && prior_word_idx <= mention_span[0]) {
                         var new_span = document.createElement('span');
                         // Add white spaces around spans without the "marker" class as those are highlighted
                         console.log(sentence_split.slice(prior_word_idx, mention_span[0]).join(" ") + " ")

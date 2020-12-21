@@ -1,48 +1,240 @@
 const ned_info = {
     "mentions":[
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":0,
-            "alias":"philanthropist",
+            "alias":"firefly",
             "candidates":[
-                "Q185733",
-                "Q16980335",
-                "Q7182927",
-                "Q16149293",
-                "Q6376808",
-                "Q48947132"
+                "Q1487670",
+                "Q1152505",
+                "Q8563312",
+                "Q2635751",
+                "Q5451822",
+                "Q1418913",
+                "Q11622",
+                "Q994007",
+                "Q25420"
             ],
             "candidate_titles":[
-                "Philanthropy",
-                "The Philanthropist",
-                "Philanthropist (disambiguation)",
-                "List of philanthropists",
-                "Kathleen M. Richardson",
-                "Philanthropist (award)"
+                "GWR Firefly Class",
+                "Sherman Firefly",
+                "Firefly Music Festival",
+                "Firefly (DC Comics)",
+                "Firefly (G.I. Joe)",
+                "Firefly (airline)",
+                "Firefly (TV series)",
+                "Fairey Firefly",
+                "Firefly"
             ],
             "candidate_descriptions":[
-                "effort or inclination to increase the well-being of humankind, as by charitable aid or donations",
-                "",
-                "Wikimedia disambiguation page",
-                "Wikimedia list article",
-                "Canadian philanthropist",
-                "Russian award"
+                "class of 62 British broad-gauge 2-2-2 locomotives",
+                "Tank created by Britain during World War II",
+                "annual music festival held at the Dover International Speedway in Dover, Delaware, United States",
+                "fictional character in DC Comics",
+                "fictional character in the G.I. Joe: A Real American Hero universe",
+                "airline in Malaysia",
+                "American space western television series",
+                "1941 fighter-reconnaissance aircraft family by Fairey",
+                "family of insects"
             ],
-            "span_l":13,
-            "span_r":14,
+            "span_l":0,
+            "span_r":1,
             "sent_idx":0,
             "alias_idx":0,
             "guid_idx":"0_0",
-            "sentence":"Thomas John Barnardo ( 4 July 184519 September 1905 ) was an Irish philanthropist and founder and director of homes for poor and deprived children .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "philanthropist",
-                "founder",
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
                 "director",
-                "homes",
-                "children"
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
                 [
                     13,
                     14
@@ -53,73 +245,245 @@ const ned_info = {
                 ],
                 [
                     17,
-                    18
-                ],
-                [
-                    19,
-                    20
-                ],
-                [
-                    24,
-                    25
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":0,
-            "alias":"founder",
+            "alias":"american",
             "candidates":[
-                "Q3908516",
-                "Q101054",
-                "Q312967",
-                "Q587697",
-                "Q1700422",
-                "Q17308314",
-                "Q841534",
-                "Q343436",
-                "Q29896",
-                "Q57098"
+                "Q180072",
+                "Q11220",
+                "Q188819",
+                "Q49",
+                "Q846570",
+                "Q30",
+                "Q11223",
+                "Q9212",
+                "Q41323"
             ],
             "candidate_titles":[
-                "Entrepreneurship",
-                "Bah\u00e1'u'll\u00e1h",
-                "Guru Gobind Singh",
-                "Afonso I of Portugal",
-                "List of Star Trek races",
-                "Bellfounding",
-                "Dominion (Star Trek)",
-                "List of national founders",
-                "Nizam-ul-Mulk, Asaf Jah I",
-                "Gottlieb Daimler"
+                "Billboard Hot 100",
+                "United States Navy",
+                "Billboard 200",
+                "North America",
+                "Americans",
+                "United States",
+                "United States Air Force",
+                "United States Army",
+                "American football"
             ],
             "candidate_descriptions":[
-                "process of designing, launching and running a new business",
-                "founder of the Bah\u00e1'\u00ed Faith",
-                "The tenth and last human Guru of Sikhism",
-                "King of Portugal",
-                "Wikimedia list article",
-                "practice of casting and tuning bells",
-                "interstellar state in the Star Trek universe",
-                "Wikimedia list article",
-                "Nizam of Hyderabad (1671-1748)",
-                "German businessman"
+                "single charts in U.S",
+                "maritime warfare branch of the United States' military",
+                "US weekly album chart published by Billboard Magazine",
+                "continent on the Earth's northwestern quadrant",
+                "citizens or residents of the United States of America",
+                "sovereign state in North America",
+                "air warfare branch of the United States Armed Forces",
+                "branch of the United States Armed Forces",
+                "a form of team game played with an oval ball on a field marked out as a gridiron"
             ],
-            "span_l":15,
-            "span_r":16,
+            "span_l":3,
+            "span_r":4,
             "sent_idx":0,
             "alias_idx":1,
             "guid_idx":"0_1",
-            "sentence":"Thomas John Barnardo ( 4 July 184519 September 1905 ) was an Irish philanthropist and founder and director of homes for poor and deprived children .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "philanthropist",
-                "founder",
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
                 "director",
-                "homes",
-                "children"
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
                 [
                     13,
                     14
@@ -130,1473 +494,21036 @@ const ned_info = {
                 ],
                 [
                     17,
-                    18
-                ],
-                [
-                    19,
-                    20
-                ],
-                [
-                    24,
-                    25
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":0,
-            "alias":"director",
+            "alias":"space western",
             "candidates":[
-                "Q2526255",
-                "Q6989196",
-                "Q484876",
-                "Q1056391",
-                "Q458620",
-                "Q188628",
-                "Q103360",
-                "Q284392",
-                "Q2920921",
-                "Q219817"
+                "Q4235011"
             ],
             "candidate_titles":[
-                "Film director",
-                "Conducting",
-                "Chief executive officer",
-                "Head teacher",
-                "Peace Corps",
-                "Board of directors",
-                "Academy Award for Best Director",
-                "Office of Management and Budget",
-                "Management",
-                "French Directory"
+                "Space Western"
             ],
             "candidate_descriptions":[
-                "occupation of a person who directs a film",
-                "directing a musical performance by way of visible gestures",
-                "highest-ranking corporate officer or administrator",
-                "most senior teacher at a school",
-                "government agency",
-                "group of people who jointly supervise the activities of an organization",
-                "category of film award",
-                "United States government agency",
-                "administration of an organization, including activities to set the strategy of an organization and coordinate employees to accomplish its objectives",
-                "Executive power of the French Constitution of  1795-1799"
+                "science fiction subgenre which uses the themes and tropes of Westerns within science fiction stories"
             ],
-            "span_l":17,
-            "span_r":18,
+            "span_l":4,
+            "span_r":6,
             "sent_idx":0,
             "alias_idx":2,
             "guid_idx":"0_2",
-            "sentence":"Thomas John Barnardo ( 4 July 184519 September 1905 ) was an Irish philanthropist and founder and director of homes for poor and deprived children .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "philanthropist",
-                "founder",
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
                 "director",
-                "homes",
-                "children"
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    13,
-                    14
+                    0,
+                    1
                 ],
                 [
-                    15,
-                    16
+                    3,
+                    4
                 ],
                 [
-                    17,
-                    18
-                ],
-                [
-                    19,
-                    20
-                ],
-                [
-                    24,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":0,
-            "alias":"homes",
-            "candidates":[
-                "Q7882520",
-                "Q7743",
-                "Q278953",
-                "Q4222930",
-                "Q67586072",
-                "Q67590759",
-                "Q5498052",
-                "Q18508286"
-            ],
-            "candidate_titles":[
-                "Haveli",
-                "Home",
-                "A. M. Homes",
-                "Clan Home",
-                "William Homes (silversmith)",
-                "William Homes Jr. (silversmith)",
-                "Frederick Homes Dudden",
-                "Henry A. Homes"
-            ],
-            "candidate_descriptions":[
-                "",
-                "dwelling-place used as a permanent or semi-permanent residence for an individual,family,household or several families in a tribe. It is often a house, apartment, or other building, or alternatively a mobile home,houseboat,yurt, other portable shelter",
-                "novelist and memoirst from the United States",
-                "",
-                "American silversmith of the 18th century",
-                "",
-                "Theologian and academic administrator",
-                ""
-            ],
-            "span_l":19,
-            "span_r":20,
-            "sent_idx":0,
-            "alias_idx":3,
-            "guid_idx":"0_3",
-            "sentence":"Thomas John Barnardo ( 4 July 184519 September 1905 ) was an Irish philanthropist and founder and director of homes for poor and deprived children .",
-            "all_aliases":[
-                "philanthropist",
-                "founder",
-                "director",
-                "homes",
-                "children"
-            ],
-            "all_spans":[
-                [
-                    13,
-                    14
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    17,
-                    18
-                ],
-                [
-                    19,
-                    20
-                ],
-                [
-                    24,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":0,
-            "alias":"children",
-            "candidates":[
-                "Q131706",
-                "Q131539",
-                "Q123028",
-                "Q170079",
-                "Q1273568",
-                "Q2143665",
-                "Q7569",
-                "Q8354948",
-                "Q2389651",
-                "Q1741825"
-            ],
-            "candidate_titles":[
-                "Maria Theresa",
-                "Children's literature",
-                "Pediatrics",
-                "Minor (law)",
-                "Children's television series",
-                "Children's film",
-                "Child",
-                "Children's rights",
-                "Children's music",
-                "Trafficking of children"
-            ],
-            "candidate_descriptions":[
-                "ruler of the Habsburg Dominions (1717-1780)",
-                "stories, books, and poems that are enjoyed by and targeted primarily towards children",
-                "field of medicine dealing with the care of children",
-                "person below a certain age prescribed by law, usually distinguished to delineate rights, privileges, and responsibilities",
-                "television programs designed for, and marketed to children",
-                "film genre",
-                "human between the stages of birth and puberty",
-                "human rights of children",
-                "music mainly intended for children",
-                "form of human trafficking and is defined as the \"recruitment, transportation, transfer, harboring, and\/or receipt\" of a child for the purpose of exploitation"
-            ],
-            "span_l":24,
-            "span_r":25,
-            "sent_idx":0,
-            "alias_idx":4,
-            "guid_idx":"0_4",
-            "sentence":"Thomas John Barnardo ( 4 July 184519 September 1905 ) was an Irish philanthropist and founder and director of homes for poor and deprived children .",
-            "all_aliases":[
-                "philanthropist",
-                "founder",
-                "director",
-                "homes",
-                "children"
-            ],
-            "all_spans":[
-                [
-                    13,
-                    14
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    17,
-                    18
-                ],
-                [
-                    19,
-                    20
-                ],
-                [
-                    24,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":1,
-            "alias":"the foundation",
-            "candidates":[
-                "Q7734945",
-                "Q7734942",
-                "Q7734943",
-                "Q3282697",
-                "Q7734946",
-                "Q7734944",
-                "Q42246046"
-            ],
-            "candidate_titles":[
-                "The Foundation (Zac Brown Band album)",
-                "The Foundation (Seinfeld)",
-                "The Foundation (TV series)",
-                "The Foundation (Geto Boys album)",
-                "The Foundation (song)",
-                "The Foundation (1984 TV series)",
-                "The Foundation (band)"
-            ],
-            "candidate_descriptions":[
-                "album by Zac Brown Band",
-                "episode of Seinfeld (S8 E1)",
-                "television series",
-                "album by Geto Boys",
-                "1996 single by Xzibit",
-                "",
-                "band"
-            ],
-            "span_l":1,
-            "span_r":3,
-            "sent_idx":1,
-            "alias_idx":0,
-            "guid_idx":"1_0",
-            "sentence":"From the foundation of the first Barnardo 's home in 1867 to the date of Barnardo 's death , nearly 60,000 children had been taken in .",
-            "all_aliases":[
-                "the foundation",
-                "barnardo s home",
-                "date",
-                "death",
-                "children"
-            ],
-            "all_spans":[
-                [
-                    1,
-                    3
+                    4,
+                    6
                 ],
                 [
                     6,
                     9
                 ],
                 [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
                     13,
                     14
                 ],
                 [
-                    17,
+                    16,
                     18
+                ],
+                [
+                    18,
+                    19
                 ],
                 [
                     21,
                     22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":1,
-            "alias":"barnardo s home",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"drama television series",
             "candidates":[
-                "Q2884670"
+                "Q130232",
+                "Q7185299"
             ],
             "candidate_titles":[
-                "Barnardo's"
+                "Drama (film and television)",
+                "Philippine television drama"
             ],
             "candidate_descriptions":[
-                "British charity"
+                "film and TV genre",
+                "form of melodramatic serialized fiction in television in the Philippines"
             ],
             "span_l":6,
             "span_r":9,
+            "sent_idx":0,
+            "alias_idx":3,
+            "guid_idx":"0_3",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"created",
+            "candidates":[
+                "Q7006142",
+                "Q5073735",
+                "Q70383914",
+                "Q542456",
+                "Q1139338",
+                "Q231678",
+                "Q137651",
+                "Q215304"
+            ],
+            "candidate_titles":[
+                "New Brunswick electoral redistribution, 1994",
+                "Character creation",
+                "Evaline Hilda Burkitt",
+                "Zea (plant)",
+                "Ex nihilo",
+                "Merger of the KPD and SPD into the Socialist Unity Party of Germany",
+                "Genesis creation narrative",
+                "Creation myth"
+            ],
+            "candidate_descriptions":[
+                "",
+                "process of defining a game character",
+                "UK suffragette -first to be force fed",
+                "genus of plants",
+                "Latin phrase meaning \"out of nothing\"",
+                "event",
+                "creation myth of both Judaism and Christianity",
+                "symbolic narrative of how the world began and how people first came to inhabit it"
+            ],
+            "span_l":10,
+            "span_r":11,
+            "sent_idx":0,
+            "alias_idx":4,
+            "guid_idx":"0_4",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"writer",
+            "candidates":[
+                "Q511977",
+                "Q181287",
+                "Q103076",
+                "Q205739",
+                "Q40831",
+                "Q179161",
+                "Q8242",
+                "Q233762",
+                "Q6689"
+            ],
+            "candidate_titles":[
+                "OpenOffice.org",
+                "German literature",
+                "Screenplay",
+                "Alan Moore",
+                "Comedy",
+                "Russian literature",
+                "Literature",
+                "American literature",
+                "French literature"
+            ],
+            "candidate_descriptions":[
+                "free software office suite",
+                "overview about the German-language literature",
+                "written work by screenwriters for a film or television program",
+                "English writer primarily known for his work in comic books",
+                "genre of dramatic works intended to be humorous",
+                "",
+                "written art form",
+                "literature written or related to the United States",
+                "literature written in the French language"
+            ],
+            "span_l":12,
+            "span_r":13,
+            "sent_idx":0,
+            "alias_idx":5,
+            "guid_idx":"0_5",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"director",
+            "candidates":[
+                "Q188628",
+                "Q1056391",
+                "Q6989196",
+                "Q103360",
+                "Q284392",
+                "Q458620",
+                "Q484876",
+                "Q2526255",
+                "Q2920921"
+            ],
+            "candidate_titles":[
+                "Board of directors",
+                "Head teacher",
+                "Conducting",
+                "Academy Award for Best Director",
+                "Office of Management and Budget",
+                "Peace Corps",
+                "Chief executive officer",
+                "Film director",
+                "Management"
+            ],
+            "candidate_descriptions":[
+                "group of people who jointly supervise the activities of an organization",
+                "most senior teacher at a school",
+                "directing a musical performance by way of visible gestures",
+                "category of film award",
+                "United States government agency",
+                "government agency",
+                "highest-ranking corporate officer or administrator",
+                "occupation of a person who directs a film",
+                "administration of an organization, including activities to set the strategy of an organization and coordinate employees to accomplish its objectives"
+            ],
+            "span_l":14,
+            "span_r":15,
+            "sent_idx":0,
+            "alias_idx":6,
+            "guid_idx":"0_6",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"joss whedon",
+            "candidates":[
+                "Q298025"
+            ],
+            "candidate_titles":[
+                "Joss Whedon"
+            ],
+            "candidate_descriptions":[
+                "American director, writer, and producer"
+            ],
+            "span_l":15,
+            "span_r":17,
+            "sent_idx":0,
+            "alias_idx":7,
+            "guid_idx":"0_7",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"mutant enemy productions",
+            "candidates":[
+                "Q645478"
+            ],
+            "candidate_titles":[
+                "Mutant Enemy Productions"
+            ],
+            "candidate_descriptions":[
+                "television production company"
+            ],
+            "span_l":20,
+            "span_r":23,
+            "sent_idx":0,
+            "alias_idx":8,
+            "guid_idx":"0_8",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":0,
+            "alias":"label",
+            "candidates":[
+                "Q908620",
+                "Q722218",
+                "Q4658963",
+                "Q18127",
+                "Q40613",
+                "Q658349",
+                "Q380709",
+                "Q202581",
+                "Q5360729"
+            ],
+            "candidate_titles":[
+                "Certification mark",
+                "Label",
+                "Cadency",
+                "Record label",
+                "Labeling theory",
+                "Tag (metadata)",
+                "Labelling",
+                "Label (heraldry)",
+                "Elie Tahari"
+            ],
+            "candidate_descriptions":[
+                "mark on a commercial product",
+                "material affixed to a container or article with printed information",
+                "system of elements used to distinguish otherwise identical coats of arms belonging to members of the same family",
+                "brand and trademark associated with the marketing of music recordings and music videos",
+                "theory of how the self-identity and behavior of individuals may be determined or influenced by the terms used to describe or classify them",
+                "metadata used for classifications or adding of informations",
+                "describing someone or something",
+                "term in heraldry",
+                "Israeli fashion designer"
+            ],
+            "span_l":23,
+            "span_r":24,
+            "sent_idx":0,
+            "alias_idx":9,
+            "guid_idx":"0_9",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":1,
+            "alias":"whedon",
+            "candidates":[
+                "Q21491563",
+                "Q6586985",
+                "Q3182725",
+                "Q6587010",
+                "Q3176340",
+                "Q3301656",
+                "Q298025"
+            ],
+            "candidate_titles":[
+                "Whedon",
+                "Tom Whedon",
+                "John Whedon",
+                "Zack Whedon",
+                "Jed Whedon",
+                "Maurissa Tancharoen",
+                "Joss Whedon"
+            ],
+            "candidate_descriptions":[
+                "family name",
+                "television writer from the United States",
+                "American screenwriter",
+                "American screenwriter",
+                "American screenwriter and musician",
+                "Actress, singer, television producer\/writer",
+                "American director, writer, and producer"
+            ],
+            "span_l":0,
+            "span_r":1,
+            "sent_idx":1,
+            "alias_idx":0,
+            "guid_idx":"1_0",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":1,
+            "alias":"served",
+            "candidates":[
+                "Q708245",
+                "Q6960048",
+                "Q230981",
+                "Q5735731",
+                "Q303618",
+                "Q209572"
+            ],
+            "candidate_titles":[
+                "Summons",
+                "Najmiddin Karim",
+                "Service of process",
+                "Herbert Taylor (British Army officer)",
+                "Diplomatic rank",
+                "Military service"
+            ],
+            "candidate_descriptions":[
+                "legal document issued by a court or by an administrative agency of government for various purposes",
+                "Najmiddin Karim (born 1949) is the current governor of Kirkuk Governorate in Iraq. Prior to the invasion of Iraq Karimi had served in numerous Iraqi opposition groups.",
+                "official process of notifying someone of legal proceedings",
+                "British Army general",
+                "system of professional and social rank used in the world of diplomacy and international relations",
+                "performing the service in the armed forces of a state"
+            ],
+            "span_l":1,
+            "span_r":2,
             "sent_idx":1,
             "alias_idx":1,
             "guid_idx":"1_1",
-            "sentence":"From the foundation of the first Barnardo 's home in 1867 to the date of Barnardo 's death , nearly 60,000 children had been taken in .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "the foundation",
-                "barnardo s home",
-                "date",
-                "death",
-                "children"
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    1,
-                    3
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
                 ],
                 [
                     6,
                     9
                 ],
                 [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
                     13,
                     14
                 ],
                 [
-                    17,
+                    16,
                     18
+                ],
+                [
+                    18,
+                    19
                 ],
                 [
                     21,
                     22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":1,
-            "alias":"date",
+            "alias":"executive producer",
             "candidates":[
-                "Q229104",
-                "Q1151061",
-                "Q311183",
-                "Q25292",
-                "Q30567",
-                "Q654810",
-                "Q93008",
-                "Q858423",
-                "Q205892",
-                "Q5227548"
+                "Q1053574",
+                "Q578109",
+                "Q2702296",
+                "Q3089940",
+                "Q1759246",
+                "Q183945",
+                "Q3282637"
             ],
             "candidate_titles":[
-                "Kimiko Date",
-                "Date clan",
-                "Date Masamune",
-                "Date palm",
-                "Terry Date",
-                "Dating",
-                "Christopher J. Date",
-                "Date City, Fukushima",
-                "Calendar date",
-                "Date Records"
+                "Executive producer",
+                "Television producer",
+                "Video game producer",
+                "Music executive",
+                "Theatrical producer",
+                "Record producer",
+                "Film producer"
             ],
             "candidate_descriptions":[
-                "Japanese tennis player",
-                "noble family",
-                "daimyo of the Sengoku period to early-Edo period; 1st lord of Sendai",
-                "species of plant",
-                "American record producer",
-                "process of interacting and meeting other people on the prospect of establishing a romantic relationship",
-                "British database researcher",
-                "city in Fukushima Prefecture, Japan",
-                "particular day represented within a calendar system",
-                "Defunct American record label"
+                "profession",
+                "occupation within video production for TV",
+                "person in charge of overseeing development of a video game",
+                "person making executive decisions over artists of a record label",
+                "person who oversees the staging of theatre productions",
+                "individual who oversees and manages the recording of an artist's music",
+                "person who supervises the overall process, creative and financial, of making a film"
             ],
-            "span_l":13,
-            "span_r":14,
+            "span_l":4,
+            "span_r":6,
             "sent_idx":1,
             "alias_idx":2,
             "guid_idx":"1_2",
-            "sentence":"From the foundation of the first Barnardo 's home in 1867 to the date of Barnardo 's death , nearly 60,000 children had been taken in .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "the foundation",
-                "barnardo s home",
-                "date",
-                "death",
-                "children"
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    1,
-                    3
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
                 ],
                 [
                     6,
                     9
                 ],
                 [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
                     13,
                     14
                 ],
                 [
-                    17,
+                    16,
                     18
+                ],
+                [
+                    18,
+                    19
                 ],
                 [
                     21,
                     22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":1,
-            "alias":"death",
+            "alias":"tim minear",
             "candidates":[
-                "Q9439",
-                "Q8454",
-                "Q51636",
-                "Q193484",
-                "Q60039",
-                "Q44374",
-                "Q4",
-                "Q161936",
-                "Q192843",
-                "Q57109"
+                "Q526218"
             ],
             "candidate_titles":[
-                "Queen Victoria",
-                "Capital punishment",
-                "Crucifixion of Jesus",
-                "Assassination of John F. Kennedy",
-                "Reinhard Heydrich",
-                "Eddie Guerrero",
-                "Death",
-                "Death (personification)",
-                "Death (metal band)",
-                "Josef Mengele"
+                "Tim Minear"
             ],
             "candidate_descriptions":[
-                "British monarch who reigned 1837\u20131901",
-                "legal process whereby a person is put to death by the state as a punishment for a crime",
-                "Jesus' crucifixion as described in the four canonical gospels",
-                "1963 murder of the 35th President of the United States",
-                "German SS and police official and a main architect of the Holocaust (1904-1942)",
-                "American professional wrestler",
-                "permanent cessation of vital functions",
-                "personification of death",
-                "American death\/progressive metal band",
-                "Nazi officer and physician (1911-1979)"
+                "American screenwriter and director"
             ],
-            "span_l":17,
-            "span_r":18,
+            "span_l":9,
+            "span_r":11,
             "sent_idx":1,
             "alias_idx":3,
             "guid_idx":"1_3",
-            "sentence":"From the foundation of the first Barnardo 's home in 1867 to the date of Barnardo 's death , nearly 60,000 children had been taken in .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "the foundation",
-                "barnardo s home",
-                "date",
-                "death",
-                "children"
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    1,
-                    3
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
                 ],
                 [
                     6,
                     9
                 ],
                 [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
                     13,
                     14
                 ],
                 [
-                    17,
+                    16,
                     18
+                ],
+                [
+                    18,
+                    19
                 ],
                 [
                     21,
                     22
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":1,
-            "alias":"children",
-            "candidates":[
-                "Q131706",
-                "Q131539",
-                "Q123028",
-                "Q170079",
-                "Q1273568",
-                "Q2143665",
-                "Q7569",
-                "Q8354948",
-                "Q2389651",
-                "Q1741825"
-            ],
-            "candidate_titles":[
-                "Maria Theresa",
-                "Children's literature",
-                "Pediatrics",
-                "Minor (law)",
-                "Children's television series",
-                "Children's film",
-                "Child",
-                "Children's rights",
-                "Children's music",
-                "Trafficking of children"
-            ],
-            "candidate_descriptions":[
-                "ruler of the Habsburg Dominions (1717-1780)",
-                "stories, books, and poems that are enjoyed by and targeted primarily towards children",
-                "field of medicine dealing with the care of children",
-                "person below a certain age prescribed by law, usually distinguished to delineate rights, privileges, and responsibilities",
-                "television programs designed for, and marketed to children",
-                "film genre",
-                "human between the stages of birth and puberty",
-                "human rights of children",
-                "music mainly intended for children",
-                "form of human trafficking and is defined as the \"recruitment, transportation, transfer, harboring, and\/or receipt\" of a child for the purpose of exploitation"
-            ],
-            "span_l":21,
-            "span_r":22,
-            "sent_idx":1,
-            "alias_idx":4,
-            "guid_idx":"1_4",
-            "sentence":"From the foundation of the first Barnardo 's home in 1867 to the date of Barnardo 's death , nearly 60,000 children had been taken in .",
-            "all_aliases":[
-                "the foundation",
-                "barnardo s home",
-                "date",
-                "death",
-                "children"
-            ],
-            "all_spans":[
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
                 [
                     1,
                     3
                 ],
                 [
                     6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
                     9
+                ],
+                [
+                    11,
+                    12
                 ],
                 [
                     13,
                     14
                 ],
                 [
-                    17,
-                    18
+                    15,
+                    16
                 ],
                 [
-                    21,
-                    22
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":2,
-            "alias":"studies",
+            "alias":"the series",
             "candidates":[
-                "Q8434",
-                "Q42240",
-                "Q136822",
-                "Q2068324",
-                "Q30612",
-                "Q101965",
-                "Q2647254",
-                "Q1306908"
+                "Q2006869",
+                "Q5180212",
+                "Q16155405",
+                "Q4803535",
+                "Q4870190"
             ],
             "candidate_titles":[
-                "Education",
-                "Research",
-                "Higher education",
-                "Torah study",
-                "Clinical trial",
-                "Experiment",
-                "Study (art)",
-                "Master of the Drapery Studies"
+                "X-Men (film series)",
+                "Crab Bowl Classic",
+                "Carry On series on screen and stage",
+                "Mario (franchise)",
+                "Battle for the Rag"
             ],
             "candidate_descriptions":[
-                "learning in which knowledge and skills are transferred through teaching",
-                "systematic study undertaken to increase knowledge",
-                "academic tertiary education, such as from colleges and universities",
-                "Studying the Torah, Talmud or other rabbinic literature",
-                "phase of clinical research in medicine",
-                "scientific procedure carried out to support, refute, or validate a hypothesis",
-                "works in any medium of the visual arts that explore a subject or are preliminary to a separate, more finalized work; more finished than sketches",
-                "German painter and draughtsman"
+                "American superhero film franchise",
+                "",
+                "",
+                "media franchise",
+                ""
             ],
-            "span_l":5,
-            "span_r":6,
+            "span_l":0,
+            "span_r":2,
             "sent_idx":2,
             "alias_idx":0,
             "guid_idx":"2_0",
-            "sentence":"Although Barnardo never finished his studies at the London Hospital , he used the title of 'doctor ' and later secured a licentiate .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "studies",
-                "the title",
-                "licentiate"
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
                     6
                 ],
                 [
-                    13,
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
                     15
                 ],
                 [
-                    22,
+                    15,
+                    17
+                ],
+                [
+                    20,
                     23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":2,
-            "alias":"the title",
+            "alias":"set",
             "candidates":[
-                "Q7769479"
+                "Q18030906",
+                "Q288465",
+                "Q987061",
+                "Q2518298",
+                "Q2619673",
+                "Q12858892",
+                "Q36161",
+                "Q1330208",
+                "Q3631750"
             ],
             "candidate_titles":[
-                "The Title"
+                "Set construction",
+                "Group action (mathematics)",
+                "Scenic design",
+                "Category of sets",
+                "DJ mix",
+                "List of characters in mythology novels by Rick Riordan",
+                "Set (mathematics)",
+                "Stock Exchange of Thailand",
+                "Sony Entertainment Television"
             ],
             "candidate_descriptions":[
-                "indie band based in Stoke-on-Trent"
+                "contruction proccess",
+                "Operation of the elements of a group as transformations or automorphisms (mathematics)",
+                "creation of theatrical or film scenery",
+                "category in mathematics where the objects are sets and the morphisms are the total functions between the sets",
+                "mix of recordings created by a DJ",
+                "Wikimedia list article",
+                "fundamental mathematical concept related to the notions of belonging or inclusion",
+                "National stock exchange of Thailand, located in Bangkok",
+                "Indian television channel"
             ],
-            "span_l":13,
-            "span_r":15,
+            "span_l":3,
+            "span_r":4,
             "sent_idx":2,
             "alias_idx":1,
             "guid_idx":"2_1",
-            "sentence":"Although Barnardo never finished his studies at the London Hospital , he used the title of 'doctor ' and later secured a licentiate .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "studies",
-                "the title",
-                "licentiate"
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
                     6
                 ],
                 [
-                    13,
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
                     15
                 ],
                 [
-                    22,
+                    15,
+                    17
+                ],
+                [
+                    20,
                     23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":2,
-            "alias":"licentiate",
+            "alias":"year",
             "candidates":[
-                "Q749020",
-                "Q3238030",
-                "Q8037099",
-                "Q2088189",
-                "Q2085670",
-                "Q42758142"
+                "Q845068",
+                "Q3468111",
+                "Q548783",
+                "Q577",
+                "Q18701662",
+                "Q3186692",
+                "Q30074592",
+                "Q4629647",
+                "Q16242179"
             ],
             "candidate_titles":[
-                "Licentiate (degree)",
-                "Licentiate of Sacred Theology",
-                "Worshipful Society of Apothecaries",
-                "Licentiate of Theology",
-                "Licentiate of Canon Law",
-                "Licentiate"
+                "2009 WTA Tour",
+                "2011 NRL season",
+                "1977\u201378 NBA season",
+                "Year",
+                "2015 NRL season",
+                "Calendar year",
+                "1964\u201365 in English football",
+                "2013 NRL season",
+                "2014 NRL season"
             ],
             "candidate_descriptions":[
-                "old academic degree which represents different educational levels in diverse countries",
-                "the second cycle of studies of a faculty of theology",
-                "livery company for pharmacists and physicians in the City of London",
-                "academic degree",
+                "women's tennis tour",
                 "",
-                "Wikimedia disambiguation page"
+                "sports season",
+                "estimated period of time for the Earth's orbit around the Sun and observed at a fixed geographic point, lasting about 365.25 days on average to the nearest half day; base later modified to define or adjust various calendars",
+                "",
+                "cycle of given calendar system",
+                "",
+                "",
+                ""
             ],
-            "span_l":22,
-            "span_r":23,
+            "span_l":6,
+            "span_r":7,
             "sent_idx":2,
             "alias_idx":2,
             "guid_idx":"2_2",
-            "sentence":"Although Barnardo never finished his studies at the London Hospital , he used the title of 'doctor ' and later secured a licentiate .",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
             "all_aliases":[
-                "studies",
-                "the title",
-                "licentiate"
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
                     6
                 ],
                 [
-                    13,
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
                     15
                 ],
                 [
-                    22,
+                    15,
+                    17
+                ],
+                [
+                    20,
                     23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":4,
-            "alias":"five children",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"arrival",
             "candidates":[
-                "Q21059232"
+                "Q6783995",
+                "Q162392",
+                "Q20382729",
+                "Q777918",
+                "Q540318",
+                "Q2578989",
+                "Q16243103",
+                "Q2506273",
+                "Q4796032"
             ],
             "candidate_titles":[
-                "Five Enough"
+                "Mass Effect 2: Arrival",
+                "Arrival (ABBA album)",
+                "Arrival (film)",
+                "Arrival (Jordan Rudess album)",
+                "The Arrival (1996 film)",
+                "Arrival (Journey album)",
+                "Arrival (The Prisoner)",
+                "Arrival (composition)",
+                "Arrival (band)"
             ],
             "candidate_descriptions":[
-                "South Korean television drama"
+                "2011 downloadable content",
+                "1976 ABBA album",
+                "2016 American science fiction drama film directed by Denis Villeneuve",
+                "Jordan Rudess album",
+                "1996 film by David Twohy",
+                "album by Journey",
+                "episode of The Prisoner (S1 E1)",
+                "composition",
+                "British band"
             ],
-            "span_l":5,
+            "span_l":11,
+            "span_r":12,
+            "sent_idx":2,
+            "alias_idx":3,
+            "guid_idx":"2_3",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"humans",
+            "candidates":[
+                "Q821318",
+                "Q15978631",
+                "Q5",
+                "Q5939639",
+                "Q897238",
+                "Q6600119",
+                "Q19572149",
+                "Q16244059",
+                "Q171283"
+            ],
+            "candidate_titles":[
+                "Races and factions of Warcraft",
+                "Homo sapiens",
+                "Human",
+                "Humans (Bruce Cockburn album)",
+                "List of Babylon 5 characters",
+                "List of The Underland Chronicles characters",
+                "Humans (TV series)",
+                "Humans (Canadian band)",
+                "Homo"
+            ],
+            "candidate_descriptions":[
+                "",
+                "species of mammal",
+                "common name of Homo sapiens, unique extant species of the genus Homo",
+                "Bruce Cockburn album",
+                "Wikimedia list article",
+                "Wikimedia list article",
+                "2015 British-American science fiction television series",
+                "Canadian indie electronic pop duo",
+                "genus of mammals"
+            ],
+            "span_l":13,
+            "span_r":14,
+            "sent_idx":2,
+            "alias_idx":4,
+            "guid_idx":"2_4",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"new star",
+            "candidates":[
+                "Q7016492"
+            ],
+            "candidate_titles":[
+                "New star"
+            ],
+            "candidate_descriptions":[
+                "Wikimedia disambiguation page"
+            ],
+            "span_l":16,
+            "span_r":18,
+            "sent_idx":2,
+            "alias_idx":5,
+            "guid_idx":"2_5",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"system",
+            "candidates":[
+                "Q13522376",
+                "Q1089649",
+                "Q364131",
+                "Q9135",
+                "Q214514",
+                "Q388201",
+                "Q68",
+                "Q311157",
+                "Q45165"
+            ],
+            "candidate_titles":[
+                "Classic Mac OS",
+                "Stanislavski's system",
+                "Bob Seger",
+                "Operating system",
+                "Chirality (chemistry)",
+                "Railway electrification system",
+                "Computer",
+                "Ferry Corsten",
+                "System of a Down"
+            ],
+            "candidate_descriptions":[
+                "original operating system of Apple Mac (1984\u20132001)",
+                "a progression of techniques used to train actors to create believable characterizations for their performances.",
+                "American singer-songwriter",
+                "software that manages computer hardware resources",
+                "geometric property of some molecules and ions",
+                "electric power to railway trains and trams without an on-board prime mover or local fuel supply",
+                "general-purpose device for performing arithmetic or logical operations",
+                "Dutch trance producer, DJ and remixer",
+                "Armenian-American metal band"
+            ],
+            "span_l":18,
+            "span_r":19,
+            "sent_idx":2,
+            "alias_idx":6,
+            "guid_idx":"2_6",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"follows",
+            "candidates":[
+                "Q7382985",
+                "Q271533",
+                "Q26987770",
+                "Q5228773",
+                "Q35202212",
+                "Q5464798",
+                "Q5257242"
+            ],
+            "candidate_titles":[
+                "Ruth Follows",
+                "Megan Follows",
+                "Geoffrey Follows",
+                "Dave Follows",
+                "Ted Follows",
+                "Follows",
+                "Denis Follows"
+            ],
+            "candidate_descriptions":[
+                "English Quaker",
+                "Canadian actress",
+                "British colonial administrator",
+                "cartoonist",
+                "",
+                "family name",
+                "English footballer (1908-1983)"
+            ],
+            "span_l":21,
+            "span_r":22,
+            "sent_idx":2,
+            "alias_idx":7,
+            "guid_idx":"2_7",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"adventures",
+            "candidates":[
+                "Q6698452",
+                "Q11188935",
+                "Q1000492",
+                "Q17509935",
+                "Q6778888"
+            ],
+            "candidate_titles":[
+                "Lucy Peacock",
+                "Adventures (album)",
+                "Adventure (role-playing games)",
+                "Adventures (band)",
+                "Mary Ann Kilner"
+            ],
+            "candidate_descriptions":[
+                "British author and publisher of children's books",
+                "album by T-Square",
+                "either a collection of material for or a story in a role-playing game",
+                "",
+                "British writer"
+            ],
+            "span_l":23,
+            "span_r":24,
+            "sent_idx":2,
+            "alias_idx":8,
+            "guid_idx":"2_8",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"renegade",
+            "candidates":[
+                "Q15907271",
+                "Q1983591",
+                "Q6167377",
+                "Q7313029",
+                "Q7313030",
+                "Q1415358",
+                "Q1423145",
+                "Q88947",
+                "Q2716020"
+            ],
+            "candidate_titles":[
+                "Jeep Renegade (BU)",
+                "Renegade Software",
+                "Jay Youngblood",
+                "Renegade (Styx song)",
+                "Renegade (band)",
+                "Turncoat",
+                "Renegade (TV series)",
+                "Renegade (video game)",
+                "Renegade (Thin Lizzy album)"
+            ],
+            "candidate_descriptions":[
+                "compact crossover SUV produced by Jeep",
+                "UK-based games publisher",
+                "American professional wrestler (1955-1985)",
+                "1979 hit song recorded by the American rock band Styx",
+                "American rock n' roll band",
+                "(Jeff Van Drew)",
+                "American television series",
+                "video game",
+                "studio album by Irish band Thin Lizzy"
+            ],
+            "span_l":26,
+            "span_r":27,
+            "sent_idx":2,
+            "alias_idx":9,
+            "guid_idx":"2_9",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"crew",
+            "candidates":[
+                "Q18529193",
+                "Q159354",
+                "Q373021",
+                "Q752783",
+                "Q45199",
+                "Q7920452",
+                "Q5146905",
+                "Q7497908",
+                "Q569743"
+            ],
+            "candidate_titles":[
+                "Francis Albert Eley Crew",
+                "Rowing (sport)",
+                "Aircrew",
+                "Human spaceflight",
+                "Sailor",
+                "Venturing",
+                "College rowing (United States)",
+                "Ship's company",
+                "Citizens for Responsibility and Ethics in Washington"
+            ],
+            "candidate_descriptions":[
+                "animal geneticist, 1886-1973",
+                "sport where individuals or teams row boats by oar",
+                "personnel operating an aircraft in flight, including pilots, systems operators, and attendants",
+                "space travel with humans aboard spacecraft",
+                "person who navigates water-borne vessels or assists in doing so",
+                "coed program of the Boy Scouts of America for  ages 14 to 21",
+                "team sport version of rowing practiced by universities in the United States",
+                "personnel comprising the crew of a naval vessel",
+                "nonprofit organization"
+            ],
+            "span_l":27,
+            "span_r":28,
+            "sent_idx":2,
+            "alias_idx":10,
+            "guid_idx":"2_10",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"serenity",
+            "candidates":[
+                "Q7453220",
+                "Q34779365",
+                "Q7453229",
+                "Q691611",
+                "Q7453218",
+                "Q2629926",
+                "Q468301",
+                "Q691506",
+                "Q7453223"
+            ],
+            "candidate_titles":[
+                "Serenity (Firefly episode)",
+                "Serenity (2019 film)",
+                "Serenity (song)",
+                "Serenity (2005 film)",
+                "Serenity (Culture Beat album)",
+                "Inner peace",
+                "Serenity (actress)",
+                "Serenity (band)",
+                "Serenity (comics)"
+            ],
+            "candidate_descriptions":[
+                "episode of Firefly (S1 E1)",
+                "2019 film by Steven Knight",
+                "song by Godsmack",
+                "2005 space western film directed by Joss Whedon",
+                "album by Culture Beat",
+                "",
+                "pornographic actress from the United States",
+                "band from Austria",
+                "comic books set in Joss Whedon's \"Firefly\" universe"
+            ],
+            "span_l":30,
+            "span_r":31,
+            "sent_idx":2,
+            "alias_idx":11,
+            "guid_idx":"2_11",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"firefly class",
+            "candidates":[
+                "Q1487670"
+            ],
+            "candidate_titles":[
+                "GWR Firefly Class"
+            ],
+            "candidate_descriptions":[
+                "class of 62 British broad-gauge 2-2-2 locomotives"
+            ],
+            "span_l":36,
+            "span_r":39,
+            "sent_idx":2,
+            "alias_idx":12,
+            "guid_idx":"2_12",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":2,
+            "alias":"spaceship",
+            "candidates":[
+                "Q7572720",
+                "Q1763118",
+                "Q421",
+                "Q20718872",
+                "Q40218",
+                "Q2003852",
+                "Q11449356",
+                "Q3553322",
+                "Q60744361"
+            ],
+            "candidate_titles":[
+                "Spaceship (Tinchy Stryder and Dappy song)",
+                "Spaceship (Puddle of Mudd song)",
+                "Unidentified flying object",
+                "Spaceship (Anhayla song)",
+                "Spacecraft",
+                "Starship",
+                "Space vehicle",
+                "Spaceship (cellular automaton)",
+                "Spaceship (Kanye West song)"
+            ],
+            "candidate_descriptions":[
+                "single by recording artist Tinchy Stryder and hip hop vocalist Dappy",
+                "single by the band Puddle of Mudd",
+                "unusual apparent anomaly in the sky that is not readily identifiable",
+                "song recorded by Anhayla",
+                "manned vehicle or unmanned machine designed to fly in outer space",
+                "spacecraft designed for interstellar travel",
+                "vehicle designed for outer space",
+                "finite  moving pattern in a cellular automaton",
+                ""
+            ],
+            "span_l":40,
+            "span_r":41,
+            "sent_idx":2,
+            "alias_idx":13,
+            "guid_idx":"2_13",
+            "sentence":"Firefly is an American space Western drama television series , created by writer and director Joss Whedon , under his Mutant Enemy Productions label . Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' .",
+            "all_aliases":[
+                "firefly",
+                "american",
+                "space western",
+                "drama television series",
+                "created",
+                "writer",
+                "director",
+                "joss whedon",
+                "mutant enemy productions",
+                "label",
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    6,
+                    9
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    15,
+                    17
+                ],
+                [
+                    20,
+                    23
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":3,
+            "alias":"ensemble cast",
+            "candidates":[
+                "Q1154757"
+            ],
+            "candidate_titles":[
+                "Ensemble cast"
+            ],
+            "candidate_descriptions":[
+                "principal actors and performers"
+            ],
+            "span_l":1,
+            "span_r":3,
+            "sent_idx":3,
+            "alias_idx":0,
+            "guid_idx":"3_0",
+            "sentence":"Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system .",
+            "all_aliases":[
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":3,
+            "alias":"characters",
+            "candidates":[
+                "Q1211967",
+                "Q461070",
+                "Q160362",
+                "Q8201",
+                "Q190502",
+                "Q95074",
+                "Q1062345",
+                "Q1443451",
+                "Q82772"
+            ],
+            "candidate_titles":[
+                "Phenotypic trait",
+                "Gimmick (professional wrestling)",
+                "Theophrastus",
+                "Chinese characters",
+                "Japanese writing system",
+                "Character (arts)",
+                "Player character",
+                "Glossary of professional wrestling terms",
+                "Kanji"
+            ],
+            "candidate_descriptions":[
+                "inherited biological feature",
+                "wrestler's in-ring persona, character, behavior, attire and\/or other distinguishing traits",
+                "ancient Greek philosopher (-370--286)",
+                "logographic writing system used in the Sinosphere region",
+                "overview of how the Japanese language is written in contemporary times, and the writing system's evolution",
+                "fictional human or non-human character in a narrative work of art",
+                "fictional character in a role-playing or video game that can be played or controlled by a real-world person",
+                "Wikimedia glossary list article",
+                "adopted logographic Chinese characters used in the modern Japanese writing system"
+            ],
+            "span_l":6,
             "span_r":7,
+            "sent_idx":3,
+            "alias_idx":1,
+            "guid_idx":"3_1",
+            "sentence":"Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system .",
+            "all_aliases":[
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":3,
+            "alias":"live on",
+            "candidates":[
+                "Q28429768",
+                "Q6655376"
+            ],
+            "candidate_titles":[
+                "Live On (The Seekers album)",
+                "Live On (Kenny Wayne Shepherd album)"
+            ],
+            "candidate_descriptions":[
+                "album by The Seekers",
+                "album by Kenny Wayne Shepherd"
+            ],
+            "span_l":8,
+            "span_r":10,
+            "sent_idx":3,
+            "alias_idx":2,
+            "guid_idx":"3_2",
+            "sentence":"Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system .",
+            "all_aliases":[
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":3,
+            "alias":"serenity",
+            "candidates":[
+                "Q2629926",
+                "Q34779365",
+                "Q7453218",
+                "Q468301",
+                "Q691506",
+                "Q7453223",
+                "Q691611",
+                "Q7453229",
+                "Q7453220"
+            ],
+            "candidate_titles":[
+                "Inner peace",
+                "Serenity (2019 film)",
+                "Serenity (Culture Beat album)",
+                "Serenity (actress)",
+                "Serenity (band)",
+                "Serenity (comics)",
+                "Serenity (2005 film)",
+                "Serenity (song)",
+                "Serenity (Firefly episode)"
+            ],
+            "candidate_descriptions":[
+                "",
+                "2019 film by Steven Knight",
+                "album by Culture Beat",
+                "pornographic actress from the United States",
+                "band from Austria",
+                "comic books set in Joss Whedon's \"Firefly\" universe",
+                "2005 space western film directed by Joss Whedon",
+                "song by Godsmack",
+                "episode of Firefly (S1 E1)"
+            ],
+            "span_l":11,
+            "span_r":12,
+            "sent_idx":3,
+            "alias_idx":3,
+            "guid_idx":"3_3",
+            "sentence":"Whedon served as an executive producer , along with Tim Minear . The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system .",
+            "all_aliases":[
+                "whedon",
+                "served",
+                "executive producer",
+                "tim minear",
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    4,
+                    6
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":4,
+            "alias":"whedon",
+            "candidates":[
+                "Q6586985",
+                "Q6587010",
+                "Q21491563",
+                "Q298025",
+                "Q3176340",
+                "Q3301656",
+                "Q3182725"
+            ],
+            "candidate_titles":[
+                "Tom Whedon",
+                "Zack Whedon",
+                "Whedon",
+                "Joss Whedon",
+                "Jed Whedon",
+                "Maurissa Tancharoen",
+                "John Whedon"
+            ],
+            "candidate_descriptions":[
+                "television writer from the United States",
+                "American screenwriter",
+                "family name",
+                "American director, writer, and producer",
+                "American screenwriter and musician",
+                "Actress, singer, television producer\/writer",
+                "American screenwriter"
+            ],
+            "span_l":0,
+            "span_r":1,
             "sent_idx":4,
             "alias_idx":0,
             "guid_idx":"4_0",
-            "sentence":"He was the fourth of five children ( one died in childbirth ) of John Michaelis Barnardo , a furrier who was of Sephardic Jewish descent , and his second wife , Abigail , an Englishwoman and member of the Plymouth Brethren .",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
             "all_aliases":[
-                "five children",
-                "died in childbirth",
-                "furrier",
-                "jewish descent",
-                "second wife",
-                "member of the"
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
                     7
                 ],
                 [
-                    9,
+                    11,
                     12
                 ],
                 [
-                    19,
-                    20
+                    13,
+                    14
                 ],
                 [
-                    24,
-                    26
+                    16,
+                    18
                 ],
                 [
-                    29,
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
                     31
                 ],
                 [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
                     37,
-                    40
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":4,
-            "alias":"died in childbirth",
+            "alias":"pitched",
             "candidates":[
-                "Q1339474"
+                "Q840692",
+                "Q639090",
+                "Q1496938",
+                "Q2012083",
+                "Q1048902",
+                "Q118819",
+                "Q115034"
             ],
             "candidate_titles":[
-                "Maternal death"
+                "Pitch (resin)",
+                "Aircraft principal axes",
+                "Sales presentation",
+                "Pitch (filmmaking)",
+                "Pitcher",
+                "Pitch (music)",
+                "Roof pitch"
             ],
             "candidate_descriptions":[
-                "the death of a woman while pregnant or within 42 days of termination of pregnancy"
+                "resin",
+                "",
+                "line of talk to persuade someone to buy something",
+                "brief presentation of an idea for film and\/or television series",
+                "the player responsible for throwing (\"pitching\") the ball to the batters in a game of baseball or softball",
+                "perceptual property in music",
+                "Measure of roof steepness"
             ],
-            "span_l":9,
-            "span_r":12,
+            "span_l":1,
+            "span_r":2,
             "sent_idx":4,
             "alias_idx":1,
             "guid_idx":"4_1",
-            "sentence":"He was the fourth of five children ( one died in childbirth ) of John Michaelis Barnardo , a furrier who was of Sephardic Jewish descent , and his second wife , Abigail , an Englishwoman and member of the Plymouth Brethren .",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
             "all_aliases":[
-                "five children",
-                "died in childbirth",
-                "furrier",
-                "jewish descent",
-                "second wife",
-                "member of the"
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
                     7
                 ],
                 [
-                    9,
+                    11,
                     12
                 ],
                 [
-                    19,
-                    20
+                    13,
+                    14
                 ],
                 [
-                    24,
-                    26
+                    16,
+                    18
                 ],
                 [
-                    29,
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
                     31
                 ],
                 [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
                     37,
-                    40
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":4,
-            "alias":"furrier",
+            "alias":"people",
             "candidates":[
-                "Q197195",
-                "Q7328980"
+                "Q36747",
+                "Q117191",
+                "Q161652",
+                "Q200569",
+                "Q170355",
+                "Q33659",
+                "Q181634",
+                "Q179248",
+                "Q12060728"
             ],
             "candidate_titles":[
-                "Fur clothing",
-                "Richard Sharp (politician)"
+                "Indigenous peoples of the Americas",
+                "Cree",
+                "Japanese people",
+                "Dutch people",
+                "Indigenous Australians",
+                "People (magazine)",
+                "Scottish people",
+                "Albanians",
+                "Aboriginal Australians"
             ],
             "candidate_descriptions":[
-                "clothing made of furry animal hides",
-                "British politician"
+                "inhabitants of North and South America and their descendants",
+                "group of First Nations peoples",
+                "ethnic group native to Japan",
+                "ethnic group",
+                "Earliest inhabitants of the Australian continent and Torres Strait Islands",
+                "weekly American magazine",
+                "ethnic inhabitants of Scotland",
+                "citizens or residents of Albania and ethnic group",
+                "term used to refer to some groups of Indigenous Australians"
             ],
-            "span_l":19,
-            "span_r":20,
+            "span_l":7,
+            "span_r":8,
             "sent_idx":4,
             "alias_idx":2,
             "guid_idx":"4_2",
-            "sentence":"He was the fourth of five children ( one died in childbirth ) of John Michaelis Barnardo , a furrier who was of Sephardic Jewish descent , and his second wife , Abigail , an Englishwoman and member of the Plymouth Brethren .",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
             "all_aliases":[
-                "five children",
-                "died in childbirth",
-                "furrier",
-                "jewish descent",
-                "second wife",
-                "member of the"
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
                     7
                 ],
                 [
-                    9,
+                    11,
                     12
                 ],
                 [
-                    19,
-                    20
+                    13,
+                    14
                 ],
                 [
-                    24,
-                    26
+                    16,
+                    18
                 ],
                 [
-                    29,
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
                     31
                 ],
                 [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
                     37,
-                    40
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":4,
-            "alias":"jewish descent",
+            "alias":"looking",
             "candidates":[
-                "Q7325",
-                "Q34069",
-                "Q1516823",
-                "Q3147832"
+                "Q26465818",
+                "Q15211381",
+                "Q56274009",
+                "Q2612920",
+                "Q4710743"
             ],
             "candidate_titles":[
-                "Jews",
-                "Ashkenazi Jews",
-                "History of the Jews in Poland",
-                "Who is a Jew?"
+                "Arlo Looking Cloud",
+                "Looking (TV series)",
+                "Looking",
+                "Looking Glass (Native American leader)",
+                "Albert Looking Elk"
             ],
             "candidate_descriptions":[
-                "ancient nation and ethnoreligious group from the Levant",
-                "Jewish ethnic group",
-                "spans the period 966 to present times",
-                "basic question about Jewish identity"
+                "former Native American activist",
+                "2014 American comedy-drama television series",
+                "act of intentionally focusing visual perception on someone or something",
+                "Nez Perc\u00e9 War leader",
+                "Taos Pueblo painter (1888-1940)"
             ],
-            "span_l":24,
-            "span_r":26,
+            "span_l":8,
+            "span_r":9,
             "sent_idx":4,
             "alias_idx":3,
             "guid_idx":"4_3",
-            "sentence":"He was the fourth of five children ( one died in childbirth ) of John Michaelis Barnardo , a furrier who was of Sephardic Jewish descent , and his second wife , Abigail , an Englishwoman and member of the Plymouth Brethren .",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
             "all_aliases":[
-                "five children",
-                "died in childbirth",
-                "furrier",
-                "jewish descent",
-                "second wife",
-                "member of the"
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
                     7
                 ],
                 [
-                    9,
+                    11,
                     12
                 ],
                 [
-                    19,
-                    20
+                    13,
+                    14
                 ],
                 [
-                    24,
-                    26
+                    16,
+                    18
                 ],
                 [
-                    29,
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
                     31
                 ],
                 [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
                     37,
-                    40
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":4,
-            "alias":"second wife",
+            "alias":"blackness",
             "candidates":[
-                "Q170585",
-                "Q7443648",
-                "Q7443647",
-                "Q3824097",
-                "Q12188169",
-                "Q11607008"
+                "Q3007177",
+                "Q7528136",
+                "Q2905567",
+                "Q6263346",
+                "Q4923187",
+                "Q23445",
+                "Q4923190",
+                "Q1524366"
             ],
             "candidate_titles":[
-                "Polygamy",
-                "Second Wife (1930 film)",
-                "Second Wife (1936 film)",
-                "The Second Wife (1922 film)",
-                "The Second Wife (1967 film)",
-                "Second Wife"
+                "African-American culture",
+                "Sir John Wedderburn, 5th Baronet of Blackness",
+                "Blackness",
+                "John Wedderburn of Ballindean",
+                "Blackness, Dundee",
+                "Black",
+                "Blackness, Falkirk",
+                "Blackness Castle"
             ],
             "candidate_descriptions":[
-                "practice of marrying multiple spouses",
-                "1930 American drama film directed by Russell Mack",
-                "1936 American drama film directed by Edward Killy",
-                "1922 film by Amleto Palermi",
-                "1967 film by Salah Abu Seif",
-                "Wikimedia disambiguation page"
+                "pattern of human activity and symbolism associated with African Americans",
+                "Scottish Jacobite",
+                "Wikimedia disambiguation page",
+                "Scottish landowner and sugar merchant",
+                "",
+                "darkest color, resulting from the absence or complete absorption of light. Like white and grey, it is an achromatic color, literally a color without hue",
+                "village in Falkirk, Scotland, UK",
+                "fortress, near the village of Blackness, Scotland"
             ],
-            "span_l":29,
-            "span_r":31,
+            "span_l":11,
+            "span_r":12,
             "sent_idx":4,
             "alias_idx":4,
             "guid_idx":"4_4",
-            "sentence":"He was the fourth of five children ( one died in childbirth ) of John Michaelis Barnardo , a furrier who was of Sephardic Jewish descent , and his second wife , Abigail , an Englishwoman and member of the Plymouth Brethren .",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
             "all_aliases":[
-                "five children",
-                "died in childbirth",
-                "furrier",
-                "jewish descent",
-                "second wife",
-                "member of the"
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
                     7
                 ],
                 [
-                    9,
+                    11,
                     12
                 ],
                 [
-                    19,
-                    20
+                    13,
+                    14
                 ],
                 [
-                    24,
-                    26
+                    16,
+                    18
                 ],
                 [
-                    29,
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
                     31
                 ],
                 [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
                     37,
-                    40
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":4,
-            "alias":"member of the",
+            "alias":"space",
             "candidates":[
-                "Q27169"
+                "Q17295",
+                "Q333",
+                "Q305936",
+                "Q275565",
+                "Q2876213",
+                "Q229058",
+                "Q4169",
+                "Q3798668",
+                "Q5916"
             ],
             "candidate_titles":[
-                "Member of the European Parliament"
+                "Euclidean space",
+                "Astronomy",
+                "Lp space",
+                "K\u00e1rm\u00e1n line",
+                "Aerospace",
+                "Indian Space Research Organisation",
+                "Outer space",
+                "Aerospace engineering",
+                "Spaceflight"
             ],
             "candidate_descriptions":[
-                "person who has been elected to the European Parliament"
+                "generalization of Euclidean geometry to higher-dimensional vector spaces",
+                "natural science that deals with the study of celestial objects",
+                "function spaces generalizing finite-dimensional p norm spaces",
+                "popular defined boundary of outer space",
+                "engineering effort to fly in the atmosphere of Earth (aeronautics) and surrounding space (astronautics)",
+                "India's National Space Agency",
+                "void between celestial bodies",
+                "branch of engineering",
+                "use of technology to achieve the flight of spacecraft into and through outer space, used in space exploration, and also in commercial activities like space tourism and satellite telecommunications"
             ],
-            "span_l":37,
-            "span_r":40,
+            "span_l":13,
+            "span_r":14,
             "sent_idx":4,
             "alias_idx":5,
             "guid_idx":"4_5",
-            "sentence":"He was the fourth of five children ( one died in childbirth ) of John Michaelis Barnardo , a furrier who was of Sephardic Jewish descent , and his second wife , Abigail , an Englishwoman and member of the Plymouth Brethren .",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
             "all_aliases":[
-                "five children",
-                "died in childbirth",
-                "furrier",
-                "jewish descent",
-                "second wife",
-                "member of the"
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
             ],
             "all_spans":[
                 [
-                    5,
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
                     7
                 ],
                 [
-                    9,
+                    11,
                     12
                 ],
                 [
-                    19,
-                    20
+                    13,
+                    14
                 ],
                 [
-                    24,
-                    26
+                    16,
+                    18
                 ],
                 [
-                    29,
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
                     31
                 ],
                 [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
                     37,
-                    40
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":5,
-            "alias":"business",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":4,
+            "alias":"seeing",
             "candidates":[
-                "Q191701",
-                "Q49126",
-                "Q26643",
-                "Q4830453",
-                "Q43845",
-                "Q2043282",
-                "Q3029157",
-                "Q5001951",
-                "Q2568866",
-                "Q2609670"
+                "Q1216446",
+                "Q20875815",
+                "Q1057006",
+                "Q162668"
             ],
             "candidate_titles":[
-                "Master of Business Administration",
-                "Harvard Business School",
-                "Commerce",
-                "Business",
-                "Businessperson",
-                "Business administration",
-                "Ross School of Business",
-                "Business studies",
-                "Fuqua School of Business",
-                "Corporate law"
+                "Seeing (novel)",
+                "Seeing (composition)",
+                "Astronomical seeing",
+                "Visual perception"
             ],
             "candidate_descriptions":[
-                "master's degree in business  leadership",
-                "business school in Boston, Massachusetts",
-                "trading apparatus of an economy",
-                "organization involved in commercial, industrial, or professional activity",
-                "person involved in activities for the purpose of generating revenue",
-                "process of managing a business or non-profit organization",
+                "book by Jos\u00e9 Saramago",
                 "",
-                "subject of scholarly research",
-                "School at Duke University, North Carolina, U.S.",
-                "body of law that applies to the rights, relations, and conduct of persons, companies, organizations and businesses"
+                "amount of apparent blurring and twinkling of astronomical objects due to atmospherical effects",
+                "series of events required for an organism to receive a visual stimulus"
             ],
-            "span_l":16,
-            "span_r":17,
+            "span_l":15,
+            "span_r":16,
+            "sent_idx":4,
+            "alias_idx":6,
+            "guid_idx":"4_6",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
+            "all_aliases":[
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":4,
+            "alias":"different things",
+            "candidates":[
+                "Q5275309"
+            ],
+            "candidate_titles":[
+                "Different Things"
+            ],
+            "candidate_descriptions":[
+                "album by Tracy Byrd"
+            ],
+            "span_l":17,
+            "span_r":19,
+            "sent_idx":4,
+            "alias_idx":7,
+            "guid_idx":"4_7",
+            "sentence":"The series is set in the year 2517 , after the arrival of humans in a new star system , and follows the adventures of the renegade crew of `` Serenity `` , a `` '' Firefly '' -class '' spaceship . The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures .",
+            "all_aliases":[
+                "the series",
+                "set",
+                "year",
+                "arrival",
+                "humans",
+                "new star",
+                "system",
+                "follows",
+                "adventures",
+                "renegade",
+                "crew",
+                "serenity",
+                "firefly class",
+                "spaceship",
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    16,
+                    18
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    21,
+                    22
+                ],
+                [
+                    23,
+                    24
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    36,
+                    39
+                ],
+                [
+                    40,
+                    41
+                ],
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"the show",
+            "candidates":[
+                "Q7764004",
+                "Q4355961",
+                "Q7764003",
+                "Q18527399",
+                "Q2719293",
+                "Q7389486",
+                "Q7832168",
+                "Q1524084",
+                "Q3499055"
+            ],
+            "candidate_titles":[
+                "The Show (Doug E. Fresh song)",
+                "The Show (soundtrack)",
+                "The Show (1995 film)",
+                "The Show (South Korean TV series)",
+                "The Show (Girls Aloud song)",
+                "SDSU Show",
+                "Traders (TV series)",
+                "The Show (1927 film)",
+                "The Show (Lenka song)"
+            ],
+            "candidate_descriptions":[
+                "song by Doug E. Fresh",
+                "soundtrack to the 1995 hip hop documentary The Show",
+                "1995 documentary film about hip hop music directed by Brian Robbins",
+                "Television program",
+                "song by Girls Aloud",
+                "",
+                "TV series",
+                "1927 silent American drama film directed by Tod Browning",
+                "song by Lenka"
+            ],
+            "span_l":0,
+            "span_r":2,
             "sent_idx":5,
             "alias_idx":0,
             "guid_idx":"5_0",
-            "sentence":"In the early 1840s , John emigrated from Hamburg to Dublin , where he established a business ; he married twice and fathered seven children .",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
             "all_aliases":[
-                "business",
-                "children"
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
             ],
             "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
                 [
                     16,
                     17
                 ],
                 [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
                     24,
                     25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":5,
-            "alias":"children",
+            "alias":"lives",
             "candidates":[
-                "Q131706",
-                "Q131539",
-                "Q123028",
-                "Q170079",
-                "Q1273568",
-                "Q2143665",
-                "Q7569",
-                "Q8354948",
-                "Q2389651",
-                "Q1741825"
+                "Q668136",
+                "Q66789593",
+                "Q1282359",
+                "Q208628",
+                "Q951399",
+                "Q1645493",
+                "Q36279",
+                "Q842337",
+                "Q3"
             ],
             "candidate_titles":[
-                "Maria Theresa",
-                "Children's literature",
-                "Pediatrics",
-                "Minor (law)",
-                "Children's television series",
-                "Children's film",
-                "Child",
-                "Children's rights",
-                "Children's music",
-                "Trafficking of children"
+                "Health (gaming)",
+                "Life (gaming)",
+                "Lives and Opinions of Eminent Philosophers",
+                "Hagiography",
+                "LiVES",
+                "Lives of the Most Excellent Painters, Sculptors, and Architects",
+                "Biography",
+                "Parallel Lives",
+                "Life"
             ],
             "candidate_descriptions":[
-                "ruler of the Habsburg Dominions (1717-1780)",
-                "stories, books, and poems that are enjoyed by and targeted primarily towards children",
-                "field of medicine dealing with the care of children",
-                "person below a certain age prescribed by law, usually distinguished to delineate rights, privileges, and responsibilities",
-                "television programs designed for, and marketed to children",
-                "film genre",
-                "human between the stages of birth and puberty",
-                "human rights of children",
-                "music mainly intended for children",
-                "form of human trafficking and is defined as the \"recruitment, transportation, transfer, harboring, and\/or receipt\" of a child for the purpose of exploitation"
+                "gaming-related attribute",
+                "",
+                "book by Diogenes La\u00ebrtius",
+                "biography of a Christian saint",
+                "",
+                "series of artist biographies by Giorgio Vasari",
+                "account of a person's life written by another person",
+                "biographies of famous Greeks and Romans by Plutarch",
+                "matter capable of extracting energy from the environment for replication"
             ],
-            "span_l":24,
-            "span_r":25,
+            "span_l":4,
+            "span_r":5,
             "sent_idx":5,
             "alias_idx":1,
             "guid_idx":"5_1",
-            "sentence":"In the early 1840s , John emigrated from Hamburg to Dublin , where he established a business ; he married twice and fathered seven children .",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
             "all_aliases":[
-                "business",
-                "children"
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
             ],
             "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
                 [
                     16,
                     17
                 ],
                 [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
                     24,
                     25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":6,
-            "alias":"family",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"group",
             "candidates":[
-                "Q35409",
-                "Q210826",
-                "Q8269924",
-                "Q249083",
-                "Q427626",
-                "Q499247",
-                "Q1093580",
-                "Q112707",
-                "Q1130469",
-                "Q2481717"
+                "Q3834913",
+                "Q2088357",
+                "Q1443451",
+                "Q622679",
+                "Q288465",
+                "Q5611178",
+                "Q215380",
+                "Q3694579",
+                "Q215048"
             ],
             "candidate_titles":[
-                "Family (biology)",
-                "Thoroughbred",
-                "Taxonomy (biology)",
-                "Asteroid family",
-                "Taxonomic rank",
-                "Scottish clan",
-                "Chinese surname",
-                "House of Romanov",
-                "Rockefeller family",
-                "Family Channel (Canadian TV network)"
+                "Group races",
+                "Musical ensemble",
+                "Glossary of professional wrestling terms",
+                "Lie group",
+                "Group action (mathematics)",
+                "Group One",
+                "Band (rock and pop)",
+                "Conditions races",
+                "Supergroup (music)"
             ],
             "candidate_descriptions":[
-                "taxonomic rank or a taxon at that rank",
-                "horse breed",
-                "science of finding, describing, defining and naming groups of biological organisms",
-                "population of asteroids that share similar proper orbital elements",
-                "level in a taxonomic hierarchy",
-                "kinship group among the Scottish people",
-                "surnames used by Han Chinese and Sinicized ethnic groups",
-                "imperial dynasty of Russia",
-                "American industrial, political and banking family",
-                "Canadian cable channel"
+                "",
+                "group of people who perform instrumental and\/or vocal music, with the ensemble typically known by a distinct name",
+                "Wikimedia glossary list article",
+                "group that is also a differentiable manifold with group operations that are smooth",
+                "Operation of the elements of a group as transformations or automorphisms (mathematics)",
+                "",
+                "musical ensemble which performs music",
+                "",
+                "band whose members were successful in prior acts"
+            ],
+            "span_l":7,
+            "span_r":8,
+            "sent_idx":5,
+            "alias_idx":2,
+            "guid_idx":"5_2",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"people",
+            "candidates":[
+                "Q161652",
+                "Q181634",
+                "Q200569",
+                "Q36747",
+                "Q170355",
+                "Q179248",
+                "Q12060728",
+                "Q33659",
+                "Q117191"
+            ],
+            "candidate_titles":[
+                "Japanese people",
+                "Scottish people",
+                "Dutch people",
+                "Indigenous peoples of the Americas",
+                "Indigenous Australians",
+                "Albanians",
+                "Aboriginal Australians",
+                "People (magazine)",
+                "Cree"
+            ],
+            "candidate_descriptions":[
+                "ethnic group native to Japan",
+                "ethnic inhabitants of Scotland",
+                "ethnic group",
+                "inhabitants of North and South America and their descendants",
+                "Earliest inhabitants of the Australian continent and Torres Strait Islands",
+                "citizens or residents of Albania and ethnic group",
+                "term used to refer to some groups of Indigenous Australians",
+                "weekly American magazine",
+                "group of First Nations peoples"
+            ],
+            "span_l":9,
+            "span_r":10,
+            "sent_idx":5,
+            "alias_idx":3,
+            "guid_idx":"5_3",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"fought",
+            "candidates":[
+                "Q16934479",
+                "Q852088",
+                "Q6233766",
+                "Q421399",
+                "Q195661",
+                "Q17479119"
+            ],
+            "candidate_titles":[
+                "Third Battle of San Juan (1898)",
+                "Internal conflict in Myanmar",
+                "John Fought",
+                "Battle of Delaware Bay",
+                "Fighting in ice hockey",
+                "Howard E. Faught"
+            ],
+            "candidate_descriptions":[
+                "began on 28 June 1898 when an American auxiliary cruiser intercepted a Spanish blockade runner",
+                "series of ongoing insurgencies within Myanmar",
+                "professional golfer",
+                "Naval battle of the American Revolutionary War",
+                "physical play in ice hockey",
+                "American politician"
+            ],
+            "span_l":14,
+            "span_r":15,
+            "sent_idx":5,
+            "alias_idx":4,
+            "guid_idx":"5_4",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"losing",
+            "candidates":[
+                "Q90767",
+                "Q17008966",
+                "Q48728722",
+                "Q3328177"
+            ],
+            "candidate_titles":[
+                "Sabine L\u00f6sing",
+                "Losing (Tenth Avenue North song)",
+                "Pacheykhani",
+                "Loss of China"
+            ],
+            "candidate_descriptions":[
+                "German politician",
+                "2012 single by Tenth Avenue North",
+                "human settlement in East Sikkim district, Sikkim, India",
+                ""
+            ],
+            "span_l":17,
+            "span_r":18,
+            "sent_idx":5,
+            "alias_idx":5,
+            "guid_idx":"5_5",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"civil war",
+            "candidates":[
+                "Q8676",
+                "Q10859",
+                "Q79911",
+                "Q182865",
+                "Q178810",
+                "Q214426",
+                "Q80330",
+                "Q214102",
+                "Q179975"
+            ],
+            "candidate_titles":[
+                "American Civil War",
+                "Spanish Civil War",
+                "Russian Civil War",
+                "War in Afghanistan (2001\u2013present)",
+                "Syrian Civil War",
+                "Mexican Revolution",
+                "English Civil War",
+                "Union (American Civil War)",
+                "Chinese Civil War"
+            ],
+            "candidate_descriptions":[
+                "1861\u20131865 civil war in the United States between the North and the South",
+                "war between the Republicans and the Nationalists in Spain from 1936 to 1939",
+                "multi-party war in the former Russian Empire, November 1917-October 1922",
+                "military campaign during the Global War on Terrorism",
+                "ongoing multi-sided armed conflict in Syria",
+                "major armed struggle in Mexico between 1910 and 1920",
+                "series of armed conflicts and political machinations between Parliamentarians and Royalists",
+                "United States' national government and the 20 free states and five border slave states",
+                "1927\u20131950 civil war in China"
+            ],
+            "span_l":21,
+            "span_r":23,
+            "sent_idx":5,
+            "alias_idx":6,
+            "guid_idx":"5_6",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"living",
+            "candidates":[
+                "Q4132337",
+                "Q274410",
+                "Q175850",
+                "Q6015538",
+                "Q3634072",
+                "Q16146818",
+                "Q193364",
+                "Q3",
+                "Q48735025"
+            ],
+            "candidate_titles":[
+                "Sky Witness",
+                "Benefice",
+                "Standard of living",
+                "Incumbent (ecclesiastical)",
+                "Amar Singh Thapa",
+                "Advowson",
+                "Vicar",
+                "Life",
+                "Living (Christianity)"
+            ],
+            "candidate_descriptions":[
+                "British television channel",
+                "",
+                "level of ownership and consumption of goods and services",
+                "",
+                "Supreme Commander of the Western Front of Nepal",
+                "right to nominate a person to be parish priest",
+                "type of priest",
+                "matter capable of extracting energy from the environment for replication",
+                ""
+            ],
+            "span_l":27,
+            "span_r":28,
+            "sent_idx":5,
+            "alias_idx":7,
+            "guid_idx":"5_7",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"fringes",
+            "candidates":[
+                "Q1353860",
+                "Q48300",
+                "Q1144883"
+            ],
+            "candidate_titles":[
+                "Fringe (trim)",
+                "Tzitzit",
+                "Bangs (hair)"
+            ],
+            "candidate_descriptions":[
+                "long or short lengths of straight or twisted thread, cord, or tassel, used as trimming",
+                "ritual prayer shawl in Judaism",
+                "shaped cutting of the front part of the hair so that it lies over the forehead"
+            ],
+            "span_l":30,
+            "span_r":31,
+            "sent_idx":5,
+            "alias_idx":8,
+            "guid_idx":"5_8",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"society",
+            "candidates":[
+                "Q170208",
+                "Q3309134",
+                "Q3721",
+                "Q36380",
+                "Q600113",
+                "Q2747649",
+                "Q48204",
+                "Q131566",
+                "Q118920"
+            ],
+            "candidate_titles":[
+                "Quakers",
+                "Arabic culture",
+                "Fraternities and sororities",
+                "Society of Jesus",
+                "Secret Society of Super Villains",
+                "Society of Artists of Great Britain",
+                "Voluntary association",
+                "Institute of Electrical and Electronics Engineers",
+                "Society Islands"
+            ],
+            "candidate_descriptions":[
+                "family of religious movements (Quakerism)",
+                "culture carried and upheld through the family of Arabic languages in the Middle East and North Africa and by immigrants elsewhere",
+                "social organizations at colleges and universities",
+                "male religious congregation of the Roman Catholic Church",
+                "group of fictional characters",
+                "art society in London",
+                "group of people with shared interests or aims",
+                "scholarly society, publisher and standards organization, headquartered in US",
+                "archipelago of French Polynesia"
+            ],
+            "span_l":32,
+            "span_r":33,
+            "sent_idx":5,
+            "alias_idx":9,
+            "guid_idx":"5_9",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"pioneer",
+            "candidates":[
+                "Q2981922",
+                "Q156034",
+                "Q1818899",
+                "Q1324245",
+                "Q1205595",
+                "Q870585",
+                "Q13393921",
+                "Q476148",
+                "Q10349961"
+            ],
+            "candidate_titles":[
+                "American pioneer",
+                "Pioneer Corporation",
+                "Settler",
+                "Sapper",
+                "NBCUniversal Entertainment Japan",
+                "Pioneer League (baseball)",
+                "Pioneer (military)",
+                "Mormon pioneers",
+                "Pioneering (Bah\u00e1'\u00ed)"
+            ],
+            "candidate_descriptions":[
+                "persons who migrated across the country to explore, trade, and establish permanent homes",
+                "Japanese electronics company",
+                "person who has migrated to an area and established permanent residence there",
+                "soldier who performs a variety of military engineering duties",
+                "",
+                "baseball league operating at the Rookie Advanced level of Minor League Baseball",
+                "soldier tasked with engineering and construction",
+                "Pioneers of the Church of Jesus Christ of Latter-day Saints",
+                "volunteer Bah\u00e1'\u00ed who leaves their home for the purpose of teaching the Bah\u00e1'\u00ed Faith"
+            ],
+            "span_l":37,
+            "span_r":38,
+            "sent_idx":5,
+            "alias_idx":10,
+            "guid_idx":"5_10",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"culture",
+            "candidates":[
+                "Q11772",
+                "Q782",
+                "Q142702",
+                "Q11042",
+                "Q645917",
+                "Q478958",
+                "Q831454",
+                "Q81483",
+                "Q126756"
+            ],
+            "candidate_titles":[
+                "Ancient Greece",
+                "Hawaii",
+                "Malays (ethnic group)",
+                "Culture",
+                "Chinese culture",
+                "Western culture",
+                "Culture of Japan",
+                "Levant",
+                "Basques"
+            ],
+            "candidate_descriptions":[
+                "civilization belonging to an early period of Greek history",
+                "state of the United States of America, located on an archipelago in the Pacific Ocean",
+                "ethnic group in Southeast Asia | ethnic group in Indonesia",
+                "society's way of life within anthropology",
+                "pattern of human activity and symbolism associated with China and its people",
+                "heritage of norms, customs, belief and political systems, and artifacts and technologies associated with Europe (both indigenous and foreign origin)",
+                "pattern of human activity and symbolism associated with Japan and the Japanese people",
+                "geographic and cultural region consisting of the eastern Mediterranean between Anatolia and the Sinai Peninsula, including the upper Mesopotamia, in the former Fertile Crescent",
+                "ethnic group"
+            ],
+            "span_l":38,
+            "span_r":39,
+            "sent_idx":5,
+            "alias_idx":11,
+            "guid_idx":"5_11",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":5,
+            "alias":"star system",
+            "candidates":[
+                "Q595871",
+                "Q2333293",
+                "Q6146818"
+            ],
+            "candidate_titles":[
+                "Star system",
+                "Star system (filmmaking)",
+                "Osamu Tezuka's Star System"
+            ],
+            "candidate_descriptions":[
+                "type of astronomical object, stars which orbit each other",
+                "creating, promoting and exploiting stars in Hollywood films",
+                "Wikimedia list article"
+            ],
+            "span_l":41,
+            "span_r":43,
+            "sent_idx":5,
+            "alias_idx":12,
+            "guid_idx":"5_12",
+            "sentence":"The ensemble cast portrays the nine characters who live on `` Serenity '' . Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' .",
+            "all_aliases":[
+                "ensemble cast",
+                "characters",
+                "live on",
+                "serenity",
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    3
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    8,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"future",
+            "candidates":[
+                "Q501405",
+                "Q183984",
+                "Q32540222",
+                "Q2057368",
+                "Q3445057",
+                "Q2298435",
+                "Q685018",
+                "Q467204",
+                "Q6845539"
+            ],
+            "candidate_titles":[
+                "Future tense",
+                "Futures contract",
+                "Joyner Lucas",
+                "Ghost of Christmas Yet to Come",
+                "Future (rapper)",
+                "Futures exchange",
+                "Future plc",
+                "Days of Future Past",
+                "Mika Nagano"
+            ],
+            "candidate_descriptions":[
+                "grammatical tense",
+                "standardized legal agreement to buy or sell something (usually a commodity or financial instrument) at a predetermined price (\u201cforward price\u201d) at a specified time (\u201cdelivery date\u201d) in the future",
+                "American rapper, singer, songwriter and record producer",
+                "Fictional character in Dickens\u2019s A Christmas Carol - the third and last spirit to visit Scrooge.",
+                "American rapper, singer, songwriter, and record producer",
+                "central financial exchange where people can trade standardized futures contracts",
+                "company",
+                "story arc",
+                "Japanese mixed martial artist and professional wrestler"
             ],
             "span_l":2,
             "span_r":3,
             "sent_idx":6,
             "alias_idx":0,
             "guid_idx":"6_0",
-            "sentence":"The Barnardo family `` traced its origin to Venice , followed by conversion to the Lutheran Church in the sixteenth century '' .",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
             "all_aliases":[
-                "family",
-                "origin",
-                "conversion",
-                "sixteenth century"
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
             ],
             "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
                 [
                     2,
                     3
                 ],
                 [
-                    6,
-                    7
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
                 ],
                 [
                     12,
                     13
                 ],
                 [
-                    19,
-                    21
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":6,
-            "alias":"origin",
+            "alias":"surviving",
             "candidates":[
-                "Q3942390",
-                "Q169480",
-                "Q35245",
-                "Q47307",
-                "Q7376362",
-                "Q1193678",
-                "Q231218",
-                "Q40735",
-                "Q847931",
-                "Q4437848"
+                "Q72654782"
             ],
             "candidate_titles":[
-                "State of Origin series",
-                "Indigenous (ecology)",
-                "Etymology",
-                "Genealogy",
-                "River source",
-                "Origin Systems",
-                "Abiogenesis",
-                "Origin (mathematics)",
-                "Origin Energy",
-                "List of Lost Girl episodes"
+                "Surviving (album)"
             ],
             "candidate_descriptions":[
-                "television series",
-                "term in biogeography for a species relationship to a geography; oppose of introduced species",
-                "study of the history of words, their origins, and how their form and meaning have changed over time",
-                "study of families and the tracing of their lineages and history",
-                "starting point of a river",
-                "former video game developer based in Austin, Texas",
-                "natural process by which life arises from non-living matter, such as simple organic compounds",
-                "point in a Euclidean space used as a reference for geometric measurements of surrounding space",
-                "company",
-                "Wikimedia list article"
+                ""
             ],
-            "span_l":6,
-            "span_r":7,
+            "span_l":7,
+            "span_r":8,
             "sent_idx":6,
             "alias_idx":1,
             "guid_idx":"6_1",
-            "sentence":"The Barnardo family `` traced its origin to Venice , followed by conversion to the Lutheran Church in the sixteenth century '' .",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
             "all_aliases":[
-                "family",
-                "origin",
-                "conversion",
-                "sixteenth century"
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
             ],
             "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
                 [
                     2,
                     3
                 ],
                 [
-                    6,
-                    7
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
                 ],
                 [
                     12,
                     13
                 ],
                 [
-                    19,
-                    21
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":6,
-            "alias":"conversion",
+            "alias":"superpowers",
             "candidates":[
-                "Q36534",
-                "Q578508",
-                "Q904756",
-                "Q2086136",
-                "Q2478751",
-                "Q613015",
-                "Q2603777",
-                "Q814999",
-                "Q2965826",
-                "Q1538947"
+                "Q1489259",
+                "Q1047698"
             ],
             "candidate_titles":[
-                "Chemical reaction",
-                "Try (rugby)",
-                "Religious conversion",
-                "Conversion to Judaism",
-                "Track gauge conversion",
-                "Born again",
-                "Conversion (gridiron football)",
-                "Conversion to Christianity",
-                "Christianization of Scandinavia",
-                "Conversion therapy"
+                "Superpower",
+                "Superpower (ability)"
             ],
             "candidate_descriptions":[
-                "process that results in the interconversion of chemical species",
-                "way of scoring points in rugby league and rugby union football",
-                "Adoption of religious beliefs",
-                "Religious conversion of non-Jews to become members of the Jewish religion and Jewish ethnoreligious community",
-                "change of rail tracks or rail vehicles to a different gauge",
-                "",
-                "football scoring play",
-                "process of religious conversion in which a previously non-Christian person converts to Christianity",
-                "spread of Christianity in Scandinavia between the 8th and the 12th centuries",
-                "psychological or religious attempt to convert gender or sexual orientation"
+                "state with a leading position in the international system and the ability to influence events in its own interest by global projection of power",
+                "superhuman ability of a fictional character"
             ],
-            "span_l":12,
-            "span_r":13,
+            "span_l":8,
+            "span_r":9,
             "sent_idx":6,
             "alias_idx":2,
             "guid_idx":"6_2",
-            "sentence":"The Barnardo family `` traced its origin to Venice , followed by conversion to the Lutheran Church in the sixteenth century '' .",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
             "all_aliases":[
-                "family",
-                "origin",
-                "conversion",
-                "sixteenth century"
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
             ],
             "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
                 [
                     2,
                     3
                 ],
                 [
-                    6,
-                    7
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
                 ],
                 [
                     12,
                     13
                 ],
                 [
-                    19,
-                    21
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":6,
-            "alias":"sixteenth century",
+            "alias":"united states",
             "candidates":[
-                "Q28179",
-                "Q7017"
+                "Q49",
+                "Q846570",
+                "Q66096",
+                "Q30",
+                "Q35657",
+                "Q9212",
+                "Q180072",
+                "Q188819",
+                "Q11220"
             ],
             "candidate_titles":[
-                "Joseon",
-                "16th century"
+                "North America",
+                "Americans",
+                "United States Senate",
+                "United States",
+                "U.S. state",
+                "United States Army",
+                "Billboard Hot 100",
+                "Billboard 200",
+                "United States Navy"
             ],
             "candidate_descriptions":[
-                "Korean kingdom, 1392 to 1897",
-                "century"
+                "continent on the Earth's northwestern quadrant",
+                "citizens or residents of the United States of America",
+                "upper house of the United States Congress",
+                "sovereign state in North America",
+                "constituent political entity sharing sovereignty as the United States of America",
+                "branch of the United States Armed Forces",
+                "single charts in U.S",
+                "US weekly album chart published by Billboard Magazine",
+                "maritime warfare branch of the United States' military"
             ],
-            "span_l":19,
-            "span_r":21,
+            "span_l":11,
+            "span_r":13,
             "sent_idx":6,
             "alias_idx":3,
             "guid_idx":"6_3",
-            "sentence":"The Barnardo family `` traced its origin to Venice , followed by conversion to the Lutheran Church in the sixteenth century '' .",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
             "all_aliases":[
-                "family",
-                "origin",
-                "conversion",
-                "sixteenth century"
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"china",
+            "candidates":[
+                "Q6501380",
+                "Q7209",
+                "Q148",
+                "Q17427",
+                "Q865",
+                "Q9903",
+                "Q16666",
+                "Q170314",
+                "Q8733"
+            ],
+            "candidate_titles":[
+                "Chinese people",
+                "Han dynasty",
+                "China",
+                "Communist Party of China",
+                "Taiwan",
+                "Ming dynasty",
+                "Nanjing",
+                "Second Sino-Japanese War",
+                "Qing dynasty"
+            ],
+            "candidate_descriptions":[
+                "national group",
+                "Chinese dynasty (206 BCE \u2013 220 CE)",
+                "sovereign state in East Asia",
+                "political party of the People's Republic of China",
+                "democratic republic in East Asia, island state of disputed political status, with limited recognition",
+                "former empire in Eastern Asia, last Han Chinese-led imperial regime",
+                "capital of Jiangsu province in Eastern China",
+                "Military conflict between the Republic of China and the Empire of Japan, 1937\u20131945",
+                "former empire in Eastern Asia, last imperial regime of China"
+            ],
+            "span_l":14,
+            "span_r":15,
+            "sent_idx":6,
+            "alias_idx":4,
+            "guid_idx":"6_4",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"fused",
+            "candidates":[
+                "Q2527106",
+                "Q189036",
+                "Q17100949",
+                "Q664571",
+                "Q5161315",
+                "Q3091113",
+                "Q529093",
+                "Q5509998",
+                "Q182221"
+            ],
+            "candidate_titles":[
+                "Glass fusing",
+                "Cell fusion",
+                "List of Steven Universe characters",
+                "Fuse (explosives)",
+                "Connation",
+                "Fused (album)",
+                "Annulation",
+                "Fused profession",
+                "Fuse (electrical)"
+            ],
+            "candidate_descriptions":[
+                "",
+                "",
+                "Wikimedia list article",
+                "part of a device that initiates function in an explosive, pyrotechnic device or military munition",
+                "",
+                "album by Tony Iommi",
+                "Annulation (latin: anellus =  small ring), also called condensation or Fusion,  is the term in chemistry for adding an additional ring to one or several already available molecules",
+                "",
+                "type of low resistance resistor that acts as a sacrificial device to provide overcurrent protection of either the load or source circuit"
+            ],
+            "span_l":16,
+            "span_r":17,
+            "sent_idx":6,
+            "alias_idx":5,
+            "guid_idx":"6_5",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"form",
+            "candidates":[
+                "Q183252",
+                "Q40795",
+                "Q862597",
+                "Q655362",
+                "Q482",
+                "Q3705105",
+                "Q3363772",
+                "Q735",
+                "Q2295204"
+            ],
+            "candidate_titles":[
+                "Morphology (biology)",
+                "Kata",
+                "Musical form",
+                "Plant morphology",
+                "Poetry",
+                "Chinese martial arts",
+                "Formalism (art)",
+                "Art",
+                "Habit (biology)"
+            ],
+            "candidate_descriptions":[
+                "biology: the structure and form of organisms",
+                "detailed choreographed patterns of movements in martial arts",
+                "overall structure or plan of a piece of music",
+                "part of botany",
+                "form of literary art",
+                "category of martial arts",
+                "study of art by analyzing and comparing form and style",
+                "expressive work intended to be appreciated for its beauty or emotional power; or the process of creating such a work",
+                "botany"
+            ],
+            "span_l":18,
+            "span_r":19,
+            "sent_idx":6,
+            "alias_idx":6,
+            "guid_idx":"6_6",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"central",
+            "candidates":[
+                "Q2767140",
+                "Q27275",
+                "Q280658",
+                "Q27509",
+                "Q193592",
+                "Q190716",
+                "Q27611",
+                "Q318541",
+                "Q336286"
+            ],
+            "candidate_titles":[
+                "Government of India",
+                "Central Asia",
+                "Forward (association football)",
+                "Central Europe",
+                "Midfielder",
+                "Central Province, Sri Lanka",
+                "Central America",
+                "Kirkwood gap",
+                "Defender (association football)"
+            ],
+            "candidate_descriptions":[
+                "national union government of India",
+                "core region of the Asian continent",
+                "association football position played near the opponent's goal",
+                "region of Europe",
+                "association football position played on both ends of the field",
+                "province of Sri Lanka",
+                "Central geographic region of the Americas",
+                "",
+                "sports position played near the player's team's own goal"
+            ],
+            "span_l":20,
+            "span_r":21,
+            "sent_idx":6,
+            "alias_idx":7,
+            "guid_idx":"6_7",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"federal government",
+            "candidates":[
+                "Q422404",
+                "Q2991162",
+                "Q408",
+                "Q48525",
+                "Q16",
+                "Q30",
+                "Q214102",
+                "Q11268",
+                "Q154797"
+            ],
+            "candidate_titles":[
+                "Government of Canada",
+                "Government of Australia",
+                "Australia",
+                "Federal government of the United States",
+                "Canada",
+                "United States",
+                "Union (American Civil War)",
+                "United States Congress",
+                "Bundestag"
+            ],
+            "candidate_descriptions":[
+                "federal government",
+                "federal democratic administrative authority of Australia",
+                "island country in the Southern hemisphere",
+                "national government of the United States",
+                "sovereign state in North America",
+                "sovereign state in North America",
+                "United States' national government and the 20 free states and five border slave states",
+                "bicameral legislature of the United States",
+                "legislature of Germany; parliament"
+            ],
+            "span_l":21,
+            "span_r":23,
+            "sent_idx":6,
+            "alias_idx":8,
+            "guid_idx":"6_8",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"called",
+            "candidates":[
+                "Q42207",
+                "Q43270",
+                "Q5021687",
+                "Q9440",
+                "Q301",
+                "Q9319",
+                "Q214074",
+                "Q4308813",
+                "Q47551"
+            ],
+            "candidate_titles":[
+                "Caravaggio",
+                "Pieter Bruegel the Elder",
+                "Call to the bar",
+                "Paolo Veronese",
+                "El Greco",
+                "Tintoretto",
+                "Claude Lorrain",
+                "FAA airport categories",
+                "Titian"
+            ],
+            "candidate_descriptions":[
+                "Italian painter (1571\u20131610)",
+                "Flemish painter (1526-1569)",
+                "authorization to practice as a barrister",
+                "Italian painter of the Renaissance (1528-1588)",
+                "Greek painter, sculptor and architect (1541-1614)",
+                "Italian painter of the Renaissance school",
+                "French painter, draughtsman and etcher (1600-1682)",
+                "",
+                "Italian painter (c.1490-1576)"
+            ],
+            "span_l":24,
+            "span_r":25,
+            "sent_idx":6,
+            "alias_idx":9,
+            "guid_idx":"6_9",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"alliance",
+            "candidates":[
+                "Q131569",
+                "Q244927",
+                "Q1443451",
+                "Q153867",
+                "Q808210",
+                "Q546881",
+                "Q985230",
+                "Q7184",
+                "Q129815"
+            ],
+            "candidate_titles":[
+                "Treaty",
+                "Alliance Party of Northern Ireland",
+                "Glossary of professional wrestling terms",
+                "Triple Alliance (1882)",
+                "Barisan Nasional",
+                "Canadian Alliance",
+                "Alliance, Ohio",
+                "NATO",
+                "National Democratic Alliance"
+            ],
+            "candidate_descriptions":[
+                "express agreement under international law entered into by actors in international law",
+                "political party in Northern Ireland",
+                "Wikimedia glossary list article",
+                "1882 alliance between Germany, Austria\u2013Hungary, Italy, and Romania",
+                "Largest political coalition in Malaysia",
+                "political party in Canada",
+                "city in Stark and Mahoning counties in the U.S. state of Ohio",
+                "intergovernmental military alliance of Western states",
+                "political coalition in India, led by the BJP"
+            ],
+            "span_l":26,
+            "span_r":27,
+            "sent_idx":6,
+            "alias_idx":10,
+            "guid_idx":"6_10",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"resulting",
+            "candidates":[
+                "Q1350376"
+            ],
+            "candidate_titles":[
+                "Result (cricket)"
+            ],
+            "candidate_descriptions":[
+                "cricket term"
+            ],
+            "span_l":28,
+            "span_r":29,
+            "sent_idx":6,
+            "alias_idx":11,
+            "guid_idx":"6_11",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"fusion",
+            "candidates":[
+                "Q920675",
+                "Q1686336",
+                "Q188451",
+                "Q14645460",
+                "Q105527",
+                "Q4037983",
+                "Q1117010",
+                "Q601763",
+                "Q13082"
+            ],
+            "candidate_titles":[
+                "Ford Fusion (Americas)",
+                "Jeff Lorber",
+                "Music genre",
+                "Fusion TV",
+                "Jazz fusion",
+                "Electronic Games",
+                "Commonwealth Liberal Party",
+                "Fusion cuisine",
+                "Nuclear fusion"
+            ],
+            "candidate_descriptions":[
+                "mid-size car produced by the Ford Motor Company",
+                "American keyboardist, composer, and record producer",
+                "category that identifies pieces of music as belonging to a shared tradition or set of conventions",
+                "an American television channel",
+                "music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues",
+                "US video game magazine",
+                "former Australian political party",
+                "cuisine that combines elements of different culinary traditions",
+                "process naturally occurring in stars where atomic nuclei combine"
+            ],
+            "span_l":31,
+            "span_r":32,
+            "sent_idx":6,
+            "alias_idx":12,
+            "guid_idx":"6_12",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":6,
+            "alias":"cultures",
+            "candidates":[
+                "Q2717220",
+                "Q465299",
+                "Q1125312",
+                "Q51389",
+                "Q953291",
+                "Q3699302",
+                "Q189082",
+                "Q11042",
+                "Q323466"
+            ],
+            "candidate_titles":[
+                "Culture of Indonesia",
+                "Archaeological culture",
+                "Microbiological culture",
+                "LGBT culture",
+                "Culture of Iran",
+                "Australian Aboriginal culture",
+                "Cell culture",
+                "Culture",
+                "Culture of India"
+            ],
+            "candidate_descriptions":[
+                "pattern of human activity and symbolism associated with Indonesia and its people",
+                "recurring assemblage of artifacts from a specific time and place that may constitute the material culture remains of a particular past human society",
+                "in biology, method of multiplying cells, organisms, tissues, and organs under optimal conditions",
+                "Common culture shared by lesbian, gay, bisexual, transgender and queer people",
+                "pattern of human activity and symbolism associated with Iran and its people",
+                "cultures",
+                "process by which cells are grown under controlled conditions",
+                "society's way of life within anthropology",
+                "pattern of human activity and symbolism associated with India"
+            ],
+            "span_l":35,
+            "span_r":36,
+            "sent_idx":6,
+            "alias_idx":13,
+            "guid_idx":"6_13",
+            "sentence":"Whedon pitched the show as `` nine people looking into the blackness of space and seeing nine different things '' . The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 .",
+            "all_aliases":[
+                "whedon",
+                "pitched",
+                "people",
+                "looking",
+                "blackness",
+                "space",
+                "seeing",
+                "different things",
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"whedon",
+            "candidates":[
+                "Q3176340",
+                "Q298025",
+                "Q6587010",
+                "Q6586985",
+                "Q3182725",
+                "Q21491563",
+                "Q3301656"
+            ],
+            "candidate_titles":[
+                "Jed Whedon",
+                "Joss Whedon",
+                "Zack Whedon",
+                "Tom Whedon",
+                "John Whedon",
+                "Whedon",
+                "Maurissa Tancharoen"
+            ],
+            "candidate_descriptions":[
+                "American screenwriter and musician",
+                "American director, writer, and producer",
+                "American screenwriter",
+                "television writer from the United States",
+                "American screenwriter",
+                "family name",
+                "Actress, singer, television producer\/writer"
+            ],
+            "span_l":2,
+            "span_r":3,
+            "sent_idx":7,
+            "alias_idx":0,
+            "guid_idx":"7_0",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"vision",
+            "candidates":[
+                "Q558363",
+                "Q1682108",
+                "Q130741",
+                "Q162668",
+                "Q2307071",
+                "Q737460",
+                "Q844240",
+                "Q507850",
+                "Q4503831"
+            ],
+            "candidate_titles":[
+                "Visual system",
+                "Vision (spirituality)",
+                "Hallucination",
+                "Visual perception",
+                "Vision (Marvel Comics)",
+                "Visual impairment",
+                "Computer vision",
+                "Marian apparition",
+                "Goal"
+            ],
+            "candidate_descriptions":[
+                "system of body parts responsible for sight",
+                "something seen in a dream, trance, or religious ecstasy",
+                "perception in the absence of external stimulation that has the qualities of real perception",
+                "series of events required for an organism to receive a visual stimulus",
+                "Synthozoid with a human heart",
+                "decreased ability to see",
+                "computerized information extraction from images",
+                "supernatural appearance by the Virgin Mary",
+                "idea of the future or desired result that a person or group wants to achieve"
+            ],
+            "span_l":4,
+            "span_r":5,
+            "sent_idx":7,
+            "alias_idx":1,
+            "guid_idx":"7_1",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"change",
+            "candidates":[
+                "Q395",
+                "Q682258",
+                "Q432934",
+                "Q41207",
+                "Q10998095",
+                "Q466462",
+                "Q2314651",
+                "Q3090589",
+                "Q14390"
+            ],
+            "candidate_titles":[
+                "Mathematics",
+                "Peaceful Revolution",
+                "Arthur Mutambara",
+                "Coin",
+                "Personal development",
+                "Chang'e",
+                "Change (band)",
+                "Change.org",
+                "Delta (letter)"
+            ],
+            "candidate_descriptions":[
+                "science of abstract objects and structures",
+                "1989-1990 process disestablishing the GDR",
+                "Zimbabwean politician",
+                "piece of hard material produced in large quantities to facilitate trade",
+                "improvement of awareness and identity, talents and potential, to facilitate employability, enhance quality of life and contribute to the realization of dreams and aspirations",
+                "Chinese mythical figure",
+                "Italian-American post-disco group",
+                "petition website",
+                "letter in the Greek alphabet"
+            ],
+            "span_l":9,
+            "span_r":10,
+            "sent_idx":7,
+            "alias_idx":2,
+            "guid_idx":"7_2",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"future",
+            "candidates":[
+                "Q2057368",
+                "Q183984",
+                "Q32540222",
+                "Q3445057",
+                "Q685018",
+                "Q467204",
+                "Q2298435",
+                "Q501405",
+                "Q6845539"
+            ],
+            "candidate_titles":[
+                "Ghost of Christmas Yet to Come",
+                "Futures contract",
+                "Joyner Lucas",
+                "Future (rapper)",
+                "Future plc",
+                "Days of Future Past",
+                "Futures exchange",
+                "Future tense",
+                "Mika Nagano"
+            ],
+            "candidate_descriptions":[
+                "Fictional character in Dickens\u2019s A Christmas Carol - the third and last spirit to visit Scrooge.",
+                "standardized legal agreement to buy or sell something (usually a commodity or financial instrument) at a predetermined price (\u201cforward price\u201d) at a specified time (\u201cdelivery date\u201d) in the future",
+                "American rapper, singer, songwriter and record producer",
+                "American rapper, singer, songwriter, and record producer",
+                "company",
+                "story arc",
+                "central financial exchange where people can trade standardized futures contracts",
+                "grammatical tense",
+                "Japanese mixed martial artist and professional wrestler"
+            ],
+            "span_l":12,
+            "span_r":13,
+            "sent_idx":7,
+            "alias_idx":3,
+            "guid_idx":"7_3",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"technology",
+            "candidates":[
+                "Q329864",
+                "Q1068473",
+                "Q18388277",
+                "Q11661",
+                "Q466410",
+                "Q179310",
+                "Q1039642",
+                "Q11016",
+                "Q7692562"
+            ],
+            "candidate_titles":[
+                "Military technology",
+                "Educational technology",
+                "Technology company",
+                "Information technology",
+                "High tech",
+                "Computing",
+                "Food technology",
+                "Technology",
+                "Technology College"
+            ],
+            "candidate_descriptions":[
+                "application of technology for use in warfare",
+                "use of technology in education to improve learning and teaching; not restricted to high technology",
+                "company specializing in technology",
+                "development, management, and use of computer-based information systems",
+                "technology that is at the cutting edge",
+                "activity requiring, benefiting from, or creating computers",
+                "academic discipline regarding the healthy preparation of foods",
+                "making, modification, usage, and knowledge of tools, machines, techniques, crafts, systems, and methods of organization",
+                "type of school in the UK which has been given specialist school status for technology"
+            ],
+            "span_l":14,
+            "span_r":15,
+            "sent_idx":7,
+            "alias_idx":4,
+            "guid_idx":"7_4",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"advance",
+            "candidates":[
+                "Q379156",
+                "Q1950285",
+                "Q594015",
+                "Q24061976",
+                "Q1738127",
+                "Q2001676",
+                "Q3474655",
+                "Q4686083",
+                "Q848378"
+            ],
+            "candidate_titles":[
+                "Advance, Missouri",
+                "Advance (album)",
+                "Battle of Sakarya",
+                "Advance, Ohio",
+                "Rolls-Royce Trent",
+                "Offensive (military)",
+                "Advance, North Carolina",
+                "Advance against royalties",
+                "Advance payment"
+            ],
+            "candidate_descriptions":[
+                "city",
+                "album by LFO",
+                "battle",
+                "human settlement in United States of America",
+                "turbofan aircraft engine family",
+                "type of military operation",
+                "human settlement in North Carolina, United States of America",
+                "advance payment made by the licensee to the licensor at the start of the period of licensing",
+                ""
+            ],
+            "span_l":16,
+            "span_r":17,
+            "sent_idx":7,
+            "alias_idx":5,
+            "guid_idx":"7_5",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"political",
+            "candidates":[
+                "Q871419",
+                "Q42388",
+                "Q6216",
+                "Q10858400",
+                "Q330963",
+                "Q831058",
+                "Q191600",
+                "Q36442",
+                "Q7163"
+            ],
+            "candidate_titles":[
+                "District (Austria)",
+                "Zionism",
+                "Liberalism",
+                "Political corruption",
+                "Politics of the United States",
+                "Political freedom",
+                "Civil and political rights",
+                "Political science",
+                "Politics"
+            ],
+            "candidate_descriptions":[
+                "Administrative subdivision of Austria",
+                "Jewish nationalist movement",
+                "political philosophy or worldview founded on ideas of liberty and equality",
+                "use of power by government officials for illegitimate private gain",
+                "political system of the United States of America",
+                "concept in Western history and political thought",
+                "rights preventing the infringement of personal freedom by other social actors",
+                "social science concerned with the study of politics and political systems",
+                "practice and theory of influencing other people, as in government"
+            ],
+            "span_l":25,
+            "span_r":26,
+            "sent_idx":7,
+            "alias_idx":6,
+            "guid_idx":"7_6",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"moral",
+            "candidates":[
+                "Q7326616",
+                "Q331863",
+                "Q14254438",
+                "Q254662",
+                "Q48324",
+                "Q7914594",
+                "Q9465",
+                "Q359056",
+                "Q3048310"
+            ],
+            "candidate_titles":[
+                "Richard Hurd (bishop)",
+                "Jos\u00e9 Zorrilla",
+                "Ethics in religion",
+                "Enrique del Moral",
+                "Morality",
+                "Vaness del Moral",
+                "Ethics",
+                "Manu del Moral",
+                "Eduardo Brizuela del Moral"
+            ],
+            "candidate_descriptions":[
+                "British bishop",
+                "Spanish poet, writer, playwright",
+                "Ethics in religion",
+                "architect (1906-1987)",
+                "differentiation of intentions, decisions and actions between those that are proper and those that are improper",
+                "Filipino actress",
+                "branch of philosophy that systematizes, defends, and recommends concepts of right and wrong conduct",
+                "Spanish footballer",
+                "Argentine politician"
+            ],
+            "span_l":27,
+            "span_r":28,
+            "sent_idx":7,
+            "alias_idx":7,
+            "guid_idx":"7_7",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"ethical",
+            "candidates":[
+                "Q954112",
+                "Q5403491",
+                "Q9465",
+                "Q3655952",
+                "Q2665156",
+                "Q15141396",
+                "Q873451",
+                "Q237151"
+            ],
+            "candidate_titles":[
+                "Ethical consumerism",
+                "Ethics of eating meat",
+                "Ethics",
+                "Legal ethics",
+                "Christian ethics",
+                "Nuclear ethics",
+                "Business ethics",
+                "Medical ethics"
+            ],
+            "candidate_descriptions":[
+                "",
+                "Food ethics topic",
+                "branch of philosophy that systematizes, defends, and recommends concepts of right and wrong conduct",
+                "analysis of the ethical code of those who practice the law",
+                "branch of Christian theology that defines virtuous behavior and wrong behavior from a Christian perspective",
+                "",
+                "application of ethical principles to the area of business activities",
+                "system of moral principles of the practice of medicine"
+            ],
+            "span_l":30,
+            "span_r":31,
+            "sent_idx":7,
+            "alias_idx":8,
+            "guid_idx":"7_8",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"problems",
+            "candidates":[
+                "Q130740",
+                "Q20858218",
+                "Q7246973",
+                "Q273167",
+                "Q3045363",
+                "Q65080846"
+            ],
+            "candidate_titles":[
+                "Fuckin' Problems",
+                "Problems (song)",
+                "Problems (TV series)",
+                "Hilbert's problems",
+                "Problems (Aristotle)",
+                "Problems (album)"
+            ],
+            "candidate_descriptions":[
+                "single by A$AP Rocky featuring Drake, 2 Chainz and Kendrick Lamar",
+                "1958 song performed by Everly Brothers",
+                "television series",
+                "23 problems in mathematics published in 1900",
+                "work attributed to Aristotle",
+                "2019 studio album by The Get Up Kids"
+            ],
+            "span_l":31,
+            "span_r":32,
+            "sent_idx":7,
+            "alias_idx":9,
+            "guid_idx":"7_9",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":7,
+            "alias":"today",
+            "candidates":[
+                "Q6939",
+                "Q4353208",
+                "Q4213190",
+                "Q130838",
+                "Q7979443",
+                "Q224367",
+                "Q7812175",
+                "Q477719",
+                "Q7812185"
+            ],
+            "candidate_titles":[
+                "21st century",
+                "Today (BBC Radio 4)",
+                "Ray Cappo",
+                "Today (American TV program)",
+                "Weekend Today",
+                "The Beach Boys Today!",
+                "Today (Australian TV program)",
+                "Today (Singapore newspaper)",
+                "Today (UK newspaper)"
+            ],
+            "candidate_descriptions":[
+                "century",
+                "BBC Radio 4's long-running early morning news and current affairs programme",
+                "American vocalist",
+                "American morning television program broadcast on NBC",
+                "US television program",
+                "1965 studio album by US band The Beach Boys",
+                "Australian breakfast television program",
+                "newspaper",
+                "national newspaper in the United Kingdom"
+            ],
+            "span_l":33,
+            "span_r":34,
+            "sent_idx":7,
+            "alias_idx":10,
+            "guid_idx":"7_10",
+            "sentence":"The show explores the lives of a group of people , some of whom fought on the losing side of a civil war , who make a living on the fringes of society as part of the pioneer culture of their star system . In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings .",
+            "all_aliases":[
+                "the show",
+                "lives",
+                "group",
+                "people",
+                "fought",
+                "losing",
+                "civil war",
+                "living",
+                "fringes",
+                "society",
+                "pioneer",
+                "culture",
+                "star system",
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings"
+            ],
+            "all_spans":[
+                [
+                    0,
+                    2
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    17,
+                    18
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    32,
+                    33
+                ],
+                [
+                    37,
+                    38
+                ],
+                [
+                    38,
+                    39
+                ],
+                [
+                    41,
+                    43
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":8,
+            "alias":"firefly",
+            "candidates":[
+                "Q25420",
+                "Q994007",
+                "Q1152505",
+                "Q2635751",
+                "Q5451822",
+                "Q8563312",
+                "Q11622",
+                "Q1487670",
+                "Q1418913"
+            ],
+            "candidate_titles":[
+                "Firefly",
+                "Fairey Firefly",
+                "Sherman Firefly",
+                "Firefly (DC Comics)",
+                "Firefly (G.I. Joe)",
+                "Firefly Music Festival",
+                "Firefly (TV series)",
+                "GWR Firefly Class",
+                "Firefly (airline)"
+            ],
+            "candidate_descriptions":[
+                "family of insects",
+                "1941 fighter-reconnaissance aircraft family by Fairey",
+                "Tank created by Britain during World War II",
+                "fictional character in DC Comics",
+                "fictional character in the G.I. Joe: A Real American Hero universe",
+                "annual music festival held at the Dover International Speedway in Dover, Delaware, United States",
+                "American space western television series",
+                "class of 62 British broad-gauge 2-2-2 locomotives",
+                "airline in Malaysia"
+            ],
+            "span_l":1,
+            "span_r":2,
+            "sent_idx":8,
+            "alias_idx":0,
+            "guid_idx":"8_0",
+            "sentence":"In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals .",
+            "all_aliases":[
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals"
             ],
             "all_spans":[
                 [
@@ -1604,116 +21531,129 @@ const ned_info = {
                     3
                 ],
                 [
-                    6,
-                    7
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
                 ],
                 [
                     12,
                     13
                 ],
                 [
-                    19,
-                    21
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":7,
-            "alias":"child",
-            "candidates":[
-                "Q302",
-                "Q14045",
-                "Q2517093",
-                "Q214477",
-                "Q942467",
-                "Q453987",
-                "Q42025",
-                "Q2344992",
-                "Q181715",
-                "Q167191"
-            ],
-            "candidate_titles":[
-                "Jesus",
-                "Moby",
-                "Child Ballads",
-                "Julia Child",
-                "Christ Child",
-                "Desmond Child",
-                "Q-Tip (musician)",
-                "Francis James Child",
-                "Th\u00e9r\u00e8se of Lisieux",
-                "Child abuse"
-            ],
-            "candidate_descriptions":[
-                "Jewish preacher and religious leader, central figure of Christianity",
-                "American musician, singer, songwriter, producer, author, and animal rights activist",
-                "collection of 305 traditional ballads, collected by Francis James Child",
-                "American chef",
-                "Jesus as a child up to the age of 12",
-                "American musician, songwriter, and producer",
-                "American recording artist; rapper, singer, actor, record producer and DJ",
-                "American folklorist",
-                "French Discalced Carmelite nun",
-                "maltreatment or neglect of a child"
-            ],
-            "span_l":6,
-            "span_r":7,
-            "sent_idx":7,
-            "alias_idx":0,
-            "guid_idx":"7_0",
-            "sentence":"Barnardo wrote that , as a child , he was selfish and thought that everything that was not his should belong to him .",
-            "all_aliases":[
-                "child"
-            ],
-            "all_spans":[
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
                 [
                     6,
                     7
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
-            "doc_sent_idx":8,
-            "alias":"mindset",
-            "candidates":[
-                "Q771229",
-                "Q3314792",
-                "Q1339824",
-                "Q6863960",
-                "Q6863956",
-                "Q1936486"
-            ],
-            "candidate_titles":[
-                "Allan Snyder",
-                "Mindset (computer)",
-                "Mindset",
-                "Mindset Network",
-                "Mindset (album)",
-                "Mindset (vehicle)"
-            ],
-            "candidate_descriptions":[
-                "Australian scientist",
-                "personal computer released in 1984",
-                "set of assumptions, methods, or notations held by one or more people or groups of people",
-                "African nonprofit organization and free-to air digital satellite TV",
-                "album by The Necks",
-                "Swiss company"
-            ],
-            "span_l":10,
-            "span_r":11,
-            "sent_idx":8,
-            "alias_idx":0,
-            "guid_idx":"8_0",
-            "sentence":"However , as he grew older , he abandoned this mindset in favour of helping the poor .",
-            "all_aliases":[
-                "mindset",
-                "favour"
-            ],
-            "all_spans":[
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
                 [
                     10,
                     11
@@ -1721,40 +21661,222 @@ const ned_info = {
                 [
                     12,
                     13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
                 ]
             ]
         },
         {
-            "doc_qid":"Q692235",
-            "doc_title":"Thomas John Barnardo",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
             "doc_sent_idx":8,
-            "alias":"favour",
+            "alias":"premiered",
             "candidates":[
-                "Q67017587",
-                "Q6232814",
-                "Q59476627"
+                "Q29197",
+                "Q204854"
             ],
             "candidate_titles":[
-                "Favour Ofili",
-                "John Favour",
-                "Chidinma Favour Edeji"
+                "Season premiere",
+                "Premiere"
             ],
             "candidate_descriptions":[
-                "Track and Field Event",
-                "English minister",
-                "Nigerian footballer"
+                "first episode of a television series season",
+                "first public performance of a work"
             ],
-            "span_l":12,
-            "span_r":13,
+            "span_l":3,
+            "span_r":4,
             "sent_idx":8,
             "alias_idx":1,
             "guid_idx":"8_1",
-            "sentence":"However , as he grew older , he abandoned this mindset in favour of helping the poor .",
+            "sentence":"In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals .",
             "all_aliases":[
-                "mindset",
-                "favour"
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals"
             ],
             "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
                 [
                     10,
                     11
@@ -1762,189 +21884,2376 @@ const ned_info = {
                 [
                     12,
                     13
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":0,
-            "alias":"monk",
-            "candidates":[
-                "Q109612",
-                "Q189068",
-                "Q335106",
-                "Q854997",
-                "Q267170",
-                "Q2349947",
-                "Q7598699",
-                "Q733786",
-                "Q1340803",
-                "Q1784985"
-            ],
-            "candidate_titles":[
-                "Thelonious Monk",
-                "Monk (TV series)",
-                "George Monck, 1st Duke of Albemarle",
-                "Bhikkhu",
-                "Meredith Monk",
-                "Christian monasticism",
-                "Stanfield Organization",
-                "Monk",
-                "Garry Monk",
-                "Jain monasticism"
-            ],
-            "candidate_descriptions":[
-                "American jazz pianist and composer",
-                "American television series",
-                "English soldier and politician (1608-1670)",
-                "male Buddhist monk",
-                "American musician",
-                "Christian devotional practice",
-                "fictional criminal organization",
-                "member of a monastic religious order",
-                "English footballer (born 1979)",
-                "Jain monasticism"
-            ],
-            "span_l":13,
-            "span_r":14,
-            "sent_idx":10,
-            "alias_idx":0,
-            "guid_idx":"10_0",
-            "sentence":"William de St-Calais ( died 2 January 1096 ) was a medieval Norman monk , abbot of the in Le Mans in Maine , who was nominated by King William I of England as Bishop of Durham in 1080 .",
-            "all_aliases":[
-                "monk",
-                "abbot"
-            ],
-            "all_spans":[
-                [
-                    13,
-                    14
                 ],
                 [
                     15,
                     16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":0,
-            "alias":"abbot",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":8,
+            "alias":"us",
             "candidates":[
-                "Q188411",
-                "Q103163",
-                "Q52447",
-                "Q203643",
-                "Q170547",
-                "Q306514",
-                "Q3430033",
-                "Q231861",
-                "Q137934",
-                "Q550064"
+                "Q30",
+                "Q11223",
+                "Q35657",
+                "Q9212",
+                "Q188819",
+                "Q11696",
+                "Q180072",
+                "Q11220",
+                "Q485240"
             ],
             "candidate_titles":[
-                "Bernard of Clairvaux",
-                "Abbot",
-                "RZA",
-                "James Abbott McNeill Whistler",
-                "Anthony the Great",
-                "Abbie Hoffman",
-                "Abb\u00e9",
-                "Berenice Abbott",
-                "Suger",
-                "Malmesbury Abbey"
+                "United States",
+                "United States Air Force",
+                "U.S. state",
+                "United States Army",
+                "Billboard 200",
+                "President of the United States",
+                "Billboard Hot 100",
+                "United States Navy",
+                "Billboard (magazine)"
             ],
             "candidate_descriptions":[
-                "French abbot, theologian",
-                "religious title",
-                "American rapper, record producer, actor, writer",
-                "American painter (1834-1903)",
-                "Christian saint, monk, and hermit",
-                "American political and social activist (1936-1989)",
-                "title for lower-ranking Catholic clergymen in France",
-                "American photographer",
-                "French abbot-statesmen, historian and the influential first patron of Gothic architecture (1080-1151)",
-                "abbey and parish church in Wiltshire, England"
+                "sovereign state in North America",
+                "air warfare branch of the United States Armed Forces",
+                "constituent political entity sharing sovereignty as the United States of America",
+                "branch of the United States Armed Forces",
+                "US weekly album chart published by Billboard Magazine",
+                "head of state and of government of the United States",
+                "single charts in U.S",
+                "maritime warfare branch of the United States' military",
+                "US music magazine"
+            ],
+            "span_l":6,
+            "span_r":7,
+            "sent_idx":8,
+            "alias_idx":2,
+            "guid_idx":"8_2",
+            "sentence":"In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals .",
+            "all_aliases":[
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":8,
+            "alias":"fox network",
+            "candidates":[
+                "Q166419"
+            ],
+            "candidate_titles":[
+                "Fox Broadcasting Company"
+            ],
+            "candidate_descriptions":[
+                "American television network"
+            ],
+            "span_l":9,
+            "span_r":11,
+            "sent_idx":8,
+            "alias_idx":3,
+            "guid_idx":"8_3",
+            "sentence":"In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals .",
+            "all_aliases":[
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":8,
+            "alias":"september 20",
+            "candidates":[
+                "Q7452193",
+                "Q2892"
+            ],
+            "candidate_titles":[
+                "September 20 (Eastern Orthodox liturgics)",
+                "September 20"
+            ],
+            "candidate_descriptions":[
+                "day in the Eastern Orthodox liturgical calendar",
+                "date"
+            ],
+            "span_l":12,
+            "span_r":14,
+            "sent_idx":8,
+            "alias_idx":4,
+            "guid_idx":"8_4",
+            "sentence":"In this future , the only two surviving superpowers , the United States and China , fused to form the central federal government , called the Alliance , resulting in the fusion of the two cultures . According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals .",
+            "all_aliases":[
+                "future",
+                "surviving",
+                "superpowers",
+                "united states",
+                "china",
+                "fused",
+                "form",
+                "central",
+                "federal government",
+                "called",
+                "alliance",
+                "resulting",
+                "fusion",
+                "cultures",
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    8,
+                    9
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    18,
+                    19
+                ],
+                [
+                    20,
+                    21
+                ],
+                [
+                    21,
+                    23
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    26,
+                    27
+                ],
+                [
+                    28,
+                    29
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    35,
+                    36
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":9,
+            "alias":"firefly",
+            "candidates":[
+                "Q25420",
+                "Q11622",
+                "Q994007",
+                "Q1152505",
+                "Q5451822",
+                "Q2635751",
+                "Q8563312",
+                "Q1487670",
+                "Q1418913"
+            ],
+            "candidate_titles":[
+                "Firefly",
+                "Firefly (TV series)",
+                "Fairey Firefly",
+                "Sherman Firefly",
+                "Firefly (G.I. Joe)",
+                "Firefly (DC Comics)",
+                "Firefly Music Festival",
+                "GWR Firefly Class",
+                "Firefly (airline)"
+            ],
+            "candidate_descriptions":[
+                "family of insects",
+                "American space western television series",
+                "1941 fighter-reconnaissance aircraft family by Fairey",
+                "Tank created by Britain during World War II",
+                "fictional character in the G.I. Joe: A Real American Hero universe",
+                "fictional character in DC Comics",
+                "annual music festival held at the Dover International Speedway in Dover, Delaware, United States",
+                "class of 62 British broad-gauge 2-2-2 locomotives",
+                "airline in Malaysia"
+            ],
+            "span_l":4,
+            "span_r":5,
+            "sent_idx":9,
+            "alias_idx":0,
+            "guid_idx":"9_0",
+            "sentence":"According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction .",
+            "all_aliases":[
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":9,
+            "alias":"averaged",
+            "candidates":[
+                "Q11733861",
+                "Q2421034",
+                "Q3595484"
+            ],
+            "candidate_titles":[
+                "Calculated Match Average",
+                "Batting average (cricket)",
+                "Bowling average"
+            ],
+            "candidate_descriptions":[
+                "",
+                "Total number of runs that a player has scored divided by the number of times that player has been out",
+                "statistic used to compare bowlers in the sport of cricket"
+            ],
+            "span_l":7,
+            "span_r":8,
+            "sent_idx":9,
+            "alias_idx":1,
+            "guid_idx":"9_1",
+            "sentence":"According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction .",
+            "all_aliases":[
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":9,
+            "alias":"viewers",
+            "candidates":[
+                "Q211198"
+            ],
+            "candidate_titles":[
+                "Audience"
+            ],
+            "candidate_descriptions":[
+                "group of people who participate in a show or encounter a work of art"
+            ],
+            "span_l":10,
+            "span_r":11,
+            "sent_idx":9,
+            "alias_idx":2,
+            "guid_idx":"9_2",
+            "sentence":"According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction .",
+            "all_aliases":[
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":9,
+            "alias":"episode",
+            "candidates":[
+                "Q1983062",
+                "Q462612",
+                "Q2115663",
+                "Q5944",
+                "Q794445",
+                "Q80603",
+                "Q1195856",
+                "Q327710",
+                "Q1431575"
+            ],
+            "candidate_titles":[
+                "Episode",
+                "List of Torchwood episodes",
+                "Section (music)",
+                "List of The Simpsons episodes",
+                "List of Dexter episodes",
+                "List of 30 Rock episodes",
+                "List of Fringe episodes",
+                "List of Lost episodes",
+                "List of Maverick episodes"
+            ],
+            "candidate_descriptions":[
+                "part of a work such as a serial television or radio drama",
+                "Wikimedia list article",
+                "section in a musical work",
+                "Wikimedia list article",
+                "Wikimedia list article",
+                "Wikimedia list article",
+                "Wikimedia list article",
+                "Wikimedia list article",
+                "Wikimedia list article"
+            ],
+            "span_l":12,
+            "span_r":13,
+            "sent_idx":9,
+            "alias_idx":3,
+            "guid_idx":"9_3",
+            "sentence":"According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction .",
+            "all_aliases":[
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":9,
+            "alias":"98th",
+            "candidates":[
+                "Q4646245",
+                "Q4646239",
+                "Q4646254",
+                "Q2818685"
+            ],
+            "candidate_titles":[
+                "98th Operations Group",
+                "98th New York State Legislature",
+                "98th United States Congress",
+                "91st (Argyllshire Highlanders) Regiment of Foot"
+            ],
+            "candidate_descriptions":[
+                "",
+                "NewYork state legislative session",
+                "1983\u20131985 U.S. Congress",
+                ""
             ],
             "span_l":15,
             "span_r":16,
-            "sent_idx":10,
-            "alias_idx":1,
-            "guid_idx":"10_1",
-            "sentence":"William de St-Calais ( died 2 January 1096 ) was a medieval Norman monk , abbot of the in Le Mans in Maine , who was nominated by King William I of England as Bishop of Durham in 1080 .",
+            "sent_idx":9,
+            "alias_idx":4,
+            "guid_idx":"9_4",
+            "sentence":"According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction .",
             "all_aliases":[
-                "monk",
-                "abbot"
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction"
             ],
             "all_spans":[
                 [
-                    13,
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
                     14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
                 ],
                 [
                     15,
                     16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":1,
-            "alias":"term",
+            "doc_qid":"Q11622",
+            "doc_title":"Firefly (TV series)",
+            "doc_sent_idx":9,
+            "alias":"nielsen ratings",
             "candidates":[
-                "Q2269240",
-                "Q11471",
-                "Q4055684",
-                "Q524572",
-                "Q581993",
-                "Q1725664",
-                "Q1071233",
-                "Q5165703",
-                "Q1188986",
-                "Q1318370"
+                "Q1618101",
+                "Q699413",
+                "Q629981"
             ],
             "candidate_titles":[
-                "Academic term",
-                "Time",
-                "First-order logic",
-                "Term of office",
-                "Term limit",
-                "Terminology",
-                "Terminal emulator",
-                "Contractual term",
-                "Term (time)",
-                "Term (logic)"
+                "Nielsen ratings",
+                "Nielsen Media Research",
+                "Nielsen Audio"
             ],
             "candidate_descriptions":[
-                "portion of a school year ending with grade assignments",
-                "dimension in which events can be ordered from the past through the present into the future",
-                "collection of formal systems used in mathematics, philosophy, linguistics, and computer science",
-                "time limit for a politician holding a given position (sometimes renewable)",
-                "legal restriction that limits the number of terms an officeholder may serve in a particular elected office",
-                "academic discipline studying terms and their general uses",
-                "program that emulates a video terminal",
-                "any provision forming part of a contract",
-                "period of duration, time or occurrence, in relation to an event",
-                "mathematical expression that may form a separable part of an equation, a series, or another expression; used in in mathematical logic, universal algebra, and rewriting systems"
+                "audience measurement systems operated by Nielsen Media Research",
+                "",
+                "company"
+            ],
+            "span_l":17,
+            "span_r":19,
+            "sent_idx":9,
+            "alias_idx":5,
+            "guid_idx":"9_5",
+            "sentence":"According to Whedon 's vision , `` nothing will change in the future : technology will advance , but we will still have the same political , moral , and ethical problems as today '' . `` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction .",
+            "all_aliases":[
+                "whedon",
+                "vision",
+                "change",
+                "future",
+                "technology",
+                "advance",
+                "political",
+                "moral",
+                "ethical",
+                "problems",
+                "today",
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction"
+            ],
+            "all_spans":[
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    14,
+                    15
+                ],
+                [
+                    16,
+                    17
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    27,
+                    28
+                ],
+                [
+                    30,
+                    31
+                ],
+                [
+                    31,
+                    32
+                ],
+                [
+                    33,
+                    34
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":0,
+            "alias":"list of fictional dogs",
+            "candidates":[
+                "Q3247912"
+            ],
+            "candidate_titles":[
+                "List of fictional dogs"
+            ],
+            "candidate_descriptions":[
+                "Wikimedia list article"
+            ],
+            "span_l":1,
+            "span_r":5,
+            "sent_idx":10,
+            "alias_idx":0,
+            "guid_idx":"10_0",
+            "sentence":"`` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs .",
+            "all_aliases":[
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":0,
+            "alias":"subsidiary",
+            "candidates":[
+                "Q658255"
+            ],
+            "candidate_titles":[
+                "Subsidiary"
+            ],
+            "candidate_descriptions":[
+                "company that is completely or partly owned and partly or wholly controlled by another company"
+            ],
+            "span_l":6,
+            "span_r":7,
+            "sent_idx":10,
+            "alias_idx":1,
+            "guid_idx":"10_1",
+            "sentence":"`` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs .",
+            "all_aliases":[
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":0,
+            "alias":"list of fictional animals",
+            "candidates":[
+                "Q1862181"
+            ],
+            "candidate_titles":[
+                "Lists of fictional animals"
+            ],
+            "candidate_descriptions":[
+                "Wikimedia list article"
+            ],
+            "span_l":9,
+            "span_r":13,
+            "sent_idx":10,
+            "alias_idx":2,
+            "guid_idx":"10_2",
+            "sentence":"`` Firefly '' premiered in the US on the Fox network on September 20 , 2002 . By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs .",
+            "all_aliases":[
+                "firefly",
+                "premiered",
+                "us",
+                "fox network",
+                "september 20",
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    11
+                ],
+                [
+                    12,
+                    14
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":1,
+            "alias":"restricted",
+            "candidates":[
+                "Q846498",
+                "Q3558419",
+                "Q7316309",
+                "Q4214118",
+                "Q123452"
+            ],
+            "candidate_titles":[
+                "Classified information",
+                "Firearms regulation in Canada",
+                "Restricted stock",
+                "Plant quarantine",
+                "Endemism"
+            ],
+            "candidate_descriptions":[
+                "material that a government body claims is sensitive information that requires protection of confidentiality, integrity, or availability",
+                "Firearms regulations",
+                "Category of stock",
+                "disease- and pest-free plant technique",
+                "Ecological state of being unique to a defined geographic location or habitat"
             ],
             "span_l":2,
             "span_r":3,
             "sent_idx":11,
             "alias_idx":0,
             "guid_idx":"11_0",
-            "sentence":"During his term as bishop , St-Calais replaced the canons of his cathedral chapter with monks , and began the construction of Durham Cathedral .",
+            "sentence":"By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
             "all_aliases":[
-                "term",
-                "bishop",
-                "canons",
-                "cathedral chapter",
-                "monks",
-                "construction"
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
             ],
             "all_spans":[
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
                 [
                     2,
                     3
@@ -1954,79 +24263,125 @@ const ned_info = {
                     5
                 ],
                 [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
                     9,
                     10
                 ],
                 [
-                    12,
-                    14
+                    11,
+                    12
                 ],
                 [
-                    15,
-                    16
+                    2,
+                    3
                 ],
                 [
-                    20,
-                    21
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
             "doc_sent_idx":1,
-            "alias":"bishop",
+            "alias":"notable",
             "candidates":[
-                "Q19546",
-                "Q29182",
-                "Q8018",
-                "Q665487",
-                "Q189854",
-                "Q1587771",
-                "Q44269",
-                "Q1347378",
-                "Q171905",
-                "Q1080277"
+                "Q4215962",
+                "Q4993710"
             ],
             "candidate_titles":[
-                "Pope",
-                "Bishop",
-                "Augustine of Hippo",
-                "Diocese",
-                "Metropolitan bishop",
-                "Bishop of London",
-                "Saint Nicholas",
-                "Episcopal polity",
-                "Jamie Foxx",
-                "Bishop of Durham"
+                "Notability in the English Wikipedia",
+                "Notability"
             ],
             "candidate_descriptions":[
-                "leader of the worldwide Catholic Church",
-                "ordained or consecrated member of the Christian clergy (for Catholic bishops, use Q611644, for Orthodox bishops, use Q15283040)",
-                "early Christian theologian, philosopher and Church Father",
-                "Christian district or see under the supervision of a bishop",
-                "ecclesiastical office",
-                "third most senior bishop of the Church of England",
-                "4th-century Christian saint",
-                "hierarchical form of church governance",
-                "American actor, comedian, singer, and broadcaster from Texas",
-                "Diocesan bishop in the Church of England"
+                "criteria for topic in wikipedia",
+                "property of being worthy of notice, or being considered to be of a high degree of interest or significance"
             ],
             "span_l":4,
             "span_r":5,
             "sent_idx":11,
             "alias_idx":1,
             "guid_idx":"11_1",
-            "sentence":"During his term as bishop , St-Calais replaced the canons of his cathedral chapter with monks , and began the construction of Durham Cathedral .",
+            "sentence":"By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
             "all_aliases":[
-                "term",
-                "bishop",
-                "canons",
-                "cathedral chapter",
-                "monks",
-                "construction"
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
             ],
             "all_spans":[
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
                 [
                     2,
                     3
@@ -2036,222 +24391,444 @@ const ned_info = {
                     5
                 ],
                 [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
                     9,
                     10
                 ],
                 [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":1,
+            "alias":"dog",
+            "candidates":[
+                "Q336924",
+                "Q1345388",
+                "Q380656",
+                "Q144",
+                "Q267902",
+                "Q25324",
+                "Q2726999",
+                "Q598243",
+                "Q39367"
+            ],
+            "candidate_titles":[
+                "Ol' Dirty Bastard",
+                "Greyhound racing",
+                "Big Pun",
+                "Dog",
+                "Jim Mattis",
+                "Canidae",
+                "Fred McGriff",
+                "Junkyard Dog",
+                "Dog breed"
+            ],
+            "candidate_descriptions":[
+                "American rapper",
+                "dog sport",
+                "American rapper (1971-2000)",
+                "domestic animal",
+                "26th United States Secretary of Defense; United States Marine Corps general",
+                "family of mammals",
+                "American baseball player",
+                "American professional wrestler (1952-1998)",
+                "group of closely related and visibly similar domestic dogs"
+            ],
+            "span_l":5,
+            "span_r":6,
+            "sent_idx":11,
+            "alias_idx":2,
+            "guid_idx":"11_2",
+            "sentence":"By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
+            "all_aliases":[
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
                     12,
-                    14
+                    13
                 ],
                 [
                     15,
                     16
                 ],
                 [
-                    20,
-                    21
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
             "doc_sent_idx":1,
-            "alias":"canons",
+            "alias":"characters",
             "candidates":[
-                "Q1104153",
-                "Q188462",
-                "Q9396355",
-                "Q53831",
-                "Q51623",
-                "Q621154",
-                "Q2992557",
-                "Q7341605",
-                "Q673664",
-                "Q11871705"
+                "Q160362",
+                "Q95074",
+                "Q461070",
+                "Q190502",
+                "Q1211967",
+                "Q1443451",
+                "Q1062345",
+                "Q82772",
+                "Q8201"
             ],
             "candidate_titles":[
-                "Canon (priest)",
-                "Canon law",
-                "Canons regular",
-                "Canon (music)",
-                "Biblical canon",
-                "Western canon",
-                "Canon (hymnography)",
-                "Canon law of the Catholic Church",
-                "Hans Canon",
-                "Canon (canon law)"
+                "Theophrastus",
+                "Character (arts)",
+                "Gimmick (professional wrestling)",
+                "Japanese writing system",
+                "Phenotypic trait",
+                "Glossary of professional wrestling terms",
+                "Player character",
+                "Kanji",
+                "Chinese characters"
             ],
             "candidate_descriptions":[
-                "cleric; member of certain bodies subject to an ecclesiastical rule",
-                "ordinances and regulations made by Church leadership for the government of a Christian organization or church and its members",
+                "ancient Greek philosopher (-370--286)",
+                "fictional human or non-human character in a narrative work of art",
+                "wrestler's in-ring persona, character, behavior, attire and\/or other distinguishing traits",
+                "overview of how the Japanese language is written in contemporary times, and the writing system's evolution",
+                "inherited biological feature",
+                "Wikimedia glossary list article",
+                "fictional character in a role-playing or video game that can be played or controlled by a real-world person",
+                "adopted logographic Chinese characters used in the modern Japanese writing system",
+                "logographic writing system used in the Sinosphere region"
+            ],
+            "span_l":6,
+            "span_r":7,
+            "sent_idx":11,
+            "alias_idx":3,
+            "guid_idx":"11_3",
+            "sentence":"By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
+            "all_aliases":[
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":1,
+            "alias":"world",
+            "candidates":[
+                "Q5389",
+                "Q34389",
+                "Q362",
+                "Q2",
+                "Q12221140",
+                "Q19317",
+                "Q361",
+                "Q911134",
+                "Q173402"
+            ],
+            "candidate_titles":[
+                "Olympic Games",
+                "Whitney Houston",
+                "World War II",
+                "Earth",
+                "Parallel universes in fiction",
+                "FIFA World Cup",
+                "World War I",
+                "ICF Canoe Sprint World Championships",
+                "Miss World"
+            ],
+            "candidate_descriptions":[
+                "major international sport event",
+                "American singer, actress, model, and record producer (1963-2012)",
+                "1939\u20131945 global war between the Allied and Axis Powers",
+                "third planet from the Sun in the Solar System",
+                "science fiction genre: universe (Q47306921) coexisting with another universe (such as Q1)",
+                "association football competition for men's national teams",
+                "1914\u20131918 global war, centered in Europe, between the Allied and Central Powers",
                 "",
-                "contrapuntal form of music involving a self-harmonizing theme with imitations offset in time",
-                "list of books believed to form part of the Bible, according to the teachings of a particular Christian denomination",
-                "books, music and art traditionally accepted by Western scholars as the most important in shaping Western culture",
-                "structured hymn used in a number of Eastern Orthodox services",
-                "canon law of the Catholic Church",
-                "Austrian painter (1829-1885)",
-                ""
+                "beauty contest"
             ],
             "span_l":9,
             "span_r":10,
             "sent_idx":11,
-            "alias_idx":2,
-            "guid_idx":"11_2",
-            "sentence":"During his term as bishop , St-Calais replaced the canons of his cathedral chapter with monks , and began the construction of Durham Cathedral .",
-            "all_aliases":[
-                "term",
-                "bishop",
-                "canons",
-                "cathedral chapter",
-                "monks",
-                "construction"
-            ],
-            "all_spans":[
-                [
-                    2,
-                    3
-                ],
-                [
-                    4,
-                    5
-                ],
-                [
-                    9,
-                    10
-                ],
-                [
-                    12,
-                    14
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    20,
-                    21
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":1,
-            "alias":"cathedral chapter",
-            "candidates":[
-                "Q216285",
-                "Q3184737",
-                "Q1030709"
-            ],
-            "candidate_titles":[
-                "Chapter (religion)",
-                "Cathedral chapter",
-                "Cathedral Basilica of Gy\u0151r"
-            ],
-            "candidate_descriptions":[
-                "Body of clergy in Roman Catholic, Anglican, and Nordic Lutheran churches",
-                "group of priests that governs the different activities the cathedrals, called canons",
-                "church in Gy\u0151r, Hungary"
-            ],
-            "span_l":12,
-            "span_r":14,
-            "sent_idx":11,
-            "alias_idx":3,
-            "guid_idx":"11_3",
-            "sentence":"During his term as bishop , St-Calais replaced the canons of his cathedral chapter with monks , and began the construction of Durham Cathedral .",
-            "all_aliases":[
-                "term",
-                "bishop",
-                "canons",
-                "cathedral chapter",
-                "monks",
-                "construction"
-            ],
-            "all_spans":[
-                [
-                    2,
-                    3
-                ],
-                [
-                    4,
-                    5
-                ],
-                [
-                    9,
-                    10
-                ],
-                [
-                    12,
-                    14
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    20,
-                    21
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":1,
-            "alias":"monks",
-            "candidates":[
-                "Q854997",
-                "Q2349947",
-                "Q148836",
-                "Q733786",
-                "Q180186",
-                "Q577051",
-                "Q6900931",
-                "Q8015727",
-                "Q7341229",
-                "Q6225876"
-            ],
-            "candidate_titles":[
-                "Bhikkhu",
-                "Christian monasticism",
-                "Monasticism",
-                "Monk",
-                "Buddhist monasticism",
-                "John Monks",
-                "Monks (Oliver Twist)",
-                "William Monks",
-                "Robert A. G. Monks",
-                "John Monks Jr."
-            ],
-            "candidate_descriptions":[
-                "male Buddhist monk",
-                "Christian devotional practice",
-                "religious way of life",
-                "member of a monastic religious order",
-                "",
-                "General Secretary of the TUC (born 1945)",
-                "character in Charles Dickens' novel Oliver Twist",
-                "Australian architect",
-                "American shareholder activist and rower",
-                "Screenwriter, actor, film director (1910-2004)"
-            ],
-            "span_l":15,
-            "span_r":16,
-            "sent_idx":11,
             "alias_idx":4,
             "guid_idx":"11_4",
-            "sentence":"During his term as bishop , St-Calais replaced the canons of his cathedral chapter with monks , and began the construction of Durham Cathedral .",
+            "sentence":"By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
             "all_aliases":[
-                "term",
-                "bishop",
-                "canons",
-                "cathedral chapter",
-                "monks",
-                "construction"
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
             ],
             "all_spans":[
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
                 [
                     2,
                     3
@@ -2261,1806 +24838,730 @@ const ned_info = {
                     5
                 ],
                 [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
                     9,
                     10
                 ],
                 [
-                    12,
-                    14
+                    11,
+                    12
                 ],
                 [
-                    15,
-                    16
+                    2,
+                    3
                 ],
                 [
-                    20,
-                    21
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
             "doc_sent_idx":1,
-            "alias":"construction",
+            "alias":"fiction",
             "candidates":[
-                "Q8162",
-                "Q385378",
-                "Q474200",
-                "Q811122",
-                "Q115368",
-                "Q60764716",
-                "Q1188797",
-                "Q1229245",
-                "Q811095",
-                "Q811705"
+                "Q833633",
+                "Q12912091",
+                "Q1704428",
+                "Q136472",
+                "Q186424",
+                "Q3873144",
+                "Q2481499",
+                "Q8253",
+                "Q6457533"
             ],
             "candidate_titles":[
-                "Linguistics",
-                "Construction",
-                "Shipbuilding",
-                "Construction worker",
-                "Straightedge and compass construction",
-                "History of Grand Central Terminal",
-                "Construction grammar",
-                "Dispositif",
-                "Construction of the World Trade Center",
-                "Construction law"
+                "Pulitzer Prize for Fiction",
+                "Narrative film",
+                "Gordon Lish",
+                "Historical fiction",
+                "Detective fiction",
+                "National Book Award for Fiction",
+                "Fiction Records",
+                "Fiction",
+                "Mormon fiction"
             ],
             "candidate_descriptions":[
-                "study of human language",
-                "process that consists of the building or assembling of a building or infrastructure",
-                "construction of ships and floating vessels",
-                "person employed in the physical work during construction",
-                "way of drawing geometric objects using only an idealized compass and straightedge",
-                "History of a New York City commuter rail station",
-                "groups a number of models of grammar that all subscribe to the idea that knowledge of a language is based on a collection of \"form and function pairings\". The \"function\" side covers what is commonly understood as meaning, content, or intent",
-                "term used by the French intellectual Michel Foucault, generally to refer to the various institutional, physical, and administrative mechanisms and knowledge structures which enhance and maintain the exercise of power within the social body",
-                "Building construction project in New York City (1968\u20131987)",
-                "the sum of legal rules concerning the building"
-            ],
-            "span_l":20,
-            "span_r":21,
-            "sent_idx":11,
-            "alias_idx":5,
-            "guid_idx":"11_5",
-            "sentence":"During his term as bishop , St-Calais replaced the canons of his cathedral chapter with monks , and began the construction of Durham Cathedral .",
-            "all_aliases":[
-                "term",
-                "bishop",
-                "canons",
-                "cathedral chapter",
-                "monks",
-                "construction"
-            ],
-            "all_spans":[
-                [
-                    2,
-                    3
-                ],
-                [
-                    4,
-                    5
-                ],
-                [
-                    9,
-                    10
-                ],
-                [
-                    12,
-                    14
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    20,
-                    21
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":2,
-            "alias":"addition",
-            "candidates":[
-                "Q571113",
-                "Q32043",
-                "Q212745"
-            ],
-            "candidate_titles":[
-                "Glossary of chess",
-                "Addition",
-                "Addition reaction"
-            ],
-            "candidate_descriptions":[
-                "Wikimedia glossary list article",
-                "arithmetic operation",
-                "organic reaction where two or more molecules combine to form a larger one (the adduct); reverse of an elimination reaction"
-            ],
-            "span_l":1,
-            "span_r":2,
-            "sent_idx":12,
-            "alias_idx":0,
-            "guid_idx":"12_0",
-            "sentence":"In addition to his ecclesiastical duties , he served as a commissioner for the `` Domesday Book `` .",
-            "all_aliases":[
-                "addition",
-                "duties",
-                "commissioner"
-            ],
-            "all_spans":[
-                [
-                    1,
-                    2
-                ],
-                [
-                    5,
-                    6
-                ],
-                [
-                    11,
-                    12
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":2,
-            "alias":"duties",
-            "candidates":[
-                "Q16687744",
-                "Q52389",
-                "Q878070"
-            ],
-            "candidate_titles":[
-                "Duty (economics)",
-                "Tariff",
-                "Duty"
-            ],
-            "candidate_descriptions":[
-                "tax",
-                "tax on the import and export of goods",
-                "commitment or obligation to someone or something or to perform an action on the behalf of"
-            ],
-            "span_l":5,
-            "span_r":6,
-            "sent_idx":12,
-            "alias_idx":1,
-            "guid_idx":"12_1",
-            "sentence":"In addition to his ecclesiastical duties , he served as a commissioner for the `` Domesday Book `` .",
-            "all_aliases":[
-                "addition",
-                "duties",
-                "commissioner"
-            ],
-            "all_spans":[
-                [
-                    1,
-                    2
-                ],
-                [
-                    5,
-                    6
-                ],
-                [
-                    11,
-                    12
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":2,
-            "alias":"commissioner",
-            "candidates":[
-                "Q1215884",
-                "Q8880",
-                "Q859280",
-                "Q1051088",
-                "Q7248108",
-                "Q524778",
-                "Q2661677",
-                "Q2271796",
-                "Q3331518",
-                "Q7270980"
-            ],
-            "candidate_titles":[
-                "National Football League",
-                "European Commission",
-                "Big Sky Conference",
-                "Commissioner of Baseball",
-                "Professional wrestling authority figures",
-                "Commissioner",
-                "European Commissioner",
-                "Roger Goodell",
-                "United States Customs Service",
-                "Queensland Police Service"
-            ],
-            "candidate_descriptions":[
-                "American football professional league",
-                "executive branch of the European Union, responsible for proposing legislation, implementing decisions, upholding the EU treaties and managing the day-to-day business of the EU",
-                "American collegiate athletic conference",
-                "chief executive of Major League Baseball",
-                "Wikimedia category",
-                "title given to a member of a commission or to an individual who has been given a commission",
-                "member of the 28-member European Commission",
-                "Commissioner of the National Football League",
-                "former customs service of the United States",
-                "police service of Queensland, Australia"
+                "award",
+                "film that tells a fictional or fictionalized story, event or narrative",
+                "American journalist",
+                "",
+                "subgenre of crime fiction and mystery fiction in which an investigator or a detective investigates a crime",
+                "",
+                "British record label",
+                "creative genre in which a story or setting is derived from the imagination; can be conveyed through any medium",
+                "fiction by or about members of The Church of Jesus Christ of Latter-day Saints"
             ],
             "span_l":11,
             "span_r":12,
-            "sent_idx":12,
-            "alias_idx":2,
-            "guid_idx":"12_2",
-            "sentence":"In addition to his ecclesiastical duties , he served as a commissioner for the `` Domesday Book `` .",
+            "sent_idx":11,
+            "alias_idx":5,
+            "guid_idx":"11_5",
+            "sentence":"By mid-December , `` Firefly '' had averaged 47 million viewers per episode and was 98th in Nielsen ratings . This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
             "all_aliases":[
-                "addition",
-                "duties",
-                "commissioner"
+                "firefly",
+                "averaged",
+                "viewers",
+                "episode",
+                "98th",
+                "nielsen ratings",
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
             ],
             "all_spans":[
+                [
+                    4,
+                    5
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    10,
+                    11
+                ],
+                [
+                    12,
+                    13
+                ],
+                [
+                    15,
+                    16
+                ],
+                [
+                    17,
+                    19
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
                 [
                     1,
                     2
                 ],
                 [
+                    2,
+                    3
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":2,
+            "alias":"dogs",
+            "candidates":[
+                "Q144",
+                "Q38523",
+                "Q1124833",
+                "Q11722177",
+                "Q39235",
+                "Q2305526",
+                "Q25324",
+                "Q826031",
+                "Q755126"
+            ],
+            "candidate_titles":[
+                "Dog",
+                "Detection dog",
+                "Free-ranging dog",
+                "Dogs in warfare",
+                "Police dog",
+                "Western Bulldogs",
+                "Canidae",
+                "Dog meat",
+                "Dog (zodiac)"
+            ],
+            "candidate_descriptions":[
+                "domestic animal",
+                "dog that is trained to use its senses to detect danger",
+                "any dog that is not contained",
+                "dogs used in military service",
+                "dog that is specifically trained to assist police",
+                "Australian rules football club",
+                "family of mammals",
+                "meat from dogs used as food",
+                "sign of Chinese zodiac"
+            ],
+            "span_l":2,
+            "span_r":3,
+            "sent_idx":12,
+            "alias_idx":0,
+            "guid_idx":"12_0",
+            "sentence":"This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
+            "all_aliases":[
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
                     5,
                     6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
                 ],
                 [
                     11,
                     12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":3,
-            "alias":"councilor",
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":2,
+            "alias":"list of",
             "candidates":[
-                "Q708492",
-                "Q7190651"
+                "Q5358356"
             ],
             "candidate_titles":[
-                "Councillor",
-                "Pichilemu City Council"
+                "List of Japanese television dramas"
             ],
             "candidate_descriptions":[
-                "representative of voters to a local government",
-                "City Council of Pichilemu in Chile"
+                "Wikimedia list article"
             ],
-            "span_l":4,
-            "span_r":5,
+            "span_l":5,
+            "span_r":7,
+            "sent_idx":12,
+            "alias_idx":1,
+            "guid_idx":"12_1",
+            "sentence":"This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
+            "all_aliases":[
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":2,
+            "alias":"dogs",
+            "candidates":[
+                "Q39235",
+                "Q826031",
+                "Q2305526",
+                "Q144",
+                "Q38523",
+                "Q1124833",
+                "Q11722177",
+                "Q755126",
+                "Q25324"
+            ],
+            "candidate_titles":[
+                "Police dog",
+                "Dog meat",
+                "Western Bulldogs",
+                "Dog",
+                "Detection dog",
+                "Free-ranging dog",
+                "Dogs in warfare",
+                "Dog (zodiac)",
+                "Canidae"
+            ],
+            "candidate_descriptions":[
+                "dog that is specifically trained to assist police",
+                "meat from dogs used as food",
+                "Australian rules football club",
+                "domestic animal",
+                "dog that is trained to use its senses to detect danger",
+                "any dog that is not contained",
+                "dogs used in military service",
+                "sign of Chinese zodiac",
+                "family of mammals"
+            ],
+            "span_l":7,
+            "span_r":8,
+            "sent_idx":12,
+            "alias_idx":2,
+            "guid_idx":"12_2",
+            "sentence":"This list of fictional dogs is subsidiary to the list of fictional animals . It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
+            "all_aliases":[
+                "list of fictional dogs",
+                "subsidiary",
+                "list of fictional animals",
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
+            ],
+            "all_spans":[
+                [
+                    1,
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    13
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
+                ]
+            ]
+        },
+        {
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
+            "doc_sent_idx":3,
+            "alias":"mythological",
+            "candidates":[
+                "Q34726",
+                "Q122173",
+                "Q1367434",
+                "Q210677",
+                "Q128285",
+                "Q205740",
+                "Q878062",
+                "Q1130378",
+                "Q1471505"
+            ],
+            "candidate_titles":[
+                "Greek mythology",
+                "Roman mythology",
+                "Classical mythology",
+                "Chinese mythology",
+                "Norse mythology",
+                "Egyptian mythology",
+                "Hindu mythology",
+                "Persian mythology",
+                "Irish mythology"
+            ],
+            "candidate_descriptions":[
+                "body of myths of the ancient Greeks",
+                "traditional stories pertaining to ancient Rome's legendary origins and religious system",
+                "both the body of and the study of myths from the ancient Greeks and Romans as they are used or transformed by cultural reception",
+                "mythology",
+                "body of mythology of the North Germanic people stemming from Norse paganism and continuing after the Christianization of Scandinavia and into the Scandinavian folklore of the modern period",
+                "Myths and practices of the Ancient Egyptians",
+                "mythology in Asia",
+                "traditional legends and stories etc. from the Persian culture",
+                "Pre-Christian Mythology of Ireland"
+            ],
+            "span_l":1,
+            "span_r":2,
             "sent_idx":13,
             "alias_idx":0,
             "guid_idx":"13_0",
-            "sentence":"He was also a councilor and advisor to both King William I and his son , King William II , known as William Rufus .",
+            "sentence":"It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
             "all_aliases":[
-                "councilor",
-                "advisor",
-                "his son"
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
             ],
             "all_spans":[
                 [
+                    2,
+                    3
+                ],
+                [
                     4,
                     5
+                ],
+                [
+                    5,
+                    6
                 ],
                 [
                     6,
                     7
                 ],
                 [
-                    13,
-                    15
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
+                    3
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    7,
+                    8
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    3
                 ]
             ]
         },
         {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
+            "doc_qid":"Q3247912",
+            "doc_title":"List of fictional dogs",
             "doc_sent_idx":3,
-            "alias":"advisor",
+            "alias":"dogs",
             "candidates":[
-                "Q599048",
-                "Q17131110",
-                "Q4686866",
-                "Q2994387",
-                "Q363802",
-                "Q7692317",
-                "Q7450649",
-                "Q4671161",
-                "Q27986870"
+                "Q144",
+                "Q755126",
+                "Q39235",
+                "Q1124833",
+                "Q11722177",
+                "Q38523",
+                "Q25324",
+                "Q826031",
+                "Q2305526"
             ],
             "candidate_titles":[
-                "Political consulting",
-                "Counsel",
-                "Advisory board",
-                "Adviser",
-                "Doctoral advisor",
-                "Technical advisor",
-                "Senior advisor",
-                "Academic advising",
-                "Advisor to the President of Iran"
+                "Dog",
+                "Dog (zodiac)",
+                "Police dog",
+                "Free-ranging dog",
+                "Dogs in warfare",
+                "Detection dog",
+                "Canidae",
+                "Dog meat",
+                "Western Bulldogs"
             ],
             "candidate_descriptions":[
-                "an industry for advising and assisting political campaigns",
-                "legal professional title in English-speaking countries",
-                "body providing strategic advice to an organisation",
-                "person with more and deeper knowledge in a specific area",
-                "Person who supervises the doctoral research of a graduate student",
-                "professional title",
-                "appointed position to advise on national and government policy",
-                "Teaching method",
-                ""
+                "domestic animal",
+                "sign of Chinese zodiac",
+                "dog that is specifically trained to assist police",
+                "any dog that is not contained",
+                "dogs used in military service",
+                "dog that is trained to use its senses to detect danger",
+                "family of mammals",
+                "meat from dogs used as food",
+                "Australian rules football club"
             ],
-            "span_l":6,
-            "span_r":7,
+            "span_l":2,
+            "span_r":3,
             "sent_idx":13,
             "alias_idx":1,
             "guid_idx":"13_1",
-            "sentence":"He was also a councilor and advisor to both King William I and his son , King William II , known as William Rufus .",
+            "sentence":"It is restricted to notable dog characters from the world of fiction . For real\/famous dogs , see List of dogs . For mythological dogs , see .",
             "all_aliases":[
-                "councilor",
-                "advisor",
-                "his son"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":3,
-            "alias":"his son",
-            "candidates":[
-                "Q207",
-                "Q472768",
-                "Q154287",
-                "Q719173",
-                "Q7327575",
-                "Q432266",
-                "Q7329908",
-                "Q4819505",
-                "Q5220387"
-            ],
-            "candidate_titles":[
-                "George W. Bush",
-                "Son of God",
-                "William II of the Netherlands",
-                "Al Unser Jr.",
-                "Richard M. Upjohn",
-                "Willem van de Velde the Younger",
-                "Richard Westmacott (the younger)",
-                "Auckland Colvin",
-                "Danny Glover (footballer)"
-            ],
-            "candidate_descriptions":[
-                "43rd president of the United States",
-                "religious title, designating a monarch, messiah, demigod, or deity",
-                "King of the Netherlands and Grand Duke of Luxembourg 1840 - 1849",
-                "American racecar driver",
-                "American architect",
-                "Dutch painter (1633-1707)",
-                "English sculptor (1799\u20131872)",
-                "English colonial administrator",
-                "English professional football striker (born 1989)"
-            ],
-            "span_l":13,
-            "span_r":15,
-            "sent_idx":13,
-            "alias_idx":2,
-            "guid_idx":"13_2",
-            "sentence":"He was also a councilor and advisor to both King William I and his son , King William II , known as William Rufus .",
-            "all_aliases":[
-                "councilor",
-                "advisor",
-                "his son"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":4,
-            "alias":"accession",
-            "candidates":[
-                "Q1671499",
-                "Q17056679",
-                "Q47232",
-                "Q209715",
-                "Q239768",
-                "Q814935",
-                "Q748162",
-                "Q23609046",
-                "Q4202178",
-                "Q6041863"
-            ],
-            "candidate_titles":[
-                "Enthronement",
-                "Instrument of Accession",
-                "Enlargement of the European Union",
-                "Coronation",
-                "Vienna Convention on the Law of Treaties",
-                "Accession of Turkey to the European Union",
-                "2013 enlargement of the European Union",
-                "2007 enlargement of the European Union",
-                "Enthronement of the Japanese emperor",
-                "Instrument of Accession (Jammu and Kashmir)"
-            ],
-            "candidate_descriptions":[
-                "ceremony",
-                "treaty for princely states to join India or Pakistan",
-                "the accession process of new countries to the European Union",
-                "ceremony marking the formal investiture of a monarch and\/or their consort with regal power",
-                "treaty",
-                "ongoing accession process of Turkey to the EU",
-                "enlargement of the European Union",
-                "",
-                "an ancient ceremony that marks the accession of a new monarch",
-                "kashmir agreement"
-            ],
-            "span_l":4,
-            "span_r":5,
-            "sent_idx":14,
-            "alias_idx":0,
-            "guid_idx":"14_0",
-            "sentence":"Following William Rufus ' accession to the throne in 1087 , St-Calais is considered by scholars to have been the new king 's chief advisor .",
-            "all_aliases":[
-                "accession",
-                "the throne",
-                "scholars",
-                "king",
-                "chief advisor"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    8
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    21,
-                    22
-                ],
-                [
-                    23,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":4,
-            "alias":"the throne",
-            "candidates":[
-                "Q18180905"
-            ],
-            "candidate_titles":[
-                "The Throne (film)"
-            ],
-            "candidate_descriptions":[
-                "2015 South Korean film directed by Lee Joon-ik"
-            ],
-            "span_l":6,
-            "span_r":8,
-            "sent_idx":14,
-            "alias_idx":1,
-            "guid_idx":"14_1",
-            "sentence":"Following William Rufus ' accession to the throne in 1087 , St-Calais is considered by scholars to have been the new king 's chief advisor .",
-            "all_aliases":[
-                "accession",
-                "the throne",
-                "scholars",
-                "king",
-                "chief advisor"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    8
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    21,
-                    22
-                ],
-                [
-                    23,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":4,
-            "alias":"scholars",
-            "candidates":[
-                "Q189459",
-                "Q41679",
-                "Q162633",
-                "Q188823",
-                "Q373665",
-                "Q708299",
-                "Q17079481",
-                "Q24962429",
-                "Q76585",
-                "Q2248623"
-            ],
-            "candidate_titles":[
-                "Ulama",
-                "Scholasticism",
-                "Academy",
-                "Scholarship",
-                "Biblical criticism",
-                "Scholar-official",
-                "Scholarly method",
-                "List of Muisca and pre-Muisca scholars",
-                "List of contemporary Muslim scholars of Islam",
-                "Scholar"
-            ],
-            "candidate_descriptions":[
-                "Muslim legal scholars",
-                "a method of critical thought which dominated teaching by the academics (\"scholastics\", or \"schoolmen\") of medieval universities in Europe from about 1100 to 1700",
-                "institution of higher learning",
-                "award of financial aid for a student to further their education",
-                "scholarly study of biblical writings that seeks to make discerning judgments about these writings",
-                "learned men awarded government positions in Imperial China",
-                "the body of principles and practices used by scholars to make their claims about the subject as valid and trustworthy as possible, and to make them known to the scholarly public",
-                "Wikimedia list article",
-                "Wikimedia list article",
-                "person who devotes themselves to scholarly pursuits"
-            ],
-            "span_l":15,
-            "span_r":16,
-            "sent_idx":14,
-            "alias_idx":2,
-            "guid_idx":"14_2",
-            "sentence":"Following William Rufus ' accession to the throne in 1087 , St-Calais is considered by scholars to have been the new king 's chief advisor .",
-            "all_aliases":[
-                "accession",
-                "the throne",
-                "scholars",
-                "king",
-                "chief advisor"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    8
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    21,
-                    22
-                ],
-                [
-                    23,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":4,
-            "alias":"king",
-            "candidates":[
-                "Q517",
-                "Q38370",
-                "Q2831",
-                "Q81506",
-                "Q122553",
-                "Q7742",
-                "Q20875",
-                "Q269412",
-                "Q8027",
-                "Q32500"
-            ],
-            "candidate_titles":[
-                "Napoleon",
-                "Henry VIII of England",
-                "Michael Jackson",
-                "Charles I of England",
-                "Charles II of England",
-                "Louis XIV of France",
-                "Edward VII",
-                "George V",
-                "Martin Luther King Jr.",
-                "Charles V, Holy Roman Emperor"
-            ],
-            "candidate_descriptions":[
-                "French general and emperor (1769-1821)",
-                "King of England from 1509 until 1547",
-                "American recording artist; singer and songwriter (1958-2009)",
-                "monarch of the three kingdoms of England, Scotland, and Ireland (1600-1649)",
-                "King of England, Ireland and Scotland (1630-1685)",
-                "King of France and Navarra, from 1643 to 1715",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1841-1910)",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1865-1936)",
-                "American clergyman, activist, and leader in the American Civil Rights Movement",
-                "Holy Roman Emperor"
-            ],
-            "span_l":21,
-            "span_r":22,
-            "sent_idx":14,
-            "alias_idx":3,
-            "guid_idx":"14_3",
-            "sentence":"Following William Rufus ' accession to the throne in 1087 , St-Calais is considered by scholars to have been the new king 's chief advisor .",
-            "all_aliases":[
-                "accession",
-                "the throne",
-                "scholars",
-                "king",
-                "chief advisor"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    8
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    21,
-                    22
-                ],
-                [
-                    23,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":4,
-            "alias":"chief advisor",
-            "candidates":[
-                "Q5096655"
-            ],
-            "candidate_titles":[
-                "Chief Adviser of Bangladesh"
-            ],
-            "candidate_descriptions":[
-                "official position in Bangladesh"
-            ],
-            "span_l":23,
-            "span_r":25,
-            "sent_idx":14,
-            "alias_idx":4,
-            "guid_idx":"14_4",
-            "sentence":"Following William Rufus ' accession to the throne in 1087 , St-Calais is considered by scholars to have been the new king 's chief advisor .",
-            "all_aliases":[
-                "accession",
-                "the throne",
-                "scholars",
-                "king",
-                "chief advisor"
-            ],
-            "all_spans":[
-                [
-                    4,
-                    5
-                ],
-                [
-                    6,
-                    8
-                ],
-                [
-                    15,
-                    16
-                ],
-                [
-                    21,
-                    22
-                ],
-                [
-                    23,
-                    25
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":5,
-            "alias":"the king",
-            "candidates":[
-                "Q38370",
-                "Q303",
-                "Q81506",
-                "Q122553",
-                "Q7742",
-                "Q20875",
-                "Q269412",
-                "Q129987",
-                "Q127318",
-                "Q37594"
-            ],
-            "candidate_titles":[
-                "Henry VIII of England",
-                "Elvis Presley",
-                "Charles I of England",
-                "Charles II of England",
-                "Louis XIV of France",
-                "Edward VII",
-                "George V",
-                "William III of England",
-                "George III of the United Kingdom",
-                "William the Conqueror"
-            ],
-            "candidate_descriptions":[
-                "King of England from 1509 until 1547",
-                "American singer and actor (1935\u20131977)",
-                "monarch of the three kingdoms of England, Scotland, and Ireland (1600-1649)",
-                "King of England, Ireland and Scotland (1630-1685)",
-                "King of France and Navarra, from 1643 to 1715",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1841-1910)",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1865-1936)",
-                "William of Orange; King of England, Scotland and Ireland (1650\u20131702)",
-                "King of Great Britain and King of Ireland (1738-1820)",
-                "King of England, Duke of Normandy"
-            ],
-            "span_l":3,
-            "span_r":5,
-            "sent_idx":15,
-            "alias_idx":0,
-            "guid_idx":"15_0",
-            "sentence":"However , when the king 's uncle , Odo of Bayeux , raised a rebellion against the king in 1088 , St-Calais was implicated in the revolt .",
-            "all_aliases":[
-                "the king",
-                "uncle",
-                "a rebellion",
-                "the king",
-                "the revolt"
-            ],
-            "all_spans":[
-                [
-                    3,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ],
-                [
-                    16,
-                    18
-                ],
-                [
-                    25,
-                    27
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":5,
-            "alias":"uncle",
-            "candidates":[
-                "Q855",
-                "Q211696",
-                "Q189587",
-                "Q57109",
-                "Q57134",
-                "Q361257",
-                "Q348618",
-                "Q1067043",
-                "Q313279",
-                "Q770177"
-            ],
-            "candidate_titles":[
-                "Joseph Stalin",
-                "Keith Moon",
-                "Bobby Robson",
-                "Josef Mengele",
-                "Albert Kesselring",
-                "Shel Silverstein",
-                "Kyrie Irving",
-                "Charlie Wilson (singer)",
-                "Jackie Coogan",
-                "James Whitcomb Riley"
-            ],
-            "candidate_descriptions":[
-                "Soviet politician, general secretary of the Communist Party of the Soviet Union and premier of the Soviet Union (1878-1953)",
-                "English rock musician, drummer of The Who",
-                "English association football player and manager (1933-2009)",
-                "Nazi officer and physician (1911-1979)",
-                "German Luftwaffe Generalfeldmarschall during World War II",
-                "American poet, cartoonist, and children's writer (1930-1999)",
-                "Australian-American basketball player",
-                "American singer, songwriter, record producer",
-                "American actor (1914-1984)",
-                "American poet from Indianapolis"
-            ],
-            "span_l":6,
-            "span_r":7,
-            "sent_idx":15,
-            "alias_idx":1,
-            "guid_idx":"15_1",
-            "sentence":"However , when the king 's uncle , Odo of Bayeux , raised a rebellion against the king in 1088 , St-Calais was implicated in the revolt .",
-            "all_aliases":[
-                "the king",
-                "uncle",
-                "a rebellion",
-                "the king",
-                "the revolt"
-            ],
-            "all_spans":[
-                [
-                    3,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ],
-                [
-                    16,
-                    18
-                ],
-                [
-                    25,
-                    27
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":5,
-            "alias":"a rebellion",
-            "candidates":[
-                "Q1940446",
-                "Q2656683",
-                "Q112501",
-                "Q1342065",
-                "Q4290907",
-                "Q7784937",
-                "Q7443491",
-                "Q22948744",
-                "Q5453740",
-                "Q4871611"
-            ],
-            "candidate_titles":[
-                "Monmouth Rebellion",
-                "Simba rebellion",
-                "Revolt of the Three Feudatories",
-                "Engelbrekt rebellion",
-                "Zhong Hui's Rebellion",
-                "Zhuge Dan's Rebellion",
-                "Guanqiu Jian and Wen Qin's Rebellion",
-                "Rebellion of the Alpujarras (1499\u20131501)",
-                "Wang Ling's Rebellion",
-                "Battle of Lucheng"
-            ],
-            "candidate_descriptions":[
-                "1685 English rebellion against James II",
-                "1964 rebellion in Congo",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "series of uprisings in 1499\u20131501",
-                "",
-                "Ancient Chinese battle"
-            ],
-            "span_l":13,
-            "span_r":15,
-            "sent_idx":15,
-            "alias_idx":2,
-            "guid_idx":"15_2",
-            "sentence":"However , when the king 's uncle , Odo of Bayeux , raised a rebellion against the king in 1088 , St-Calais was implicated in the revolt .",
-            "all_aliases":[
-                "the king",
-                "uncle",
-                "a rebellion",
-                "the king",
-                "the revolt"
-            ],
-            "all_spans":[
-                [
-                    3,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ],
-                [
-                    16,
-                    18
-                ],
-                [
-                    25,
-                    27
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":5,
-            "alias":"the king",
-            "candidates":[
-                "Q38370",
-                "Q303",
-                "Q81506",
-                "Q122553",
-                "Q7742",
-                "Q20875",
-                "Q269412",
-                "Q129987",
-                "Q127318",
-                "Q37594"
-            ],
-            "candidate_titles":[
-                "Henry VIII of England",
-                "Elvis Presley",
-                "Charles I of England",
-                "Charles II of England",
-                "Louis XIV of France",
-                "Edward VII",
-                "George V",
-                "William III of England",
-                "George III of the United Kingdom",
-                "William the Conqueror"
-            ],
-            "candidate_descriptions":[
-                "King of England from 1509 until 1547",
-                "American singer and actor (1935\u20131977)",
-                "monarch of the three kingdoms of England, Scotland, and Ireland (1600-1649)",
-                "King of England, Ireland and Scotland (1630-1685)",
-                "King of France and Navarra, from 1643 to 1715",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1841-1910)",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1865-1936)",
-                "William of Orange; King of England, Scotland and Ireland (1650\u20131702)",
-                "King of Great Britain and King of Ireland (1738-1820)",
-                "King of England, Duke of Normandy"
-            ],
-            "span_l":16,
-            "span_r":18,
-            "sent_idx":15,
-            "alias_idx":3,
-            "guid_idx":"15_3",
-            "sentence":"However , when the king 's uncle , Odo of Bayeux , raised a rebellion against the king in 1088 , St-Calais was implicated in the revolt .",
-            "all_aliases":[
-                "the king",
-                "uncle",
-                "a rebellion",
-                "the king",
-                "the revolt"
-            ],
-            "all_spans":[
-                [
-                    3,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ],
-                [
-                    16,
-                    18
-                ],
-                [
-                    25,
-                    27
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":5,
-            "alias":"the revolt",
-            "candidates":[
-                "Q7760542",
-                "Q65062676"
-            ],
-            "candidate_titles":[
-                "The Revolt",
-                "The Revolt (terror group)"
-            ],
-            "candidate_descriptions":[
-                "book by Menachem Begin",
-                ""
-            ],
-            "span_l":25,
-            "span_r":27,
-            "sent_idx":15,
-            "alias_idx":4,
-            "guid_idx":"15_4",
-            "sentence":"However , when the king 's uncle , Odo of Bayeux , raised a rebellion against the king in 1088 , St-Calais was implicated in the revolt .",
-            "all_aliases":[
-                "the king",
-                "uncle",
-                "a rebellion",
-                "the king",
-                "the revolt"
-            ],
-            "all_spans":[
-                [
-                    3,
-                    5
-                ],
-                [
-                    6,
-                    7
-                ],
-                [
-                    13,
-                    15
-                ],
-                [
-                    16,
-                    18
-                ],
-                [
-                    25,
-                    27
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":6,
-            "alias":"laid siege",
-            "candidates":[
-                "Q815145",
-                "Q815228",
-                "Q815166",
-                "Q349318",
-                "Q3023525",
-                "Q700886",
-                "Q41374161",
-                "Q55633164",
-                "Q15277692"
-            ],
-            "candidate_titles":[
-                "Great Siege of Gibraltar",
-                "Siege of Toulon",
-                "Siege of Kut",
-                "Siege of Berat (1280\u20131281)",
-                "Siege of Mecca (683)",
-                "Siege of Constantinople (1422)",
-                "Siege of Rometta",
-                "Siege of Thessalonica (676\u2013678)",
-                "Siege of Ragusa"
-            ],
-            "candidate_descriptions":[
-                "siege",
-                "siege",
-                "siege",
-                "",
-                "683 battle of the Second Islamic Civil War",
-                "1422 siege",
-                "",
-                "siege of the city by Slavs",
-                ""
-            ],
-            "span_l":2,
-            "span_r":4,
-            "sent_idx":16,
-            "alias_idx":0,
-            "guid_idx":"16_0",
-            "sentence":"William Rufus laid siege to St-Calais in the bishop 's stronghold of Durham , and later put him on trial for treason .",
-            "all_aliases":[
-                "laid siege",
-                "the bishop",
-                "stronghold",
-                "trial for treason"
+                "restricted",
+                "notable",
+                "dog",
+                "characters",
+                "world",
+                "fiction",
+                "dogs",
+                "list of",
+                "dogs",
+                "mythological",
+                "dogs"
             ],
             "all_spans":[
                 [
                     2,
-                    4
-                ],
-                [
-                    7,
-                    9
-                ],
-                [
-                    10,
-                    11
-                ],
-                [
-                    19,
-                    22
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":6,
-            "alias":"the bishop",
-            "candidates":[
-                "Q7718176",
-                "Q3796215",
-                "Q15889906"
-            ],
-            "candidate_titles":[
-                "The Bishop (novel)",
-                "John Tomkins",
-                "The Bishop (short story)"
-            ],
-            "candidate_descriptions":[
-                "book by Bruce Marshall",
-                "American criminal",
-                "short story by Anton Chekhov"
-            ],
-            "span_l":7,
-            "span_r":9,
-            "sent_idx":16,
-            "alias_idx":1,
-            "guid_idx":"16_1",
-            "sentence":"William Rufus laid siege to St-Calais in the bishop 's stronghold of Durham , and later put him on trial for treason .",
-            "all_aliases":[
-                "laid siege",
-                "the bishop",
-                "stronghold",
-                "trial for treason"
-            ],
-            "all_spans":[
-                [
-                    2,
-                    4
-                ],
-                [
-                    7,
-                    9
-                ],
-                [
-                    10,
-                    11
-                ],
-                [
-                    19,
-                    22
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":6,
-            "alias":"stronghold",
-            "candidates":[
-                "Q57821",
-                "Q7398544",
-                "Q846549",
-                "Q7624665",
-                "Q44896",
-                "Q1755439",
-                "Q7624662",
-                "Q7624659",
-                "Q7624658",
-                "Q25136541"
-            ],
-            "candidate_titles":[
-                "Fortification",
-                "Safe seat",
-                "Stronghold (2001 video game)",
-                "Stronghold (Magnum album)",
-                "Stronghold (1993 video game)",
-                "Stronghold (Summoning album)",
-                "Stronghold (novel)",
-                "Stronghold, California",
-                "Stronghold (Washington, D.C.)",
-                "Stronghold (film)"
-            ],
-            "candidate_descriptions":[
-                "military constructions and buildings designed for defense in warfare and military bases",
-                "",
-                "video game",
-                "1997 live album by Magnum",
-                "1993 video game",
-                "Summoning album",
-                "1991 American fantasy novel",
-                "unincorporated community in California",
-                "human settlement in \"Washington,  D.C.\", District of Columbia, United States of America",
-                "1951 film by Steve Sekely"
-            ],
-            "span_l":10,
-            "span_r":11,
-            "sent_idx":16,
-            "alias_idx":2,
-            "guid_idx":"16_2",
-            "sentence":"William Rufus laid siege to St-Calais in the bishop 's stronghold of Durham , and later put him on trial for treason .",
-            "all_aliases":[
-                "laid siege",
-                "the bishop",
-                "stronghold",
-                "trial for treason"
-            ],
-            "all_spans":[
-                [
-                    2,
-                    4
-                ],
-                [
-                    7,
-                    9
-                ],
-                [
-                    10,
-                    11
-                ],
-                [
-                    19,
-                    22
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":6,
-            "alias":"trial for treason",
-            "candidates":[
-                "Q2994776"
-            ],
-            "candidate_titles":[
-                "Burr conspiracy"
-            ],
-            "candidate_descriptions":[
-                "Alleged conspiracy to create an independent country in North America led by Aaron Burr (1805-1807)"
-            ],
-            "span_l":19,
-            "span_r":22,
-            "sent_idx":16,
-            "alias_idx":3,
-            "guid_idx":"16_3",
-            "sentence":"William Rufus laid siege to St-Calais in the bishop 's stronghold of Durham , and later put him on trial for treason .",
-            "all_aliases":[
-                "laid siege",
-                "the bishop",
-                "stronghold",
-                "trial for treason"
-            ],
-            "all_spans":[
-                [
-                    2,
-                    4
-                ],
-                [
-                    7,
-                    9
-                ],
-                [
-                    10,
-                    11
-                ],
-                [
-                    19,
-                    22
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":7,
-            "alias":"contemporary record",
-            "candidates":[
-                "Q15766763"
-            ],
-            "candidate_titles":[
-                "Contemporary British History"
-            ],
-            "candidate_descriptions":[
-                "journal"
-            ],
-            "span_l":1,
-            "span_r":3,
-            "sent_idx":17,
-            "alias_idx":0,
-            "guid_idx":"17_0",
-            "sentence":"A contemporary record of this trial , the `` De Iniusta Vexacione Willelmi Episcopi Primi `` , is the earliest surviving detailed contemporary report of an English state-trial .",
-            "all_aliases":[
-                "contemporary record",
-                "trial",
-                "report"
-            ],
-            "all_spans":[
-                [
-                    1,
                     3
+                ],
+                [
+                    4,
+                    5
                 ],
                 [
                     5,
                     6
                 ],
                 [
-                    23,
-                    24
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":7,
-            "alias":"trial",
-            "candidates":[
-                "Q28085",
-                "Q104083",
-                "Q1541283",
-                "Q2669947",
-                "Q3125101",
-                "Q7129557",
-                "Q13368786",
-                "Q7840010",
-                "Q8016240",
-                "Q6631941"
-            ],
-            "candidate_titles":[
-                "Adolf Eichmann",
-                "Grammatical number",
-                "Smith Act",
-                "O. J. Simpson murder case",
-                "Trial court",
-                "Pan Am Flight 103 bombing trial",
-                "Jury trial",
-                "Trial races for the Epsom Derby",
-                "Trial",
-                "High Court of Justice for the trial of Charles I"
-            ],
-            "candidate_descriptions":[
-                "German-Austrian SS officer and one of the major organizers of the Holocaust (1906-1962)",
-                "grammatical category indicating count distinctions",
-                "United States federal statute",
-                "criminal trial decided October 3, 1995 in United States",
-                "type of court in which trials take place",
-                "",
-                "type of legal trial",
-                "",
-                "coming together of parties to a dispute, to present information in a tribunal",
-                ""
-            ],
-            "span_l":5,
-            "span_r":6,
-            "sent_idx":17,
-            "alias_idx":1,
-            "guid_idx":"17_1",
-            "sentence":"A contemporary record of this trial , the `` De Iniusta Vexacione Willelmi Episcopi Primi `` , is the earliest surviving detailed contemporary report of an English state-trial .",
-            "all_aliases":[
-                "contemporary record",
-                "trial",
-                "report"
-            ],
-            "all_spans":[
+                    6,
+                    7
+                ],
                 [
-                    1,
+                    9,
+                    10
+                ],
+                [
+                    11,
+                    12
+                ],
+                [
+                    2,
                     3
                 ],
                 [
                     5,
-                    6
+                    7
                 ],
                 [
-                    23,
-                    24
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":7,
-            "alias":"report",
-            "candidates":[
-                "Q972414",
-                "Q2302857",
-                "Q63213423",
-                "Q19869250",
-                "Q18612127",
-                "Q4928492",
-                "Q57077013",
-                "Q7181212",
-                "Q10870555",
-                "Q7314116"
-            ],
-            "candidate_titles":[
-                "Congressional Research Service",
-                "9\/11 Commission Report",
-                "Mueller Report",
-                "List of Goods Produced by Child Labor or Forced Labor",
-                "Senate Intelligence Committee report on CIA torture",
-                "Blount Report",
-                "Special Report on Global Warming of 1.5 \u00b0C",
-                "Phelekezela Mphoko",
-                "Report",
-                "Report of West India Royal Commission (Moyne Report)"
-            ],
-            "candidate_descriptions":[
-                "United States federal agency",
-                "U.S. government report on the September 11, 2001, terrorist attacks",
-                "report by United States Special Counsel Robert S. Mueller III",
-                "annual list by U.S. Department of Labor",
-                "report compiled by the bipartisan United States Senate Select Committee on Intelligence",
-                "",
-                "special climate change report published by the Intergovernmental Panel on Climate Change",
-                "Zimbabwean diplomat",
-                "informational, formal, and detailed text",
-                ""
-            ],
-            "span_l":23,
-            "span_r":24,
-            "sent_idx":17,
-            "alias_idx":2,
-            "guid_idx":"17_2",
-            "sentence":"A contemporary record of this trial , the `` De Iniusta Vexacione Willelmi Episcopi Primi `` , is the earliest surviving detailed contemporary report of an English state-trial .",
-            "all_aliases":[
-                "contemporary record",
-                "trial",
-                "report"
-            ],
-            "all_spans":[
+                    7,
+                    8
+                ],
                 [
                     1,
+                    2
+                ],
+                [
+                    2,
                     3
-                ],
-                [
-                    5,
-                    6
-                ],
-                [
-                    23,
-                    24
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":8,
-            "alias":"go into exile",
-            "candidates":[
-                "Q5575020"
-            ],
-            "candidate_titles":[
-                "Go into Exile"
-            ],
-            "candidate_descriptions":[
-                "album by Missing Foundation"
-            ],
-            "span_l":7,
-            "span_r":10,
-            "sent_idx":18,
-            "alias_idx":0,
-            "guid_idx":"18_0",
-            "sentence":"Imprisoned briefly , St-Calais was allowed to go into exile after his castle at Durham was surrendered to the king .",
-            "all_aliases":[
-                "go into exile",
-                "castle",
-                "the king"
-            ],
-            "all_spans":[
-                [
-                    7,
-                    10
-                ],
-                [
-                    12,
-                    13
-                ],
-                [
-                    18,
-                    20
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":8,
-            "alias":"castle",
-            "candidates":[
-                "Q212065",
-                "Q742767",
-                "Q756268",
-                "Q386880",
-                "Q941276",
-                "Q603117",
-                "Q23413",
-                "Q17642916",
-                "Q934087",
-                "Q2883936"
-            ],
-            "candidate_titles":[
-                "Edinburgh Castle",
-                "Dublin Castle",
-                "Stirling Castle",
-                "Castle (TV series)",
-                "Warwick Castle",
-                "Castle Communications",
-                "Castle",
-                "Nottingham Castle",
-                "William Castle",
-                "Barbara Castle"
-            ],
-            "candidate_descriptions":[
-                "castle in Edinburgh, Scotland",
-                "castle",
-                "castle in Scotland",
-                "American police procedural comedy-drama television series (2009-2016)",
-                "medieval castle in Warwickshire, England",
-                "Music label",
-                "type of fortified structure built in Europe, Asia and the Middle East during the Middle Ages by nobility",
-                "castle in Nottingham, England",
-                "director, producer",
-                "British politician (1910-2002)"
-            ],
-            "span_l":12,
-            "span_r":13,
-            "sent_idx":18,
-            "alias_idx":1,
-            "guid_idx":"18_1",
-            "sentence":"Imprisoned briefly , St-Calais was allowed to go into exile after his castle at Durham was surrendered to the king .",
-            "all_aliases":[
-                "go into exile",
-                "castle",
-                "the king"
-            ],
-            "all_spans":[
-                [
-                    7,
-                    10
-                ],
-                [
-                    12,
-                    13
-                ],
-                [
-                    18,
-                    20
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":8,
-            "alias":"the king",
-            "candidates":[
-                "Q38370",
-                "Q303",
-                "Q81506",
-                "Q122553",
-                "Q7742",
-                "Q20875",
-                "Q269412",
-                "Q129987",
-                "Q127318",
-                "Q37594"
-            ],
-            "candidate_titles":[
-                "Henry VIII of England",
-                "Elvis Presley",
-                "Charles I of England",
-                "Charles II of England",
-                "Louis XIV of France",
-                "Edward VII",
-                "George V",
-                "William III of England",
-                "George III of the United Kingdom",
-                "William the Conqueror"
-            ],
-            "candidate_descriptions":[
-                "King of England from 1509 until 1547",
-                "American singer and actor (1935\u20131977)",
-                "monarch of the three kingdoms of England, Scotland, and Ireland (1600-1649)",
-                "King of England, Ireland and Scotland (1630-1685)",
-                "King of France and Navarra, from 1643 to 1715",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1841-1910)",
-                "King of the United Kingdom and the British Dominions, and Emperor of India (1865-1936)",
-                "William of Orange; King of England, Scotland and Ireland (1650\u20131702)",
-                "King of Great Britain and King of Ireland (1738-1820)",
-                "King of England, Duke of Normandy"
-            ],
-            "span_l":18,
-            "span_r":20,
-            "sent_idx":18,
-            "alias_idx":2,
-            "guid_idx":"18_2",
-            "sentence":"Imprisoned briefly , St-Calais was allowed to go into exile after his castle at Durham was surrendered to the king .",
-            "all_aliases":[
-                "go into exile",
-                "castle",
-                "the king"
-            ],
-            "all_spans":[
-                [
-                    7,
-                    10
-                ],
-                [
-                    12,
-                    13
-                ],
-                [
-                    18,
-                    20
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":9,
-            "alias":"advisor",
-            "candidates":[
-                "Q599048",
-                "Q17131110",
-                "Q4686866",
-                "Q2994387",
-                "Q363802",
-                "Q7692317",
-                "Q7450649",
-                "Q4671161",
-                "Q27986870"
-            ],
-            "candidate_titles":[
-                "Political consulting",
-                "Counsel",
-                "Advisory board",
-                "Adviser",
-                "Doctoral advisor",
-                "Technical advisor",
-                "Senior advisor",
-                "Academic advising",
-                "Advisor to the President of Iran"
-            ],
-            "candidate_descriptions":[
-                "an industry for advising and assisting political campaigns",
-                "legal professional title in English-speaking countries",
-                "body providing strategic advice to an organisation",
-                "person with more and deeper knowledge in a specific area",
-                "Person who supervises the doctoral research of a graduate student",
-                "professional title",
-                "appointed position to advise on national and government policy",
-                "Teaching method",
-                ""
-            ],
-            "span_l":10,
-            "span_r":11,
-            "sent_idx":19,
-            "alias_idx":0,
-            "guid_idx":"19_0",
-            "sentence":"He went to Normandy , where he became a leading advisor to Robert Curthose , Duke of Normandy , the elder brother of William Rufus .",
-            "all_aliases":[
-                "advisor",
-                "the elder brother"
-            ],
-            "all_spans":[
-                [
-                    10,
-                    11
-                ],
-                [
-                    19,
-                    22
-                ]
-            ]
-        },
-        {
-            "doc_qid":"Q367374",
-            "doc_title":"William de St-Calais",
-            "doc_sent_idx":9,
-            "alias":"the elder brother",
-            "candidates":[
-                "Q7731687",
-                "Q17060429"
-            ],
-            "candidate_titles":[
-                "The Elder Brother",
-                "The Elder Brother (film)"
-            ],
-            "candidate_descriptions":[
-                "play written by John Fletcher",
-                "1937 film"
-            ],
-            "span_l":19,
-            "span_r":22,
-            "sent_idx":19,
-            "alias_idx":1,
-            "guid_idx":"19_1",
-            "sentence":"He went to Normandy , where he became a leading advisor to Robert Curthose , Duke of Normandy , the elder brother of William Rufus .",
-            "all_aliases":[
-                "advisor",
-                "the elder brother"
-            ],
-            "all_spans":[
-                [
-                    10,
-                    11
-                ],
-                [
-                    19,
-                    22
                 ]
             ]
         }
