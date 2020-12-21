@@ -51,11 +51,11 @@ const custom_entity_choice = function (config) {
             $("main").html(`
                         <div class='magpie-view'>
                         
-                        <h1 class='magpie-view-title'>Pick the right entity</h1>
+                        <h1 class='my-magpie-view-title'>Pick the right entity</h1>
                         <div class="annotation-head"></div>
-                            <div  id="sentence-text"  class="annotation-segment">                   
+                            <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
                         </div>
-                        <div  id="entity-choices" class="annotation-choices-parent"></div>
+                        <div  id="entity-choices" class="annotation-choices-parent my-magpie-view-text"></div>
                       `)
 
 
@@ -118,7 +118,7 @@ const custom_entity_choice = function (config) {
 
                     // Div for button and description
                     var sub_div = document.createElement("div");
-                    sub_div.className = "button-desc magpie-view-text";
+                    sub_div.className = "button-desc my-magpie-view-text";
                     sub_div.innerHTML = "<b></b><a href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
                         config.data[CT].candidate_titles[cand_idx]  + "</a></b>"
                     sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx]
@@ -145,7 +145,7 @@ const custom_entity_choice = function (config) {
 
                 // Div for button and description
                 var sub_div = document.createElement("div");
-                sub_div.className = "magpie-view-text button-desc";
+                sub_div.className = "my-magpie-view-text button-desc";
                 sub_div.innerHTML += "The answer is none of the above"
                 new_div.appendChild(button_div);
                 new_div.appendChild(sub_div);

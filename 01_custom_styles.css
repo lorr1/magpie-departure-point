@@ -28,6 +28,22 @@
     text-align: center;
 }
 
+.my-magpie-view-title {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Playfair Display", "Noto Serif", serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.my-magpie-view-text {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    line-height: 27px;
+    font-family: "Lato", "Noto Sans", sans-serif;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
 .annotation-choice {
     /*margin-right: 50px;*/
     /*max-width: 50px;*/
@@ -80,7 +96,6 @@
     background: lightgreen;
     font-family: "Playfair Display", "Noto Serif", serif;
     white-space: nowrap;
-
 }
 
 .marker-anno {
@@ -91,7 +106,6 @@
 .anno {
     position: relative;
     text-align: center;
-    padding-bottom: 50px;
 
 }
 
