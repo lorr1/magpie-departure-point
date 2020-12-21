@@ -73,8 +73,8 @@ const custom_entity_choice = function (config) {
                     if (prior_word_idx < mention_span[0]) {
                         var new_span = document.createElement('span');
                         // Add white spaces around spans without the "marker" class as those are highlighted
-                        console.log(sentence_split.slice(prior_word_idx, mention_span[0]) + " ")
-                        new_span.textContent = sentence_split.slice(prior_word_idx, mention_span[0]) + " "
+                        console.log(sentence_split.slice(prior_word_idx, mention_span[0]).join(" ") + " ")
+                        new_span.textContent = sentence_split.slice(prior_word_idx, mention_span[0]).join(" ") + " "
                         if (span_idx > 0) {
                             new_span.textContent = " " + new_span.textContent;
                         }
@@ -88,19 +88,19 @@ const custom_entity_choice = function (config) {
                         new_span.className = "marker"
                     }
                     new_span.anno_id = span_idx
-                    new_span.textContent = sentence_split.slice(mention_span[0], mention_span[1])
+                    new_span.textContent = sentence_split.slice(mention_span[0], mention_span[1]).join(" ")
                     $("#sentence-text").append(new_span)
                     prior_word_idx = mention_span[1]
                 });
                 // Add the final right "plain text" span
                 if (prior_word_idx < sentence_split.length) {
                     var new_span = document.createElement('span');
-                    new_span.textContent = " " + sentence_split.slice(prior_word_idx, sentence_split.length)
+                    new_span.textContent = " " + sentence_split.slice(prior_word_idx, sentence_split.length).join(" ")
                     $("#sentence-text").append(new_span)
                 }
 
                 //===========================================
-                // ADDS THE BUTTONS
+                // ADDS THE BUTTONS (WITH NONE OF THE ABOVE OPTION)
                 //===========================================
                 config.data[CT].candidates.forEach(function (cand_qid, cand_idx) {
                     var new_div = document.createElement('div');
@@ -129,13 +129,39 @@ const custom_entity_choice = function (config) {
                     // Add button call backs after being added to DOM
                     $("#button_" + cand_idx.toString()).on("click", handle_click);
                 });
+                // ADD NONE OF THE ABOVE OPTION
+                var new_div = document.createElement('div');
+                new_div.className = "annotation-choice"
+                // The button carries the information to the click handler. So we need to store relevant mention information in the button
+                var button_div = document.createElement("button");
+                button_div.className = "magpie-respond-sentence button-choice";
+                button_div.id = "button_9";
+                button_div.alias = config.data[CT].alias;
+                button_div.cand_qid = "NA";
+                button_div.alias_idx = config.data[CT].alias_idx;
+                button_div.sent_idx = config.data[CT].sent_idx;
+                button_div.doc_title = config.data[CT].doc_title;
+                button_div.textContent = "[0] NA";
+
+                // Div for button and description
+                var sub_div = document.createElement("div");
+                sub_div.className = "magpie-view-text button-desc";
+                sub_div.innerHTML += "The answer is none of the above"
+                new_div.appendChild(button_div);
+                new_div.appendChild(sub_div);
+                $('#entity-choices').append(new_div);
+
+                // Add button call backs after being added to DOM
+                $("#button_9").on("click", handle_click);
+
 
                 window.addEventListener("keydown", function (event) {
                     event.preventDefault();
                     // If key is 0-9
                     if(event.keyCode >= 48 && event.keyCode <= 57) {
                         cand_idx = (parseInt(event.key)+9)%10
-                        if (cand_idx < config.data[CT].candidates.length) {
+                        // +1 for None of the Above option
+                        if (cand_idx < config.data[CT].candidates.length+1) {
                             $("#button_" + cand_idx.toString()).click();
                         }
                     }
