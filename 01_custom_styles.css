@@ -73,13 +73,13 @@
     font-family: "Playfair Display", "Noto Serif", serif;
     font-size: 16px;
     padding-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .marker {
     background: lightgreen;
     font-family: "Playfair Display", "Noto Serif", serif;
-      white-space: nowrap;
+    white-space: nowrap;
 
 }
 
@@ -91,6 +91,7 @@
 .anno {
     position: relative;
     text-align: center;
+    padding-bottom: 50px;
 
 }
 
