@@ -80,7 +80,7 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
                         <div class='magpie-view'>
                         
                         <h1 class='my-magpie-view-title'>Choose the right entity</h1>
-                        <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Take from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
+                        <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Taken from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
                         <div class="annotation-head"></div>
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
                         </div>
