@@ -39,10 +39,45 @@ const instructions = magpieViews.view_generator("instructions", {
     trials: 1,
     name: 'instructions',
     title: 'General Instructions',
-    text: `This is a sample instructions view.
-            <br />
-            <br />
-            Tell your participants what they are to do here.`,
+    text: ` 
+            We're collecting data for linking entities in text to their Wikipedia articles. Given the entity highlighted
+            in the text passage, your goal is to pick the Wikipedia article that most closely matches the entity. 
+               
+            <h2>Choosing an entity</h2>
+            Pick the most fine-grained entity:
+            e.g. for the sentence
+            "David Beckham played football for England."
+            you will be shown multiple choices for the word England, such as 
+            - England (the country)
+            - England (association footlball)
+            - ..
+            
+            Here, you should pick England (association football), since from context, we know that David Beckham plays for the 
+            England football team. 
+            
+            
+            <h2>The None of the Above option</h2>
+            Don't be afraid to pick None of the Above:
+            e.g. for the sentence
+            , suppose you are shown the following choices,
+            - 
+            - 
+            
+            Here, you should pick "None of the Above" since no other option accurately matches the entity.
+            
+            
+            <h2>Keyboard Shortcuts</h2>
+            Our interface can be used entirely with a keyboard. You can use your number keys (0-9) to select options, 
+            and then press Enter to confirm your selection and move on to the next labeling task. 
+            
+            <h2>Attention Questions</h2>
+            We have randomly scattered some attention questions throughout the task, so we would appreciate if you went 
+            through carefully.
+            
+            <h2>Questions & Concerns</h2>
+            For any questions and concerns, please reach out to lorr1@cs.stanford.edu and we'll be happy to address them.
+            
+            `,
     buttonText: 'go to trials'
 });
 
