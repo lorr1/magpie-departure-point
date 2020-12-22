@@ -102,12 +102,12 @@ const thanks = magpieViews.view_generator("thanks", {
  */
 
 // Here, we initialize a normal forced_choice view
-const entity_choice = custom_entity_choice({
+const entity_choice = custom_entity_choice_doc({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: 2,//ned_info.mentions.length,
+    trials: 2,
     // name should be identical to the variable name
     name: 'entity_choice',
-    data: ned_info.mentions,
+    data: ned_info,
     // you can add custom functions at different stages through a view's life cycle
     // hook: {
     //     after_response_enabled: check_response
@@ -116,6 +116,14 @@ const entity_choice = custom_entity_choice({
         autostart: true,
         rate: 50
     }
+});
+
+const entity_choice_gld = custom_entity_choice_doc({
+    // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+    trials: 1,
+    // name should be identical to the variable name
+    name: 'entity_choice_gld',
+    data: ned_info_gld,
 });
 
 // There are many more templates available:

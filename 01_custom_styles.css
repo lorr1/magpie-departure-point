@@ -93,7 +93,7 @@
 }
 
 .marker {
-    background: lightgreen;
+    /*background: lightgreen;*/
     font-family: "Playfair Display", "Noto Serif", serif;
     white-space: nowrap;
 }

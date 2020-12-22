@@ -18,6 +18,7 @@ $("document").ready(function() {
             // intro,
             // instructions,
             entity_choice,
+            entity_choice_gld,
             // post_test,
             thanks,
         ],

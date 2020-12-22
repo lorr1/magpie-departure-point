@@ -10,7 +10,7 @@
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
 
 // In this view the user can click on buttons to label entities
-const custom_entity_choice = function (config) {
+const custom_entity_choice = function (config, triggerNextView) {
     const view = {
         name: config.name,
         CT: 0,
@@ -46,13 +46,7 @@ const custom_entity_choice = function (config) {
                 };
                 // Often it makes sense to also save the config information
                 // trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
-
-                // Here, we save the trial_data
-                magpie.trial_data.push(trial_data);
-
-                // Now, we will continue with the next view
-                magpie.findNextView();
-                console.log('Moving on.');
+                triggerNextView(trial_data);
             };
 
             const handle_button_click = function (e) {
@@ -81,7 +75,8 @@ const custom_entity_choice = function (config) {
             $("main").html(`
                         <div class='magpie-view'>
                         
-                        <h1 class='my-magpie-view-title'>Pick the right entity</h1>
+                        <h1 class='my-magpie-view-title'>Choose the right entity</h1>
+                        <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Take from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
                         <div class="annotation-head"></div>
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
                         </div>
@@ -89,21 +84,23 @@ const custom_entity_choice = function (config) {
                       `);
 
             $(document).ready(function () {
-
+                // Add document title
+                document.getElementById('wikipage_link').href = "https://en.wikipedia.org/wiki/" + config.data[CT]["doc_title"].replace(" ", "_");
+                document.getElementById('wikipage_link').innerHTML = config.data[CT]["doc_title"];
+                document.getElementById('wikipage_link').target = "_blank";
                 // mentions is config.data[CT]
                 var sentence = config.data[CT].sentence;
                 //===========================================
                 // ADDS THE SENTENCE
                 //===========================================
                 var sentence_split = sentence.split(" ");
-                console.log(sentence_split);
+                console.log(sentence_split)
                 var prior_word_idx = 0;
                 config.data[CT].all_spans.forEach(function (mention_span, span_idx) {
                     // Add the left "plain text" span
-                    if (prior_word_idx > 0 && prior_word_idx <= mention_span[0]) {
+                    if (prior_word_idx <= mention_span[0]) {
                         var new_span = document.createElement('span');
                         // Add white spaces around spans without the "marker" class as those are highlighted
-                        console.log(sentence_split.slice(prior_word_idx, mention_span[0]).join(" ") + " ")
                         new_span.textContent = sentence_split.slice(prior_word_idx, mention_span[0]).join(" ") + " "
                         if (span_idx > 0) {
                             new_span.textContent = " " + new_span.textContent;
@@ -222,6 +219,48 @@ const custom_entity_choice = function (config) {
                 // Start the clock
                 // magpieTimer()
             });
+        }
+    };
+    // We have to return the view, so that it can be used in 05_views.js
+    return view;
+};
+
+
+const custom_entity_choice_doc = function (config) {
+    const view = {
+        name: config.name,
+        CT: 0,
+        trials: config.trials,
+        // The render functions gets the magpie object as well as the current trial in view counter as input
+        render: function (CT, magpie) {
+            const labels = []
+            var sub_CT = 0
+
+            // This function will handle  the response
+            const handle_inner_view = function (trial_data) {
+                // Gather inner data
+                labels.push(trial_data)
+                sub_CT += 1;
+                if (sub_CT >= config.data[CT].mentions.length) {
+                    labels.forEach(function(data, data_idx) {
+                        magpie.trial_data.push(data);
+                    });
+                    magpie.findNextView();
+                } else {
+                    sub_entity_choice.render(sub_CT, magpie)
+                }
+            };
+
+            const sub_entity_choice = custom_entity_choice({
+                // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+                trials: config.data[CT].mentions.length,
+                // name should be identical to the variable name
+                name: 'sub_entity_choice',
+                data: config.data[CT].mentions,
+                handle_inner_view: handle_inner_view
+            }, handle_inner_view);
+
+            sub_entity_choice.render(0, magpie)
         }
     };
     // We have to return the view, so that it can be used in 05_views.js
