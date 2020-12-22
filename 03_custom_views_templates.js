@@ -262,7 +262,7 @@ const custom_entity_choice_doc = function (config) {
                 name: 'sub_entity_choice',
                 data: config.data[CT].mentions,
                 handle_inner_view: handle_inner_view
-            }, handle_inner_view);
+            }, handle_inner_view, config.isGoldExample);
 
             sub_entity_choice.render(0, magpie)
         }

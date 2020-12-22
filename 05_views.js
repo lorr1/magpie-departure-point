@@ -143,6 +143,7 @@ const entity_choice = custom_entity_choice_doc({
     // name should be identical to the variable name
     name: 'entity_choice',
     data: ned_info,
+    isGoldExample: false,
     // you can add custom functions at different stages through a view's life cycle
     // hook: {
     //     after_response_enabled: check_response
@@ -159,6 +160,7 @@ const entity_choice_gld = custom_entity_choice_doc({
     // name should be identical to the variable name
     name: 'entity_choice_gld',
     data: ned_info_gld,
+    isGoldExample: true,
 });
 
 // There are many more templates available:
