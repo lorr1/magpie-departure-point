@@ -16,7 +16,7 @@ $("document").ready(function() {
         // You have to specify all views you want to use in this experiment and the order of them
         views_seq: [
             // intro,
-            // instructions,
+            instructions,
             entity_choice,
             entity_choice_gld,
             // post_test,
