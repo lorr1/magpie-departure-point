@@ -62,7 +62,9 @@ check_response = function(data, next) {
 }
 
 // Declare your hooks here
-
+convert_wikipedia_title = function(title) {
+    return title.replace(" ", "_")
+}
 
 /* Generators for custom view templates, answer container elements and enable response functions
 *

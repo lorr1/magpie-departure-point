@@ -10,7 +10,7 @@
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
 
 // In this view the user can click on buttons to label entities
-const custom_entity_choice = function (config, triggerNextView) {
+const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
     const view = {
         name: config.name,
         CT: 0,
@@ -36,12 +36,15 @@ const custom_entity_choice = function (config, triggerNextView) {
                     trial_name: config.name,
                     trial_number: CT,
                     trial_time: Date.now() - startTime,
+                    guid_idx: selection.target.guid_idx,
                     response_id: selection.target.id,
                     response_alias: selection.target.alias,
                     response_cand_qid: selection.target.cand_qid,
                     response_alias_idx: selection.target.alias_idx,
+                    span_l: selection.target.span_l,
                     response_sent_idx: selection.target.sent_idx,
                     response_doc_title: selection.target.doc_title,
+                    is_gold_example: isGoldExample,
                     metadata_links_clicked: links_clicked,
                 };
                 // Often it makes sense to also save the config information
@@ -61,7 +64,7 @@ const custom_entity_choice = function (config, triggerNextView) {
                 // Assign the button to be selected
                 selection = e;
 
-                $(`#${selection.target.id}`).css('background-color', 'rgba(200, 232, 181, 0.87)');
+                $(`#${selection.target.id}`).css('background-color', 'rgba(176, 189, 238, 0.85)');
 
             };
 
@@ -85,7 +88,7 @@ const custom_entity_choice = function (config, triggerNextView) {
 
             $(document).ready(function () {
                 // Add document title
-                document.getElementById('wikipage_link').href = "https://en.wikipedia.org/wiki/" + config.data[CT]["doc_title"].replace(" ", "_");
+                document.getElementById('wikipage_link').href = "https://en.wikipedia.org/wiki/" + convert_wikipedia_title(config.data[CT]["doc_title"]);
                 document.getElementById('wikipage_link').innerHTML = config.data[CT]["doc_title"];
                 document.getElementById('wikipage_link').target = "_blank";
                 // mentions is config.data[CT]
@@ -135,12 +138,14 @@ const custom_entity_choice = function (config, triggerNextView) {
                     var button_div = document.createElement("button");
                     button_div.className = "button-choice magpie-respond-sentence";
                     button_div.id = "button_" + (cand_idx + 1).toString();
+                    button_div.guid_idx = config.data[CT].guid_idx;
+                    button_div.span_l = config.data[CT].span_l;
                     button_div.alias = config.data[CT].alias;
                     button_div.cand_qid = cand_qid;
                     button_div.alias_idx = config.data[CT].alias_idx;
                     button_div.sent_idx = config.data[CT].sent_idx;
                     button_div.doc_title = config.data[CT].doc_title;
-                    button_div.textContent = "[" + ((cand_idx + 1) % 10).toString() + "] " + cand_qid;
+                    button_div.textContent = "[" + ((cand_idx + 1) % 10).toString() + "] " + config.data[CT].candidate_titles[cand_idx];
 
                     // Div for button and description
                     var sub_div = document.createElement("div");
@@ -149,7 +154,7 @@ const custom_entity_choice = function (config, triggerNextView) {
                     sub_div.innerHTML = "" +
                         "<b></b>" +
                         "<a id=" + link_id +
-                        " href=\"https://www.wikidata.org/wiki/" + cand_qid + "\" target=\"_blank\">" +
+                        " href=\"https://en.wikipedia.org/wiki/" + convert_wikipedia_title(config.data[CT].candidate_titles[cand_idx]) + "\" target=\"_blank\">" +
                         config.data[CT].candidate_titles[cand_idx] + "</a></b>";
                     sub_div.innerHTML += ": " + config.data[CT].candidate_descriptions[cand_idx];
                     new_div.appendChild(button_div);
