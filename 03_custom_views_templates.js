@@ -47,6 +47,7 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
                     is_gold_example: isGoldExample,
                     metadata_links_clicked: links_clicked,
                 };
+                console.log(trial_data)
                 // Often it makes sense to also save the config information
                 // trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
                 triggerNextView(trial_data);
@@ -84,6 +85,7 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
                         </div>
                         <div  id="entity-choices" class="annotation-choices-parent my-magpie-view-text"></div>
+                        <div  id="entity-enter" class="my-magpie-view-text" style="text-align: right;"></div>
                       `);
 
             $(document).ready(function () {
@@ -145,7 +147,7 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
                     button_div.alias_idx = config.data[CT].alias_idx;
                     button_div.sent_idx = config.data[CT].sent_idx;
                     button_div.doc_title = config.data[CT].doc_title;
-                    button_div.textContent = "[" + ((cand_idx + 1) % 10).toString() + "] " + config.data[CT].candidate_titles[cand_idx];
+                    button_div.innerHTML = "<span>[" + ((cand_idx + 1) % 10).toString() + "] </span>" + config.data[CT].candidate_titles[cand_idx];
 
                     // Div for button and description
                     var sub_div = document.createElement("div");
@@ -193,13 +195,13 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
 
                 // Tell the user they have to press Enter
                 var new_div = document.createElement('div');
-                new_div.className = "annotation-choice";
+                // new_div.className = "annotation-choice";
                 var button_div = document.createElement("button");
                 button_div.className = "magpie-respond-sentence button-choice";
                 button_div.id = "enter";
                 button_div.textContent = "[Enter] Confirm Selection";
                 new_div.appendChild(button_div);
-                $('#entity-choices').append(new_div);
+                $('#entity-enter').append(new_div);
 
 
                 window.addEventListener("keydown", function (event) {

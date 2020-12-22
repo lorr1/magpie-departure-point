@@ -39,44 +39,46 @@ const instructions = magpieViews.view_generator("instructions", {
     trials: 1,
     name: 'instructions',
     title: 'General Instructions',
-    text: ` 
-            We're collecting data for linking entities in text to their Wikipedia articles. Given the entity highlighted
-            in the text passage, your goal is to pick the Wikipedia article that most closely matches the entity. 
+    text: ` <div class="my-magpie-view-text">
+            <div>We're collecting data for linking mentions in text to their Wikipedia entities (every Wikipedia article is an entity). Given the mention highlighted
+            in the text passage, your goal is to pick the Wikipedia entity that most closely matches the mention. </div>
                
-            <h2>Choosing an entity</h2>
-            Pick the most fine-grained entity:
-            e.g. for the sentence
-            "David Beckham played football for England."
-            you will be shown multiple choices for the word England, such as 
-            - England (the country)
-            - England (association footlball)
-            - ..
+            <h3>Choosing an Entity</h3>
+            Pick the most fine-grained entity. For example, for the sentence
             
-            Here, you should pick England (association football), since from context, we know that David Beckham plays for the 
-            England football team. 
+            <p style="text-align:center"><b>"David Beckham played football for England."</b></p>
+            
+            you will be shown multiple choices for the word "England", such as
+            <ul> 
+            <li>England (country)</li>
+            <li>England (association footlball)</li>
+            <li>NA</li>
+            </ul>
+            Here, you should pick&nbsp; <span style="font-family: Consolas,monospace">England (association football)</span>, not 
+            &nbsp;<span style="font-family: Consolas,monospace">England (country)</span> since from context, we know
+            that David Beckham plays for the England football team. 
             
             
             <h2>The None of the Above option</h2>
-            Don't be afraid to pick None of the Above:
-            e.g. for the sentence
-            , suppose you are shown the following choices,
-            - 
-            - 
+            Don't be afraid to pick NA (none of the above) option. For example, in the sentence 
+            <p style="text-align:center"><b>"David Beckham played for Milan."</b></p>
             
-            Here, you should pick "None of the Above" since no other option accurately matches the entity.
+            suppose you are shown the following choices for the mention "Milan",
+            <ul> 
+            <li>Milan, Italy</li>
+            <li>University of Milan</li>
+            <li>NA</li>
+            </ul>
+            Here, you should pick "NA" since no other option accurately matches the entity.
             
             
             <h2>Keyboard Shortcuts</h2>
             Our interface can be used entirely with a keyboard. You can use your number keys (0-9) to select options, 
             and then press Enter to confirm your selection and move on to the next labeling task. 
             
-            <h2>Attention Questions</h2>
-            We have randomly scattered some attention questions throughout the task, so we would appreciate if you went 
-            through carefully.
-            
             <h2>Questions & Concerns</h2>
-            For any questions and concerns, please reach out to lorr1@cs.stanford.edu and we'll be happy to address them.
-            
+            For any questions and concerns, please reach out to <a href="mailto:lorr1@cs.stanford.edu">lorr1@cs.stanford.edu</a> and we'll be happy to address them.
+            </div>
             `,
     buttonText: 'go to trials'
 });
@@ -139,7 +141,7 @@ const thanks = magpieViews.view_generator("thanks", {
 // Here, we initialize a normal forced_choice view
 const entity_choice = custom_entity_choice_doc({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: 1,
+    trials: 2,
     // name should be identical to the variable name
     name: 'entity_choice',
     data: ned_info,

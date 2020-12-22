@@ -57,14 +57,18 @@
 }
 
 .button-choice {
-    max-width: 150px;
-    min-width: 150px;
+    max-width: 180px;
+    min-width: 180px;
+    text-align: left;
+    font-size: 14px;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
     /*flex: 5px;*/
 }
 
 .button-desc {
     /*width: 95%;*/
     text-align: left;
+    font-size: 14px;
     /*min-width: 800px;*/
     padding-left: 15px;
     margin-left: 0;
