@@ -94,7 +94,6 @@ const custom_entity_choice = function (config, triggerNextView) {
                 // ADDS THE SENTENCE
                 //===========================================
                 var sentence_split = sentence.split(" ");
-                console.log(sentence_split)
                 var prior_word_idx = 0;
                 config.data[CT].all_spans.forEach(function (mention_span, span_idx) {
                     // Add the left "plain text" span
