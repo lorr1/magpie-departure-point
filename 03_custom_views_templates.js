@@ -52,7 +52,7 @@ const custom_entity_choice = function (config, triggerNextView) {
             const handle_button_click = function (e) {
                 // Any earlier button selection should be cleared
                 if (selection != null) {
-                    $('#' + selection.target.id).css('background-color', 'white');
+                    $('#' + selection.target.id).css('background-color', 'rgb(239, 239, 239)');
                 }
                 else {
                     // Add button call backs after being added to DOM
@@ -61,7 +61,7 @@ const custom_entity_choice = function (config, triggerNextView) {
                 // Assign the button to be selected
                 selection = e;
 
-                $(`#${selection.target.id}`).css('background-color', 'green');
+                $(`#${selection.target.id}`).css('background-color', 'rgba(200, 232, 181, 0.87)');
 
             };
 
