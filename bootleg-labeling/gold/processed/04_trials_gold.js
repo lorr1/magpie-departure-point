@@ -3973,11 +3973,21 @@ const ned_info_gld = [
                 "sent_idx":5,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"5_0",
-                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club .",
+                "guid_idx":"5_24",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
                 "all_aliases":[
                     "real madrid",
-                    "la liga"
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
                 ],
                 "all_spans":[
                     [
@@ -3987,6 +3997,46 @@ const ned_info_gld = [
                     [
                         11,
                         13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
                     ]
                 ]
             },
@@ -4034,11 +4084,21 @@ const ned_info_gld = [
                 "sent_idx":5,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"5_1",
-                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club .",
+                "guid_idx":"5_25",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
                 "all_aliases":[
                     "real madrid",
-                    "la liga"
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
                 ],
                 "all_spans":[
                     [
@@ -4048,6 +4108,1114 @@ const ned_info_gld = [
                     [
                         11,
                         13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":7,
+                "alias":"beckham",
+                "pop_qid":"Q10520",
+                "candidates":[
+                    "Q491646",
+                    "Q3110882",
+                    "Q10520",
+                    "Q16212482",
+                    "Q7803157",
+                    "Q741918",
+                    "Q19810",
+                    "Q887792",
+                    "Q19956053"
+                ],
+                "candidate_titles":[
+                    "Beckham County, Oklahoma",
+                    "Gordon Beckham",
+                    "David Beckham",
+                    "Odell Beckham Jr.",
+                    "Tim Beckham",
+                    "J. C. W. Beckham",
+                    "Victoria Beckham",
+                    "Bob Beckham",
+                    "Clark Beckham"
+                ],
+                "candidate_descriptions":[
+                    "county in Oklahoma, United States",
+                    "American baseball player",
+                    "English association football player and model (born 1975)",
+                    "American football player",
+                    "American baseball player",
+                    "governor of Kentucky (1869-1940)",
+                    "English businesswoman, fashion designer and singer",
+                    "American country singers",
+                    "American singer"
+                ],
+                "span_l":26,
+                "span_r":27,
+                "sent_idx":6,
+                "sent_alias_idx":0,
+                "alias_idx":2,
+                "guid_idx":"6_26",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":7,
+                "alias":"major league soccer",
+                "pop_qid":"Q18543",
+                "candidates":[
+                    "Q18543"
+                ],
+                "candidate_titles":[
+                    "Major League Soccer"
+                ],
+                "candidate_descriptions":[
+                    "professional soccer league in North America"
+                ],
+                "span_l":32,
+                "span_r":35,
+                "sent_idx":6,
+                "sent_alias_idx":1,
+                "alias_idx":3,
+                "guid_idx":"6_27",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":7,
+                "alias":"la galaxy",
+                "pop_qid":"Q204357",
+                "candidates":[
+                    "Q22021267",
+                    "Q204357",
+                    "Q16242092"
+                ],
+                "candidate_titles":[
+                    "2016 LA Galaxy season",
+                    "LA Galaxy",
+                    "2014 LA Galaxy season"
+                ],
+                "candidate_descriptions":[
+                    "",
+                    "association football club in Los Angeles, California, USA",
+                    ""
+                ],
+                "span_l":36,
+                "span_r":38,
+                "sent_idx":6,
+                "sent_alias_idx":2,
+                "alias_idx":4,
+                "guid_idx":"6_28",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":8,
+                "alias":"galaxy",
+                "pop_qid":"Q204357",
+                "candidates":[
+                    "Q5035441",
+                    "Q1007573",
+                    "Q318",
+                    "Q462",
+                    "Q182012",
+                    "Q321",
+                    "Q204357",
+                    "Q5518092",
+                    "Q493064"
+                ],
+                "candidate_titles":[
+                    "Capital (radio network)",
+                    "Galaxy Science Fiction",
+                    "Galaxy",
+                    "Star Wars",
+                    "Lockheed C-5 Galaxy",
+                    "Milky Way",
+                    "LA Galaxy",
+                    "Galaxy (radio network)",
+                    "Samsung Galaxy"
+                ],
+                "candidate_descriptions":[
+                    "British radio network",
+                    "American magazine",
+                    "astronomical structure",
+                    "epic science fantasy space opera saga and media franchise",
+                    "1968 airlifter family by Lockheed; largest airlift capacity in US service",
+                    "spiral galaxy in the Local Group containing the Solar System",
+                    "association football club in Los Angeles, California, USA",
+                    "former British radio network",
+                    "series of Android mobile computing device"
+                ],
+                "span_l":41,
+                "span_r":42,
+                "sent_idx":7,
+                "sent_alias_idx":0,
+                "alias_idx":5,
+                "guid_idx":"7_29",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":8,
+                "alias":"italy",
+                "pop_qid":"Q38",
+                "candidates":[
+                    "Q50001",
+                    "Q1747689",
+                    "Q517",
+                    "Q38",
+                    "Q676899",
+                    "Q172579",
+                    "Q15804",
+                    "Q652",
+                    "Q641"
+                ],
+                "candidate_titles":[
+                    "Italians",
+                    "Ancient Rome",
+                    "Napoleon",
+                    "Italy",
+                    "Italy national football team",
+                    "Kingdom of Italy",
+                    "Serie A",
+                    "Italian language",
+                    "Venice"
+                ],
+                "candidate_descriptions":[
+                    "nation and ethnic group native to Italy",
+                    "civilisation that began growing on the Italian Peninsula from 8th century BC",
+                    "French general and emperor (1769-1821)",
+                    "sovereign state in southern Europe",
+                    "men's national association football team representing Italy",
+                    "kingdom in southern Europe between 1861 and 1946",
+                    "a professional league competition for football clubs located at the top of the Italian football league system",
+                    "Romance language",
+                    "capital city of Veneto, Italy"
+                ],
+                "span_l":50,
+                "span_r":51,
+                "sent_idx":7,
+                "sent_alias_idx":1,
+                "alias_idx":6,
+                "guid_idx":"7_30",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":8,
+                "alias":"milan",
+                "pop_qid":"Q1543",
+                "candidates":[
+                    "Q153529",
+                    "Q43689",
+                    "Q46210",
+                    "Q42207",
+                    "Q5471",
+                    "Q490",
+                    "Q1231328",
+                    "Q1543",
+                    "Q1210"
+                ],
+                "candidate_titles":[
+                    "Duchy of Milan",
+                    "Ambrose",
+                    "University of Milan",
+                    "Caravaggio",
+                    "La Scala",
+                    "Milan",
+                    "Roman Catholic Archdiocese of Milan",
+                    "A.C. Milan",
+                    "Lombardy"
+                ],
+                "candidate_descriptions":[
+                    "former duchy in Italy (1395\u20131447 and 1450\u20131796)",
+                    "bishop of Milan; one of the four original doctors of the Church (339-397)",
+                    "university in Milan, Italy",
+                    "Italian painter (1571\u20131610)",
+                    "opera house in Milan, Italy",
+                    "major city in Italy",
+                    "archdiocese",
+                    "italian association football club based in the city of Milan founded in 1899",
+                    "administrative region in Northern Italy"
+                ],
+                "span_l":52,
+                "span_r":53,
+                "sent_idx":7,
+                "sent_alias_idx":2,
+                "alias_idx":7,
+                "guid_idx":"7_31",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":9,
+                "alias":"british",
+                "pop_qid":"Q842438",
+                "candidates":[
+                    "Q30",
+                    "Q165862",
+                    "Q145",
+                    "Q193259",
+                    "Q172771",
+                    "Q21",
+                    "Q23666",
+                    "Q222595",
+                    "Q1860"
+                ],
+                "candidate_titles":[
+                    "United States",
+                    "Royal Air Force",
+                    "United Kingdom",
+                    "UK Singles Chart",
+                    "Royal Navy",
+                    "England",
+                    "Great Britain",
+                    "British Army",
+                    "English language"
+                ],
+                "candidate_descriptions":[
+                    "sovereign state in North America",
+                    "aerial warfare service branch of the British Armed Forces",
+                    "sovereign state in western Europe",
+                    "British singles sales chart",
+                    "maritime warfare branch of the United Kingdom's military",
+                    "country in north-west Europe, part of the United Kingdom",
+                    "island in the North Atlantic off the north-west coast of continental Europe",
+                    "principal land warfare force of the United Kingdom, a part of British Armed Forces",
+                    "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin"
+                ],
+                "span_l":62,
+                "span_r":63,
+                "sent_idx":8,
+                "sent_alias_idx":0,
+                "alias_idx":8,
+                "guid_idx":"8_32",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":9,
+                "alias":"footballer",
+                "pop_qid":"Q2736",
+                "candidates":[
+                    "Q2736",
+                    "Q50776",
+                    "Q948174",
+                    "Q280658",
+                    "Q201330",
+                    "Q606060",
+                    "Q204632",
+                    "Q41323",
+                    "Q336286"
+                ],
+                "candidate_titles":[
+                    "Association football",
+                    "Australian rules football",
+                    "Football in Italy",
+                    "Forward (association football)",
+                    "Goalkeeper (association football)",
+                    "Women's association football",
+                    "Gaelic football",
+                    "American football",
+                    "Defender (association football)"
+                ],
+                "candidate_descriptions":[
+                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
+                    "sport",
+                    "overview of association football practiced in Italy",
+                    "association football position played near the opponent's goal",
+                    "position in association football",
+                    "association football when played by women",
+                    "Irish team sport, form of football derived from traditional Irish ball games",
+                    "a form of team game played with an oval ball on a field marked out as a gridiron",
+                    "sports position played near the player's team's own goal"
+                ],
+                "span_l":63,
+                "span_r":64,
+                "sent_idx":8,
+                "sent_alias_idx":1,
+                "alias_idx":9,
+                "guid_idx":"8_33",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":9,
+                "alias":"uefa champions league",
+                "pop_qid":"Q18756",
+                "candidates":[
+                    "Q18756",
+                    "Q30608",
+                    "Q13416183",
+                    "Q189180",
+                    "Q11306107",
+                    "Q485002",
+                    "Q485956",
+                    "Q748389",
+                    "Q18740961"
+                ],
+                "candidate_titles":[
+                    "UEFA Champions League",
+                    "2013\u201314 UEFA Champions League",
+                    "2015\u201316 UEFA Champions League",
+                    "2010\u201311 UEFA Champions League",
+                    "2014\u201315 UEFA Champions League",
+                    "2011\u201312 UEFA Champions League",
+                    "2012\u201313 UEFA Champions League",
+                    "UEFA Women's Champions League",
+                    "2016\u201317 UEFA Champions League"
+                ],
+                "candidate_descriptions":[
+                    "European association football tournament",
+                    "2013\u201314 edition of the UEFA Champions League",
+                    "",
+                    "football tournament",
+                    "football tournament that concluded in 2015",
+                    "football tournament",
+                    "football tournament",
+                    "European association football tournament for clubs",
+                    ""
+                ],
+                "span_l":67,
+                "span_r":70,
+                "sent_idx":8,
+                "sent_alias_idx":2,
+                "alias_idx":10,
+                "guid_idx":"8_34",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q10520",
+                "doc_title":"David Beckham",
+                "doc_sent_idx":10,
+                "alias":"beckham",
+                "pop_qid":"Q10520",
+                "candidates":[
+                    "Q16212482",
+                    "Q741918",
+                    "Q19956053",
+                    "Q7803157",
+                    "Q19810",
+                    "Q491646",
+                    "Q887792",
+                    "Q3110882",
+                    "Q10520"
+                ],
+                "candidate_titles":[
+                    "Odell Beckham Jr.",
+                    "J. C. W. Beckham",
+                    "Clark Beckham",
+                    "Tim Beckham",
+                    "Victoria Beckham",
+                    "Beckham County, Oklahoma",
+                    "Bob Beckham",
+                    "Gordon Beckham",
+                    "David Beckham"
+                ],
+                "candidate_descriptions":[
+                    "American football player",
+                    "governor of Kentucky (1869-1940)",
+                    "American singer",
+                    "American baseball player",
+                    "English businesswoman, fashion designer and singer",
+                    "county in Oklahoma, United States",
+                    "American country singers",
+                    "American baseball player",
+                    "English association football player and model (born 1975)"
+                ],
+                "span_l":76,
+                "span_r":77,
+                "sent_idx":9,
+                "sent_alias_idx":0,
+                "alias_idx":11,
+                "guid_idx":"9_35",
+                "sentence":"He then played four seasons with Real Madrid , winning the La Liga championship in his final season with the club . In July 2007 , Beckham signed a five-year contract with Major League Soccer club LA Galaxy . While a Galaxy player , he spent two loan spells in Italy with Milan in 2009 and 2010 . He was the first British footballer to play 100 UEFA Champions League games . In international football , Beckham made his England debut on 1 September 1996 at the age of 21 .",
+                "all_aliases":[
+                    "real madrid",
+                    "la liga",
+                    "beckham",
+                    "major league soccer",
+                    "la galaxy",
+                    "galaxy",
+                    "italy",
+                    "milan",
+                    "british",
+                    "footballer",
+                    "uefa champions league",
+                    "beckham"
+                ],
+                "all_spans":[
+                    [
+                        6,
+                        8
+                    ],
+                    [
+                        11,
+                        13
+                    ],
+                    [
+                        26,
+                        27
+                    ],
+                    [
+                        32,
+                        35
+                    ],
+                    [
+                        36,
+                        38
+                    ],
+                    [
+                        41,
+                        42
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        52,
+                        53
+                    ],
+                    [
+                        62,
+                        63
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        67,
+                        70
+                    ],
+                    [
+                        76,
+                        77
                     ]
                 ]
             }
@@ -4074,10 +5242,10 @@ const ned_info_gld = [
                 ],
                 "span_l":2,
                 "span_r":4,
-                "sent_idx":0,
+                "sent_idx":10,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"0_0",
+                "guid_idx":"10_0",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4156,10 +5324,10 @@ const ned_info_gld = [
                 ],
                 "span_l":14,
                 "span_r":16,
-                "sent_idx":0,
+                "sent_idx":10,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"0_1",
+                "guid_idx":"10_1",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4238,10 +5406,10 @@ const ned_info_gld = [
                 ],
                 "span_l":34,
                 "span_r":36,
-                "sent_idx":1,
+                "sent_idx":11,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"1_2",
+                "guid_idx":"11_2",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4310,32 +5478,32 @@ const ned_info_gld = [
                 "alias":"concurrency",
                 "pop_qid":"Q1414548",
                 "candidates":[
+                    "Q250199",
                     "Q1414548",
-                    "Q128392",
-                    "Q5159092",
                     "Q5141584",
-                    "Q250199"
+                    "Q5159092",
+                    "Q128392"
                 ],
                 "candidate_titles":[
+                    "Concurrency",
                     "Concurrency (computer science)",
-                    "Concurrent computing",
-                    "Concurrency (road)",
                     "Coincident",
-                    "Concurrency"
+                    "Concurrency (road)",
+                    "Concurrent computing"
                 ],
                 "candidate_descriptions":[
+                    "Wikimedia disambiguation page",
                     "ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome",
-                    "form of computing in which several computations are executing during overlapping time periods",
-                    "instance of one physical road bearing two or more different highways",
                     "",
-                    "Wikimedia disambiguation page"
+                    "instance of one physical road bearing two or more different highways",
+                    "form of computing in which several computations are executing during overlapping time periods"
                 ],
                 "span_l":38,
                 "span_r":39,
-                "sent_idx":1,
+                "sent_idx":11,
                 "sent_alias_idx":1,
                 "alias_idx":3,
-                "guid_idx":"1_3",
+                "guid_idx":"11_3",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4404,44 +5572,44 @@ const ned_info_gld = [
                 "alias":"clock",
                 "pop_qid":"Q426882",
                 "candidates":[
+                    "Q514197",
+                    "Q376",
                     "Q2454950",
-                    "Q1650124",
-                    "Q426882",
                     "Q14908739",
                     "Q5134773",
-                    "Q376",
-                    "Q5134776",
-                    "Q514197",
-                    "Q911691"
+                    "Q1650124",
+                    "Q426882",
+                    "Q911691",
+                    "Q5134776"
                 ],
                 "candidate_titles":[
+                    "Gene Hoglan",
+                    "Clock",
                     "Clock (cryptography)",
-                    "The Clock (1945 film)",
-                    "Clock signal",
                     "CLOCK",
                     "Clock (band)",
-                    "Clock",
-                    "Clock (dance act)",
-                    "Gene Hoglan",
-                    "Clock rate"
+                    "The Clock (1945 film)",
+                    "Clock signal",
+                    "Clock rate",
+                    "Clock (dance act)"
                 ],
                 "candidate_descriptions":[
+                    "American musician",
+                    "instrument that measures the passage of time",
                     "Wikimedia list article",
-                    "1945 film by Vincente Minnelli, Fred Zinnemann",
-                    "in electronics, oscillating signal to coordinate circuits",
                     "protein-coding gene in the species Homo sapiens",
                     "American rock music group",
-                    "instrument that measures the passage of time",
-                    "British band",
-                    "American musician",
-                    "frequency at which CPU chip or core is operating"
+                    "1945 film by Vincente Minnelli, Fred Zinnemann",
+                    "in electronics, oscillating signal to coordinate circuits",
+                    "frequency at which CPU chip or core is operating",
+                    "British band"
                 ],
                 "span_l":46,
                 "span_r":47,
-                "sent_idx":1,
+                "sent_idx":11,
                 "sent_alias_idx":2,
                 "alias_idx":4,
-                "guid_idx":"1_4",
+                "guid_idx":"11_4",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4520,10 +5688,10 @@ const ned_info_gld = [
                 ],
                 "span_l":56,
                 "span_r":58,
-                "sent_idx":2,
+                "sent_idx":12,
                 "sent_alias_idx":0,
                 "alias_idx":5,
-                "guid_idx":"2_5",
+                "guid_idx":"12_5",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4602,10 +5770,10 @@ const ned_info_gld = [
                 ],
                 "span_l":63,
                 "span_r":67,
-                "sent_idx":2,
+                "sent_idx":12,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"2_6",
+                "guid_idx":"12_6",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4675,25 +5843,25 @@ const ned_info_gld = [
                 "pop_qid":"Q40056",
                 "candidates":[
                     "Q14167404",
-                    "Q166142",
-                    "Q40056"
+                    "Q40056",
+                    "Q166142"
                 ],
                 "candidate_titles":[
                     "Procedure",
-                    "Application software",
-                    "Computer program"
+                    "Computer program",
+                    "Application software"
                 ],
                 "candidate_descriptions":[
                     "Wikimedia disambiguation page",
-                    "computer software designed to perform a group of coordinated functions, tasks, or activities for the benefit of the user",
-                    "sequence of instructions written in programming language to perform a specified task with a computer"
+                    "sequence of instructions written in programming language to perform a specified task with a computer",
+                    "computer software designed to perform a group of coordinated functions, tasks, or activities for the benefit of the user"
                 ],
                 "span_l":73,
                 "span_r":75,
-                "sent_idx":3,
+                "sent_idx":13,
                 "sent_alias_idx":0,
                 "alias_idx":7,
-                "guid_idx":"3_7",
+                "guid_idx":"13_7",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4772,10 +5940,10 @@ const ned_info_gld = [
                 ],
                 "span_l":79,
                 "span_r":81,
-                "sent_idx":3,
+                "sent_idx":13,
                 "sent_alias_idx":1,
                 "alias_idx":8,
-                "guid_idx":"3_8",
+                "guid_idx":"13_8",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4844,23 +6012,23 @@ const ned_info_gld = [
                 "alias":"message passing",
                 "pop_qid":"Q1859284",
                 "candidates":[
-                    "Q6821790",
-                    "Q1859284"
+                    "Q1859284",
+                    "Q6821790"
                 ],
                 "candidate_titles":[
-                    "Message passing (disambiguation)",
-                    "Message passing"
+                    "Message passing",
+                    "Message passing (disambiguation)"
                 ],
                 "candidate_descriptions":[
-                    "Wikimedia disambiguation page",
-                    "mechanism for interprocess communication"
+                    "mechanism for interprocess communication",
+                    "Wikimedia disambiguation page"
                 ],
                 "span_l":108,
                 "span_r":110,
-                "sent_idx":4,
+                "sent_idx":14,
                 "sent_alias_idx":0,
                 "alias_idx":9,
-                "guid_idx":"4_9",
+                "guid_idx":"14_9",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -4939,10 +6107,10 @@ const ned_info_gld = [
                 ],
                 "span_l":114,
                 "span_r":115,
-                "sent_idx":4,
+                "sent_idx":14,
                 "sent_alias_idx":1,
                 "alias_idx":10,
-                "guid_idx":"4_10",
+                "guid_idx":"14_10",
                 "sentence":"A `` distributed system '' is a system whose components are located on different networked computers , which communicate and coordinate their actions by passing messages to one another . Three significant characteristics of distributed systems are : concurrency of components , lack of a global clock , and independent failure of components . Examples of distributed systems vary from SOA-based systems to massively multiplayer online game s to peer-to-peer applications . A computer program that runs within a distributed system is called a distributed program ( and distributed programming is the process of writing such programs ) . There are many different types of implementations for the message passing mechanism , including pure HTTP , RPC-like connectors and message queues .",
                 "all_aliases":[
                     "distributed system",
@@ -5011,27 +6179,43 @@ const ned_info_gld = [
                 "alias":"distributed computing",
                 "pop_qid":"Q180634",
                 "candidates":[
-                    "Q5283113",
-                    "Q180634"
+                    "Q180634",
+                    "Q5283113"
                 ],
                 "candidate_titles":[
-                    "Distributed Computing (journal)",
-                    "Distributed computing"
+                    "Distributed computing",
+                    "Distributed Computing (journal)"
                 ],
                 "candidate_descriptions":[
-                    "journal",
-                    "system whose components are located on different networked computers"
+                    "system whose components are located on different networked computers",
+                    "journal"
                 ],
                 "span_l":1,
                 "span_r":3,
-                "sent_idx":5,
+                "sent_idx":15,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"5_0",
-                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems .",
+                "guid_idx":"15_11",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
                 "all_aliases":[
                     "distributed computing",
-                    "distributed systems"
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
                 ],
                 "all_spans":[
                     [
@@ -5041,6 +6225,70 @@ const ned_info_gld = [
                     [
                         10,
                         12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
                     ]
                 ]
             },
@@ -5061,14 +6309,30 @@ const ned_info_gld = [
                 ],
                 "span_l":10,
                 "span_r":12,
-                "sent_idx":5,
+                "sent_idx":15,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"5_1",
-                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems .",
+                "guid_idx":"15_12",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
                 "all_aliases":[
                     "distributed computing",
-                    "distributed systems"
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
                 ],
                 "all_spans":[
                     [
@@ -5078,6 +6342,2083 @@ const ned_info_gld = [
                     [
                         10,
                         12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":8,
+                "alias":"distributed computing",
+                "pop_qid":"Q180634",
+                "candidates":[
+                    "Q5283113",
+                    "Q180634"
+                ],
+                "candidate_titles":[
+                    "Distributed Computing (journal)",
+                    "Distributed computing"
+                ],
+                "candidate_descriptions":[
+                    "journal",
+                    "system whose components are located on different networked computers"
+                ],
+                "span_l":19,
+                "span_r":21,
+                "sent_idx":16,
+                "sent_alias_idx":0,
+                "alias_idx":2,
+                "guid_idx":"16_13",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":8,
+                "alias":"computers",
+                "pop_qid":"Q68",
+                "candidates":[
+                    "Q16338",
+                    "Q3610415",
+                    "Q21198",
+                    "Q1122550",
+                    "Q1122588",
+                    "Q11202952",
+                    "Q68"
+                ],
+                "candidate_titles":[
+                    "Personal computer",
+                    "Computational economics",
+                    "Computer science",
+                    "Computer music",
+                    "Computer chess",
+                    "Computer (job description)",
+                    "Computer"
+                ],
+                "candidate_descriptions":[
+                    "electronic device that stores and processes data according to a guide list",
+                    "",
+                    "study of the theoretical foundations of computation",
+                    "musical technique",
+                    "computer hardware and software capable of playing chess",
+                    "occupation",
+                    "general-purpose device for performing arithmetic or logical operations"
+                ],
+                "span_l":40,
+                "span_r":41,
+                "sent_idx":16,
+                "sent_alias_idx":1,
+                "alias_idx":3,
+                "guid_idx":"16_14",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":8,
+                "alias":"message passing",
+                "pop_qid":"Q1859284",
+                "candidates":[
+                    "Q6821790",
+                    "Q1859284"
+                ],
+                "candidate_titles":[
+                    "Message passing (disambiguation)",
+                    "Message passing"
+                ],
+                "candidate_descriptions":[
+                    "Wikimedia disambiguation page",
+                    "mechanism for interprocess communication"
+                ],
+                "span_l":48,
+                "span_r":50,
+                "sent_idx":16,
+                "sent_alias_idx":2,
+                "alias_idx":4,
+                "guid_idx":"16_15",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":9,
+                "alias":"distributed system",
+                "pop_qid":"Q180634",
+                "candidates":[
+                    "Q180634"
+                ],
+                "candidate_titles":[
+                    "Distributed computing"
+                ],
+                "candidate_descriptions":[
+                    "system whose components are located on different networked computers"
+                ],
+                "span_l":61,
+                "span_r":63,
+                "sent_idx":17,
+                "sent_alias_idx":0,
+                "alias_idx":5,
+                "guid_idx":"17_16",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":9,
+                "alias":"distributed algorithm",
+                "pop_qid":"Q2835898",
+                "candidates":[
+                    "Q2835898"
+                ],
+                "candidate_titles":[
+                    "Distributed algorithm"
+                ],
+                "candidate_descriptions":[
+                    "algorithm designed to run on computer hardware constructed from interconnected processors"
+                ],
+                "span_l":72,
+                "span_r":74,
+                "sent_idx":17,
+                "sent_alias_idx":1,
+                "alias_idx":6,
+                "guid_idx":"17_17",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":9,
+                "alias":"computer networks",
+                "pop_qid":"Q1301371",
+                "candidates":[
+                    "Q1301371",
+                    "Q5157456"
+                ],
+                "candidate_titles":[
+                    "Computer network",
+                    "Computer Networks (journal)"
+                ],
+                "candidate_descriptions":[
+                    "network that allows computers to share resources and communicate with each other",
+                    "journal"
+                ],
+                "span_l":78,
+                "span_r":80,
+                "sent_idx":17,
+                "sent_alias_idx":2,
+                "alias_idx":7,
+                "guid_idx":"17_18",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":9,
+                "alias":"computers",
+                "pop_qid":"Q68",
+                "candidates":[
+                    "Q1122550",
+                    "Q11202952",
+                    "Q68",
+                    "Q21198",
+                    "Q3610415",
+                    "Q16338",
+                    "Q1122588"
+                ],
+                "candidate_titles":[
+                    "Computer music",
+                    "Computer (job description)",
+                    "Computer",
+                    "Computer science",
+                    "Computational economics",
+                    "Personal computer",
+                    "Computer chess"
+                ],
+                "candidate_descriptions":[
+                    "musical technique",
+                    "occupation",
+                    "general-purpose device for performing arithmetic or logical operations",
+                    "study of the theoretical foundations of computation",
+                    "",
+                    "electronic device that stores and processes data according to a guide list",
+                    "computer hardware and software capable of playing chess"
+                ],
+                "span_l":82,
+                "span_r":83,
+                "sent_idx":17,
+                "sent_alias_idx":3,
+                "alias_idx":8,
+                "guid_idx":"17_19",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":9,
+                "alias":"distributed",
+                "pop_qid":"Q180634",
+                "candidates":[
+                    "Q368290",
+                    "Q180634",
+                    "Q1415356",
+                    "Q250388",
+                    "Q17009126",
+                    "Q861135",
+                    "Q989016",
+                    "Q761706",
+                    "Q7892376"
+                ],
+                "candidate_titles":[
+                    "Film distributor",
+                    "Distributed computing",
+                    "Film distribution",
+                    "Species distribution",
+                    "Digital distribution of video games",
+                    "Distributed generation",
+                    "Distributed database",
+                    "Digital cinema",
+                    "United States congressional apportionment"
+                ],
+                "candidate_descriptions":[
+                    "company that markets and distributes films",
+                    "system whose components are located on different networked computers",
+                    "act of making a motion picture available to the public",
+                    "Geographical arrangement of a biological species or population",
+                    "process of delivering video game content as digital information, without the exchange or purchase of new physical media",
+                    "decentralized energy generation from small energy sources",
+                    "",
+                    "use of digital technology to distribute or project motion pictures as opposed to the historical use of reels of motion picture film",
+                    "how 435 seats are distributed to 50 states"
+                ],
+                "span_l":85,
+                "span_r":86,
+                "sent_idx":17,
+                "sent_alias_idx":4,
+                "alias_idx":9,
+                "guid_idx":"17_20",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":10,
+                "alias":"autonomous",
+                "pop_qid":"Q484105",
+                "candidates":[
+                    "Q127393",
+                    "Q484105",
+                    "Q1398958",
+                    "Q2533461",
+                    "Q15059108",
+                    "Q2916098",
+                    "Q10742",
+                    "Q741490",
+                    "Q191903"
+                ],
+                "candidate_titles":[
+                    "Autonomism",
+                    "Autonomy",
+                    "Autonomism (political doctrine)",
+                    "Autonomous administrative division",
+                    "States and regions of Somalia",
+                    "Autonomous robot",
+                    "Autonomous communities of Spain",
+                    "Self-driving car",
+                    "Autocephaly"
+                ],
+                "candidate_descriptions":[
+                    "set of anti-authoritarian left-wing political and social movements and theories",
+                    "concept found in moral, political, and bioethical philosophy",
+                    "political doctrine which supports acquiring or preserving political autonomy of a nation or a region",
+                    "",
+                    "administrative territorial entity of Somalia",
+                    "robot that performs behaviors or tasks with a high degree of autonomy",
+                    "first-level political and administrative division of Spain",
+                    "vehicle operated with reduced human input",
+                    "Christian hierarchical practice"
+                ],
+                "span_l":105,
+                "span_r":106,
+                "sent_idx":18,
+                "sent_alias_idx":0,
+                "alias_idx":10,
+                "guid_idx":"18_21",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":10,
+                "alias":"processes",
+                "pop_qid":"Q205663",
+                "candidates":[
+                    "Q851587",
+                    "Q3512282",
+                    "Q205663",
+                    "Q2281940",
+                    "Q10843872",
+                    "Q619671"
+                ],
+                "candidate_titles":[
+                    "Business process",
+                    "Process music",
+                    "Process (computing)",
+                    "Chemical process",
+                    "Process (engineering)",
+                    "Process (anatomy)"
+                ],
+                "candidate_descriptions":[
+                    "collection of related, structured activities or tasks that produce a specific service or product (serve a particular goal) for a particular customer or customers",
+                    "",
+                    "particular execution of a computer program",
+                    "method or means of somehow changing one or more chemicals or chemical compounds",
+                    "set of interrelated tasks that transform inputs into outputs, where the tasks may be carried out by people, nature or machines using various resources",
+                    "projection or outgrowth of tissue from a larger body"
+                ],
+                "span_l":106,
+                "span_r":107,
+                "sent_idx":18,
+                "sent_alias_idx":1,
+                "alias_idx":11,
+                "guid_idx":"18_22",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":10,
+                "alias":"computer",
+                "pop_qid":"Q68",
+                "candidates":[
+                    "Q925667",
+                    "Q1401416",
+                    "Q68",
+                    "Q21198",
+                    "Q1301371",
+                    "Q16338",
+                    "Q6002306",
+                    "Q11661",
+                    "Q11660"
+                ],
+                "candidate_titles":[
+                    "Computer simulation",
+                    "Computer animation",
+                    "Computer",
+                    "Computer science",
+                    "Computer network",
+                    "Personal computer",
+                    "Computer-generated imagery",
+                    "Information technology",
+                    "Artificial intelligence"
+                ],
+                "candidate_descriptions":[
+                    "simulation, run on a single computer, or a network of computers, to reproduce behavior of a system; modeling a real physical system in a computer",
+                    "art of creating moving images using computers",
+                    "general-purpose device for performing arithmetic or logical operations",
+                    "study of the theoretical foundations of computation",
+                    "network that allows computers to share resources and communicate with each other",
+                    "electronic device that stores and processes data according to a guide list",
+                    "application of computer graphics to create or contribute to images",
+                    "development, management, and use of computer-based information systems",
+                    ""
+                ],
+                "span_l":113,
+                "span_r":114,
+                "sent_idx":18,
+                "sent_alias_idx":2,
+                "alias_idx":12,
+                "guid_idx":"18_23",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":10,
+                "alias":"message passing",
+                "pop_qid":"Q1859284",
+                "candidates":[
+                    "Q6821790",
+                    "Q1859284"
+                ],
+                "candidate_titles":[
+                    "Message passing (disambiguation)",
+                    "Message passing"
+                ],
+                "candidate_descriptions":[
+                    "Wikimedia disambiguation page",
+                    "mechanism for interprocess communication"
+                ],
+                "span_l":120,
+                "span_r":122,
+                "sent_idx":18,
+                "sent_alias_idx":3,
+                "alias_idx":13,
+                "guid_idx":"18_24",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":11,
+                "alias":"distributed system",
+                "pop_qid":"Q180634",
+                "candidates":[
+                    "Q180634"
+                ],
+                "candidate_titles":[
+                    "Distributed computing"
+                ],
+                "candidate_descriptions":[
+                    "system whose components are located on different networked computers"
+                ],
+                "span_l":131,
+                "span_r":133,
+                "sent_idx":19,
+                "sent_alias_idx":0,
+                "alias_idx":14,
+                "guid_idx":"19_25",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":11,
+                "alias":"distributed system",
+                "pop_qid":"Q180634",
+                "candidates":[
+                    "Q180634"
+                ],
+                "candidate_titles":[
+                    "Distributed computing"
+                ],
+                "candidate_descriptions":[
+                    "system whose components are located on different networked computers"
+                ],
+                "span_l":144,
+                "span_r":146,
+                "sent_idx":19,
+                "sent_alias_idx":1,
+                "alias_idx":15,
+                "guid_idx":"19_26",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":11,
+                "alias":"computational problem",
+                "pop_qid":"Q3435924",
+                "candidates":[
+                    "Q3435924"
+                ],
+                "candidate_titles":[
+                    "Computational problem"
+                ],
+                "candidate_descriptions":[
+                    "set of mathematically defined problem on the properties of a type of mathematical objects"
+                ],
+                "span_l":157,
+                "span_r":159,
+                "sent_idx":19,
+                "sent_alias_idx":2,
+                "alias_idx":16,
+                "guid_idx":"19_27",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q180634",
+                "doc_title":"Distributed computing",
+                "doc_sent_idx":11,
+                "alias":"processors",
+                "pop_qid":"Q1466064",
+                "candidates":[
+                    "Q5297",
+                    "Q5300",
+                    "Q1466064"
+                ],
+                "candidate_titles":[
+                    "Microprocessor",
+                    "Central processing unit",
+                    "Processor (computing)"
+                ],
+                "candidate_descriptions":[
+                    "computer processor contained on an integrated-circuit chip",
+                    "electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logical, control and input\/output (I\/O) operations specified by the instructions",
+                    "class of electronic units for electronic data processings"
+                ],
+                "span_l":168,
+                "span_r":169,
+                "sent_idx":19,
+                "sent_alias_idx":3,
+                "alias_idx":17,
+                "guid_idx":"19_28",
+                "sentence":"`` Distributed computing '' also refers to the use of distributed systems to solve computational problems . In `` distributed computing '' , a problem is divided into many tasks , each of which is solved by one or more computers , which communicate with each other via message passing . The word `` distributed '' in terms such as `` distributed system '' , `` distributed programming '' , and `` distributed algorithm `` originally referred to computer networks where individual computers were physically distributed within some geographical area . The terms are nowadays used in a much wider sense , even referring to autonomous processes that run on the same physical computer and interact with each other by message passing . While there is no single definition of a distributed system , the following defining properties are commonly used as : A distributed system may have a common goal , such as solving a large computational problem ; the user then perceives the collection of autonomous processors as a unit .",
+                "all_aliases":[
+                    "distributed computing",
+                    "distributed systems",
+                    "distributed computing",
+                    "computers",
+                    "message passing",
+                    "distributed system",
+                    "distributed algorithm",
+                    "computer networks",
+                    "computers",
+                    "distributed",
+                    "autonomous",
+                    "processes",
+                    "computer",
+                    "message passing",
+                    "distributed system",
+                    "distributed system",
+                    "computational problem",
+                    "processors"
+                ],
+                "all_spans":[
+                    [
+                        1,
+                        3
+                    ],
+                    [
+                        10,
+                        12
+                    ],
+                    [
+                        19,
+                        21
+                    ],
+                    [
+                        40,
+                        41
+                    ],
+                    [
+                        48,
+                        50
+                    ],
+                    [
+                        61,
+                        63
+                    ],
+                    [
+                        72,
+                        74
+                    ],
+                    [
+                        78,
+                        80
+                    ],
+                    [
+                        82,
+                        83
+                    ],
+                    [
+                        85,
+                        86
+                    ],
+                    [
+                        105,
+                        106
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        113,
+                        114
+                    ],
+                    [
+                        120,
+                        122
+                    ],
+                    [
+                        131,
+                        133
+                    ],
+                    [
+                        144,
+                        146
+                    ],
+                    [
+                        157,
+                        159
+                    ],
+                    [
+                        168,
+                        169
                     ]
                 ]
             }
@@ -5094,44 +8435,44 @@ const ned_info_gld = [
                 "alias":"polish",
                 "pop_qid":"Q1026",
                 "candidates":[
-                    "Q809",
-                    "Q207272",
-                    "Q166196",
                     "Q221457",
+                    "Q152529",
+                    "Q809",
+                    "Q1026",
                     "Q36",
                     "Q172107",
-                    "Q152529",
+                    "Q207272",
                     "Q171348",
-                    "Q1026"
+                    "Q166196"
                 ],
                 "candidate_titles":[
-                    "Polish language",
-                    "Second Polish Republic",
-                    "Poland national football team",
                     "Congress Poland",
+                    "Home Army",
+                    "Polish language",
+                    "Poles",
                     "Poland",
                     "Polish\u2013Lithuanian Commonwealth",
-                    "Home Army",
+                    "Second Polish Republic",
                     "Crown of the Kingdom of Poland",
-                    "Poles"
+                    "Poland national football team"
                 ],
                 "candidate_descriptions":[
-                    "Indo-European language of the West Slavic group, spoken in Poland",
-                    "1918\u20131939 republic in Central Europe",
-                    "men's national association football team representing Poland",
                     "former state in Eastern Europe",
+                    "Polish resistance movement in World War II German-occupied Poland",
+                    "Indo-European language of the West Slavic group, spoken in Poland",
+                    "Nation native to Poland",
                     "sovereign state in Central Europe",
                     "dualistic state, a bi-confederation, of Poland and Lithuania ruled by a common monarch, who was both the King of Poland and the Grand Duke of Lithuania",
-                    "Polish resistance movement in World War II German-occupied Poland",
+                    "1918\u20131939 republic in Central Europe",
                     "",
-                    "Nation native to Poland"
+                    "men's national association football team representing Poland"
                 ],
                 "span_l":1,
                 "span_r":2,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"0_0",
+                "guid_idx":"20_0",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -5235,44 +8576,44 @@ const ned_info_gld = [
                 "alias":"physician",
                 "pop_qid":"Q39631",
                 "candidates":[
-                    "Q356407",
-                    "Q11190",
-                    "Q624029",
-                    "Q8017083",
-                    "Q3254256",
-                    "Q2367580",
-                    "Q65085082",
                     "Q39631",
-                    "Q913404"
+                    "Q65085082",
+                    "Q8017083",
+                    "Q11190",
+                    "Q2367580",
+                    "Q913404",
+                    "Q624029",
+                    "Q3254256",
+                    "Q356407"
                 ],
                 "candidate_titles":[
-                    "John Snow",
-                    "Medicine",
-                    "Medicine in the medieval Islamic world",
-                    "William Price (physician)",
-                    "SOE F Section networks",
-                    "Fat Jon",
-                    "Physicians in Canada",
                     "Physician",
-                    "Doctor of Medicine"
+                    "Physicians in Canada",
+                    "William Price (physician)",
+                    "Medicine",
+                    "Fat Jon",
+                    "Doctor of Medicine",
+                    "Medicine in the medieval Islamic world",
+                    "SOE F Section networks",
+                    "John Snow"
                 ],
                 "candidate_descriptions":[
-                    "English epidemiologist and physician",
-                    "field of study for diagnosing, treating and preventing disease",
-                    "Overview about the medicine in the medieval Islamic world",
-                    "Welsh physician, born 1800",
-                    "Wikimedia list article",
-                    "American musician",
-                    "",
                     "professional who practices medicine",
-                    "medical degree"
+                    "",
+                    "Welsh physician, born 1800",
+                    "field of study for diagnosing, treating and preventing disease",
+                    "American musician",
+                    "medical degree",
+                    "Overview about the medicine in the medieval Islamic world",
+                    "Wikimedia list article",
+                    "English epidemiologist and physician"
                 ],
                 "span_l":2,
                 "span_r":3,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"0_1",
+                "guid_idx":"20_1",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -5386,10 +8727,10 @@ const ned_info_gld = [
                 ],
                 "span_l":3,
                 "span_r":5,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"0_2",
+                "guid_idx":"20_2",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -5493,23 +8834,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":12,
                 "span_r":13,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":3,
                 "alias_idx":3,
-                "guid_idx":"0_3",
+                "guid_idx":"20_3",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -5613,44 +8954,44 @@ const ned_info_gld = [
                 "alias":"chairman",
                 "pop_qid":"Q140686",
                 "candidates":[
-                    "Q140686",
-                    "Q1763459",
-                    "Q5816",
-                    "Q1255921",
                     "Q2145369",
                     "Q30185",
-                    "Q36014",
+                    "Q1185863",
+                    "Q140686",
+                    "Q5816",
                     "Q579677",
-                    "Q1185863"
+                    "Q1255921",
+                    "Q1763459",
+                    "Q36014"
                 ],
                 "candidate_titles":[
-                    "Chairperson",
-                    "Chairman of the Joint Chiefs of Staff",
-                    "Mao Zedong",
-                    "President (corporate title)",
                     "Republican National Committee",
                     "Mayor",
-                    "Ho Chi Minh",
+                    "Democratic National Committee",
+                    "Chairperson",
+                    "Mao Zedong",
                     "President of Ukraine",
-                    "Democratic National Committee"
+                    "President (corporate title)",
+                    "Chairman of the Joint Chiefs of Staff",
+                    "Ho Chi Minh"
                 ],
                 "candidate_descriptions":[
-                    "leading or presiding officer of an organized group such as a board, committee, or deliberative assembly",
-                    "highest ranking military officer in the United States",
-                    "Chairman of the Central Committee of the Communist Party of China (1893-1976)",
-                    "non-political leader of an organization, company, community, club, trade union, university or other group",
                     "top institution of the U.S. Republican Party",
                     "head of municipal government such as a town or city",
-                    "Vietnamese communist leader and Chairman of the Workers' Party of Vietnam (1890-1969)",
+                    "top institution of the U.S. Democratic Party",
+                    "leading or presiding officer of an organized group such as a board, committee, or deliberative assembly",
+                    "Chairman of the Central Committee of the Communist Party of China (1893-1976)",
                     "Ukrainian head of state",
-                    "top institution of the U.S. Democratic Party"
+                    "non-political leader of an organization, company, community, club, trade union, university or other group",
+                    "highest ranking military officer in the United States",
+                    "Vietnamese communist leader and Chairman of the Workers' Party of Vietnam (1890-1969)"
                 ],
                 "span_l":18,
                 "span_r":19,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":4,
                 "alias_idx":4,
-                "guid_idx":"0_4",
+                "guid_idx":"20_4",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -5754,44 +9095,44 @@ const ned_info_gld = [
                 "alias":"united states",
                 "pop_qid":"Q30",
                 "candidates":[
-                    "Q30",
-                    "Q49",
-                    "Q188819",
-                    "Q180072",
                     "Q9212",
-                    "Q846570",
-                    "Q66096",
+                    "Q49",
+                    "Q30",
+                    "Q180072",
                     "Q35657",
+                    "Q846570",
+                    "Q188819",
+                    "Q66096",
                     "Q11220"
                 ],
                 "candidate_titles":[
-                    "United States",
-                    "North America",
-                    "Billboard 200",
-                    "Billboard Hot 100",
                     "United States Army",
-                    "Americans",
-                    "United States Senate",
+                    "North America",
+                    "United States",
+                    "Billboard Hot 100",
                     "U.S. state",
+                    "Americans",
+                    "Billboard 200",
+                    "United States Senate",
                     "United States Navy"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in North America",
-                    "continent on the Earth's northwestern quadrant",
-                    "US weekly album chart published by Billboard Magazine",
-                    "single charts in U.S",
                     "branch of the United States Armed Forces",
-                    "citizens or residents of the United States of America",
-                    "upper house of the United States Congress",
+                    "continent on the Earth's northwestern quadrant",
+                    "sovereign state in North America",
+                    "single charts in U.S",
                     "constituent political entity sharing sovereignty as the United States of America",
+                    "citizens or residents of the United States of America",
+                    "US weekly album chart published by Billboard Magazine",
+                    "upper house of the United States Congress",
                     "maritime warfare branch of the United States' military"
                 ],
                 "span_l":30,
                 "span_r":32,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":5,
                 "alias_idx":5,
-                "guid_idx":"0_5",
+                "guid_idx":"20_5",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -5905,10 +9246,10 @@ const ned_info_gld = [
                 ],
                 "span_l":36,
                 "span_r":37,
-                "sent_idx":0,
+                "sent_idx":20,
                 "sent_alias_idx":6,
                 "alias_idx":6,
-                "guid_idx":"0_6",
+                "guid_idx":"20_6",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6012,35 +9353,35 @@ const ned_info_gld = [
                 "alias":"rajchman",
                 "pop_qid":"Q4819284",
                 "candidates":[
-                    "Q11723735",
-                    "Q3182337",
                     "Q4819284",
+                    "Q7285898",
+                    "Q3182337",
                     "Q2640812",
-                    "Q6148437",
-                    "Q7285898"
+                    "Q11723735",
+                    "Q6148437"
                 ],
                 "candidate_titles":[
-                    "Chil Rajchman",
-                    "John Rajchman",
                     "Ludwik Rajchman",
+                    "Rajchman",
+                    "John Rajchman",
                     "Aleksander Rajchman",
-                    "Jan A. Rajchman",
-                    "Rajchman"
+                    "Chil Rajchman",
+                    "Jan A. Rajchman"
                 ],
                 "candidate_descriptions":[
-                    "Polish Holocaust survivor",
-                    "American philosopher",
                     "Polish microbiologist, co-founder of UNICEF",
+                    "family name",
+                    "American philosopher",
                     "mathematician",
-                    "American electrical engineer",
-                    "family name"
+                    "Polish Holocaust survivor",
+                    "American electrical engineer"
                 ],
                 "span_l":38,
                 "span_r":39,
-                "sent_idx":1,
+                "sent_idx":21,
                 "sent_alias_idx":0,
                 "alias_idx":7,
-                "guid_idx":"1_7",
+                "guid_idx":"21_7",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6157,10 +9498,10 @@ const ned_info_gld = [
                 ],
                 "span_l":49,
                 "span_r":50,
-                "sent_idx":1,
+                "sent_idx":21,
                 "sent_alias_idx":1,
                 "alias_idx":8,
-                "guid_idx":"1_8",
+                "guid_idx":"21_8",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6264,44 +9605,44 @@ const ned_info_gld = [
                 "alias":"chairman",
                 "pop_qid":"Q140686",
                 "candidates":[
-                    "Q1763459",
-                    "Q2145369",
-                    "Q36014",
-                    "Q1255921",
                     "Q5816",
-                    "Q1185863",
-                    "Q30185",
+                    "Q579677",
                     "Q140686",
-                    "Q579677"
+                    "Q1255921",
+                    "Q36014",
+                    "Q2145369",
+                    "Q30185",
+                    "Q1763459",
+                    "Q1185863"
                 ],
                 "candidate_titles":[
-                    "Chairman of the Joint Chiefs of Staff",
-                    "Republican National Committee",
-                    "Ho Chi Minh",
-                    "President (corporate title)",
                     "Mao Zedong",
-                    "Democratic National Committee",
-                    "Mayor",
+                    "President of Ukraine",
                     "Chairperson",
-                    "President of Ukraine"
+                    "President (corporate title)",
+                    "Ho Chi Minh",
+                    "Republican National Committee",
+                    "Mayor",
+                    "Chairman of the Joint Chiefs of Staff",
+                    "Democratic National Committee"
                 ],
                 "candidate_descriptions":[
-                    "highest ranking military officer in the United States",
-                    "top institution of the U.S. Republican Party",
-                    "Vietnamese communist leader and Chairman of the Workers' Party of Vietnam (1890-1969)",
-                    "non-political leader of an organization, company, community, club, trade union, university or other group",
                     "Chairman of the Central Committee of the Communist Party of China (1893-1976)",
-                    "top institution of the U.S. Democratic Party",
-                    "head of municipal government such as a town or city",
+                    "Ukrainian head of state",
                     "leading or presiding officer of an organized group such as a board, committee, or deliberative assembly",
-                    "Ukrainian head of state"
+                    "non-political leader of an organization, company, community, club, trade union, university or other group",
+                    "Vietnamese communist leader and Chairman of the Workers' Party of Vietnam (1890-1969)",
+                    "top institution of the U.S. Republican Party",
+                    "head of municipal government such as a town or city",
+                    "highest ranking military officer in the United States",
+                    "top institution of the U.S. Democratic Party"
                 ],
                 "span_l":51,
                 "span_r":52,
-                "sent_idx":1,
+                "sent_idx":21,
                 "sent_alias_idx":2,
                 "alias_idx":9,
-                "guid_idx":"1_9",
+                "guid_idx":"21_9",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6405,35 +9746,35 @@ const ned_info_gld = [
                 "alias":"rajchman",
                 "pop_qid":"Q4819284",
                 "candidates":[
-                    "Q2640812",
+                    "Q7285898",
                     "Q3182337",
                     "Q4819284",
-                    "Q7285898",
+                    "Q11723735",
                     "Q6148437",
-                    "Q11723735"
+                    "Q2640812"
                 ],
                 "candidate_titles":[
-                    "Aleksander Rajchman",
+                    "Rajchman",
                     "John Rajchman",
                     "Ludwik Rajchman",
-                    "Rajchman",
+                    "Chil Rajchman",
                     "Jan A. Rajchman",
-                    "Chil Rajchman"
+                    "Aleksander Rajchman"
                 ],
                 "candidate_descriptions":[
-                    "mathematician",
+                    "family name",
                     "American philosopher",
                     "Polish microbiologist, co-founder of UNICEF",
-                    "family name",
+                    "Polish Holocaust survivor",
                     "American electrical engineer",
-                    "Polish Holocaust survivor"
+                    "mathematician"
                 ],
                 "span_l":59,
                 "span_r":60,
-                "sent_idx":2,
+                "sent_idx":22,
                 "sent_alias_idx":0,
                 "alias_idx":10,
-                "guid_idx":"2_10",
+                "guid_idx":"22_10",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6537,44 +9878,44 @@ const ned_info_gld = [
                 "alias":"american",
                 "pop_qid":"Q846570",
                 "candidates":[
-                    "Q30",
-                    "Q11220",
-                    "Q11223",
-                    "Q41323",
                     "Q180072",
+                    "Q49",
+                    "Q11223",
+                    "Q30",
+                    "Q41323",
+                    "Q188819",
                     "Q9212",
                     "Q846570",
-                    "Q188819",
-                    "Q49"
+                    "Q11220"
                 ],
                 "candidate_titles":[
-                    "United States",
-                    "United States Navy",
-                    "United States Air Force",
-                    "American football",
                     "Billboard Hot 100",
+                    "North America",
+                    "United States Air Force",
+                    "United States",
+                    "American football",
+                    "Billboard 200",
                     "United States Army",
                     "Americans",
-                    "Billboard 200",
-                    "North America"
+                    "United States Navy"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in North America",
-                    "maritime warfare branch of the United States' military",
-                    "air warfare branch of the United States Armed Forces",
-                    "a form of team game played with an oval ball on a field marked out as a gridiron",
                     "single charts in U.S",
+                    "continent on the Earth's northwestern quadrant",
+                    "air warfare branch of the United States Armed Forces",
+                    "sovereign state in North America",
+                    "a form of team game played with an oval ball on a field marked out as a gridiron",
+                    "US weekly album chart published by Billboard Magazine",
                     "branch of the United States Armed Forces",
                     "citizens or residents of the United States of America",
-                    "US weekly album chart published by Billboard Magazine",
-                    "continent on the Earth's northwestern quadrant"
+                    "maritime warfare branch of the United States' military"
                 ],
                 "span_l":64,
                 "span_r":65,
-                "sent_idx":2,
+                "sent_idx":22,
                 "sent_alias_idx":1,
                 "alias_idx":11,
-                "guid_idx":"2_11",
+                "guid_idx":"22_11",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6688,10 +10029,10 @@ const ned_info_gld = [
                 ],
                 "span_l":65,
                 "span_r":67,
-                "sent_idx":2,
+                "sent_idx":22,
                 "sent_alias_idx":2,
                 "alias_idx":12,
-                "guid_idx":"2_12",
+                "guid_idx":"22_12",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6795,29 +10136,29 @@ const ned_info_gld = [
                 "alias":"executive director",
                 "pop_qid":"Q267936",
                 "candidates":[
-                    "Q188628",
-                    "Q1162163",
                     "Q5419838",
-                    "Q267936"
+                    "Q188628",
+                    "Q267936",
+                    "Q1162163"
                 ],
                 "candidate_titles":[
-                    "Board of directors",
-                    "Director (business)",
                     "Executive Directors of the United States Chess Federation",
-                    "Executive director"
+                    "Board of directors",
+                    "Executive director",
+                    "Director (business)"
                 ],
                 "candidate_descriptions":[
-                    "group of people who jointly supervise the activities of an organization",
-                    "person who leads a particular area of a company or organisation",
                     "",
-                    "chief executive officer (CEO) or managing director of an organization, company, or corporation, who serves as a board member"
+                    "group of people who jointly supervise the activities of an organization",
+                    "chief executive officer (CEO) or managing director of an organization, company, or corporation, who serves as a board member",
+                    "person who leads a particular area of a company or organisation"
                 ],
                 "span_l":70,
                 "span_r":72,
-                "sent_idx":2,
+                "sent_idx":22,
                 "sent_alias_idx":3,
                 "alias_idx":13,
-                "guid_idx":"2_13",
+                "guid_idx":"22_13",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -6921,23 +10262,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":85,
                 "span_r":86,
-                "sent_idx":3,
+                "sent_idx":23,
                 "sent_alias_idx":0,
                 "alias_idx":14,
-                "guid_idx":"3_14",
+                "guid_idx":"23_14",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -7042,25 +10383,25 @@ const ned_info_gld = [
                 "pop_qid":"Q177323",
                 "candidates":[
                     "Q1550762",
-                    "Q7313113",
-                    "Q177323"
+                    "Q177323",
+                    "Q7313113"
                 ],
                 "candidate_titles":[
                     "Debt of developing countries",
-                    "Renewable energy in developing countries",
-                    "Developing country"
+                    "Developing country",
+                    "Renewable energy in developing countries"
                 ],
                 "candidate_descriptions":[
                     "",
-                    "",
-                    "nation with a low living standard relative to other countries"
+                    "nation with a low living standard relative to other countries",
+                    ""
                 ],
                 "span_l":100,
                 "span_r":102,
-                "sent_idx":3,
+                "sent_idx":23,
                 "sent_alias_idx":1,
                 "alias_idx":15,
-                "guid_idx":"3_15",
+                "guid_idx":"23_15",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -7174,10 +10515,10 @@ const ned_info_gld = [
                 ],
                 "span_l":114,
                 "span_r":117,
-                "sent_idx":4,
+                "sent_idx":24,
                 "sent_alias_idx":0,
                 "alias_idx":16,
-                "guid_idx":"4_16",
+                "guid_idx":"24_16",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -7281,23 +10622,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":144,
                 "span_r":145,
-                "sent_idx":4,
+                "sent_idx":24,
                 "sent_alias_idx":1,
                 "alias_idx":17,
-                "guid_idx":"4_17",
+                "guid_idx":"24_17",
                 "sentence":"The Polish physician Ludwik Rajchman is widely regarded as the founder of UNICEF and served as its first chairman from 1946 to 1950 , when he had to flee the United States in the wake of McCarthyism . Rajchman is to this day the only person who served as UNICEF 's Chairman for longer than 2 years . On Rajchman 's suggestion , the American Maurice Pate was appointed first executive director , serving from 1947 until his death in 1965 . In 1950 , UNICEF 's mandate was extended to address the long-term needs of children and women in developing countries everywhere . In 1953 , it became a permanent part of the United Nations System , and the words `` international '' and `` emergency '' were dropped from the organization 's name , though it retained the original acronym , `` UNICEF '' .",
                 "all_aliases":[
                     "polish",
@@ -7401,23 +10742,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":0,
                 "span_r":1,
-                "sent_idx":5,
+                "sent_idx":25,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"5_0",
+                "guid_idx":"25_18",
                 "sentence":"UNICEF relies on contributions from governments and private donors . UNICEF 's total income for 2015 was US $ 5,009,557,471 . Governments contribute two-thirds of the organization 's resources . It is estimated that 92 percent of UNICEF revenue is distributed to program services . UNICEF 's programs emphasize developing community-level services to promote the health and well-being of children .",
                 "all_aliases":[
                     "unicef",
@@ -7461,32 +10802,32 @@ const ned_info_gld = [
                 "alias":"governments",
                 "pop_qid":"Q7188",
                 "candidates":[
-                    "Q35798",
-                    "Q2502537",
-                    "Q7188",
                     "Q873675",
-                    "Q2767140"
+                    "Q2767140",
+                    "Q7188",
+                    "Q35798",
+                    "Q2502537"
                 ],
                 "candidate_titles":[
-                    "Executive (government)",
-                    "Government of Latvia",
-                    "Government",
                     "Government of Thailand",
-                    "Government of India"
+                    "Government of India",
+                    "Government",
+                    "Executive (government)",
+                    "Government of Latvia"
                 ],
                 "candidate_descriptions":[
-                    "part of government that has sole authority and responsibility for the daily administration of the state",
-                    "Executive authority in Latvia",
-                    "system or group of people governing an organized community, often a state",
                     "Thai government overview",
-                    "national union government of India"
+                    "national union government of India",
+                    "system or group of people governing an organized community, often a state",
+                    "part of government that has sole authority and responsibility for the daily administration of the state",
+                    "Executive authority in Latvia"
                 ],
                 "span_l":5,
                 "span_r":6,
-                "sent_idx":5,
+                "sent_idx":25,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"5_1",
+                "guid_idx":"25_19",
                 "sentence":"UNICEF relies on contributions from governments and private donors . UNICEF 's total income for 2015 was US $ 5,009,557,471 . Governments contribute two-thirds of the organization 's resources . It is estimated that 92 percent of UNICEF revenue is distributed to program services . UNICEF 's programs emphasize developing community-level services to promote the health and well-being of children .",
                 "all_aliases":[
                     "unicef",
@@ -7530,23 +10871,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":10,
                 "span_r":11,
-                "sent_idx":6,
+                "sent_idx":26,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"6_2",
+                "guid_idx":"26_20",
                 "sentence":"UNICEF relies on contributions from governments and private donors . UNICEF 's total income for 2015 was US $ 5,009,557,471 . Governments contribute two-thirds of the organization 's resources . It is estimated that 92 percent of UNICEF revenue is distributed to program services . UNICEF 's programs emphasize developing community-level services to promote the health and well-being of children .",
                 "all_aliases":[
                     "unicef",
@@ -7590,32 +10931,32 @@ const ned_info_gld = [
                 "alias":"governments",
                 "pop_qid":"Q7188",
                 "candidates":[
-                    "Q35798",
                     "Q2502537",
-                    "Q2767140",
+                    "Q7188",
+                    "Q35798",
                     "Q873675",
-                    "Q7188"
+                    "Q2767140"
                 ],
                 "candidate_titles":[
-                    "Executive (government)",
                     "Government of Latvia",
-                    "Government of India",
+                    "Government",
+                    "Executive (government)",
                     "Government of Thailand",
-                    "Government"
+                    "Government of India"
                 ],
                 "candidate_descriptions":[
-                    "part of government that has sole authority and responsibility for the daily administration of the state",
                     "Executive authority in Latvia",
-                    "national union government of India",
+                    "system or group of people governing an organized community, often a state",
+                    "part of government that has sole authority and responsibility for the daily administration of the state",
                     "Thai government overview",
-                    "system or group of people governing an organized community, often a state"
+                    "national union government of India"
                 ],
                 "span_l":21,
                 "span_r":22,
-                "sent_idx":7,
+                "sent_idx":27,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"7_3",
+                "guid_idx":"27_21",
                 "sentence":"UNICEF relies on contributions from governments and private donors . UNICEF 's total income for 2015 was US $ 5,009,557,471 . Governments contribute two-thirds of the organization 's resources . It is estimated that 92 percent of UNICEF revenue is distributed to program services . UNICEF 's programs emphasize developing community-level services to promote the health and well-being of children .",
                 "all_aliases":[
                     "unicef",
@@ -7672,10 +11013,10 @@ const ned_info_gld = [
                 ],
                 "span_l":37,
                 "span_r":38,
-                "sent_idx":8,
+                "sent_idx":28,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"8_4",
+                "guid_idx":"28_22",
                 "sentence":"UNICEF relies on contributions from governments and private donors . UNICEF 's total income for 2015 was US $ 5,009,557,471 . Governments contribute two-thirds of the organization 's resources . It is estimated that 92 percent of UNICEF revenue is distributed to program services . UNICEF 's programs emphasize developing community-level services to promote the health and well-being of children .",
                 "all_aliases":[
                     "unicef",
@@ -7732,10 +11073,10 @@ const ned_info_gld = [
                 ],
                 "span_l":45,
                 "span_r":46,
-                "sent_idx":9,
+                "sent_idx":29,
                 "sent_alias_idx":0,
                 "alias_idx":5,
-                "guid_idx":"9_5",
+                "guid_idx":"29_23",
                 "sentence":"UNICEF relies on contributions from governments and private donors . UNICEF 's total income for 2015 was US $ 5,009,557,471 . Governments contribute two-thirds of the organization 's resources . It is estimated that 92 percent of UNICEF revenue is distributed to program services . UNICEF 's programs emphasize developing community-level services to promote the health and well-being of children .",
                 "all_aliases":[
                     "unicef",
@@ -7792,10 +11133,10 @@ const ned_info_gld = [
                 ],
                 "span_l":0,
                 "span_r":1,
-                "sent_idx":10,
+                "sent_idx":30,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"10_0",
+                "guid_idx":"30_24",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -7894,44 +11235,44 @@ const ned_info_gld = [
                 "alias":"nobel peace prize",
                 "pop_qid":"Q35637",
                 "candidates":[
-                    "Q7191",
-                    "Q643610",
-                    "Q4626364",
                     "Q35637",
-                    "Q27132539",
-                    "Q4618031",
+                    "Q4626364",
                     "Q4622018",
-                    "Q3231462",
-                    "Q18204229"
+                    "Q18204229",
+                    "Q27132539",
+                    "Q7191",
+                    "Q4618031",
+                    "Q643610",
+                    "Q3231462"
                 ],
                 "candidate_titles":[
-                    "Nobel Prize",
-                    "List of Nobel Peace Prize laureates",
-                    "2012 Nobel Peace Prize",
                     "Nobel Peace Prize",
-                    "2016 Nobel Peace Prize",
-                    "2010 Nobel Peace Prize",
+                    "2012 Nobel Peace Prize",
                     "2011 Nobel Peace Prize",
-                    "2009 Nobel Peace Prize",
-                    "2014 Nobel Peace Prize"
+                    "2014 Nobel Peace Prize",
+                    "2016 Nobel Peace Prize",
+                    "Nobel Prize",
+                    "2010 Nobel Peace Prize",
+                    "List of Nobel Peace Prize laureates",
+                    "2009 Nobel Peace Prize"
                 ],
                 "candidate_descriptions":[
-                    "set of annual international awards, primarily 5 established in 1895 by Alfred Nobel",
-                    "Wikimedia list article",
-                    "Nobel Peace Prize awarded in 2012",
                     "one of five Nobel Prizes",
+                    "Nobel Peace Prize awarded in 2012",
                     "",
-                    "award",
                     "",
+                    "",
+                    "set of annual international awards, primarily 5 established in 1895 by Alfred Nobel",
                     "award",
-                    ""
+                    "Wikimedia list article",
+                    "award"
                 ],
                 "span_l":4,
                 "span_r":7,
-                "sent_idx":10,
+                "sent_idx":30,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"10_1",
+                "guid_idx":"30_25",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8040,10 +11381,10 @@ const ned_info_gld = [
                 ],
                 "span_l":11,
                 "span_r":14,
-                "sent_idx":10,
+                "sent_idx":30,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"10_2",
+                "guid_idx":"30_26",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8152,10 +11493,10 @@ const ned_info_gld = [
                 ],
                 "span_l":18,
                 "span_r":22,
-                "sent_idx":10,
+                "sent_idx":30,
                 "sent_alias_idx":3,
                 "alias_idx":3,
-                "guid_idx":"10_3",
+                "guid_idx":"30_27",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8267,10 +11608,125 @@ const ned_info_gld = [
                 ],
                 "span_l":29,
                 "span_r":30,
-                "sent_idx":11,
+                "sent_idx":31,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"11_4",
+                "guid_idx":"31_28",
+                "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
+                "all_aliases":[
+                    "unicef",
+                    "nobel peace prize",
+                    "indira gandhi prize",
+                    "prince of asturias award",
+                    "unicef",
+                    "unicef",
+                    "unicef",
+                    "governments",
+                    "unicef",
+                    "copenhagen",
+                    "vaccines",
+                    "hiv",
+                    "nutritional supplements",
+                    "emergency shelter",
+                    "family reunification",
+                    "government",
+                    "united nations economic and social council"
+                ],
+                "all_spans":[
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        4,
+                        7
+                    ],
+                    [
+                        11,
+                        14
+                    ],
+                    [
+                        18,
+                        22
+                    ],
+                    [
+                        29,
+                        30
+                    ],
+                    [
+                        46,
+                        47
+                    ],
+                    [
+                        66,
+                        67
+                    ],
+                    [
+                        74,
+                        75
+                    ],
+                    [
+                        76,
+                        77
+                    ],
+                    [
+                        83,
+                        84
+                    ],
+                    [
+                        97,
+                        98
+                    ],
+                    [
+                        106,
+                        107
+                    ],
+                    [
+                        108,
+                        110
+                    ],
+                    [
+                        111,
+                        113
+                    ],
+                    [
+                        115,
+                        117
+                    ],
+                    [
+                        129,
+                        130
+                    ],
+                    [
+                        136,
+                        142
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q740308",
+                "doc_title":"UNICEF",
+                "doc_sent_idx":14,
+                "alias":"unicef",
+                "pop_qid":"Q740308",
+                "candidates":[
+                    "Q740308",
+                    "Q7865280"
+                ],
+                "candidate_titles":[
+                    "UNICEF",
+                    "UNICEF UK"
+                ],
+                "candidate_descriptions":[
+                    "development policy organization of the UN",
+                    "organization"
+                ],
+                "span_l":46,
+                "span_r":47,
+                "sent_idx":32,
+                "sent_alias_idx":0,
+                "alias_idx":5,
+                "guid_idx":"32_29",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8380,127 +11836,12 @@ const ned_info_gld = [
                     "organization",
                     "development policy organization of the UN"
                 ],
-                "span_l":46,
-                "span_r":47,
-                "sent_idx":12,
-                "sent_alias_idx":0,
-                "alias_idx":5,
-                "guid_idx":"12_5",
-                "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
-                "all_aliases":[
-                    "unicef",
-                    "nobel peace prize",
-                    "indira gandhi prize",
-                    "prince of asturias award",
-                    "unicef",
-                    "unicef",
-                    "unicef",
-                    "governments",
-                    "unicef",
-                    "copenhagen",
-                    "vaccines",
-                    "hiv",
-                    "nutritional supplements",
-                    "emergency shelter",
-                    "family reunification",
-                    "government",
-                    "united nations economic and social council"
-                ],
-                "all_spans":[
-                    [
-                        0,
-                        1
-                    ],
-                    [
-                        4,
-                        7
-                    ],
-                    [
-                        11,
-                        14
-                    ],
-                    [
-                        18,
-                        22
-                    ],
-                    [
-                        29,
-                        30
-                    ],
-                    [
-                        46,
-                        47
-                    ],
-                    [
-                        66,
-                        67
-                    ],
-                    [
-                        74,
-                        75
-                    ],
-                    [
-                        76,
-                        77
-                    ],
-                    [
-                        83,
-                        84
-                    ],
-                    [
-                        97,
-                        98
-                    ],
-                    [
-                        106,
-                        107
-                    ],
-                    [
-                        108,
-                        110
-                    ],
-                    [
-                        111,
-                        113
-                    ],
-                    [
-                        115,
-                        117
-                    ],
-                    [
-                        129,
-                        130
-                    ],
-                    [
-                        136,
-                        142
-                    ]
-                ]
-            },
-            {
-                "doc_qid":"Q740308",
-                "doc_title":"UNICEF",
-                "doc_sent_idx":14,
-                "alias":"unicef",
-                "pop_qid":"Q740308",
-                "candidates":[
-                    "Q740308",
-                    "Q7865280"
-                ],
-                "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
-                ],
-                "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
-                ],
                 "span_l":66,
                 "span_r":67,
-                "sent_idx":12,
+                "sent_idx":32,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"12_6",
+                "guid_idx":"32_30",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8602,29 +11943,29 @@ const ned_info_gld = [
                     "Q2767140",
                     "Q873675",
                     "Q35798",
-                    "Q7188",
-                    "Q2502537"
+                    "Q2502537",
+                    "Q7188"
                 ],
                 "candidate_titles":[
                     "Government of India",
                     "Government of Thailand",
                     "Executive (government)",
-                    "Government",
-                    "Government of Latvia"
+                    "Government of Latvia",
+                    "Government"
                 ],
                 "candidate_descriptions":[
                     "national union government of India",
                     "Thai government overview",
                     "part of government that has sole authority and responsibility for the daily administration of the state",
-                    "system or group of people governing an organized community, often a state",
-                    "Executive authority in Latvia"
+                    "Executive authority in Latvia",
+                    "system or group of people governing an organized community, often a state"
                 ],
                 "span_l":74,
                 "span_r":75,
-                "sent_idx":12,
+                "sent_idx":32,
                 "sent_alias_idx":2,
                 "alias_idx":7,
-                "guid_idx":"12_7",
+                "guid_idx":"32_31",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8723,23 +12064,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":76,
                 "span_r":77,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"13_8",
+                "guid_idx":"33_32",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8838,44 +12179,44 @@ const ned_info_gld = [
                 "alias":"copenhagen",
                 "pop_qid":"Q1748",
                 "candidates":[
-                    "Q755955",
-                    "Q376154",
-                    "Q1748",
-                    "Q206277",
-                    "Q188430",
-                    "Q33003",
-                    "Q244444",
                     "Q1495052",
-                    "Q186285"
+                    "Q755955",
+                    "Q244444",
+                    "Q186285",
+                    "Q376154",
+                    "Q206277",
+                    "Q1748",
+                    "Q188430",
+                    "Q33003"
                 ],
                 "candidate_titles":[
-                    "Battle of Copenhagen (1801)",
-                    "Battle of Copenhagen (1807)",
-                    "Copenhagen",
-                    "Copenhagen Airport",
-                    "F.C. Copenhagen",
-                    "Parken Stadium",
-                    "2009 United Nations Climate Change Conference",
                     "Copenhagen Central Station",
-                    "University of Copenhagen"
+                    "Battle of Copenhagen (1801)",
+                    "2009 United Nations Climate Change Conference",
+                    "University of Copenhagen",
+                    "Battle of Copenhagen (1807)",
+                    "Copenhagen Airport",
+                    "Copenhagen",
+                    "F.C. Copenhagen",
+                    "Parken Stadium"
                 ],
                 "candidate_descriptions":[
-                    "1801 battle",
-                    "British bombardment of Copenhagen in 1807",
-                    "capital city of Denmark",
-                    "international airport serving Copenhagen, Denmark",
-                    "association football club",
-                    "football stadium in Denmark",
-                    "international climate change conference in Copenhagen, Denmark in December 2009",
                     "railway station in Copenhagen Municipality, Denmark",
-                    "public research university in Copenhagen, Denmark"
+                    "1801 battle",
+                    "international climate change conference in Copenhagen, Denmark in December 2009",
+                    "public research university in Copenhagen, Denmark",
+                    "British bombardment of Copenhagen in 1807",
+                    "international airport serving Copenhagen, Denmark",
+                    "capital city of Denmark",
+                    "association football club",
+                    "football stadium in Denmark"
                 ],
                 "span_l":83,
                 "span_r":84,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"13_9",
+                "guid_idx":"33_33",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -8984,10 +12325,10 @@ const ned_info_gld = [
                 ],
                 "span_l":97,
                 "span_r":98,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":2,
                 "alias_idx":10,
-                "guid_idx":"13_10",
+                "guid_idx":"33_34",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9086,38 +12427,38 @@ const ned_info_gld = [
                 "alias":"hiv",
                 "pop_qid":"Q15787",
                 "candidates":[
-                    "Q20573587",
+                    "Q12199",
                     "Q5627948",
-                    "Q382776",
+                    "Q5750270",
+                    "Q20573587",
                     "Q15787",
                     "Q28451598",
-                    "Q12199",
-                    "Q5750270"
+                    "Q382776"
                 ],
                 "candidate_titles":[
-                    ".hiv",
+                    "HIV\/AIDS",
                     "H.IV+ (Hoarse Industrial Viremia)",
-                    "Horten H.IV",
+                    "Hedley Hi-V (New York City Subway car)",
+                    ".hiv",
                     "HIV",
                     "H.I.V (album)",
-                    "HIV\/AIDS",
-                    "Hedley Hi-V (New York City Subway car)"
+                    "Horten H.IV"
                 ],
                 "candidate_descriptions":[
-                    "top level domain",
+                    "human disease resulting from HIV II",
                     "album by Havoc Unit",
-                    "glider",
+                    "",
+                    "top level domain",
                     "human retrovirus, cause of AIDS",
                     "album",
-                    "human disease resulting from HIV II",
-                    ""
+                    "glider"
                 ],
                 "span_l":106,
                 "span_r":107,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":3,
                 "alias_idx":11,
-                "guid_idx":"13_11",
+                "guid_idx":"33_35",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9226,10 +12567,10 @@ const ned_info_gld = [
                 ],
                 "span_l":108,
                 "span_r":110,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":4,
                 "alias_idx":12,
-                "guid_idx":"13_12",
+                "guid_idx":"33_36",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9338,10 +12679,10 @@ const ned_info_gld = [
                 ],
                 "span_l":111,
                 "span_r":113,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":5,
                 "alias_idx":13,
-                "guid_idx":"13_13",
+                "guid_idx":"33_37",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9453,10 +12794,10 @@ const ned_info_gld = [
                 ],
                 "span_l":115,
                 "span_r":117,
-                "sent_idx":13,
+                "sent_idx":33,
                 "sent_alias_idx":6,
                 "alias_idx":14,
-                "guid_idx":"13_14",
+                "guid_idx":"33_38",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9555,44 +12896,44 @@ const ned_info_gld = [
                 "alias":"government",
                 "pop_qid":"Q7188",
                 "candidates":[
-                    "Q48525",
-                    "Q7320",
-                    "Q7318",
-                    "Q1537",
-                    "Q30",
-                    "Q2767140",
-                    "Q129286",
                     "Q8733",
-                    "Q41304"
+                    "Q7318",
+                    "Q7320",
+                    "Q30",
+                    "Q1537",
+                    "Q129286",
+                    "Q2767140",
+                    "Q41304",
+                    "Q48525"
                 ],
                 "candidate_titles":[
-                    "Federal government of the United States",
-                    "Nazi Party",
-                    "Nazi Germany",
-                    "Wisconsin",
-                    "United States",
-                    "Government of India",
-                    "British Raj",
                     "Qing dynasty",
-                    "Weimar Republic"
+                    "Nazi Germany",
+                    "Nazi Party",
+                    "United States",
+                    "Wisconsin",
+                    "British Raj",
+                    "Government of India",
+                    "Weimar Republic",
+                    "Federal government of the United States"
                 ],
                 "candidate_descriptions":[
-                    "national government of the United States",
-                    "far-right political party in Germany between 1920 and 1945",
-                    "Germany from 1933 to 1945 while under control of the Nazi Party",
-                    "state of the United States of America",
-                    "sovereign state in North America",
-                    "national union government of India",
-                    "British rule in the Indian subcontinent, 1858\u20131947",
                     "former empire in Eastern Asia, last imperial regime of China",
-                    "Germany in the years 1919\u20131933"
+                    "Germany from 1933 to 1945 while under control of the Nazi Party",
+                    "far-right political party in Germany between 1920 and 1945",
+                    "sovereign state in North America",
+                    "state of the United States of America",
+                    "British rule in the Indian subcontinent, 1858\u20131947",
+                    "national union government of India",
+                    "Germany in the years 1919\u20131933",
+                    "national government of the United States"
                 ],
                 "span_l":129,
                 "span_r":130,
-                "sent_idx":14,
+                "sent_idx":34,
                 "sent_alias_idx":0,
                 "alias_idx":15,
-                "guid_idx":"14_15",
+                "guid_idx":"34_39",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9701,10 +13042,10 @@ const ned_info_gld = [
                 ],
                 "span_l":136,
                 "span_r":142,
-                "sent_idx":14,
+                "sent_idx":34,
                 "sent_alias_idx":1,
                 "alias_idx":16,
-                "guid_idx":"14_16",
+                "guid_idx":"34_40",
                 "sentence":"UNICEF was awarded the Nobel Peace Prize in 1965 , the Indira Gandhi Prize in 1989 and the Prince of Asturias Award of Concord in 2006 . Most of UNICEF 's work is in the field , with a presence in 192 countries and territories . UNICEF 's network of over 150 country offices , headquarters and other offices , and 34 National Committees carry out UNICEF 's mission through programs developed with host governments . UNICEF 's Supply Division is based in Copenhagen and serves as the primary point of distribution for such essential items as vaccines , antiretroviral medicines for children and mothers with HIV , nutritional supplements , emergency shelter s , family reunification , and educational supplies . The executive board is made up of government representatives who are elected by the United Nations Economic and Social Council , usually for three-year terms .",
                 "all_aliases":[
                     "unicef",
@@ -9816,10 +13157,10 @@ const ned_info_gld = [
                 ],
                 "span_l":5,
                 "span_r":6,
-                "sent_idx":15,
+                "sent_idx":35,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"15_0",
+                "guid_idx":"35_41",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -9873,44 +13214,44 @@ const ned_info_gld = [
                 "alias":"government",
                 "pop_qid":"Q7188",
                 "candidates":[
-                    "Q48525",
-                    "Q7320",
-                    "Q129286",
                     "Q1537",
+                    "Q8733",
+                    "Q7320",
+                    "Q41304",
                     "Q2767140",
                     "Q30",
-                    "Q41304",
-                    "Q7318",
-                    "Q8733"
+                    "Q129286",
+                    "Q48525",
+                    "Q7318"
                 ],
                 "candidate_titles":[
-                    "Federal government of the United States",
-                    "Nazi Party",
-                    "British Raj",
                     "Wisconsin",
+                    "Qing dynasty",
+                    "Nazi Party",
+                    "Weimar Republic",
                     "Government of India",
                     "United States",
-                    "Weimar Republic",
-                    "Nazi Germany",
-                    "Qing dynasty"
+                    "British Raj",
+                    "Federal government of the United States",
+                    "Nazi Germany"
                 ],
                 "candidate_descriptions":[
-                    "national government of the United States",
-                    "far-right political party in Germany between 1920 and 1945",
-                    "British rule in the Indian subcontinent, 1858\u20131947",
                     "state of the United States of America",
+                    "former empire in Eastern Asia, last imperial regime of China",
+                    "far-right political party in Germany between 1920 and 1945",
+                    "Germany in the years 1919\u20131933",
                     "national union government of India",
                     "sovereign state in North America",
-                    "Germany in the years 1919\u20131933",
-                    "Germany from 1933 to 1945 while under control of the Nazi Party",
-                    "former empire in Eastern Asia, last imperial regime of China"
+                    "British rule in the Indian subcontinent, 1858\u20131947",
+                    "national government of the United States",
+                    "Germany from 1933 to 1945 while under control of the Nazi Party"
                 ],
                 "span_l":18,
                 "span_r":19,
-                "sent_idx":15,
+                "sent_idx":35,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"15_1",
+                "guid_idx":"35_42",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -9964,44 +13305,44 @@ const ned_info_gld = [
                 "alias":"rights",
                 "pop_qid":"Q780687",
                 "candidates":[
-                    "Q664194",
-                    "Q312199",
                     "Q223569",
                     "Q8458",
-                    "Q191600",
-                    "Q6953774",
-                    "Q48537",
+                    "Q312199",
                     "Q17898",
-                    "Q1917775"
+                    "Q664194",
+                    "Q1917775",
+                    "Q48537",
+                    "Q6953774",
+                    "Q191600"
                 ],
                 "candidate_titles":[
-                    "LGBT rights in the United States",
-                    "Miranda warning",
                     "Women's rights",
                     "Human rights",
-                    "Civil and political rights",
-                    "Fox NFL",
-                    "Civil rights movement",
+                    "Miranda warning",
                     "LGBT rights by country or territory",
-                    "Music publisher (popular music)"
+                    "LGBT rights in the United States",
+                    "Music publisher (popular music)",
+                    "Civil rights movement",
+                    "Fox NFL",
+                    "Civil and political rights"
                 ],
                 "candidate_descriptions":[
-                    "rights of lesbian, gay, bisexual and transgender people in the United States",
-                    "notification given by American police to criminal suspects in police custody advising them of their rights, or similar procedure in other jurisdictions",
                     "rights claimed for women and girls worldwide",
                     "inalienable fundamental rights to which a person is inherently entitled",
-                    "rights preventing the infringement of personal freedom by other social actors",
-                    "television series",
-                    "social movement in the United States between 1954\u20131968, mainly for racial equality between black and white people",
+                    "notification given by American police to criminal suspects in police custody advising them of their rights, or similar procedure in other jurisdictions",
                     "list of the rights of LGBT people by country or territory",
-                    "company that licenses compositions, collects royalties and distributes them to the composers"
+                    "rights of lesbian, gay, bisexual and transgender people in the United States",
+                    "company that licenses compositions, collects royalties and distributes them to the composers",
+                    "social movement in the United States between 1954\u20131968, mainly for racial equality between black and white people",
+                    "television series",
+                    "rights preventing the infringement of personal freedom by other social actors"
                 ],
                 "span_l":30,
                 "span_r":31,
-                "sent_idx":16,
+                "sent_idx":36,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"16_2",
+                "guid_idx":"36_43",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -10065,10 +13406,10 @@ const ned_info_gld = [
                 ],
                 "span_l":43,
                 "span_r":45,
-                "sent_idx":17,
+                "sent_idx":37,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"17_3",
+                "guid_idx":"37_44",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -10122,23 +13463,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":56,
                 "span_r":57,
-                "sent_idx":18,
+                "sent_idx":38,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"18_4",
+                "guid_idx":"38_45",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -10192,35 +13533,35 @@ const ned_info_gld = [
                 "alias":"executive board",
                 "pop_qid":"Q188628",
                 "candidates":[
-                    "Q1109105",
+                    "Q7939813",
                     "Q9531",
                     "Q188628",
+                    "Q1109105",
                     "Q897395",
-                    "Q2735372",
-                    "Q7939813"
+                    "Q2735372"
                 ],
                 "candidate_titles":[
-                    "College van burgemeester en wethouders",
+                    "Voivodeship executive board",
                     "BBC",
                     "Board of directors",
+                    "College van burgemeester en wethouders",
                     "Vorstand",
-                    "Executive Board of the European Central Bank",
-                    "Voivodeship executive board"
+                    "Executive Board of the European Central Bank"
                 ],
                 "candidate_descriptions":[
                     "",
                     "public service broadcaster of the United Kingdom",
                     "group of people who jointly supervise the activities of an organization",
+                    "",
                     "executive board of a corporation (public limited company)",
-                    "Executive Board of the European Central Bank",
-                    ""
+                    "Executive Board of the European Central Bank"
                 ],
                 "span_l":61,
                 "span_r":63,
-                "sent_idx":18,
+                "sent_idx":38,
                 "sent_alias_idx":1,
                 "alias_idx":5,
-                "guid_idx":"18_5",
+                "guid_idx":"38_46",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -10274,44 +13615,44 @@ const ned_info_gld = [
                 "alias":"government",
                 "pop_qid":"Q7188",
                 "candidates":[
+                    "Q8733",
+                    "Q129286",
+                    "Q1537",
                     "Q2767140",
                     "Q7318",
-                    "Q129286",
-                    "Q8733",
                     "Q7320",
-                    "Q1537",
                     "Q30",
                     "Q48525",
                     "Q41304"
                 ],
                 "candidate_titles":[
+                    "Qing dynasty",
+                    "British Raj",
+                    "Wisconsin",
                     "Government of India",
                     "Nazi Germany",
-                    "British Raj",
-                    "Qing dynasty",
                     "Nazi Party",
-                    "Wisconsin",
                     "United States",
                     "Federal government of the United States",
                     "Weimar Republic"
                 ],
                 "candidate_descriptions":[
+                    "former empire in Eastern Asia, last imperial regime of China",
+                    "British rule in the Indian subcontinent, 1858\u20131947",
+                    "state of the United States of America",
                     "national union government of India",
                     "Germany from 1933 to 1945 while under control of the Nazi Party",
-                    "British rule in the Indian subcontinent, 1858\u20131947",
-                    "former empire in Eastern Asia, last imperial regime of China",
                     "far-right political party in Germany between 1920 and 1945",
-                    "state of the United States of America",
                     "sovereign state in North America",
                     "national government of the United States",
                     "Germany in the years 1919\u20131933"
                 ],
                 "span_l":70,
                 "span_r":71,
-                "sent_idx":18,
+                "sent_idx":38,
                 "sent_alias_idx":2,
                 "alias_idx":6,
-                "guid_idx":"18_6",
+                "guid_idx":"38_47",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -10365,35 +13706,35 @@ const ned_info_gld = [
                 "alias":"executive board",
                 "pop_qid":"Q188628",
                 "candidates":[
+                    "Q2735372",
+                    "Q9531",
+                    "Q7939813",
                     "Q1109105",
                     "Q897395",
-                    "Q188628",
-                    "Q2735372",
-                    "Q7939813",
-                    "Q9531"
+                    "Q188628"
                 ],
                 "candidate_titles":[
+                    "Executive Board of the European Central Bank",
+                    "BBC",
+                    "Voivodeship executive board",
                     "College van burgemeester en wethouders",
                     "Vorstand",
-                    "Board of directors",
-                    "Executive Board of the European Central Bank",
-                    "Voivodeship executive board",
-                    "BBC"
+                    "Board of directors"
                 ],
                 "candidate_descriptions":[
+                    "Executive Board of the European Central Bank",
+                    "public service broadcaster of the United Kingdom",
+                    "",
                     "",
                     "executive board of a corporation (public limited company)",
-                    "group of people who jointly supervise the activities of an organization",
-                    "Executive Board of the European Central Bank",
-                    "",
-                    "public service broadcaster of the United Kingdom"
+                    "group of people who jointly supervise the activities of an organization"
                 ],
                 "span_l":91,
                 "span_r":93,
-                "sent_idx":19,
+                "sent_idx":39,
                 "sent_alias_idx":0,
                 "alias_idx":7,
-                "guid_idx":"19_7",
+                "guid_idx":"39_48",
                 "sentence":"Each country office carries out UNICEF 's mission through a unique program of cooperation developed with the host government . This five-year program focuses on practical ways to realize the rights of children and women . Regional offices guide this work and provide technical assistance to country offices as needed . Guiding and monitoring all of UNICEF 's work is an Executive Board made up of 36 members who are government representatives . These five officers , each one representing one of the five regional groups , are elected by the Executive Board each year from among its members , with the presidency rotating among the regional groups on an annual basis .",
                 "all_aliases":[
                     "unicef",
@@ -10447,32 +13788,32 @@ const ned_info_gld = [
                 "alias":"security council",
                 "pop_qid":"Q37470",
                 "candidates":[
-                    "Q37470",
-                    "Q65060461",
-                    "Q17054214",
+                    "Q11294054",
                     "Q672108",
-                    "Q11294054"
+                    "Q17054214",
+                    "Q37470",
+                    "Q65060461"
                 ],
                 "candidate_titles":[
-                    "United Nations Security Council",
-                    "Security Council of Kyrgyzstan",
-                    "Security Council (Japan)",
+                    "Security Council of Kazakhstan",
                     "Security Council of Russia",
-                    "Security Council of Kazakhstan"
+                    "Security Council (Japan)",
+                    "United Nations Security Council",
+                    "Security Council of Kyrgyzstan"
                 ],
                 "candidate_descriptions":[
-                    "one of the six principal organs of the UN, charged with the maintenance of international peace and security",
                     "",
-                    "Ministry of Japan",
                     "Body that advises president over the national security",
+                    "Ministry of Japan",
+                    "one of the six principal organs of the UN, charged with the maintenance of international peace and security",
                     ""
                 ],
                 "span_l":10,
                 "span_r":12,
-                "sent_idx":20,
+                "sent_idx":40,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"20_0",
+                "guid_idx":"40_49",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -10638,33 +13979,33 @@ const ned_info_gld = [
                 "candidates":[
                     "Q1109105",
                     "Q188628",
+                    "Q897395",
                     "Q2735372",
                     "Q9531",
-                    "Q897395",
                     "Q7939813"
                 ],
                 "candidate_titles":[
                     "College van burgemeester en wethouders",
                     "Board of directors",
+                    "Vorstand",
                     "Executive Board of the European Central Bank",
                     "BBC",
-                    "Vorstand",
                     "Voivodeship executive board"
                 ],
                 "candidate_descriptions":[
                     "",
                     "group of people who jointly supervise the activities of an organization",
+                    "executive board of a corporation (public limited company)",
                     "Executive Board of the European Central Bank",
                     "public service broadcaster of the United Kingdom",
-                    "executive board of a corporation (public limited company)",
                     ""
                 ],
                 "span_l":19,
                 "span_r":21,
-                "sent_idx":20,
+                "sent_idx":40,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"20_1",
+                "guid_idx":"40_50",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -10828,23 +14169,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":36,
                 "span_r":37,
-                "sent_idx":21,
+                "sent_idx":41,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"21_2",
+                "guid_idx":"41_51",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -11008,44 +14349,44 @@ const ned_info_gld = [
                 "alias":"secretariat",
                 "pop_qid":"Q859482",
                 "candidates":[
-                    "Q11795187",
                     "Q1151926",
-                    "Q1851579",
-                    "Q470665",
-                    "Q859482",
-                    "Q220563",
-                    "Q3954348",
                     "Q3503394",
-                    "Q508283"
+                    "Q1851579",
+                    "Q220563",
+                    "Q859482",
+                    "Q508283",
+                    "Q3954348",
+                    "Q11795187",
+                    "Q470665"
                 ],
                 "candidate_titles":[
-                    "Secretariat of the Communist Party of Vietnam",
                     "Secretariat (horse)",
-                    "Secretariat of the Communist Party of the Soviet Union",
-                    "Secretariat (film)",
-                    "Secretariat (administrative office)",
-                    "United Nations Secretariat",
-                    "Commonwealth Secretariat",
                     "Zhongshu Sheng",
-                    "Secretariat of the Communist Party of China"
+                    "Secretariat of the Communist Party of the Soviet Union",
+                    "United Nations Secretariat",
+                    "Secretariat (administrative office)",
+                    "Secretariat of the Communist Party of China",
+                    "Commonwealth Secretariat",
+                    "Secretariat of the Communist Party of Vietnam",
+                    "Secretariat (film)"
                 ],
                 "candidate_descriptions":[
-                    "Wikimedia list article",
                     "Thoroughbred race horse; winner of US Triple Crown of\u00a0Thoroughbred Racing in 1973",
-                    "",
-                    "2010 sports drama film produced by Walt Disney Pictures",
-                    "central administrative department or function",
-                    "principal organ of the United Nations",
-                    "organization",
                     "ministry of imperial China; one of Three Departments and Six Ministries",
-                    "body serving the Politburo of the Communist Party of China and its Standing Committee"
+                    "",
+                    "principal organ of the United Nations",
+                    "central administrative department or function",
+                    "body serving the Politburo of the Communist Party of China and its Standing Committee",
+                    "organization",
+                    "Wikimedia list article",
+                    "2010 sports drama film produced by Walt Disney Pictures"
                 ],
                 "span_l":37,
                 "span_r":38,
-                "sent_idx":21,
+                "sent_idx":41,
                 "sent_alias_idx":1,
                 "alias_idx":3,
-                "guid_idx":"21_3",
+                "guid_idx":"41_52",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -11209,23 +14550,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":57,
                 "span_r":58,
-                "sent_idx":22,
+                "sent_idx":42,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"22_4",
+                "guid_idx":"42_53",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -11390,43 +14731,43 @@ const ned_info_gld = [
                 "pop_qid":"Q828",
                 "candidates":[
                     "Q127834",
-                    "Q828",
-                    "Q181982",
                     "Q653884",
-                    "Q427863",
                     "Q30",
                     "Q36747",
+                    "Q828",
+                    "Q1047607",
                     "Q126852",
-                    "Q1047607"
+                    "Q427863",
+                    "Q181982"
                 ],
                 "candidate_titles":[
                     "New World",
-                    "Americas",
-                    "Western Hemisphere",
                     "Hispanic America",
-                    "FIBA Americas",
                     "United States",
                     "Indigenous peoples of the Americas",
+                    "Americas",
+                    "Spanish colonization of the Americas",
                     "America (band)",
-                    "Spanish colonization of the Americas"
+                    "FIBA Americas",
+                    "Western Hemisphere"
                 ],
                 "candidate_descriptions":[
                     "Collectively, the Americas and Oceania",
-                    "landmass comprising the continents of North America and South America",
-                    "half of the Earth that is west of the prime meridian and east of 180\u00b0 longitude",
                     "region comprising the American countries inhabited by Spanish-speaking populations",
-                    "zone within FIBA (International Basketball Federation)",
                     "sovereign state in North America",
                     "inhabitants of North and South America and their descendants",
+                    "landmass comprising the continents of North America and South America",
+                    "overseas expansion under the Crown of Castile",
                     "Americo-British folk rock band",
-                    "overseas expansion under the Crown of Castile"
+                    "zone within FIBA (International Basketball Federation)",
+                    "half of the Earth that is west of the prime meridian and east of 180\u00b0 longitude"
                 ],
                 "span_l":64,
                 "span_r":65,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":0,
                 "alias_idx":5,
-                "guid_idx":"23_5",
+                "guid_idx":"43_54",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -11590,44 +14931,44 @@ const ned_info_gld = [
                 "alias":"caribbean",
                 "pop_qid":"Q664609",
                 "candidates":[
-                    "Q920396",
+                    "Q664609",
                     "Q375033",
                     "Q669037",
-                    "Q912881",
-                    "Q664609",
-                    "Q3834414",
                     "Q205995",
                     "Q1247",
-                    "Q2050339"
+                    "Q920396",
+                    "Q912881",
+                    "Q2050339",
+                    "Q3834414"
                 ],
                 "candidate_titles":[
-                    "British West Indies",
+                    "Caribbean",
                     "Caribbean Football Union",
                     "West Indies",
-                    "West Indies cricket team",
-                    "Caribbean",
-                    "List of Caribbean islands",
                     "Caribbean Community",
                     "Caribbean Sea",
-                    "Afro-Caribbean"
+                    "British West Indies",
+                    "West Indies cricket team",
+                    "Afro-Caribbean",
+                    "List of Caribbean islands"
                 ],
                 "candidate_descriptions":[
-                    "British territories in the Caribbean, sometimes including former colonies",
+                    "region to the center-east of America composed of many islands \/ coastal regions surrounding the Caribbean Sea",
                     "The nominal governing body for association football in the Caribbean as well as Guyana, Suriname and French Guiana.",
                     "island region in the Caribbean",
-                    "multinational cricket team",
-                    "region to the center-east of America composed of many islands \/ coastal regions surrounding the Caribbean Sea",
-                    "Wikimedia list article",
                     "organisation of 15 Caribbean nations and dependencies",
                     "sea of the Atlantic Ocean bounded by North, Central, and South America",
-                    "racial or ethnic group in the Caribbean with African ancestry"
+                    "British territories in the Caribbean, sometimes including former colonies",
+                    "multinational cricket team",
+                    "racial or ethnic group in the Caribbean with African ancestry",
+                    "Wikimedia list article"
                 ],
                 "span_l":66,
                 "span_r":67,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"23_6",
+                "guid_idx":"43_55",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -11792,28 +15133,28 @@ const ned_info_gld = [
                 "pop_qid":"Q3306",
                 "candidates":[
                     "Q3306",
-                    "Q712335",
                     "Q852591",
+                    "Q712335",
                     "Q1420178"
                 ],
                 "candidate_titles":[
                     "Panama City",
-                    "Panam\u00e1 Viejo",
                     "Panama City, Florida",
+                    "Panam\u00e1 Viejo",
                     "Tocumen International Airport"
                 ],
                 "candidate_descriptions":[
                     "capital of Panama",
-                    "archaeological site",
                     "county seat of Bay County, Florida, United States",
+                    "archaeological site",
                     "airport"
                 ],
                 "span_l":70,
                 "span_r":72,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":2,
                 "alias_idx":7,
-                "guid_idx":"23_7",
+                "guid_idx":"43_56",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -11977,44 +15318,44 @@ const ned_info_gld = [
                 "alias":"panama",
                 "pop_qid":"Q804",
                 "candidates":[
-                    "Q7350",
-                    "Q557506",
                     "Q295606",
-                    "Q223748",
-                    "Q459282",
                     "Q804",
+                    "Q557506",
+                    "Q223748",
+                    "Q7350",
                     "Q498979",
+                    "Q459282",
                     "Q3306",
                     "Q182139"
                 ],
                 "candidate_titles":[
-                    "Panama Canal",
-                    "Panam\u00e1 Province",
                     "Liga Paname\u00f1a de F\u00fatbol",
-                    "Panama national football team",
-                    "United States invasion of Panama",
                     "Panama",
+                    "Panam\u00e1 Province",
+                    "Panama national football team",
+                    "Panama Canal",
                     "Panama Canal Zone",
+                    "United States invasion of Panama",
                     "Panama City",
                     "Isthmus of Panama"
                 ],
                 "candidate_descriptions":[
-                    "large canal in Panama",
-                    "Province of Panama",
                     "association football league in Panama",
-                    "national association football team",
-                    "conflict in Panama involving the United States and the Panamanian Defense Force",
                     "sovereign state in Central America",
+                    "Province of Panama",
+                    "national association football team",
+                    "large canal in Panama",
                     "former U.S. territory within the Republic of Panama",
+                    "conflict in Panama involving the United States and the Panamanian Defense Force",
                     "capital of Panama",
                     "narrow landstrip in Panama"
                 ],
                 "span_l":73,
                 "span_r":74,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":3,
                 "alias_idx":8,
-                "guid_idx":"23_8",
+                "guid_idx":"43_57",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -12178,44 +15519,44 @@ const ned_info_gld = [
                 "alias":"europe",
                 "pop_qid":"Q46",
                 "candidates":[
-                    "Q46",
                     "Q1464982",
-                    "Q724353",
-                    "Q27479",
-                    "Q18760",
-                    "Q458",
-                    "Q27496",
                     "Q42262",
-                    "Q35572"
+                    "Q724353",
+                    "Q458",
+                    "Q18760",
+                    "Q27479",
+                    "Q27496",
+                    "Q35572",
+                    "Q46"
                 ],
                 "candidate_titles":[
-                    "Europe",
                     "Ethnic groups in Europe",
-                    "NFL Europe",
-                    "Northern Europe",
-                    "UEFA Europa League",
-                    "European Union",
-                    "Western Europe",
                     "European Space Agency",
-                    "UEFA"
+                    "NFL Europe",
+                    "European Union",
+                    "UEFA Europa League",
+                    "Northern Europe",
+                    "Western Europe",
+                    "UEFA",
+                    "Europe"
                 ],
                 "candidate_descriptions":[
-                    "continent on Earth, mainly on the northeastern quadrant, i.e. north-western Eurasia",
                     "European ethnicity groups",
-                    "World League of American Football",
-                    "northern region of the European continent",
-                    "annual association football club competition organized by UEFA since 1971",
-                    "economic and political union of 27 states mostly located in Europe",
-                    "region comprising the westerly countries of Europe",
                     "intergovernmental organisation dedicated to the exploration of space",
-                    "International governing body for association football and related sports in Europe"
+                    "World League of American Football",
+                    "economic and political union of 27 states mostly located in Europe",
+                    "annual association football club competition organized by UEFA since 1971",
+                    "northern region of the European continent",
+                    "region comprising the westerly countries of Europe",
+                    "International governing body for association football and related sports in Europe",
+                    "continent on Earth, mainly on the northeastern quadrant, i.e. north-western Eurasia"
                 ],
                 "span_l":76,
                 "span_r":77,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":4,
                 "alias_idx":9,
-                "guid_idx":"23_9",
+                "guid_idx":"43_58",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -12379,44 +15720,44 @@ const ned_info_gld = [
                 "alias":"central asia",
                 "pop_qid":"Q27275",
                 "candidates":[
-                    "Q6081857",
-                    "Q28452989",
-                    "Q1000891",
+                    "Q44949",
+                    "Q1501849",
                     "Q1211919",
                     "Q17047664",
-                    "Q27275",
-                    "Q1501849",
+                    "Q1000891",
+                    "Q28452989",
                     "Q635111",
-                    "Q44949"
+                    "Q6081857",
+                    "Q27275"
                 ],
                 "candidate_titles":[
-                    "Islam in Central Asia",
-                    "Haplogroup P1 (Y-DNA)",
-                    "Buddhism in Central Asia",
+                    "Bukharan Jews",
+                    "Russian Turkestan",
                     "Soviet Central Asia",
                     "Central Asian Football Association",
-                    "Central Asia",
-                    "Russian Turkestan",
+                    "Buddhism in Central Asia",
+                    "Haplogroup P1 (Y-DNA)",
                     "History of Central Asia",
-                    "Bukharan Jews"
+                    "Islam in Central Asia",
+                    "Central Asia"
                 ],
                 "candidate_descriptions":[
-                    "Overview of Islam in Central Asia",
-                    "also known as P-M45, after the genetic marker (SNP) M45",
-                    "",
+                    "ethnic group",
+                    "general governorate of the Russian Empire",
                     "section of Central Asia formerly controlled by the Soviet Union",
                     "an Football organization",
-                    "core region of the Asian continent",
-                    "general governorate of the Russian Empire",
+                    "",
+                    "also known as P-M45, after the genetic marker (SNP) M45",
                     "aspect of history",
-                    "ethnic group"
+                    "Overview of Islam in Central Asia",
+                    "core region of the Asian continent"
                 ],
                 "span_l":78,
                 "span_r":80,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":5,
                 "alias_idx":10,
-                "guid_idx":"23_10",
+                "guid_idx":"43_59",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -12581,43 +15922,43 @@ const ned_info_gld = [
                 "pop_qid":"Q71",
                 "candidates":[
                     "Q71",
-                    "Q5532987",
+                    "Q6403",
                     "Q133536",
+                    "Q503473",
                     "Q6527",
                     "Q684911",
-                    "Q6403",
+                    "Q5532987",
                     "Q1378284",
-                    "Q503473",
                     "Q11917"
                 ],
                 "candidate_titles":[
                     "Geneva",
-                    "Geneva College",
+                    "Lake Geneva",
                     "Geneva Conventions",
+                    "University of Geneva",
                     "Jean-Jacques Rousseau",
                     "Geneva Motor Show",
-                    "Lake Geneva",
+                    "Geneva College",
                     "Geneva, New York",
-                    "University of Geneva",
                     "Canton of Geneva"
                 ],
                 "candidate_descriptions":[
                     "city in Switzerland and capital of its canton",
-                    "Christian liberal arts college in Pennsylvania",
+                    "lake in Switzerland and France",
                     "The standards of international law for humanitarian treatment in war",
+                    "public research university located in Geneva, Switzerland",
                     "Genevan philosopher, writer, and composer (1712-1778)",
                     "Annual Swiss auto show",
-                    "lake in Switzerland and France",
+                    "Christian liberal arts college in Pennsylvania",
                     "city in New York, USA",
-                    "public research university located in Geneva, Switzerland",
                     "canton of Switzerland"
                 ],
                 "span_l":83,
                 "span_r":84,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":6,
                 "alias_idx":11,
-                "guid_idx":"23_11",
+                "guid_idx":"43_60",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -12781,44 +16122,44 @@ const ned_info_gld = [
                 "alias":"switzerland",
                 "pop_qid":"Q39",
                 "candidates":[
-                    "Q39",
-                    "Q165141",
-                    "Q95795",
                     "Q688134",
+                    "Q165141",
                     "Q688866",
-                    "Q202699",
-                    "Q124216",
+                    "Q25220",
                     "Q435583",
-                    "Q25220"
+                    "Q39",
+                    "Q124216",
+                    "Q202699",
+                    "Q95795"
                 ],
                 "candidate_titles":[
-                    "Switzerland",
-                    "Switzerland national football team",
-                    "Education in Switzerland",
                     "List of universities in Switzerland",
+                    "Switzerland national football team",
                     "National League (ice hockey)",
-                    "Swiss Super League",
-                    "Swiss people",
+                    "Swiss Alps",
                     "Old Swiss Confederacy",
-                    "Swiss Alps"
+                    "Switzerland",
+                    "Swiss people",
+                    "Swiss Super League",
+                    "Education in Switzerland"
                 ],
                 "candidate_descriptions":[
-                    "federal state in Western Europe",
-                    "men's national association football team representing Switzerland",
-                    "overview about the education system of Switzerland",
                     "Wikimedia list article",
+                    "men's national association football team representing Switzerland",
                     "Swiss top ice hockey league",
-                    "Swiss men's association football top division",
-                    "citizens of Switzerland, people of Swiss ancestry",
+                    "portion of the Alps mountain range that lies within Switzerland",
                     "confederation of cantons (1291-1798)",
-                    "portion of the Alps mountain range that lies within Switzerland"
+                    "federal state in Western Europe",
+                    "citizens of Switzerland, people of Swiss ancestry",
+                    "Swiss men's association football top division",
+                    "overview about the education system of Switzerland"
                 ],
                 "span_l":85,
                 "span_r":86,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":7,
                 "alias_idx":12,
-                "guid_idx":"23_12",
+                "guid_idx":"43_61",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -12982,44 +16323,44 @@ const ned_info_gld = [
                 "alias":"east asia",
                 "pop_qid":"Q27231",
                 "candidates":[
-                    "Q4676222",
+                    "Q2905453",
+                    "Q17005639",
                     "Q27231",
                     "Q525073",
-                    "Q2905453",
+                    "Q4676222",
                     "Q846598",
-                    "Q67158741",
-                    "Q831198",
                     "Q684",
-                    "Q17005639"
+                    "Q831198",
+                    "Q67158741"
                 ],
                 "candidate_titles":[
-                    "East Asian cinema",
+                    "East Asian Buddhism",
+                    "List of Asian cuisines",
                     "East Asia",
                     "Music of Asia",
-                    "East Asian Buddhism",
+                    "East Asian cinema",
                     "East Asian Football Federation",
-                    "Haplogroup D-M174",
-                    "History of East Asia",
                     "East",
-                    "List of Asian cuisines"
+                    "History of East Asia",
+                    "Haplogroup D-M174"
                 ],
                 "candidate_descriptions":[
-                    "",
+                    "collective term for the schools of Mahayana Buddhism that developed in the East Asian region and follow the Chinese Buddhist canon",
+                    "Wikimedia list article",
                     "subregion of Asia",
                     "music and musical traditions of Asia",
-                    "collective term for the schools of Mahayana Buddhism that developed in the East Asian region and follow the Chinese Buddhist canon",
                     "",
                     "",
-                    "aspect of history",
                     "one of the four cardinal directions",
-                    "Wikimedia list article"
+                    "aspect of history",
+                    ""
                 ],
                 "span_l":88,
                 "span_r":90,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":8,
                 "alias_idx":13,
-                "guid_idx":"23_13",
+                "guid_idx":"43_62",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -13183,44 +16524,44 @@ const ned_info_gld = [
                 "alias":"pacific",
                 "pop_qid":"Q98",
                 "candidates":[
-                    "Q184425",
-                    "Q538",
-                    "Q847142",
-                    "Q2920892",
-                    "Q12606",
                     "Q1974",
-                    "Q46974",
                     "Q494920",
-                    "Q98"
+                    "Q847142",
+                    "Q46974",
+                    "Q184425",
+                    "Q98",
+                    "Q12606",
+                    "Q538",
+                    "Q2920892"
                 ],
                 "candidate_titles":[
-                    "Pacific War",
-                    "Oceania",
-                    "Pacific Time Zone",
-                    "Pacific Ocean theater of World War II",
-                    "West Coast of the United States",
                     "British Columbia",
-                    "Canadian Pacific Railway",
                     "United States Pacific Fleet",
-                    "Pacific Ocean"
+                    "Pacific Time Zone",
+                    "Canadian Pacific Railway",
+                    "Pacific War",
+                    "Pacific Ocean",
+                    "West Coast of the United States",
+                    "Oceania",
+                    "Pacific Ocean theater of World War II"
                 ],
                 "candidate_descriptions":[
-                    "theatre of war in the Second World War",
-                    "geographic region comprising Australasia, Melanesia, Micronesia and Polynesia",
-                    "time zone in North America",
-                    "the naval and island campaigns in the Central Pacific, North Pacific and South Central Pacific, and",
-                    "term for the westernmost coastal states of the United States, located near the North Pacific Ocean",
                     "province of Canada",
-                    "major class 1 railroad operating in Canada and the U.S.",
                     "Pacific Ocean theater-level component command of the United States Navy",
-                    "ocean between Asia and Australia in the west, the Americas in the east and Antarctica or the Southern Ocean"
+                    "time zone in North America",
+                    "major class 1 railroad operating in Canada and the U.S.",
+                    "theatre of war in the Second World War",
+                    "ocean between Asia and Australia in the west, the Americas in the east and Antarctica or the Southern Ocean",
+                    "term for the westernmost coastal states of the United States, located near the North Pacific Ocean",
+                    "geographic region comprising Australasia, Melanesia, Micronesia and Polynesia",
+                    "the naval and island campaigns in the Central Pacific, North Pacific and South Central Pacific, and"
                 ],
                 "span_l":92,
                 "span_r":93,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":9,
                 "alias_idx":14,
-                "guid_idx":"23_14",
+                "guid_idx":"43_63",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -13384,44 +16725,44 @@ const ned_info_gld = [
                 "alias":"bangkok",
                 "pop_qid":"Q1861",
                 "candidates":[
-                    "Q3029030",
-                    "Q1861",
-                    "Q2352611",
-                    "Q1364088",
-                    "Q4855218",
                     "Q194316",
+                    "Q1364088",
+                    "Q2352611",
+                    "Q3029030",
                     "Q1046755",
+                    "Q1861",
+                    "Q125929",
                     "Q806484",
-                    "Q125929"
+                    "Q4855218"
                 ],
                 "candidate_titles":[
-                    "Bangkok International Film Festival",
-                    "Bangkok",
-                    "Bangkok F.C.",
-                    "Roman Catholic Archdiocese of Bangkok",
-                    "Bangkok Metropolitan Administration",
                     "Suvarnabhumi Airport",
+                    "Roman Catholic Archdiocese of Bangkok",
+                    "Bangkok F.C.",
+                    "Bangkok International Film Festival",
                     "Don Mueang International Airport",
+                    "Bangkok",
+                    "Bangkok railway station",
                     "Bangkok Metropolitan Region",
-                    "Bangkok railway station"
+                    "Bangkok Metropolitan Administration"
                 ],
                 "candidate_descriptions":[
-                    "film festival",
-                    "capital of Thailand",
-                    "",
+                    "international airport in Bangkok, Thailand",
                     "archdiocese",
                     "",
-                    "international airport in Bangkok, Thailand",
+                    "film festival",
                     "former main airport in Bangkok, Thailand",
+                    "capital of Thailand",
+                    "railway station in Thailand",
                     "Metropolis in Thailand",
-                    "railway station in Thailand"
+                    ""
                 ],
                 "span_l":96,
                 "span_r":97,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":10,
                 "alias_idx":15,
-                "guid_idx":"23_15",
+                "guid_idx":"43_64",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -13585,44 +16926,44 @@ const ned_info_gld = [
                 "alias":"thailand",
                 "pop_qid":"Q869",
                 "candidates":[
-                    "Q841984",
-                    "Q9217",
-                    "Q2427907",
-                    "Q869",
-                    "Q2307187",
                     "Q239549",
+                    "Q841984",
+                    "Q869",
                     "Q1874074",
+                    "Q2973223",
                     "Q2663787",
-                    "Q2973223"
+                    "Q2427907",
+                    "Q2307187",
+                    "Q9217"
                 ],
                 "candidate_titles":[
-                    "Thai cuisine",
-                    "Thai language",
-                    "Royal Thai Navy",
-                    "Thailand",
-                    "Kansas City metropolitan area",
                     "Thailand national football team",
+                    "Thai cuisine",
+                    "Thailand",
                     "Thai League 1",
+                    "Cinema of Thailand",
                     "Monarchy of Thailand",
-                    "Cinema of Thailand"
+                    "Royal Thai Navy",
+                    "Kansas City metropolitan area",
+                    "Thai language"
                 ],
                 "candidate_descriptions":[
-                    "Culinary traditions of Thailand",
-                    "language spoken in Thailand",
-                    "naval warfare branch of Thailand's military",
-                    "sovereign state in Southeast Asia",
-                    "metropolitan area surrounding Kansas City, Missouri; a bi-state (Missouri-Kansas) urban area",
                     "men's national association football team representing Thailand",
+                    "Culinary traditions of Thailand",
+                    "sovereign state in Southeast Asia",
+                    "",
                     "",
                     "Thai Monarchy",
-                    ""
+                    "naval warfare branch of Thailand's military",
+                    "metropolitan area surrounding Kansas City, Missouri; a bi-state (Missouri-Kansas) urban area",
+                    "language spoken in Thailand"
                 ],
                 "span_l":98,
                 "span_r":99,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":11,
                 "alias_idx":16,
-                "guid_idx":"23_16",
+                "guid_idx":"43_65",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -13786,44 +17127,44 @@ const ned_info_gld = [
                 "alias":"africa",
                 "pop_qid":"Q15",
                 "candidates":[
-                    "Q218678",
-                    "Q168360",
                     "Q15",
                     "Q27381",
-                    "Q200464",
-                    "Q179023",
                     "Q202006",
+                    "Q168360",
+                    "Q49085",
+                    "Q179023",
+                    "Q200464",
                     "Q3183734",
-                    "Q49085"
+                    "Q218678"
                 ],
                 "candidate_titles":[
-                    "North African campaign",
-                    "Confederation of African Football",
                     "Africa",
                     "North Africa",
-                    "Portuguese Empire",
-                    "French colonial empire",
                     "Olusegun Obasanjo",
+                    "Confederation of African Football",
+                    "African Americans",
+                    "French colonial empire",
+                    "Portuguese Empire",
                     "List of ethnic groups of Africa",
-                    "African Americans"
+                    "North African campaign"
                 ],
                 "candidate_descriptions":[
-                    "1940-1943 military campaign of World War II",
-                    "governing body of association football in Africa",
                     "continent on the Earth's northern and southern hemispheres",
                     "northernmost region of the African continent",
-                    "global empire centered in Portugal",
-                    "set of territories that were under French rule primarily from the 17th century to the late 1960s",
                     "Nigerian politician",
+                    "governing body of association football in Africa",
+                    "racial or ethnic group in the United States with African ancestry",
+                    "set of territories that were under French rule primarily from the 17th century to the late 1960s",
+                    "global empire centered in Portugal",
                     "Wikimedia list article",
-                    "racial or ethnic group in the United States with African ancestry"
+                    "1940-1943 military campaign of World War II"
                 ],
                 "span_l":104,
                 "span_r":105,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":12,
                 "alias_idx":17,
-                "guid_idx":"23_17",
+                "guid_idx":"43_66",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -13987,38 +17328,38 @@ const ned_info_gld = [
                 "alias":"nairobi",
                 "pop_qid":"Q3870",
                 "candidates":[
-                    "Q739993",
-                    "Q3335223",
-                    "Q3870",
-                    "Q368648",
                     "Q649998",
-                    "Q1021627",
-                    "Q206349"
+                    "Q3335223",
+                    "Q368648",
+                    "Q206349",
+                    "Q739993",
+                    "Q3870",
+                    "Q1021627"
                 ],
                 "candidate_titles":[
-                    "Nairobi National Park",
-                    "Nairobi County",
-                    "Nairobi",
-                    "Roman Catholic Archdiocese of Nairobi",
                     "University of Nairobi",
-                    "United Nations Office at Nairobi",
-                    "Jomo Kenyatta International Airport"
+                    "Nairobi County",
+                    "Roman Catholic Archdiocese of Nairobi",
+                    "Jomo Kenyatta International Airport",
+                    "Nairobi National Park",
+                    "Nairobi",
+                    "United Nations Office at Nairobi"
                 ],
                 "candidate_descriptions":[
-                    "first national park in Kenya, Africa",
-                    "county in Kenya",
-                    "capital city of Kenya",
-                    "Catholic archdiocese in Kenya",
                     "collegiate research university based in Nairobi, Kenya",
-                    "United Nations Office in Nairobi, Kenya",
-                    "international airport serving Nairobi, Kenya"
+                    "county in Kenya",
+                    "Catholic archdiocese in Kenya",
+                    "international airport serving Nairobi, Kenya",
+                    "first national park in Kenya, Africa",
+                    "capital city of Kenya",
+                    "United Nations Office in Nairobi, Kenya"
                 ],
                 "span_l":108,
                 "span_r":109,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":13,
                 "alias_idx":18,
-                "guid_idx":"23_18",
+                "guid_idx":"43_67",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -14182,44 +17523,44 @@ const ned_info_gld = [
                 "alias":"kenya",
                 "pop_qid":"Q114",
                 "candidates":[
-                    "Q5465856",
                     "Q172070",
-                    "Q876185",
+                    "Q2538511",
+                    "Q476855",
+                    "Q1706956",
                     "Q133040",
                     "Q239520",
-                    "Q2538511",
+                    "Q876185",
                     "Q114",
-                    "Q1706956",
-                    "Q476855"
+                    "Q5465856"
                 ],
                 "candidate_titles":[
-                    "Football Kenya Federation",
                     "Mount Kenya",
-                    "East Africa Protectorate",
+                    "Kenya Colony",
+                    "Mau Mau Uprising",
+                    "Kenya national cricket team",
                     "Alberto Fujimori",
                     "Kenya national football team",
-                    "Kenya Colony",
+                    "East Africa Protectorate",
                     "Kenya",
-                    "Kenya national cricket team",
-                    "Mau Mau Uprising"
+                    "Football Kenya Federation"
                 ],
                 "candidate_descriptions":[
-                    "",
                     "African stratovolcano",
-                    "former British colony in Africa",
+                    "former UK possession in Africa between 1920 and 1963",
+                    "insurgency",
+                    "",
                     "President of Peru (1990-2000)",
                     "men's national association football team representing Kenya",
-                    "former UK possession in Africa between 1920 and 1963",
+                    "former British colony in Africa",
                     "sovereign state in East Africa",
-                    "",
-                    "insurgency"
+                    ""
                 ],
                 "span_l":110,
                 "span_r":111,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":14,
                 "alias_idx":19,
-                "guid_idx":"23_19",
+                "guid_idx":"43_68",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -14383,44 +17724,44 @@ const ned_info_gld = [
                 "alias":"middle east",
                 "pop_qid":"Q7204",
                 "candidates":[
-                    "Q27293",
                     "Q7204",
+                    "Q1263826",
+                    "Q269678",
+                    "Q49077",
+                    "Q27293",
                     "Q1503406",
                     "Q8669",
-                    "Q49077",
                     "Q17898",
-                    "Q1263826",
-                    "Q696817",
-                    "Q269678"
+                    "Q696817"
                 ],
                 "candidate_titles":[
-                    "Western Asia",
                     "Middle East",
+                    "Middle East Command",
+                    "Ancient Near East",
+                    "Six-Day War",
+                    "Western Asia",
                     "Middle Eastern music",
                     "Arab\u2013Israeli conflict",
-                    "Six-Day War",
                     "LGBT rights by country or territory",
-                    "Middle East Command",
-                    "Mediterranean and Middle East theatre of World War II",
-                    "Ancient Near East"
+                    "Mediterranean and Middle East theatre of World War II"
                 ],
                 "candidate_descriptions":[
-                    "westernmost portion of Asia",
                     "region that encompasses majority of Western Asia and Egypt",
+                    "",
+                    "home of early civilizations within a region roughly corresponding to the modern Middle East",
+                    "1967 war between Israel and Egypt, Jordan, and Syria",
+                    "westernmost portion of Asia",
                     "overview of music traditions in the Middle East",
                     "geopolitical conflict in the Middle East and North Africa",
-                    "1967 war between Israel and Egypt, Jordan, and Syria",
                     "list of the rights of LGBT people by country or territory",
-                    "",
-                    "major theatre of operations during the Second World War",
-                    "home of early civilizations within a region roughly corresponding to the modern Middle East"
+                    "major theatre of operations during the Second World War"
                 ],
                 "span_l":113,
                 "span_r":115,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":15,
                 "alias_idx":20,
-                "guid_idx":"23_20",
+                "guid_idx":"43_69",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -14584,44 +17925,44 @@ const ned_info_gld = [
                 "alias":"north africa",
                 "pop_qid":"Q27381",
                 "candidates":[
-                    "Q194132",
-                    "Q352061",
-                    "Q15",
                     "Q27381",
+                    "Q1548238",
+                    "Q194132",
                     "Q218678",
                     "Q181238",
-                    "Q1548238",
+                    "Q15",
                     "Q696817",
+                    "Q352061",
                     "Q28227"
                 ],
                 "candidate_titles":[
-                    "Operation Torch",
-                    "French North Africa",
-                    "Africa",
                     "North Africa",
+                    "Mediterranean Theater of Operations",
+                    "Operation Torch",
                     "North African campaign",
                     "Africa (Roman province)",
-                    "Mediterranean Theater of Operations",
+                    "Africa",
                     "Mediterranean and Middle East theatre of World War II",
+                    "French North Africa",
                     "Maghreb"
                 ],
                 "candidate_descriptions":[
-                    "1942 Allied landing operations in French North Africa during World War II",
-                    "collection of territories in North Africa controlled by France",
-                    "continent on the Earth's northern and southern hemispheres",
                     "northernmost region of the African continent",
+                    "major theatre of World War II",
+                    "1942 Allied landing operations in French North Africa during World War II",
                     "1940-1943 military campaign of World War II",
                     "Roman province on the northern African coast covering parts of present-day Tunisia, Algeria and Libya",
-                    "major theatre of World War II",
+                    "continent on the Earth's northern and southern hemispheres",
                     "major theatre of operations during the Second World War",
+                    "collection of territories in North Africa controlled by France",
                     "region of Northwest Africa"
                 ],
                 "span_l":116,
                 "span_r":118,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":16,
                 "alias_idx":21,
-                "guid_idx":"23_21",
+                "guid_idx":"43_70",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -14785,44 +18126,44 @@ const ned_info_gld = [
                 "alias":"amman",
                 "pop_qid":"Q3805",
                 "candidates":[
-                    "Q3805",
-                    "Q7784989",
-                    "Q1200549",
                     "Q461416",
                     "Q472788",
                     "Q5453921",
-                    "Q7337081",
+                    "Q3805",
+                    "Q1200549",
+                    "Q7784989",
                     "Q116240",
+                    "Q7337081",
                     "Q3534863"
                 ],
                 "candidate_titles":[
-                    "Amman",
-                    "Third Transjordan attack",
-                    "Mariamman",
                     "Luisa Casati",
                     "Amman Governorate",
                     "First Transjordan attack on Amman",
-                    "River Amman",
+                    "Amman",
+                    "Mariamman",
+                    "Third Transjordan attack",
                     "Jost Amman",
+                    "River Amman",
                     "Pottu Amman (Tamil militant)"
                 ],
                 "candidate_descriptions":[
-                    "capital of Jordan",
-                    "",
-                    "the main South Indian mother goddess",
                     "Italian model",
                     "governorate of Jordan",
                     "",
-                    "river in Carmarthenshire Wales",
+                    "capital of Jordan",
+                    "the main South Indian mother goddess",
+                    "",
                     "Swiss printmaker (1539-1591)",
+                    "river in Carmarthenshire Wales",
                     "Sri Lankan LTTE terrorist"
                 ],
                 "span_l":121,
                 "span_r":122,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":17,
                 "alias_idx":22,
-                "guid_idx":"23_22",
+                "guid_idx":"43_71",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -14986,44 +18327,44 @@ const ned_info_gld = [
                 "alias":"jordan",
                 "pop_qid":"Q810",
                 "candidates":[
-                    "Q1121819",
                     "Q171367",
-                    "Q810",
                     "Q275940",
-                    "Q483771",
-                    "Q41421",
                     "Q40059",
+                    "Q810",
+                    "Q602779",
                     "Q65882",
-                    "Q602779"
+                    "Q1121819",
+                    "Q483771",
+                    "Q41421"
                 ],
                 "candidate_titles":[
-                    "Emirate of Transjordan",
                     "Jordan Grand Prix",
-                    "Jordan",
                     "Jordan national football team",
-                    "Elijah Wood",
-                    "Michael Jordan",
                     "Jordan River",
+                    "Jordan",
+                    "Juicy J",
                     "Karl Jordan",
-                    "Juicy J"
+                    "Emirate of Transjordan",
+                    "Elijah Wood",
+                    "Michael Jordan"
                 ],
                 "candidate_descriptions":[
-                    "former country",
                     "Irish auto racing team",
-                    "sovereign state in Western Asia",
                     "national association football team",
-                    "American actor",
-                    "American basketball player and businessman",
                     "river in West Asia flowing to the Dead Sea",
+                    "sovereign state in Western Asia",
+                    "American rapper and record producer from Tennessee",
                     "German entomologist",
-                    "American rapper and record producer from Tennessee"
+                    "former country",
+                    "American actor",
+                    "American basketball player and businessman"
                 ],
                 "span_l":123,
                 "span_r":124,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":18,
                 "alias_idx":23,
-                "guid_idx":"23_23",
+                "guid_idx":"43_72",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -15187,38 +18528,38 @@ const ned_info_gld = [
                 "alias":"south asia",
                 "pop_qid":"Q771405",
                 "candidates":[
-                    "Q29024993",
-                    "Q4677049",
                     "Q1375117",
+                    "Q29024993",
                     "Q145700",
-                    "Q18158209",
                     "Q771405",
-                    "Q60140"
+                    "Q4677049",
+                    "Q60140",
+                    "Q18158209"
                 ],
                 "candidate_titles":[
-                    "Islam in South Asia",
-                    "South Asian cinema",
                     "South Asian Football Federation",
+                    "Islam in South Asia",
                     "South Asian Association for Regional Cooperation",
-                    "South Asia Collection at the University of Pennsylvania Libraries",
                     "South Asia",
-                    "Indian subcontinent"
+                    "South Asian cinema",
+                    "Indian subcontinent",
+                    "South Asia Collection at the University of Pennsylvania Libraries"
                 ],
                 "candidate_descriptions":[
-                    "History of Islam in the Subcontinent",
-                    "South Asian cinema refers to the cinema of India, Pakistan, Bangladesh, Afghanistan, Sri Lanka, Nepal, Bhutan and the Maldives",
                     "",
+                    "History of Islam in the Subcontinent",
                     "economical, political and military Alliance of South Asian Nations in Nepal",
-                    "organization",
                     "southern region of Asia",
-                    "peninsular region in south-central Asia below the Himalayas"
+                    "South Asian cinema refers to the cinema of India, Pakistan, Bangladesh, Afghanistan, Sri Lanka, Nepal, Bhutan and the Maldives",
+                    "peninsular region in south-central Asia below the Himalayas",
+                    "organization"
                 ],
                 "span_l":126,
                 "span_r":128,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":19,
                 "alias_idx":24,
-                "guid_idx":"23_24",
+                "guid_idx":"43_73",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -15383,31 +18724,31 @@ const ned_info_gld = [
                 "pop_qid":"Q3037",
                 "candidates":[
                     "Q797472",
-                    "Q970717",
-                    "Q3037",
                     "Q1736294",
-                    "Q61066"
+                    "Q61066",
+                    "Q970717",
+                    "Q3037"
                 ],
                 "candidate_titles":[
                     "Kathmandu District",
-                    "Kathmandu Valley",
-                    "Kathmandu",
                     "Kathmandu (company)",
-                    "Tribhuvan International Airport"
+                    "Tribhuvan International Airport",
+                    "Kathmandu Valley",
+                    "Kathmandu"
                 ],
                 "candidate_descriptions":[
                     "district of Nepal",
-                    "valley in Nepal",
-                    "capital of Nepal",
                     "clothing and equipment retail company in Australia and New Zealand",
-                    "airport in Kathmandu, Nepal"
+                    "airport in Kathmandu, Nepal",
+                    "valley in Nepal",
+                    "capital of Nepal"
                 ],
                 "span_l":131,
                 "span_r":132,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":20,
                 "alias_idx":25,
-                "guid_idx":"23_25",
+                "guid_idx":"43_74",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -15571,44 +18912,44 @@ const ned_info_gld = [
                 "alias":"nepal",
                 "pop_qid":"Q837",
                 "candidates":[
-                    "Q970717",
-                    "Q1078602",
-                    "Q19830062",
-                    "Q330971",
+                    "Q2398928",
+                    "Q33823",
                     "Q6994470",
                     "Q3332217",
+                    "Q330971",
+                    "Q970717",
+                    "Q1078602",
                     "Q837",
-                    "Q2398928",
-                    "Q33823"
+                    "Q19830062"
                 ],
                 "candidate_titles":[
-                    "Kathmandu Valley",
-                    "Kingdom of Nepal",
-                    "April 2015 Nepal earthquake",
-                    "Nepal national football team",
+                    "Geography of Nepal",
+                    "Nepali language",
                     "Nepal national cricket team",
                     "Gorkha Kingdom",
+                    "Nepal national football team",
+                    "Kathmandu Valley",
+                    "Kingdom of Nepal",
                     "Nepal",
-                    "Geography of Nepal",
-                    "Nepali language"
+                    "April 2015 Nepal earthquake"
                 ],
                 "candidate_descriptions":[
-                    "valley in Nepal",
-                    "Sovereign monarchy in South Asia, lasting from 1768-2008",
-                    "earthquake which occurred on 25 April 2015 killing over 9,000 people",
-                    "national association football team",
+                    "",
+                    "Indo-Aryan (Pahari) and official language of Nepal",
                     "national cricket team of Nepal",
                     "former kingdom  located in present-day western Nepal",
+                    "national association football team",
+                    "valley in Nepal",
+                    "Sovereign monarchy in South Asia, lasting from 1768-2008",
                     "sovereign state in South Asia",
-                    "",
-                    "Indo-Aryan (Pahari) and official language of Nepal"
+                    "earthquake which occurred on 25 April 2015 killing over 9,000 people"
                 ],
                 "span_l":133,
                 "span_r":134,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":21,
                 "alias_idx":26,
-                "guid_idx":"23_26",
+                "guid_idx":"43_75",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -15772,26 +19113,26 @@ const ned_info_gld = [
                 "alias":"central africa",
                 "pop_qid":"Q27433",
                 "candidates":[
+                    "Q271894",
                     "Q929",
-                    "Q27433",
-                    "Q271894"
+                    "Q27433"
                 ],
                 "candidate_titles":[
+                    "French Equatorial Africa",
                     "Central African Republic",
-                    "Central Africa",
-                    "French Equatorial Africa"
+                    "Central Africa"
                 ],
                 "candidate_descriptions":[
+                    "federation of French colonial possessions in Central Africa",
                     "sovereign state in Africa",
-                    "core region of the African continent",
-                    "federation of French colonial possessions in Central Africa"
+                    "core region of the African continent"
                 ],
                 "span_l":138,
                 "span_r":140,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":22,
                 "alias_idx":27,
-                "guid_idx":"23_27",
+                "guid_idx":"43_76",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -15955,44 +19296,44 @@ const ned_info_gld = [
                 "alias":"senegal",
                 "pop_qid":"Q1041",
                 "candidates":[
-                    "Q207441",
-                    "Q1041",
-                    "Q3569",
-                    "Q583748",
                     "Q16849821",
-                    "Q3099680",
-                    "Q1084958",
                     "Q3132749",
-                    "Q776363"
+                    "Q1084958",
+                    "Q1041",
+                    "Q583748",
+                    "Q776363",
+                    "Q207441",
+                    "Q3569",
+                    "Q3099680"
                 ],
                 "candidate_titles":[
-                    "Senegal national football team",
-                    "Senegal",
-                    "Senegal River",
-                    "Senegal national basketball team",
                     "Senegal national under-20 football team",
-                    "Senegal women's national basketball team",
-                    "Senegalese Football Federation",
                     "Senegal national under-23 football team",
-                    "Senegal women's national football team"
+                    "Senegalese Football Federation",
+                    "Senegal",
+                    "Senegal national basketball team",
+                    "Senegal women's national football team",
+                    "Senegal national football team",
+                    "Senegal River",
+                    "Senegal women's national basketball team"
                 ],
                 "candidate_descriptions":[
-                    "Men's national association football team representing Senegal",
+                    "national association football team",
+                    "national association football team",
+                    "sports governing body",
                     "sovereign state in Western Africa",
-                    "river in West Africa",
                     "men's national basketball team representing Senegal",
                     "national association football team",
-                    "",
-                    "sports governing body",
-                    "national association football team",
-                    "national association football team"
+                    "Men's national association football team representing Senegal",
+                    "river in West Africa",
+                    ""
                 ],
                 "span_l":143,
                 "span_r":144,
-                "sent_idx":23,
+                "sent_idx":43,
                 "sent_alias_idx":23,
                 "alias_idx":28,
-                "guid_idx":"23_28",
+                "guid_idx":"43_77",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -16156,26 +19497,26 @@ const ned_info_gld = [
                 "alias":"public sector",
                 "pop_qid":"Q294217",
                 "candidates":[
-                    "Q7257981",
                     "Q1080794",
+                    "Q7257981",
                     "Q294217"
                 ],
                 "candidate_titles":[
-                    "Public sector undertakings in Kerala",
                     "State school",
+                    "Public sector undertakings in Kerala",
                     "Public sector"
                 ],
                 "candidate_descriptions":[
-                    "",
                     "type of school funded in whole or in part by taxation",
+                    "",
                     "tax-paid part of economy"
                 ],
                 "span_l":171,
                 "span_r":173,
-                "sent_idx":24,
+                "sent_idx":44,
                 "sent_alias_idx":0,
                 "alias_idx":29,
-                "guid_idx":"24_29",
+                "guid_idx":"44_78",
                 "sentence":"As a matter of custom , permanent members of the Security Council do not serve as officers of the Executive Board . It is responsible for maintaining an effective relationship between the Executive Board and the UNICEF secretariat , and helps to organize the field visits of the Executive Board . The following countries are home to UNICEF Regional Offices . 1 ) The Americas and Caribbean Regional Office , Panama City , Panama 2 ) Europe and Central Asia Regional Office , Geneva , Switzerland 3 ) East Asia and the Pacific Regional Office , Bangkok , Thailand 4 ) Eastern and Southern Africa Regional Office , Nairobi , Kenya 5 ) Middle East and North Africa Regional Office , Amman , Jordan 6 ) South Asia Regional Office , Kathmandu , Nepal 7 ) West and Central Africa Regional Office , Senegal There are national committees in 36 [ industrialized ] countries , each established as an independent local non-governmental organization . The national committees raise funds from the public sector .",
                 "all_aliases":[
                     "security council",
@@ -16352,10 +19693,10 @@ const ned_info_gld = [
                 ],
                 "span_l":0,
                 "span_r":1,
-                "sent_idx":25,
+                "sent_idx":45,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"25_0",
+                "guid_idx":"45_79",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -16494,23 +19835,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":17,
                 "span_r":18,
-                "sent_idx":25,
+                "sent_idx":45,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"25_1",
+                "guid_idx":"45_80",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -16649,44 +19990,44 @@ const ned_info_gld = [
                 "alias":"united states",
                 "pop_qid":"Q30",
                 "candidates":[
-                    "Q846570",
-                    "Q30",
-                    "Q188819",
-                    "Q9212",
+                    "Q180072",
                     "Q49",
                     "Q35657",
-                    "Q180072",
+                    "Q30",
+                    "Q846570",
+                    "Q188819",
+                    "Q9212",
                     "Q66096",
                     "Q11220"
                 ],
                 "candidate_titles":[
-                    "Americans",
-                    "United States",
-                    "Billboard 200",
-                    "United States Army",
+                    "Billboard Hot 100",
                     "North America",
                     "U.S. state",
-                    "Billboard Hot 100",
+                    "United States",
+                    "Americans",
+                    "Billboard 200",
+                    "United States Army",
                     "United States Senate",
                     "United States Navy"
                 ],
                 "candidate_descriptions":[
-                    "citizens or residents of the United States of America",
-                    "sovereign state in North America",
-                    "US weekly album chart published by Billboard Magazine",
-                    "branch of the United States Armed Forces",
+                    "single charts in U.S",
                     "continent on the Earth's northwestern quadrant",
                     "constituent political entity sharing sovereignty as the United States of America",
-                    "single charts in U.S",
+                    "sovereign state in North America",
+                    "citizens or residents of the United States of America",
+                    "US weekly album chart published by Billboard Magazine",
+                    "branch of the United States Armed Forces",
                     "upper house of the United States Congress",
                     "maritime warfare branch of the United States' military"
                 ],
                 "span_l":24,
                 "span_r":26,
-                "sent_idx":26,
+                "sent_idx":46,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"26_2",
+                "guid_idx":"46_81",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -16825,44 +20166,44 @@ const ned_info_gld = [
                 "alias":"nepal",
                 "pop_qid":"Q837",
                 "candidates":[
-                    "Q837",
-                    "Q2398928",
-                    "Q1078602",
-                    "Q6994470",
-                    "Q970717",
-                    "Q33823",
                     "Q330971",
+                    "Q33823",
+                    "Q1078602",
+                    "Q2398928",
+                    "Q3332217",
+                    "Q837",
                     "Q19830062",
-                    "Q3332217"
+                    "Q970717",
+                    "Q6994470"
                 ],
                 "candidate_titles":[
-                    "Nepal",
-                    "Geography of Nepal",
-                    "Kingdom of Nepal",
-                    "Nepal national cricket team",
-                    "Kathmandu Valley",
-                    "Nepali language",
                     "Nepal national football team",
+                    "Nepali language",
+                    "Kingdom of Nepal",
+                    "Geography of Nepal",
+                    "Gorkha Kingdom",
+                    "Nepal",
                     "April 2015 Nepal earthquake",
-                    "Gorkha Kingdom"
+                    "Kathmandu Valley",
+                    "Nepal national cricket team"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in South Asia",
-                    "",
-                    "Sovereign monarchy in South Asia, lasting from 1768-2008",
-                    "national cricket team of Nepal",
-                    "valley in Nepal",
-                    "Indo-Aryan (Pahari) and official language of Nepal",
                     "national association football team",
+                    "Indo-Aryan (Pahari) and official language of Nepal",
+                    "Sovereign monarchy in South Asia, lasting from 1768-2008",
+                    "",
+                    "former kingdom  located in present-day western Nepal",
+                    "sovereign state in South Asia",
                     "earthquake which occurred on 25 April 2015 killing over 9,000 people",
-                    "former kingdom  located in present-day western Nepal"
+                    "valley in Nepal",
+                    "national cricket team of Nepal"
                 ],
                 "span_l":27,
                 "span_r":28,
-                "sent_idx":26,
+                "sent_idx":46,
                 "sent_alias_idx":1,
                 "alias_idx":3,
-                "guid_idx":"26_3",
+                "guid_idx":"46_82",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17001,23 +20342,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":33,
                 "span_r":34,
-                "sent_idx":26,
+                "sent_idx":46,
                 "sent_alias_idx":2,
                 "alias_idx":4,
-                "guid_idx":"26_4",
+                "guid_idx":"46_83",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17169,10 +20510,10 @@ const ned_info_gld = [
                 ],
                 "span_l":50,
                 "span_r":51,
-                "sent_idx":26,
+                "sent_idx":46,
                 "sent_alias_idx":3,
                 "alias_idx":5,
-                "guid_idx":"26_5",
+                "guid_idx":"46_84",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17311,44 +20652,44 @@ const ned_info_gld = [
                 "alias":"halloween",
                 "pop_qid":"Q251868",
                 "candidates":[
-                    "Q909063",
+                    "Q59456",
+                    "Q251868",
+                    "Q221103",
+                    "Q1364022",
                     "Q16744113",
                     "Q5383",
-                    "Q5643093",
-                    "Q59456",
-                    "Q1364022",
                     "Q20666646",
-                    "Q251868",
-                    "Q221103"
+                    "Q909063",
+                    "Q5643093"
                 ],
                 "candidate_titles":[
-                    "Halloween (2007 film)",
+                    "List of M\u00c4R characters",
+                    "Halloween",
+                    "Halloween (1978 film)",
+                    "Halloween (franchise)",
                     "Halloween (The Office)",
                     "David Bowie",
-                    "Halloween (wrestler)",
-                    "List of M\u00c4R characters",
-                    "Halloween (franchise)",
                     "Halloween (2018 film)",
-                    "Halloween",
-                    "Halloween (1978 film)"
+                    "Halloween (2007 film)",
+                    "Halloween (wrestler)"
                 ],
                 "candidate_descriptions":[
-                    "2007 film by Rob Zombie",
+                    "Wikimedia list article",
+                    "holiday celebrated on 31 October",
+                    "1978 film by John Carpenter",
+                    "horror film franchise",
                     "episode of The Office (S2 E5)",
                     "British singer, musician, and actor (1947-2016)",
-                    "Mexican professional wrestler",
-                    "Wikimedia list article",
-                    "horror film franchise",
                     "2018 film by David Gordon Green",
-                    "holiday celebrated on 31 October",
-                    "1978 film by John Carpenter"
+                    "2007 film by Rob Zombie",
+                    "Mexican professional wrestler"
                 ],
                 "span_l":57,
                 "span_r":58,
-                "sent_idx":26,
+                "sent_idx":46,
                 "sent_alias_idx":4,
                 "alias_idx":6,
-                "guid_idx":"26_6",
+                "guid_idx":"46_85",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17487,44 +20828,44 @@ const ned_info_gld = [
                 "alias":"candy",
                 "pop_qid":"Q185583",
                 "candidates":[
-                    "Q296403",
-                    "Q106942",
-                    "Q218532",
-                    "Q550202",
-                    "Q185583",
-                    "Q293096",
-                    "Q706771",
                     "Q353758",
-                    "Q239471"
+                    "Q550202",
+                    "Q239471",
+                    "Q106942",
+                    "Q706771",
+                    "Q296403",
+                    "Q293096",
+                    "Q218532",
+                    "Q185583"
                 ],
                 "candidate_titles":[
-                    "Lamar Odom",
-                    "Candice Bergen",
-                    "John Candy",
-                    "Candy Darling",
-                    "Candy",
-                    "Candy Reynolds",
-                    "Darryl Dawkins",
                     "Jes\u00fas Franco",
-                    "Candy Dulfer"
+                    "Candy Darling",
+                    "Candy Dulfer",
+                    "Candice Bergen",
+                    "Darryl Dawkins",
+                    "Lamar Odom",
+                    "Candy Reynolds",
+                    "John Candy",
+                    "Candy"
                 ],
                 "candidate_descriptions":[
-                    "American basketball player",
-                    "American actress and model",
-                    "Canadian actor",
-                    "American actress (1944-1974)",
-                    "sweet confection",
-                    "American tennis player",
-                    "American basketball player-coach",
                     "film director from Spain",
-                    "Dutch saxophonist and singer"
+                    "American actress (1944-1974)",
+                    "Dutch saxophonist and singer",
+                    "American actress and model",
+                    "American basketball player-coach",
+                    "American basketball player",
+                    "American tennis player",
+                    "Canadian actor",
+                    "sweet confection"
                 ],
                 "span_l":63,
                 "span_r":64,
-                "sent_idx":26,
+                "sent_idx":46,
                 "sent_alias_idx":5,
                 "alias_idx":7,
-                "guid_idx":"26_7",
+                "guid_idx":"46_86",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17663,23 +21004,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":65,
                 "span_r":66,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"27_8",
+                "guid_idx":"47_87",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17818,44 +21159,44 @@ const ned_info_gld = [
                 "alias":"bahamas",
                 "pop_qid":"Q778",
                 "candidates":[
-                    "Q800200",
-                    "Q778",
-                    "Q4842373",
-                    "Q800198",
-                    "Q1621341",
-                    "Q6459112",
-                    "Q244590",
                     "Q4842374",
-                    "Q4842324"
+                    "Q244590",
+                    "Q800200",
+                    "Q6459112",
+                    "Q778",
+                    "Q1621341",
+                    "Q4842373",
+                    "Q4842324",
+                    "Q800198"
                 ],
                 "candidate_titles":[
-                    "Bahamas Davis Cup team",
-                    "The Bahamas",
-                    "Bahamas national beach soccer team",
-                    "Bahamas (magazine)",
-                    "Bahamas national rugby union team",
-                    "LMS Jubilee Class 5596 Bahamas",
-                    "Bahamas national football team",
                     "Bahamas national cricket team",
-                    "Bahamas (musician)"
+                    "Bahamas national football team",
+                    "Bahamas Davis Cup team",
+                    "LMS Jubilee Class 5596 Bahamas",
+                    "The Bahamas",
+                    "Bahamas national rugby union team",
+                    "Bahamas national beach soccer team",
+                    "Bahamas (musician)",
+                    "Bahamas (magazine)"
                 ],
                 "candidate_descriptions":[
+                    "",
+                    "national association football team",
                     "national sports team",
+                    "preserved British 4-6-0 locomotive",
                     "island sovereign state in the West Indies",
                     "",
-                    "German political magazine",
                     "",
-                    "preserved British 4-6-0 locomotive",
-                    "national association football team",
-                    "",
-                    "Canadian musician"
+                    "Canadian musician",
+                    "German political magazine"
                 ],
                 "span_l":84,
                 "span_r":85,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"27_9",
+                "guid_idx":"47_88",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -17994,44 +21335,44 @@ const ned_info_gld = [
                 "alias":"brunei",
                 "pop_qid":"Q921",
                 "candidates":[
-                    "Q57327",
                     "Q291688",
-                    "Q887803",
-                    "Q921",
                     "Q18101157",
-                    "Q15966501",
                     "Q239555",
+                    "Q887803",
+                    "Q15966501",
+                    "Q921",
                     "Q1934591",
+                    "Q57327",
                     "Q31800"
                 ],
                 "candidate_titles":[
-                    "Hassanal Bolkiah",
                     "2012 AFC Challenge Cup",
-                    "Bruneian Empire",
-                    "Brunei",
                     "Brunei national under-21 football team",
-                    "Brunei national under-23 football team",
                     "Brunei national football team",
+                    "Bruneian Empire",
+                    "Brunei national under-23 football team",
+                    "Brunei",
                     "Battle of North Borneo",
+                    "Hassanal Bolkiah",
                     "Bolkiah"
                 ],
                 "candidate_descriptions":[
-                    "Sultan of Brunei",
                     "the fourth edition of the tournament which took place in Nepal from 8\u201319 March 2012",
+                    "national association football team",
+                    "national association football team",
                     "Malay sultanate, centred in Brunei on the northern coast of Borneo island in Southeast Asia from 1368 to 1888",
+                    "national association football team",
                     "sovereign state in Southeast Asia",
-                    "national association football team",
-                    "national association football team",
-                    "national association football team",
                     "battle during the Second World War between Allied and Japanese forces",
+                    "Sultan of Brunei",
                     "Sultan of Brunei"
                 ],
                 "span_l":86,
                 "span_r":87,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":2,
                 "alias_idx":10,
-                "guid_idx":"27_10",
+                "guid_idx":"47_89",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -18170,44 +21511,44 @@ const ned_info_gld = [
                 "alias":"cyprus",
                 "pop_qid":"Q229",
                 "candidates":[
-                    "Q847314",
-                    "Q188791",
-                    "Q155965",
-                    "Q213638",
                     "Q37362",
-                    "Q229",
-                    "Q245831",
                     "Q1050999",
-                    "Q694772"
+                    "Q245831",
+                    "Q188791",
+                    "Q229",
+                    "Q213638",
+                    "Q847314",
+                    "Q694772",
+                    "Q155965"
                 ],
                 "candidate_titles":[
-                    "EOKA",
-                    "Cyprus national football team",
-                    "Cypriot First Division",
-                    "Kingdom of Cyprus",
                     "Akrotiri and Dhekelia",
-                    "Cyprus",
-                    "Cyprus dispute",
                     "Turkish invasion of Cyprus",
-                    "United Nations Peacekeeping Force in Cyprus"
+                    "Cyprus dispute",
+                    "Cyprus national football team",
+                    "Cyprus",
+                    "Kingdom of Cyprus",
+                    "EOKA",
+                    "United Nations Peacekeeping Force in Cyprus",
+                    "Cypriot First Division"
                 ],
                 "candidate_descriptions":[
-                    "former Greek Cypriot nationalist guerrilla organization",
-                    "men's national association football team representing Cyprus",
-                    "professional association football league, contested by clubs from Cyprus",
-                    "Mediaeval kingdom",
                     "British Overseas Territory on the island of Cyprus",
-                    "sovereign state situated on an island in the Eastern Mediterranean Sea",
-                    "Inter-communal dispute and violence",
                     "1974 military conflict in Cyprus",
-                    "United Nations peacekeeping force"
+                    "Inter-communal dispute and violence",
+                    "men's national association football team representing Cyprus",
+                    "sovereign state situated on an island in the Eastern Mediterranean Sea",
+                    "Mediaeval kingdom",
+                    "former Greek Cypriot nationalist guerrilla organization",
+                    "United Nations peacekeeping force",
+                    "professional association football league, contested by clubs from Cyprus"
                 ],
                 "span_l":88,
                 "span_r":89,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":3,
                 "alias_idx":11,
-                "guid_idx":"27_11",
+                "guid_idx":"47_90",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -18346,44 +21687,44 @@ const ned_info_gld = [
                 "alias":"latvia",
                 "pop_qid":"Q211",
                 "candidates":[
-                    "Q211",
+                    "Q192180",
                     "Q189322",
-                    "Q49540",
-                    "Q543042",
+                    "Q718738",
+                    "Q211",
                     "Q2630537",
                     "Q1330238",
-                    "Q718738",
-                    "Q192180",
-                    "Q945459"
+                    "Q945459",
+                    "Q543042",
+                    "Q49540"
                 ],
                 "candidate_titles":[
-                    "Latvia",
+                    "Latvian Soviet Socialist Republic",
                     "Latvia national football team",
-                    "Latvians",
-                    "Latvian War of Independence",
+                    "Soviet occupation of Latvia in 1940",
+                    "Latvia",
                     "Latvia national under-21 football team",
                     "Latvia men's national ice hockey team",
-                    "Soviet occupation of Latvia in 1940",
-                    "Latvian Soviet Socialist Republic",
-                    "Latvia national basketball team"
+                    "Latvia national basketball team",
+                    "Latvian War of Independence",
+                    "Latvians"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in northeastern Europe",
+                    "republic of the Soviet Union (1940-1991)",
                     "men's national association football team representing Latvia",
-                    "Baltic people, indigenous population of Latvia; also used for citizens or residents of Latvia",
-                    "fought against Russian SFSR",
+                    "military occupation of the Republic of Latvia by the Soviet Union",
+                    "sovereign state in northeastern Europe",
                     "national association football team",
                     "men's national ice hockey team representing Latvia",
-                    "military occupation of the Republic of Latvia by the Soviet Union",
-                    "republic of the Soviet Union (1940-1991)",
-                    "men's national basketball team representing Latvia"
+                    "men's national basketball team representing Latvia",
+                    "fought against Russian SFSR",
+                    "Baltic people, indigenous population of Latvia; also used for citizens or residents of Latvia"
                 ],
                 "span_l":90,
                 "span_r":91,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":4,
                 "alias_idx":12,
-                "guid_idx":"27_12",
+                "guid_idx":"47_91",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -18522,44 +21863,44 @@ const ned_info_gld = [
                 "alias":"liechtenstein",
                 "pop_qid":"Q347",
                 "candidates":[
-                    "Q387416",
-                    "Q698530",
                     "Q186690",
                     "Q165674",
-                    "Q57454",
-                    "Q310528",
+                    "Q698530",
+                    "Q387416",
                     "Q2708281",
                     "Q317016",
-                    "Q347"
+                    "Q310528",
+                    "Q347",
+                    "Q57454"
                 ],
                 "candidate_titles":[
-                    "Liechtenstein Football Association",
-                    "House of Liechtenstein",
                     "Liechtenstein national football team",
                     "Franz Joseph II, Prince of Liechtenstein",
-                    "Hans-Adam II, Prince of Liechtenstein",
-                    "Johann I Joseph, Prince of Liechtenstein",
+                    "House of Liechtenstein",
+                    "Liechtenstein Football Association",
                     "Liechtenstein national under-21 football team",
                     "Johann II, Prince of Liechtenstein",
-                    "Liechtenstein"
+                    "Johann I Joseph, Prince of Liechtenstein",
+                    "Liechtenstein",
+                    "Hans-Adam II, Prince of Liechtenstein"
                 ],
                 "candidate_descriptions":[
-                    "sports governing body",
-                    "ruling dynasty of the Principality of Liechtenstein",
                     "men's national association football team representing Liechtenstein",
                     "Prince of Liechtenstein (1906-1989)",
-                    "monarch of Liechtenstein",
-                    "Austrian marshal (1760-1836)",
+                    "ruling dynasty of the Principality of Liechtenstein",
+                    "sports governing body",
                     "national association football team",
                     "Prince of Liechtenstein (1840-1929)",
-                    "sovereign state in western-central Europe"
+                    "Austrian marshal (1760-1836)",
+                    "sovereign state in western-central Europe",
+                    "monarch of Liechtenstein"
                 ],
                 "span_l":92,
                 "span_r":93,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":5,
                 "alias_idx":13,
-                "guid_idx":"27_13",
+                "guid_idx":"47_92",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -18698,44 +22039,44 @@ const ned_info_gld = [
                 "alias":"malta",
                 "pop_qid":"Q233",
                 "candidates":[
-                    "Q188782",
-                    "Q6744657",
-                    "Q152814",
-                    "Q682452",
-                    "Q426045",
-                    "Q233",
-                    "Q187549",
                     "Q664066",
-                    "Q16997247"
+                    "Q152814",
+                    "Q6744657",
+                    "Q682452",
+                    "Q16997247",
+                    "Q188782",
+                    "Q233",
+                    "Q426045",
+                    "Q187549"
                 ],
                 "candidate_titles":[
-                    "Malta national football team",
-                    "Crown Colony of Malta",
-                    "Prime Minister of Malta",
-                    "Siege of Malta (World War II)",
-                    "University of Malta",
-                    "Malta",
-                    "Knights Hospitaller",
                     "Roman Catholic Archdiocese of Malta",
-                    "Malta Dockyard"
+                    "Prime Minister of Malta",
+                    "Crown Colony of Malta",
+                    "Siege of Malta (World War II)",
+                    "Malta Dockyard",
+                    "Malta national football team",
+                    "Malta",
+                    "University of Malta",
+                    "Knights Hospitaller"
                 ],
                 "candidate_descriptions":[
-                    "men's national association football team representing Malta",
-                    "former British posession",
-                    "position",
-                    "military campaign in the Mediterranean Theatre of the Second World War",
-                    "university in Malta",
-                    "sovereign state in Southern Europe situated on an archipelago in the Mediterranean Sea",
-                    "medieval and early modern Catholic military order",
                     "archdiocese",
-                    ""
+                    "position",
+                    "former British posession",
+                    "military campaign in the Mediterranean Theatre of the Second World War",
+                    "",
+                    "men's national association football team representing Malta",
+                    "sovereign state in Southern Europe situated on an archipelago in the Mediterranean Sea",
+                    "university in Malta",
+                    "medieval and early modern Catholic military order"
                 ],
                 "span_l":94,
                 "span_r":95,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":6,
                 "alias_idx":14,
-                "guid_idx":"27_14",
+                "guid_idx":"47_93",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -18874,44 +22215,44 @@ const ned_info_gld = [
                 "alias":"mauritius",
                 "pop_qid":"Q1027",
                 "candidates":[
-                    "Q316599",
-                    "Q12053604",
                     "Q269119",
+                    "Q477833",
                     "Q12060804",
-                    "Q212967",
                     "Q1027",
-                    "Q6630770",
+                    "Q316599",
+                    "Q212967",
                     "Q36460",
-                    "Q477833"
+                    "Q12053604",
+                    "Q6630770"
                 ],
                 "candidate_titles":[
-                    "Saint Maurice",
-                    "British Mauritius",
                     "Mauritius Football Association",
+                    "Mauritius national football team",
                     "Isle de France (Mauritius)",
-                    "Mauritian rupee",
                     "Mauritius",
-                    "List of non-marine molluscs of Mauritius",
+                    "Saint Maurice",
+                    "Mauritian rupee",
                     "Sir Seewoosagur Ramgoolam International Airport",
-                    "Mauritius national football team"
+                    "British Mauritius",
+                    "List of non-marine molluscs of Mauritius"
                 ],
                 "candidate_descriptions":[
-                    "leader of the legendary Roman Theban Legion",
-                    "British crown colony",
                     "",
+                    "national association football team",
                     "",
-                    "currency of Mauritius",
                     "island sovereign state in the Indian Ocean",
-                    "Wikimedia list article",
+                    "leader of the legendary Roman Theban Legion",
+                    "currency of Mauritius",
                     "international airport serving Port Louis, Mauritius",
-                    "national association football team"
+                    "British crown colony",
+                    "Wikimedia list article"
                 ],
                 "span_l":96,
                 "span_r":97,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":7,
                 "alias_idx":15,
-                "guid_idx":"27_15",
+                "guid_idx":"47_94",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -19050,44 +22391,44 @@ const ned_info_gld = [
                 "alias":"monaco",
                 "pop_qid":"Q235",
                 "candidates":[
-                    "Q294888",
-                    "Q3910",
-                    "Q171400",
-                    "Q185025",
-                    "Q3925",
-                    "Q1250640",
-                    "Q235",
                     "Q9102",
+                    "Q185025",
+                    "Q1250640",
+                    "Q294888",
+                    "Q171400",
+                    "Q3925",
+                    "Q235",
+                    "Q3910",
                     "Q180305"
                 ],
                 "candidate_titles":[
-                    "Juan M\u00f3naco",
-                    "Albert II, Prince of Monaco",
-                    "Circuit de Monaco",
-                    "Rainier III, Prince of Monaco",
-                    "Grace Kelly",
-                    "Herculis",
-                    "Monaco",
                     "Monaco Grand Prix",
+                    "Rainier III, Prince of Monaco",
+                    "Herculis",
+                    "Juan M\u00f3naco",
+                    "Circuit de Monaco",
+                    "Grace Kelly",
+                    "Monaco",
+                    "Albert II, Prince of Monaco",
                     "AS Monaco FC"
                 ],
                 "candidate_descriptions":[
-                    "Argentine tennis player",
-                    "Prince of Monaco",
-                    "street circuit\u00a0around the harbour of the principality of Monaco",
-                    "Prince of Monaco (1923-2005)",
-                    "American actress and Princess consort of Monaco",
-                    "athletics tournament held in Monaco",
-                    "sovereign city-state on the French Riviera",
                     "Formula one race held in Monaco",
+                    "Prince of Monaco (1923-2005)",
+                    "athletics tournament held in Monaco",
+                    "Argentine tennis player",
+                    "street circuit\u00a0around the harbour of the principality of Monaco",
+                    "American actress and Princess consort of Monaco",
+                    "sovereign city-state on the French Riviera",
+                    "Prince of Monaco",
                     "association football club in Monaco"
                 ],
                 "span_l":98,
                 "span_r":99,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":8,
                 "alias_idx":16,
-                "guid_idx":"27_16",
+                "guid_idx":"47_95",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -19226,44 +22567,44 @@ const ned_info_gld = [
                 "alias":"singapore",
                 "pop_qid":"Q334",
                 "candidates":[
-                    "Q1074568",
-                    "Q738236",
-                    "Q170422",
-                    "Q32245",
                     "Q296754",
-                    "Q239528",
                     "Q40176",
+                    "Q376178",
+                    "Q170422",
+                    "Q239528",
+                    "Q32245",
+                    "Q1074568",
                     "Q334",
-                    "Q376178"
+                    "Q738236"
                 ],
                 "candidate_titles":[
-                    "Singapore Armed Forces",
-                    "National University of Singapore",
-                    "2010 Summer Youth Olympics",
-                    "Singapore Airlines",
                     "Battle of Singapore",
-                    "Singapore national football team",
                     "Mass Rapid Transit (Singapore)",
+                    "Straits Settlements",
+                    "2010 Summer Youth Olympics",
+                    "Singapore national football team",
+                    "Singapore Airlines",
+                    "Singapore Armed Forces",
                     "Singapore",
-                    "Straits Settlements"
+                    "National University of Singapore"
                 ],
                 "candidate_descriptions":[
-                    "military arm of the Total Defence of the Republic of Singapore",
-                    "autonomous research university in Singapore",
-                    "2010 edition of the Summer Youth Olympics",
-                    "the flag carrier airline of Singapore",
                     "World War II battle",
-                    "national association football team",
                     "rapid transit system in Singapore",
+                    "former group of British territories located in Southeast Asia",
+                    "2010 edition of the Summer Youth Olympics",
+                    "national association football team",
+                    "the flag carrier airline of Singapore",
+                    "military arm of the Total Defence of the Republic of Singapore",
                     "sovereign city-state in Southeast Asia",
-                    "former group of British territories located in Southeast Asia"
+                    "autonomous research university in Singapore"
                 ],
                 "span_l":100,
                 "span_r":101,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":9,
                 "alias_idx":17,
-                "guid_idx":"27_17",
+                "guid_idx":"47_96",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -19402,44 +22743,44 @@ const ned_info_gld = [
                 "alias":"taiwan",
                 "pop_qid":"Q865",
                 "candidates":[
-                    "Q5589404",
-                    "Q717976",
-                    "Q137816",
-                    "Q865",
-                    "Q702116",
-                    "Q22528",
-                    "Q459119",
                     "Q216923",
-                    "Q707133"
+                    "Q717976",
+                    "Q459119",
+                    "Q702116",
+                    "Q5589404",
+                    "Q22528",
+                    "Q707133",
+                    "Q865",
+                    "Q137816"
                 ],
                 "candidate_titles":[
-                    "Government of the Republic of China",
-                    "Chinese Professional Baseball League",
-                    "Taiwan under Japanese rule",
-                    "Taiwan",
-                    "Republic of China Navy",
-                    "Geography of Taiwan",
-                    "Chinese Taipei national football team",
                     "Chinese Taipei",
-                    "Taiwanese people"
+                    "Chinese Professional Baseball League",
+                    "Chinese Taipei national football team",
+                    "Republic of China Navy",
+                    "Government of the Republic of China",
+                    "Geography of Taiwan",
+                    "Taiwanese people",
+                    "Taiwan",
+                    "Taiwan under Japanese rule"
                 ],
                 "candidate_descriptions":[
-                    "ROC government since 1948",
-                    "top-tier professional baseball league in Taiwan",
-                    "period of Taiwanese history (1895\u20131945)",
-                    "democratic republic in East Asia, island state of disputed political status, with limited recognition",
-                    "maritime service branch of the Republic of China Armed Forces in Taiwan",
-                    "geography of the island in East Asia",
-                    "men's national association football team representing Taiwan",
                     "name used by Taiwan in international organizations and events",
-                    "people from Taiwan who share a common Taiwanese culture"
+                    "top-tier professional baseball league in Taiwan",
+                    "men's national association football team representing Taiwan",
+                    "maritime service branch of the Republic of China Armed Forces in Taiwan",
+                    "ROC government since 1948",
+                    "geography of the island in East Asia",
+                    "people from Taiwan who share a common Taiwanese culture",
+                    "democratic republic in East Asia, island state of disputed political status, with limited recognition",
+                    "period of Taiwanese history (1895\u20131945)"
                 ],
                 "span_l":103,
                 "span_r":104,
-                "sent_idx":27,
+                "sent_idx":47,
                 "sent_alias_idx":10,
                 "alias_idx":18,
-                "guid_idx":"27_18",
+                "guid_idx":"47_97",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -19591,165 +22932,10 @@ const ned_info_gld = [
                 ],
                 "span_l":109,
                 "span_r":111,
-                "sent_idx":28,
+                "sent_idx":48,
                 "sent_alias_idx":0,
                 "alias_idx":19,
-                "guid_idx":"28_19",
-                "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
-                "all_aliases":[
-                    "unicef",
-                    "unicef",
-                    "united states",
-                    "nepal",
-                    "unicef",
-                    "unicef",
-                    "halloween",
-                    "candy",
-                    "unicef",
-                    "bahamas",
-                    "brunei",
-                    "cyprus",
-                    "latvia",
-                    "liechtenstein",
-                    "malta",
-                    "mauritius",
-                    "monaco",
-                    "singapore",
-                    "taiwan",
-                    "developed countries",
-                    "unicef",
-                    "unicef",
-                    "ngo",
-                    "fundraising",
-                    "unicef"
-                ],
-                "all_spans":[
-                    [
-                        0,
-                        1
-                    ],
-                    [
-                        17,
-                        18
-                    ],
-                    [
-                        24,
-                        26
-                    ],
-                    [
-                        27,
-                        28
-                    ],
-                    [
-                        33,
-                        34
-                    ],
-                    [
-                        50,
-                        51
-                    ],
-                    [
-                        57,
-                        58
-                    ],
-                    [
-                        63,
-                        64
-                    ],
-                    [
-                        65,
-                        66
-                    ],
-                    [
-                        84,
-                        85
-                    ],
-                    [
-                        86,
-                        87
-                    ],
-                    [
-                        88,
-                        89
-                    ],
-                    [
-                        90,
-                        91
-                    ],
-                    [
-                        92,
-                        93
-                    ],
-                    [
-                        94,
-                        95
-                    ],
-                    [
-                        96,
-                        97
-                    ],
-                    [
-                        98,
-                        99
-                    ],
-                    [
-                        100,
-                        101
-                    ],
-                    [
-                        103,
-                        104
-                    ],
-                    [
-                        109,
-                        111
-                    ],
-                    [
-                        114,
-                        115
-                    ],
-                    [
-                        128,
-                        129
-                    ],
-                    [
-                        135,
-                        136
-                    ],
-                    [
-                        141,
-                        142
-                    ],
-                    [
-                        144,
-                        145
-                    ]
-                ]
-            },
-            {
-                "doc_qid":"Q740308",
-                "doc_title":"UNICEF",
-                "doc_sent_idx":37,
-                "alias":"unicef",
-                "pop_qid":"Q740308",
-                "candidates":[
-                    "Q740308",
-                    "Q7865280"
-                ],
-                "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
-                ],
-                "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
-                ],
-                "span_l":114,
-                "span_r":115,
-                "sent_idx":28,
-                "sent_alias_idx":1,
-                "alias_idx":20,
-                "guid_idx":"28_20",
+                "guid_idx":"48_98",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -19899,12 +23085,167 @@ const ned_info_gld = [
                     "organization",
                     "development policy organization of the UN"
                 ],
+                "span_l":114,
+                "span_r":115,
+                "sent_idx":48,
+                "sent_alias_idx":1,
+                "alias_idx":20,
+                "guid_idx":"48_99",
+                "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
+                "all_aliases":[
+                    "unicef",
+                    "unicef",
+                    "united states",
+                    "nepal",
+                    "unicef",
+                    "unicef",
+                    "halloween",
+                    "candy",
+                    "unicef",
+                    "bahamas",
+                    "brunei",
+                    "cyprus",
+                    "latvia",
+                    "liechtenstein",
+                    "malta",
+                    "mauritius",
+                    "monaco",
+                    "singapore",
+                    "taiwan",
+                    "developed countries",
+                    "unicef",
+                    "unicef",
+                    "ngo",
+                    "fundraising",
+                    "unicef"
+                ],
+                "all_spans":[
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        17,
+                        18
+                    ],
+                    [
+                        24,
+                        26
+                    ],
+                    [
+                        27,
+                        28
+                    ],
+                    [
+                        33,
+                        34
+                    ],
+                    [
+                        50,
+                        51
+                    ],
+                    [
+                        57,
+                        58
+                    ],
+                    [
+                        63,
+                        64
+                    ],
+                    [
+                        65,
+                        66
+                    ],
+                    [
+                        84,
+                        85
+                    ],
+                    [
+                        86,
+                        87
+                    ],
+                    [
+                        88,
+                        89
+                    ],
+                    [
+                        90,
+                        91
+                    ],
+                    [
+                        92,
+                        93
+                    ],
+                    [
+                        94,
+                        95
+                    ],
+                    [
+                        96,
+                        97
+                    ],
+                    [
+                        98,
+                        99
+                    ],
+                    [
+                        100,
+                        101
+                    ],
+                    [
+                        103,
+                        104
+                    ],
+                    [
+                        109,
+                        111
+                    ],
+                    [
+                        114,
+                        115
+                    ],
+                    [
+                        128,
+                        129
+                    ],
+                    [
+                        135,
+                        136
+                    ],
+                    [
+                        141,
+                        142
+                    ],
+                    [
+                        144,
+                        145
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q740308",
+                "doc_title":"UNICEF",
+                "doc_sent_idx":37,
+                "alias":"unicef",
+                "pop_qid":"Q740308",
+                "candidates":[
+                    "Q740308",
+                    "Q7865280"
+                ],
+                "candidate_titles":[
+                    "UNICEF",
+                    "UNICEF UK"
+                ],
+                "candidate_descriptions":[
+                    "development policy organization of the UN",
+                    "organization"
+                ],
                 "span_l":128,
                 "span_r":129,
-                "sent_idx":28,
+                "sent_idx":48,
                 "sent_alias_idx":2,
                 "alias_idx":21,
-                "guid_idx":"28_21",
+                "guid_idx":"48_100",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -20044,43 +23385,43 @@ const ned_info_gld = [
                 "pop_qid":"Q79913",
                 "candidates":[
                     "Q1322497",
-                    "Q3353072",
-                    "Q192502",
-                    "Q79913",
                     "Q738148",
-                    "Q699904",
-                    "Q679345",
+                    "Q3353072",
+                    "Q716585",
+                    "Q192502",
                     "Q650194",
-                    "Q716585"
+                    "Q679345",
+                    "Q79913",
+                    "Q699904"
                 ],
                 "candidate_titles":[
                     "Nagoya Airfield",
-                    "Ng\u00f4 Quang Tr\u01b0\u1edfng",
-                    "Ngo Dinh Diem",
-                    "Non-governmental organization",
                     "Ng\u00f4 \u0110\u00ecnh Th\u1ee5c",
-                    "Ng\u00f4 Quy\u1ec1n",
-                    "Chubu Centrair International Airport",
+                    "Ng\u00f4 Quang Tr\u01b0\u1edfng",
+                    "Ng\u00f4 S\u0129 Li\u00ean",
+                    "Ngo Dinh Diem",
                     "Ng\u00f4 \u0110\u00ecnh Nhu",
-                    "Ng\u00f4 S\u0129 Li\u00ean"
+                    "Chubu Centrair International Airport",
+                    "Non-governmental organization",
+                    "Ng\u00f4 Quy\u1ec1n"
                 ],
                 "candidate_descriptions":[
                     "commercial airport serving Nagoya, Aichi, Japan",
-                    "South Vietnamese commander",
-                    "President of the Republic of Vietnam (1901-1963)",
-                    "organization that is neither a part of a government nor a conventional for-profit business",
                     "Archbishop of Hu\u1ebf; consecrated several sedevacanist bishops",
-                    "King of Vietnam",
-                    "airport on an artificial island in Ise Bay, Japan",
+                    "South Vietnamese commander",
+                    "Vietnamese historian",
+                    "President of the Republic of Vietnam (1901-1963)",
                     "Vietnamese political tactician (1910-1963)",
-                    "Vietnamese historian"
+                    "airport on an artificial island in Ise Bay, Japan",
+                    "organization that is neither a part of a government nor a conventional for-profit business",
+                    "King of Vietnam"
                 ],
                 "span_l":135,
                 "span_r":136,
-                "sent_idx":29,
+                "sent_idx":49,
                 "sent_alias_idx":0,
                 "alias_idx":22,
-                "guid_idx":"29_22",
+                "guid_idx":"49_101",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -20219,23 +23560,23 @@ const ned_info_gld = [
                 "alias":"fundraising",
                 "pop_qid":"Q1161355",
                 "candidates":[
-                    "Q1352232",
-                    "Q1161355"
+                    "Q1161355",
+                    "Q1352232"
                 ],
                 "candidate_titles":[
-                    "Campaign finance",
-                    "Fundraising"
+                    "Fundraising",
+                    "Campaign finance"
                 ],
                 "candidate_descriptions":[
-                    "",
-                    "process of gathering voluntary contributions of money or other resources"
+                    "process of gathering voluntary contributions of money or other resources",
+                    ""
                 ],
                 "span_l":141,
                 "span_r":142,
-                "sent_idx":29,
+                "sent_idx":49,
                 "sent_alias_idx":1,
                 "alias_idx":23,
-                "guid_idx":"29_23",
+                "guid_idx":"49_102",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -20387,10 +23728,10 @@ const ned_info_gld = [
                 ],
                 "span_l":144,
                 "span_r":145,
-                "sent_idx":29,
+                "sent_idx":49,
                 "sent_alias_idx":2,
                 "alias_idx":24,
-                "guid_idx":"29_24",
+                "guid_idx":"49_103",
                 "sentence":"UNICEF is funded entirely by voluntary contributions , and the National Committees collectively raise around one-third of UNICEF 's annual income . In the United States , Nepal and some other countries , UNICEF is known for its `` Trick-Or-Treat for UNICEF '' program in which children collect money for UNICEF from the houses they trick-or-treat on Halloween night , sometimes instead of candy . UNICEF is present in 191 countries and territories around the world , but not involved in nine others ( Bahamas , Brunei , Cyprus , Latvia , Liechtenstein , Malta , Mauritius , Monaco , Singapore , and Taiwan ) . Many people in developed countries first hear about UNICEF 's work through the activities of one of the 36 National Committees for UNICEF . These non-governmental organization s ( NGO ) are primarily responsible for fundraising , selling UNICEF greeting cards and products , creating private and public partnerships , advocating for children 's rights , and providing other support .",
                 "all_aliases":[
                     "unicef",
@@ -20539,10 +23880,10 @@ const ned_info_gld = [
                 ],
                 "span_l":1,
                 "span_r":5,
-                "sent_idx":30,
+                "sent_idx":50,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"30_0",
+                "guid_idx":"50_104",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -20641,10 +23982,10 @@ const ned_info_gld = [
                 ],
                 "span_l":22,
                 "span_r":28,
-                "sent_idx":31,
+                "sent_idx":51,
                 "sent_alias_idx":0,
                 "alias_idx":1,
-                "guid_idx":"31_1",
+                "guid_idx":"51_105",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -20733,23 +24074,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":30,
                 "span_r":31,
-                "sent_idx":31,
+                "sent_idx":51,
                 "sent_alias_idx":1,
                 "alias_idx":2,
-                "guid_idx":"31_2",
+                "guid_idx":"51_106",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -20838,44 +24179,44 @@ const ned_info_gld = [
                 "alias":"brazil",
                 "pop_qid":"Q155",
                 "candidates":[
-                    "Q1750688",
-                    "Q5176750",
-                    "Q206813",
-                    "Q757014",
-                    "Q83459",
-                    "Q873625",
                     "Q155",
-                    "Q156774",
-                    "Q217230"
+                    "Q5176750",
+                    "Q83459",
+                    "Q757014",
+                    "Q1750688",
+                    "Q217230",
+                    "Q873625",
+                    "Q206813",
+                    "Q156774"
                 ],
                 "candidate_titles":[
-                    "Brazilian Navy",
-                    "President of Brazil",
-                    "Campeonato Brasileiro S\u00e9rie A",
-                    "Brazil women's national football team",
-                    "Brazil national football team",
-                    "Brazilians",
                     "Brazil",
-                    "Pedro II of Brazil",
-                    "Empire of Brazil"
+                    "President of Brazil",
+                    "Brazil national football team",
+                    "Brazil women's national football team",
+                    "Brazilian Navy",
+                    "Empire of Brazil",
+                    "Brazilians",
+                    "Campeonato Brasileiro S\u00e9rie A",
+                    "Pedro II of Brazil"
                 ],
                 "candidate_descriptions":[
-                    "naval warfare branch of Brazil's military forces",
-                    "head of state and head of government of Brazil",
-                    "professional association football league, contested by clubs from Brazil",
-                    "women's national association football team representing Brazil",
-                    "men's national association football team representing Brazil",
-                    "citizens or residents of Brazil",
                     "sovereign state in South America",
-                    "Emperor of Brazil from 7 April 1831 until deposed on 15 November 1889, Pedro II was the last ruler of the Empire of Brazil",
-                    "empire in South America between 1822 and 1889"
+                    "head of state and head of government of Brazil",
+                    "men's national association football team representing Brazil",
+                    "women's national association football team representing Brazil",
+                    "naval warfare branch of Brazil's military forces",
+                    "empire in South America between 1822 and 1889",
+                    "citizens or residents of Brazil",
+                    "professional association football league, contested by clubs from Brazil",
+                    "Emperor of Brazil from 7 April 1831 until deposed on 15 November 1889, Pedro II was the last ruler of the Empire of Brazil"
                 ],
                 "span_l":42,
                 "span_r":43,
-                "sent_idx":31,
+                "sent_idx":51,
                 "sent_alias_idx":2,
                 "alias_idx":3,
-                "guid_idx":"31_3",
+                "guid_idx":"51_107",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -20964,44 +24305,44 @@ const ned_info_gld = [
                 "alias":"china",
                 "pop_qid":"Q148",
                 "candidates":[
-                    "Q16666",
-                    "Q170314",
-                    "Q6501380",
-                    "Q8733",
                     "Q17427",
-                    "Q9903",
+                    "Q6501380",
                     "Q148",
+                    "Q9903",
+                    "Q170314",
                     "Q865",
+                    "Q16666",
+                    "Q8733",
                     "Q7209"
                 ],
                 "candidate_titles":[
-                    "Nanjing",
-                    "Second Sino-Japanese War",
-                    "Chinese people",
-                    "Qing dynasty",
                     "Communist Party of China",
-                    "Ming dynasty",
+                    "Chinese people",
                     "China",
+                    "Ming dynasty",
+                    "Second Sino-Japanese War",
                     "Taiwan",
+                    "Nanjing",
+                    "Qing dynasty",
                     "Han dynasty"
                 ],
                 "candidate_descriptions":[
-                    "capital of Jiangsu province in Eastern China",
-                    "Military conflict between the Republic of China and the Empire of Japan, 1937\u20131945",
-                    "national group",
-                    "former empire in Eastern Asia, last imperial regime of China",
                     "political party of the People's Republic of China",
-                    "former empire in Eastern Asia, last Han Chinese-led imperial regime",
+                    "national group",
                     "sovereign state in East Asia",
+                    "former empire in Eastern Asia, last Han Chinese-led imperial regime",
+                    "Military conflict between the Republic of China and the Empire of Japan, 1937\u20131945",
                     "democratic republic in East Asia, island state of disputed political status, with limited recognition",
+                    "capital of Jiangsu province in Eastern China",
+                    "former empire in Eastern Asia, last imperial regime of China",
                     "Chinese dynasty (206 BCE \u2013 220 CE)"
                 ],
                 "span_l":47,
                 "span_r":48,
-                "sent_idx":31,
+                "sent_idx":51,
                 "sent_alias_idx":3,
                 "alias_idx":4,
-                "guid_idx":"31_4",
+                "guid_idx":"51_108",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21090,44 +24431,44 @@ const ned_info_gld = [
                 "alias":"burundi",
                 "pop_qid":"Q967",
                 "candidates":[
-                    "Q431156",
-                    "Q10334888",
-                    "Q1192936",
+                    "Q16837139",
+                    "Q459110",
                     "Q967",
                     "Q852227",
-                    "Q459110",
+                    "Q741792",
+                    "Q10334888",
                     "Q3590608",
-                    "Q16837139",
-                    "Q741792"
+                    "Q431156",
+                    "Q1192936"
                 ],
                 "candidate_titles":[
-                    "Mwezi IV of Burundi",
-                    "Music of Burundi",
-                    "Kingdom of Burundi",
+                    "Burundi national under-20 football team",
+                    "Burundi national football team",
                     "Burundi",
                     "Football Federation of Burundi",
-                    "Burundi national football team",
+                    "LGBT rights in Burundi",
+                    "Music of Burundi",
                     "Burundi national rugby union team",
-                    "Burundi national under-20 football team",
-                    "LGBT rights in Burundi"
+                    "Mwezi IV of Burundi",
+                    "Kingdom of Burundi"
                 ],
                 "candidate_descriptions":[
-                    "King of Burundi",
-                    "music and musical traditions of Burundi",
-                    "former kingdom in Central\/Eastern Africa up to 1966",
+                    "national association football team",
+                    "national association football team",
                     "sovereign state in Africa",
                     "governing body of football in Burundi",
-                    "national association football team",
                     "",
-                    "national association football team",
-                    ""
+                    "music and musical traditions of Burundi",
+                    "",
+                    "King of Burundi",
+                    "former kingdom in Central\/Eastern Africa up to 1966"
                 ],
                 "span_l":53,
                 "span_r":54,
-                "sent_idx":31,
+                "sent_idx":51,
                 "sent_alias_idx":4,
                 "alias_idx":5,
-                "guid_idx":"31_5",
+                "guid_idx":"51_109",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21216,44 +24557,44 @@ const ned_info_gld = [
                 "alias":"british",
                 "pop_qid":"Q842438",
                 "candidates":[
-                    "Q21",
                     "Q145",
-                    "Q222595",
-                    "Q23666",
-                    "Q30",
-                    "Q172771",
-                    "Q193259",
                     "Q1860",
-                    "Q165862"
+                    "Q172771",
+                    "Q23666",
+                    "Q21",
+                    "Q30",
+                    "Q165862",
+                    "Q193259",
+                    "Q222595"
                 ],
                 "candidate_titles":[
-                    "England",
                     "United Kingdom",
-                    "British Army",
-                    "Great Britain",
-                    "United States",
-                    "Royal Navy",
-                    "UK Singles Chart",
                     "English language",
-                    "Royal Air Force"
+                    "Royal Navy",
+                    "Great Britain",
+                    "England",
+                    "United States",
+                    "Royal Air Force",
+                    "UK Singles Chart",
+                    "British Army"
                 ],
                 "candidate_descriptions":[
-                    "country in north-west Europe, part of the United Kingdom",
                     "sovereign state in western Europe",
-                    "principal land warfare force of the United Kingdom, a part of British Armed Forces",
-                    "island in the North Atlantic off the north-west coast of continental Europe",
-                    "sovereign state in North America",
-                    "maritime warfare branch of the United Kingdom's military",
-                    "British singles sales chart",
                     "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin",
-                    "aerial warfare service branch of the British Armed Forces"
+                    "maritime warfare branch of the United Kingdom's military",
+                    "island in the North Atlantic off the north-west coast of continental Europe",
+                    "country in north-west Europe, part of the United Kingdom",
+                    "sovereign state in North America",
+                    "aerial warfare service branch of the British Armed Forces",
+                    "British singles sales chart",
+                    "principal land warfare force of the United Kingdom, a part of British Armed Forces"
                 ],
                 "span_l":62,
                 "span_r":63,
-                "sent_idx":32,
+                "sent_idx":52,
                 "sent_alias_idx":0,
                 "alias_idx":6,
-                "guid_idx":"32_6",
+                "guid_idx":"52_110",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21352,10 +24693,10 @@ const ned_info_gld = [
                 ],
                 "span_l":63,
                 "span_r":64,
-                "sent_idx":32,
+                "sent_idx":52,
                 "sent_alias_idx":1,
                 "alias_idx":7,
-                "guid_idx":"32_7",
+                "guid_idx":"52_111",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21444,29 +24785,29 @@ const ned_info_gld = [
                 "alias":"tesco",
                 "pop_qid":"Q487494",
                 "candidates":[
-                    "Q7840297",
                     "Q487494",
+                    "Q7840297",
                     "Q7705442",
                     "Q7705434"
                 ],
                 "candidate_titles":[
-                    "Tribal Electric Supply Company",
                     "Tesco",
+                    "Tribal Electric Supply Company",
                     "Tesco Vee",
                     "Tesco Ireland"
                 ],
                 "candidate_descriptions":[
-                    "",
                     "British multinational grocery and general merchandise retailer",
+                    "",
                     "American singer",
                     ""
                 ],
                 "span_l":64,
                 "span_r":65,
-                "sent_idx":32,
+                "sent_idx":52,
                 "sent_alias_idx":2,
                 "alias_idx":8,
-                "guid_idx":"32_8",
+                "guid_idx":"52_112",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21555,44 +24896,44 @@ const ned_info_gld = [
                 "alias":"advertising",
                 "pop_qid":"Q37038",
                 "candidates":[
-                    "Q37038",
-                    "Q1323528",
-                    "Q1286627",
-                    "Q624902",
-                    "Q55643113",
                     "Q854995",
+                    "Q1323528",
+                    "Q37038",
                     "Q216931",
+                    "Q55643113",
+                    "Q614278",
+                    "Q1286627",
                     "Q1014309",
-                    "Q614278"
+                    "Q624902"
                 ],
                 "candidate_titles":[
-                    "Advertising",
-                    "Digital marketing",
-                    "Radio advertisement",
-                    "Online advertising",
-                    "Jordan Zimmerman (advertising)",
                     "Television advertisement",
+                    "Digital marketing",
+                    "Advertising",
                     "Advertising agency",
+                    "Jordan Zimmerman (advertising)",
+                    "Classified advertising",
+                    "Radio advertisement",
                     "Space advertising",
-                    "Classified advertising"
+                    "Online advertising"
                 ],
                 "candidate_descriptions":[
-                    "form of communication for marketing, typically paid for",
-                    "marketing of products or services using digital technologies",
-                    "paid announcements over the radio to sell a product, item or service",
-                    "advertisement, which is used in various forms through the Internet",
-                    "",
                     "paid commercial segment on television",
+                    "marketing of products or services using digital technologies",
+                    "form of communication for marketing, typically paid for",
                     "business creating advertisments and\/or placing them in third-party media publications",
+                    "",
+                    "form of advertising which is particularly common in newspapers, online and other periodicals",
+                    "paid announcements over the radio to sell a product, item or service",
                     "Use of advertisments in outer space",
-                    "form of advertising which is particularly common in newspapers, online and other periodicals"
+                    "advertisement, which is used in various forms through the Internet"
                 ],
                 "span_l":72,
                 "span_r":73,
-                "sent_idx":32,
+                "sent_idx":52,
                 "sent_alias_idx":3,
                 "alias_idx":9,
-                "guid_idx":"32_9",
+                "guid_idx":"52_113",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21694,10 +25035,10 @@ const ned_info_gld = [
                 ],
                 "span_l":76,
                 "span_r":77,
-                "sent_idx":32,
+                "sent_idx":52,
                 "sent_alias_idx":4,
                 "alias_idx":10,
-                "guid_idx":"32_10",
+                "guid_idx":"52_114",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21786,23 +25127,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":78,
                 "span_r":79,
-                "sent_idx":32,
+                "sent_idx":52,
                 "sent_alias_idx":5,
                 "alias_idx":11,
-                "guid_idx":"32_11",
+                "guid_idx":"52_115",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21891,23 +25232,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":104,
                 "span_r":105,
-                "sent_idx":33,
+                "sent_idx":53,
                 "sent_alias_idx":0,
                 "alias_idx":12,
-                "guid_idx":"33_12",
+                "guid_idx":"53_116",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -21997,43 +25338,43 @@ const ned_info_gld = [
                 "pop_qid":"Q849811",
                 "candidates":[
                     "Q1860",
+                    "Q23666",
+                    "Q145",
                     "Q21",
                     "Q222595",
-                    "Q30",
-                    "Q165862",
-                    "Q172771",
                     "Q193259",
-                    "Q23666",
-                    "Q145"
+                    "Q172771",
+                    "Q30",
+                    "Q165862"
                 ],
                 "candidate_titles":[
                     "English language",
+                    "Great Britain",
+                    "United Kingdom",
                     "England",
                     "British Army",
-                    "United States",
-                    "Royal Air Force",
-                    "Royal Navy",
                     "UK Singles Chart",
-                    "Great Britain",
-                    "United Kingdom"
+                    "Royal Navy",
+                    "United States",
+                    "Royal Air Force"
                 ],
                 "candidate_descriptions":[
                     "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin",
+                    "island in the North Atlantic off the north-west coast of continental Europe",
+                    "sovereign state in western Europe",
                     "country in north-west Europe, part of the United Kingdom",
                     "principal land warfare force of the United Kingdom, a part of British Armed Forces",
-                    "sovereign state in North America",
-                    "aerial warfare service branch of the British Armed Forces",
-                    "maritime warfare branch of the United Kingdom's military",
                     "British singles sales chart",
-                    "island in the North Atlantic off the north-west coast of continental Europe",
-                    "sovereign state in western Europe"
+                    "maritime warfare branch of the United Kingdom's military",
+                    "sovereign state in North America",
+                    "aerial warfare service branch of the British Armed Forces"
                 ],
                 "span_l":147,
                 "span_r":148,
-                "sent_idx":34,
+                "sent_idx":54,
                 "sent_alias_idx":0,
                 "alias_idx":13,
-                "guid_idx":"34_13",
+                "guid_idx":"54_117",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -22122,44 +25463,44 @@ const ned_info_gld = [
                 "alias":"media",
                 "pop_qid":"Q1727518",
                 "candidates":[
-                    "Q15078788",
-                    "Q37038",
-                    "Q8735",
-                    "Q174278",
-                    "Q11033",
-                    "Q466947",
-                    "Q583271",
                     "Q8652",
-                    "Q1193236"
+                    "Q174278",
+                    "Q37038",
+                    "Q466947",
+                    "Q11033",
+                    "Q1193236",
+                    "Q8735",
+                    "Q15078788",
+                    "Q583271"
                 ],
                 "candidate_titles":[
-                    "Broadcasting",
-                    "Advertising",
-                    "Medes",
-                    "Medea",
-                    "Mass media",
-                    "Kris Aquino",
-                    "Mediumship",
                     "Miami",
-                    "News media"
+                    "Medea",
+                    "Advertising",
+                    "Kris Aquino",
+                    "Mass media",
+                    "News media",
+                    "Medes",
+                    "Broadcasting",
+                    "Mediumship"
                 ],
                 "candidate_descriptions":[
-                    "distribution of audio and video content to a dispersed audience via any audio or visual mass communications medium",
-                    "form of communication for marketing, typically paid for",
-                    "ancient iranian people",
-                    "daughter of King Ae\u00ebtes of Colchis in Greek mythology",
-                    "media technologies that are intended to reach a large audience by mass communication",
-                    "Filipina television and movie personality",
-                    "person said to mediate communication between spirits of the dead and other human beings",
                     "city in Miami-Dade County, Florida, United States",
-                    "elements of the mass media that focus on delivering news"
+                    "daughter of King Ae\u00ebtes of Colchis in Greek mythology",
+                    "form of communication for marketing, typically paid for",
+                    "Filipina television and movie personality",
+                    "media technologies that are intended to reach a large audience by mass communication",
+                    "elements of the mass media that focus on delivering news",
+                    "ancient iranian people",
+                    "distribution of audio and video content to a dispersed audience via any audio or visual mass communications medium",
+                    "person said to mediate communication between spirits of the dead and other human beings"
                 ],
                 "span_l":162,
                 "span_r":163,
-                "sent_idx":34,
+                "sent_idx":54,
                 "sent_alias_idx":1,
                 "alias_idx":14,
-                "guid_idx":"34_14",
+                "guid_idx":"54_118",
                 "sentence":"The US Fund for UNICEF is the oldest of the national committees , founded in 1947 . On 19 April 2007 , Grand Duchess Maria Teresa of Luxembourg was appointed UNICEF Eminent Advocate for Children , in which role she has visited Brazil ( 2007 ) , China ( 2008 ) , and Burundi ( 2009 ) . In 2009 , the British retailer Tesco used `` Change for Good '' as advertising , which is trademarked by UNICEF for charity usage but not for commercial or retail use . This prompted the agency to say , `` it is the first time in Unicef 's history that a commercial entity has purposely set out to capitalise on one of our campaigns and subsequently damage an income stream which several of our programs for children are dependent on '' . In 2013 William Armstrong was the first British male to take on the JOGLE solo unaided challenge raising funds and creating a media frenzy at the time .",
                 "all_aliases":[
                     "us fund for unicef",
@@ -22248,44 +25589,44 @@ const ned_info_gld = [
                 "alias":"hollywood",
                 "pop_qid":"Q34006",
                 "candidates":[
-                    "Q234453",
-                    "Q387539",
-                    "Q846421",
-                    "Q71243",
-                    "Q868616",
-                    "Q380675",
                     "Q65",
+                    "Q71243",
                     "Q44176",
-                    "Q34006"
+                    "Q34006",
+                    "Q846421",
+                    "Q380675",
+                    "Q387539",
+                    "Q234453",
+                    "Q868616"
                 ],
                 "candidate_titles":[
-                    "Hollywood, Florida",
-                    "Hollywood Records",
-                    "West Hollywood, California",
-                    "Clark Gable",
-                    "Hollywood Boulevard",
-                    "Cinema of the United States",
                     "Los Angeles",
+                    "Clark Gable",
                     "Hulk Hogan",
-                    "Hollywood"
+                    "Hollywood",
+                    "West Hollywood, California",
+                    "Cinema of the United States",
+                    "Hollywood Records",
+                    "Hollywood, Florida",
+                    "Hollywood Boulevard"
                 ],
                 "candidate_descriptions":[
-                    "city in Florida",
-                    "American record label",
-                    "city in California",
-                    "American actor",
-                    "street in Hollywood, Los Angeles, California, United States",
-                    "filmmaking in the USA",
                     "county seat of Los Angeles County, California; second largest city in the United States by population",
+                    "American actor",
                     "American professional wrestler, actor and television personality",
-                    "district in Los Angeles, California, United States"
+                    "district in Los Angeles, California, United States",
+                    "city in California",
+                    "filmmaking in the USA",
+                    "American record label",
+                    "city in Florida",
+                    "street in Hollywood, Los Angeles, California, United States"
                 ],
                 "span_l":3,
                 "span_r":4,
-                "sent_idx":35,
+                "sent_idx":55,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"35_0",
+                "guid_idx":"55_119",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -22384,44 +25725,44 @@ const ned_info_gld = [
                 "alias":"actor",
                 "pop_qid":"Q33999",
                 "candidates":[
-                    "Q1416106",
-                    "Q944546",
                     "Q103916",
-                    "Q33999",
-                    "Q602299",
+                    "Q1416106",
                     "Q3078072",
-                    "Q3019364",
                     "Q222749",
-                    "Q344524"
+                    "Q344524",
+                    "Q3019364",
+                    "Q33999",
+                    "Q944546",
+                    "Q602299"
                 ],
                 "candidate_titles":[
-                    "Supporting actor",
-                    "Sunny Deol",
                     "Academy Award for Best Actor",
-                    "Actor",
-                    "Golden Raspberry Award for Worst Actor",
+                    "Supporting actor",
                     "Robert Lowery (actor)",
-                    "Daytime Emmy Award for Outstanding Lead Actor in a Drama Series",
                     "Acting",
-                    "Actor model"
+                    "Actor model",
+                    "Daytime Emmy Award for Outstanding Lead Actor in a Drama Series",
+                    "Actor",
+                    "Sunny Deol",
+                    "Golden Raspberry Award for Worst Actor"
                 ],
                 "candidate_descriptions":[
-                    "actor who performs a role in a play or film below that of the leading actor(s), and above that of a bit part",
-                    "Indian actor and politician",
                     "award presented annually by the Academy of Motion Picture Arts and Sciences",
-                    "person who acts in a dramatic or comic production and works in film, television, theatre, or radio",
-                    "award presented at the annual Golden Raspberry Awards",
+                    "actor who performs a role in a play or film below that of the leading actor(s), and above that of a bit part",
                     "American motion picture, television, and stage actor (1913-1971)",
-                    "",
                     "impersonation of a character",
-                    "mathematical model of concurrent computation"
+                    "mathematical model of concurrent computation",
+                    "",
+                    "person who acts in a dramatic or comic production and works in film, television, theatre, or radio",
+                    "Indian actor and politician",
+                    "award presented at the annual Golden Raspberry Awards"
                 ],
                 "span_l":4,
                 "span_r":5,
-                "sent_idx":35,
+                "sent_idx":55,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"35_1",
+                "guid_idx":"55_120",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -22530,10 +25871,10 @@ const ned_info_gld = [
                 ],
                 "span_l":5,
                 "span_r":7,
-                "sent_idx":35,
+                "sent_idx":55,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"35_2",
+                "guid_idx":"55_121",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -22645,10 +25986,10 @@ const ned_info_gld = [
                 ],
                 "span_l":15,
                 "span_r":16,
-                "sent_idx":35,
+                "sent_idx":55,
                 "sent_alias_idx":3,
                 "alias_idx":3,
-                "guid_idx":"35_3",
+                "guid_idx":"55_122",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -22747,23 +26088,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":20,
                 "span_r":21,
-                "sent_idx":36,
+                "sent_idx":56,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"36_4",
+                "guid_idx":"56_123",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -22862,44 +26203,44 @@ const ned_info_gld = [
                 "alias":"italian",
                 "pop_qid":"Q50001",
                 "candidates":[
-                    "Q615196",
                     "Q38",
+                    "Q974693",
+                    "Q172579",
+                    "Q652",
+                    "Q50001",
                     "Q948174",
                     "Q15804",
-                    "Q172579",
-                    "Q50001",
-                    "Q974693",
                     "Q676899",
-                    "Q652"
+                    "Q615196"
                 ],
                 "candidate_titles":[
-                    "Italianate architecture",
                     "Italy",
+                    "Italian Americans",
+                    "Kingdom of Italy",
+                    "Italian language",
+                    "Italians",
                     "Football in Italy",
                     "Serie A",
-                    "Kingdom of Italy",
-                    "Italians",
-                    "Italian Americans",
                     "Italy national football team",
-                    "Italian language"
+                    "Italianate architecture"
                 ],
                 "candidate_descriptions":[
-                    "19th-century phase in the history of Classical architecture",
                     "sovereign state in southern Europe",
+                    "United States citizens of Italian ancestry",
+                    "kingdom in southern Europe between 1861 and 1946",
+                    "Romance language",
+                    "nation and ethnic group native to Italy",
                     "overview of association football practiced in Italy",
                     "a professional league competition for football clubs located at the top of the Italian football league system",
-                    "kingdom in southern Europe between 1861 and 1946",
-                    "nation and ethnic group native to Italy",
-                    "United States citizens of Italian ancestry",
                     "men's national association football team representing Italy",
-                    "Romance language"
+                    "19th-century phase in the history of Classical architecture"
                 ],
                 "span_l":22,
                 "span_r":23,
-                "sent_idx":36,
+                "sent_idx":56,
                 "sent_alias_idx":1,
                 "alias_idx":5,
-                "guid_idx":"36_5",
+                "guid_idx":"56_124",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -22998,44 +26339,44 @@ const ned_info_gld = [
                 "alias":"football club",
                 "pop_qid":"Q28083137",
                 "candidates":[
-                    "Q526464",
-                    "Q2829181",
-                    "Q19915397",
-                    "Q951054",
-                    "Q5465720",
                     "Q28083137",
-                    "Q50776",
+                    "Q2829181",
+                    "Q2736",
                     "Q703957",
-                    "Q2736"
+                    "Q5465720",
+                    "Q951054",
+                    "Q19915397",
+                    "Q50776",
+                    "Q526464"
                 ],
                 "candidate_titles":[
-                    "Football club (GDR)",
-                    "Akwa United F.C.",
-                    "FC Sherdor",
-                    "List of association football clubs",
-                    "Foot-Ball Club",
                     "Football team",
-                    "Australian rules football",
+                    "Akwa United F.C.",
+                    "Association football",
                     "Football in Germany",
-                    "Association football"
+                    "Foot-Ball Club",
+                    "List of association football clubs",
+                    "FC Sherdor",
+                    "Australian rules football",
+                    "Football club (GDR)"
                 ],
                 "candidate_descriptions":[
-                    "designation for football clubs in GDR",
-                    "association football club in Nigeria",
-                    "Football Club Sherdor",
-                    "Wikimedia list article",
-                    "Scottish association football club (1824-41)",
                     "sports team for one of the various sports called football (association football, American football, Canadian football, etc.)",
-                    "sport",
+                    "association football club in Nigeria",
+                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
                     "Association football in Germany",
-                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team"
+                    "Scottish association football club (1824-41)",
+                    "Wikimedia list article",
+                    "Football Club Sherdor",
+                    "sport",
+                    "designation for football clubs in GDR"
                 ],
                 "span_l":23,
                 "span_r":25,
-                "sent_idx":36,
+                "sent_idx":56,
                 "sent_alias_idx":2,
                 "alias_idx":6,
-                "guid_idx":"36_6",
+                "guid_idx":"56_125",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23144,10 +26485,10 @@ const ned_info_gld = [
                 ],
                 "span_l":25,
                 "span_r":28,
-                "sent_idx":36,
+                "sent_idx":56,
                 "sent_alias_idx":3,
                 "alias_idx":7,
-                "guid_idx":"36_7",
+                "guid_idx":"56_126",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23259,10 +26600,10 @@ const ned_info_gld = [
                 ],
                 "span_l":39,
                 "span_r":40,
-                "sent_idx":37,
+                "sent_idx":57,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"37_8",
+                "guid_idx":"57_127",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23361,44 +26702,44 @@ const ned_info_gld = [
                 "alias":"spanish",
                 "pop_qid":"Q160894",
                 "candidates":[
-                    "Q1321",
-                    "Q58669",
+                    "Q324867",
                     "Q80702",
-                    "Q42267",
+                    "Q58669",
                     "Q170603",
-                    "Q178038",
-                    "Q1211934",
+                    "Q1321",
                     "Q29",
-                    "Q324867"
+                    "Q42267",
+                    "Q178038",
+                    "Q1211934"
                 ],
                 "candidate_titles":[
-                    "Spanish language",
-                    "Hispanic and Latino Americans",
+                    "La Liga",
                     "Spanish Empire",
-                    "Spain national football team",
+                    "Hispanic and Latino Americans",
                     "New Spain",
-                    "Second Spanish Republic",
-                    "Hispanic",
+                    "Spanish language",
                     "Spain",
-                    "La Liga"
+                    "Spain national football team",
+                    "Second Spanish Republic",
+                    "Hispanic"
                 ],
                 "candidate_descriptions":[
-                    "Romance language",
-                    "ethnic group",
+                    "Spanish national football league",
                     "world empire from the 16th to the 19th century",
-                    "men's national association football team representing Spain",
+                    "ethnic group",
                     "viceroyalty of the Spanish Empire (1535-1821)",
-                    "the regime that existed in Spain, 1931 to 1939",
-                    "",
+                    "Romance language",
                     "sovereign state in southwestern Europe with territories in the Mediterranean Sea, the Atlantic Ocean and northern Africa",
-                    "Spanish national football league"
+                    "men's national association football team representing Spain",
+                    "the regime that existed in Spain, 1931 to 1939",
+                    ""
                 ],
                 "span_l":42,
                 "span_r":43,
-                "sent_idx":37,
+                "sent_idx":57,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"37_9",
+                "guid_idx":"57_128",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23497,44 +26838,44 @@ const ned_info_gld = [
                 "alias":"catalan",
                 "pop_qid":"Q244504",
                 "candidates":[
-                    "Q1501196",
-                    "Q244504",
-                    "Q7026",
-                    "Q8022",
-                    "Q5705",
                     "Q204920",
+                    "Q17228",
+                    "Q1501196",
                     "Q1735599",
+                    "Q8022",
+                    "Q7026",
                     "Q15581",
-                    "Q17228"
+                    "Q244504",
+                    "Q5705"
                 ],
                 "candidate_titles":[
-                    "Catalan Company",
-                    "Catalans",
-                    "Catalan language",
-                    "Generalitat de Catalunya",
-                    "Catalonia",
                     "Crown of Aragon",
+                    "Catalonia national football team",
+                    "Catalan Company",
                     "Catalan nationalism",
+                    "Generalitat de Catalunya",
+                    "Catalan language",
                     "Principality of Catalonia",
-                    "Catalonia national football team"
+                    "Catalans",
+                    "Catalonia"
                 ],
                 "candidate_descriptions":[
-                    "Aragonese Company",
-                    "People from Catalonia, Spain",
-                    "Romance language",
-                    "Institution under which Catalonia self-government is organized, actually as an autonomous community of Spain",
-                    "autonomous community of Spain",
                     "composite monarchy which existed between 1162\u20131716",
+                    "The official association football team of the Spanish autonomous community of Catalonia",
+                    "Aragonese Company",
                     "",
+                    "Institution under which Catalonia self-government is organized, actually as an autonomous community of Spain",
+                    "Romance language",
                     "principality in the northeastern Iberian Peninsula between the 12th century and 1714",
-                    "The official association football team of the Spanish autonomous community of Catalonia"
+                    "People from Catalonia, Spain",
+                    "autonomous community of Spain"
                 ],
                 "span_l":43,
                 "span_r":44,
-                "sent_idx":37,
+                "sent_idx":57,
                 "sent_alias_idx":2,
                 "alias_idx":10,
-                "guid_idx":"37_10",
+                "guid_idx":"57_129",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23633,38 +26974,38 @@ const ned_info_gld = [
                 "alias":"association football",
                 "pop_qid":"Q2736",
                 "candidates":[
-                    "Q2736",
                     "Q1478118",
-                    "Q703957",
+                    "Q2736",
                     "Q995111",
+                    "Q12252328",
+                    "Q703957",
                     "Q1318821",
-                    "Q948174",
-                    "Q12252328"
+                    "Q948174"
                 ],
                 "candidate_titles":[
-                    "Association football",
                     "Football in Argentina",
-                    "Football in Germany",
+                    "Association football",
                     "Football at the Island Games",
+                    "Ball (association football)",
+                    "Football in Germany",
                     "Football in Sweden",
-                    "Football in Italy",
-                    "Ball (association football)"
+                    "Football in Italy"
                 ],
                 "candidate_descriptions":[
+                    "",
                     "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
                     "",
+                    "ball used in the sport of association football",
                     "Association football in Germany",
-                    "",
                     "overview of association football practiced in Sweden",
-                    "overview of association football practiced in Italy",
-                    "ball used in the sport of association football"
+                    "overview of association football practiced in Italy"
                 ],
                 "span_l":44,
                 "span_r":46,
-                "sent_idx":37,
+                "sent_idx":57,
                 "sent_alias_idx":3,
                 "alias_idx":11,
-                "guid_idx":"37_11",
+                "guid_idx":"57_130",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23763,44 +27104,44 @@ const ned_info_gld = [
                 "alias":"fc barcelona",
                 "pop_qid":"Q7156",
                 "candidates":[
-                    "Q7156",
                     "Q679869",
-                    "Q5424838",
-                    "Q1166013",
-                    "Q54893",
-                    "Q378906",
                     "Q1347994",
+                    "Q522899",
+                    "Q54893",
+                    "Q7156",
+                    "Q378906",
+                    "Q1166013",
                     "Q585080",
-                    "Q522899"
+                    "Q5424838"
                 ],
                 "candidate_titles":[
-                    "FC Barcelona",
                     "FC Barcelona Hoquei",
-                    "FC Barcelona (beach soccer)",
-                    "FC Barcelona Ice Hockey",
-                    "FC Barcelona B\u00e0squet",
-                    "FC Barcelona Handbol",
                     "FC Barcelona Futsal",
+                    "FC Barcelona Femen\u00ed",
+                    "FC Barcelona B\u00e0squet",
+                    "FC Barcelona",
+                    "FC Barcelona Handbol",
+                    "FC Barcelona Ice Hockey",
                     "FC Barcelona Rugby",
-                    "FC Barcelona Femen\u00ed"
+                    "FC Barcelona (beach soccer)"
                 ],
                 "candidate_descriptions":[
-                    "association football club based in Barcelona, Spain",
                     "roller hockey",
-                    "beach soccer",
-                    "ice hockey team",
-                    "Spanish professional basketball club",
-                    "handball team",
                     "Spanish futsal club",
+                    "FC Barcelona's women's association football section",
+                    "Spanish professional basketball club",
+                    "association football club based in Barcelona, Spain",
+                    "handball team",
+                    "ice hockey team",
                     "rugby union team",
-                    "FC Barcelona's women's association football section"
+                    "beach soccer"
                 ],
                 "span_l":47,
                 "span_r":49,
-                "sent_idx":37,
+                "sent_idx":57,
                 "sent_alias_idx":4,
                 "alias_idx":12,
-                "guid_idx":"37_12",
+                "guid_idx":"57_131",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -23899,44 +27240,44 @@ const ned_info_gld = [
                 "alias":"fc barcelona",
                 "pop_qid":"Q7156",
                 "candidates":[
-                    "Q5424838",
-                    "Q7156",
-                    "Q378906",
-                    "Q54893",
                     "Q1347994",
                     "Q522899",
-                    "Q1166013",
+                    "Q378906",
+                    "Q7156",
                     "Q679869",
+                    "Q1166013",
+                    "Q5424838",
+                    "Q54893",
                     "Q585080"
                 ],
                 "candidate_titles":[
-                    "FC Barcelona (beach soccer)",
-                    "FC Barcelona",
-                    "FC Barcelona Handbol",
-                    "FC Barcelona B\u00e0squet",
                     "FC Barcelona Futsal",
                     "FC Barcelona Femen\u00ed",
-                    "FC Barcelona Ice Hockey",
+                    "FC Barcelona Handbol",
+                    "FC Barcelona",
                     "FC Barcelona Hoquei",
+                    "FC Barcelona Ice Hockey",
+                    "FC Barcelona (beach soccer)",
+                    "FC Barcelona B\u00e0squet",
                     "FC Barcelona Rugby"
                 ],
                 "candidate_descriptions":[
-                    "beach soccer",
-                    "association football club based in Barcelona, Spain",
-                    "handball team",
-                    "Spanish professional basketball club",
                     "Spanish futsal club",
                     "FC Barcelona's women's association football section",
-                    "ice hockey team",
+                    "handball team",
+                    "association football club based in Barcelona, Spain",
                     "roller hockey",
+                    "ice hockey team",
+                    "beach soccer",
+                    "Spanish professional basketball club",
                     "rugby union team"
                 ],
                 "span_l":73,
                 "span_r":75,
-                "sent_idx":38,
+                "sent_idx":58,
                 "sent_alias_idx":0,
                 "alias_idx":13,
-                "guid_idx":"38_13",
+                "guid_idx":"58_132",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -24035,23 +27376,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":78,
                 "span_r":79,
-                "sent_idx":38,
+                "sent_idx":58,
                 "sent_alias_idx":1,
                 "alias_idx":14,
-                "guid_idx":"38_14",
+                "guid_idx":"58_133",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -24160,10 +27501,10 @@ const ned_info_gld = [
                 ],
                 "span_l":100,
                 "span_r":102,
-                "sent_idx":38,
+                "sent_idx":58,
                 "sent_alias_idx":2,
                 "alias_idx":15,
-                "guid_idx":"38_15",
+                "guid_idx":"58_134",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -24262,44 +27603,44 @@ const ned_info_gld = [
                 "alias":"football club",
                 "pop_qid":"Q28083137",
                 "candidates":[
-                    "Q951054",
-                    "Q19915397",
-                    "Q2736",
                     "Q5465720",
                     "Q526464",
-                    "Q50776",
-                    "Q703957",
+                    "Q951054",
+                    "Q2829181",
+                    "Q2736",
+                    "Q19915397",
                     "Q28083137",
-                    "Q2829181"
+                    "Q50776",
+                    "Q703957"
                 ],
                 "candidate_titles":[
-                    "List of association football clubs",
-                    "FC Sherdor",
-                    "Association football",
                     "Foot-Ball Club",
                     "Football club (GDR)",
-                    "Australian rules football",
-                    "Football in Germany",
+                    "List of association football clubs",
+                    "Akwa United F.C.",
+                    "Association football",
+                    "FC Sherdor",
                     "Football team",
-                    "Akwa United F.C."
+                    "Australian rules football",
+                    "Football in Germany"
                 ],
                 "candidate_descriptions":[
-                    "Wikimedia list article",
-                    "Football Club Sherdor",
-                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
                     "Scottish association football club (1824-41)",
                     "designation for football clubs in GDR",
-                    "sport",
-                    "Association football in Germany",
+                    "Wikimedia list article",
+                    "association football club in Nigeria",
+                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
+                    "Football Club Sherdor",
                     "sports team for one of the various sports called football (association football, American football, Canadian football, etc.)",
-                    "association football club in Nigeria"
+                    "sport",
+                    "Association football in Germany"
                 ],
                 "span_l":110,
                 "span_r":112,
-                "sent_idx":39,
+                "sent_idx":59,
                 "sent_alias_idx":0,
                 "alias_idx":16,
-                "guid_idx":"39_16",
+                "guid_idx":"59_135",
                 "sentence":"Many ambassadors including Hollywood actor Ewan McGregor were big fans of his quest to promote UNICEF . In 2003 , UNICEF sponsored Italian football club Piacenza Calcio 1919 until 2008 . On 7 September 2006 , an agreement between UNICEF and the Spanish Catalan association football club FC Barcelona was reached whereby the club would donate \u20ac15 million per year to the organization for five years . As part of the agreement , FC Barcelona would wear the UNICEF logo on the front of their uniforms in the colour yellow ( as seen in the picture on the right of Lionel Messi ) . This was the first time a football club sponsored an organization rather than the other way around .",
                 "all_aliases":[
                     "hollywood",
@@ -24398,44 +27739,44 @@ const ned_info_gld = [
                 "alias":"fc barcelona",
                 "pop_qid":"Q7156",
                 "candidates":[
-                    "Q54893",
-                    "Q378906",
-                    "Q679869",
-                    "Q1166013",
-                    "Q522899",
                     "Q7156",
+                    "Q54893",
+                    "Q1166013",
+                    "Q585080",
+                    "Q679869",
                     "Q5424838",
+                    "Q378906",
                     "Q1347994",
-                    "Q585080"
+                    "Q522899"
                 ],
                 "candidate_titles":[
-                    "FC Barcelona B\u00e0squet",
-                    "FC Barcelona Handbol",
-                    "FC Barcelona Hoquei",
-                    "FC Barcelona Ice Hockey",
-                    "FC Barcelona Femen\u00ed",
                     "FC Barcelona",
+                    "FC Barcelona B\u00e0squet",
+                    "FC Barcelona Ice Hockey",
+                    "FC Barcelona Rugby",
+                    "FC Barcelona Hoquei",
                     "FC Barcelona (beach soccer)",
+                    "FC Barcelona Handbol",
                     "FC Barcelona Futsal",
-                    "FC Barcelona Rugby"
+                    "FC Barcelona Femen\u00ed"
                 ],
                 "candidate_descriptions":[
-                    "Spanish professional basketball club",
-                    "handball team",
-                    "roller hockey",
-                    "ice hockey team",
-                    "FC Barcelona's women's association football section",
                     "association football club based in Barcelona, Spain",
+                    "Spanish professional basketball club",
+                    "ice hockey team",
+                    "rugby union team",
+                    "roller hockey",
                     "beach soccer",
+                    "handball team",
                     "Spanish futsal club",
-                    "rugby union team"
+                    "FC Barcelona's women's association football section"
                 ],
                 "span_l":7,
                 "span_r":9,
-                "sent_idx":40,
+                "sent_idx":60,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"40_0",
+                "guid_idx":"60_136",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -24504,23 +27845,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":38,
                 "span_r":39,
-                "sent_idx":41,
+                "sent_idx":61,
                 "sent_alias_idx":0,
                 "alias_idx":1,
-                "guid_idx":"41_1",
+                "guid_idx":"61_137",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -24602,10 +27943,10 @@ const ned_info_gld = [
                 ],
                 "span_l":53,
                 "span_r":54,
-                "sent_idx":42,
+                "sent_idx":62,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"42_2",
+                "guid_idx":"62_138",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -24674,44 +28015,44 @@ const ned_info_gld = [
                 "alias":"canada",
                 "pop_qid":"Q16",
                 "candidates":[
-                    "Q16",
-                    "Q392316",
-                    "Q1196645",
-                    "Q176",
-                    "Q25456",
                     "Q2879",
+                    "Q392316",
+                    "Q25456",
                     "Q1344164",
                     "Q839078",
+                    "Q16",
+                    "Q176",
+                    "Q1196645",
                     "Q1032175"
                 ],
                 "candidate_titles":[
-                    "Canada",
-                    "First Nations",
-                    "Canadians",
-                    "Quebec",
-                    "Royal Canadian Air Force",
                     "Provinces and territories of Canada",
+                    "First Nations",
+                    "Royal Canadian Air Force",
                     "RPM (magazine)",
                     "Prime Minister of Canada",
+                    "Canada",
+                    "Quebec",
+                    "Canadians",
                     "Canadian Football League"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in North America",
-                    "term used for Indigenous peoples in Canada who are neither Inuit nor M\u00e9tis",
-                    "citizens or residents of Canada",
-                    "province of Canada",
-                    "air warfare branch of Canada's military",
                     "top-level subdivisions of Canada",
+                    "term used for Indigenous peoples in Canada who are neither Inuit nor M\u00e9tis",
+                    "air warfare branch of Canada's military",
                     "Canadian music industry publication",
                     "head of government for Canada",
+                    "sovereign state in North America",
+                    "province of Canada",
+                    "citizens or residents of Canada",
                     "professional Canadian football league"
                 ],
                 "span_l":58,
                 "span_r":59,
-                "sent_idx":42,
+                "sent_idx":62,
                 "sent_alias_idx":1,
                 "alias_idx":3,
-                "guid_idx":"42_3",
+                "guid_idx":"62_139",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -24790,10 +28131,10 @@ const ned_info_gld = [
                 ],
                 "span_l":61,
                 "span_r":63,
-                "sent_idx":42,
+                "sent_idx":62,
                 "sent_alias_idx":2,
                 "alias_idx":4,
-                "guid_idx":"42_4",
+                "guid_idx":"62_140",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -24875,10 +28216,10 @@ const ned_info_gld = [
                 ],
                 "span_l":72,
                 "span_r":73,
-                "sent_idx":43,
+                "sent_idx":63,
                 "sent_alias_idx":0,
                 "alias_idx":5,
-                "guid_idx":"43_5",
+                "guid_idx":"63_141",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -24960,10 +28301,10 @@ const ned_info_gld = [
                 ],
                 "span_l":81,
                 "span_r":82,
-                "sent_idx":43,
+                "sent_idx":63,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"43_6",
+                "guid_idx":"63_142",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -25045,10 +28386,10 @@ const ned_info_gld = [
                 ],
                 "span_l":95,
                 "span_r":96,
-                "sent_idx":43,
+                "sent_idx":63,
                 "sent_alias_idx":2,
                 "alias_idx":7,
-                "guid_idx":"43_7",
+                "guid_idx":"63_143",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -25127,10 +28468,10 @@ const ned_info_gld = [
                 ],
                 "span_l":108,
                 "span_r":110,
-                "sent_idx":44,
+                "sent_idx":64,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"44_8",
+                "guid_idx":"64_144",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -25199,23 +28540,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":113,
                 "span_r":114,
-                "sent_idx":44,
+                "sent_idx":64,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"44_9",
+                "guid_idx":"64_145",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -25294,10 +28635,10 @@ const ned_info_gld = [
                 ],
                 "span_l":120,
                 "span_r":122,
-                "sent_idx":44,
+                "sent_idx":64,
                 "sent_alias_idx":2,
                 "alias_idx":10,
-                "guid_idx":"44_10",
+                "guid_idx":"64_146",
                 "sentence":"It was also the first time in FC Barcelona 's history that they have had another organization 's name across the front of their uniform . In 2016 , the team signed a new four-year sponsorship deal with UNICEF guaranteeing the organization \u00a3158 million per year and free advertising . In January 2007 UNICEF struck a partnership with Canada 's national tent pegging team . The team was officially re-flagged as `` UNICEF Team Canada '' , and its riders wear UNICEF 's logo in competition , and team members promote and raise funds for UNICEF 's campaign against childhood HIV-AIDS . When the team became the 2008 tent pegging world champions , UNICEF 's flag was raised alongside the Canadian flag at the games , the first time in the history of international Grand Prix equestrian competition that a non-state flag has flown over the medal podium .",
                 "all_aliases":[
                     "fc barcelona",
@@ -25366,44 +28707,44 @@ const ned_info_gld = [
                 "alias":"swedish",
                 "pop_qid":"Q165192",
                 "candidates":[
-                    "Q749243",
-                    "Q215443",
-                    "Q2492012",
                     "Q202243",
-                    "Q34",
-                    "Q160826",
+                    "Q215443",
                     "Q9027",
+                    "Q216537",
+                    "Q34",
                     "Q165192",
-                    "Q216537"
+                    "Q749243",
+                    "Q2492012",
+                    "Q160826"
                 ],
                 "candidate_titles":[
-                    "Church of Sweden",
-                    "Swedish Empire",
-                    "Swedish Army",
                     "Allsvenskan",
-                    "Sweden",
-                    "Sweden national football team",
+                    "Swedish Empire",
                     "Swedish language",
+                    "Sverigetopplistan",
+                    "Sweden",
                     "Swedes",
-                    "Sverigetopplistan"
+                    "Church of Sweden",
+                    "Swedish Army",
+                    "Sweden national football team"
                 ],
                 "candidate_descriptions":[
-                    "Evangelical-Lutheran denomination in Sweden",
-                    "the years 1611\u20131721 in the history of Sweden",
-                    "land warfare branch of Sweden's military",
                     "Swedish men's association football top division",
-                    "sovereign state in northern Europe",
-                    "men's national association football team representing Sweden",
+                    "the years 1611\u20131721 in the history of Sweden",
                     "North Germanic language spoken in Sweden and Finland",
+                    "Swedish music chart",
+                    "sovereign state in northern Europe",
                     "citizens or residents of Sweden",
-                    "Swedish music chart"
+                    "Evangelical-Lutheran denomination in Sweden",
+                    "land warfare branch of Sweden's military",
+                    "men's national association football team representing Sweden"
                 ],
                 "span_l":1,
                 "span_r":2,
-                "sent_idx":45,
+                "sent_idx":65,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"45_0",
+                "guid_idx":"65_147",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -25547,35 +28888,35 @@ const ned_info_gld = [
                 "alias":"hammarby if",
                 "pop_qid":"Q5645566",
                 "candidates":[
-                    "Q460724",
-                    "Q1573664",
-                    "Q5645566",
                     "Q1567832",
+                    "Q5645566",
+                    "Q460724",
                     "Q2582774",
-                    "Q2643852"
+                    "Q2643852",
+                    "Q1573664"
                 ],
                 "candidate_titles":[
-                    "Hammarby Fotboll",
-                    "Hammarby Hockey (1921\u20132008)",
-                    "Hammarby IF",
                     "Hammarby IF Handboll",
+                    "Hammarby IF",
+                    "Hammarby Fotboll",
                     "Hammarby IF Bandy",
-                    "Hammarby Fotboll (women)"
+                    "Hammarby Fotboll (women)",
+                    "Hammarby Hockey (1921\u20132008)"
                 ],
                 "candidate_descriptions":[
-                    "association football club in Stockholm, Sweden",
-                    "ice hockey team",
-                    "sports club in Stockholm, Sweden",
                     "Swedish handball club",
+                    "sports club in Stockholm, Sweden",
+                    "association football club in Stockholm, Sweden",
                     "bandy club in Stockholm, Sweden",
-                    "football club from Stockholm, Sweden"
+                    "football club from Stockholm, Sweden",
+                    "ice hockey team"
                 ],
                 "span_l":3,
                 "span_r":5,
-                "sent_idx":45,
+                "sent_idx":65,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"45_1",
+                "guid_idx":"65_148",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -25719,44 +29060,44 @@ const ned_info_gld = [
                 "alias":"spanish",
                 "pop_qid":"Q160894",
                 "candidates":[
-                    "Q29",
                     "Q170603",
-                    "Q324867",
-                    "Q42267",
-                    "Q1321",
-                    "Q58669",
-                    "Q80702",
                     "Q178038",
-                    "Q1211934"
+                    "Q324867",
+                    "Q29",
+                    "Q58669",
+                    "Q42267",
+                    "Q80702",
+                    "Q1211934",
+                    "Q1321"
                 ],
                 "candidate_titles":[
-                    "Spain",
                     "New Spain",
-                    "La Liga",
-                    "Spain national football team",
-                    "Spanish language",
-                    "Hispanic and Latino Americans",
-                    "Spanish Empire",
                     "Second Spanish Republic",
-                    "Hispanic"
+                    "La Liga",
+                    "Spain",
+                    "Hispanic and Latino Americans",
+                    "Spain national football team",
+                    "Spanish Empire",
+                    "Hispanic",
+                    "Spanish language"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in southwestern Europe with territories in the Mediterranean Sea, the Atlantic Ocean and northern Africa",
                     "viceroyalty of the Spanish Empire (1535-1821)",
-                    "Spanish national football league",
-                    "men's national association football team representing Spain",
-                    "Romance language",
-                    "ethnic group",
-                    "world empire from the 16th to the 19th century",
                     "the regime that existed in Spain, 1931 to 1939",
-                    ""
+                    "Spanish national football league",
+                    "sovereign state in southwestern Europe with territories in the Mediterranean Sea, the Atlantic Ocean and northern Africa",
+                    "ethnic group",
+                    "men's national association football team representing Spain",
+                    "world empire from the 16th to the 19th century",
+                    "",
+                    "Romance language"
                 ],
                 "span_l":7,
                 "span_r":8,
-                "sent_idx":45,
+                "sent_idx":65,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"45_2",
+                "guid_idx":"65_149",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -25900,44 +29241,44 @@ const ned_info_gld = [
                 "alias":"canadian",
                 "pop_qid":"Q1196645",
                 "candidates":[
-                    "Q1196645",
-                    "Q2879",
                     "Q1344164",
-                    "Q248534",
+                    "Q1196645",
                     "Q461761",
-                    "Q25456",
+                    "Q248534",
                     "Q16",
-                    "Q1032175",
-                    "Q383590"
+                    "Q383590",
+                    "Q25456",
+                    "Q2879",
+                    "Q1032175"
                 ],
                 "candidate_titles":[
-                    "Canadians",
-                    "Provinces and territories of Canada",
                     "RPM (magazine)",
-                    "Canadian football",
+                    "Canadians",
                     "Canadian Broadcasting Corporation",
-                    "Royal Canadian Air Force",
+                    "Canadian football",
                     "Canada",
-                    "Canadian Football League",
-                    "House of Commons of Canada"
+                    "House of Commons of Canada",
+                    "Royal Canadian Air Force",
+                    "Provinces and territories of Canada",
+                    "Canadian Football League"
                 ],
                 "candidate_descriptions":[
-                    "citizens or residents of Canada",
-                    "top-level subdivisions of Canada",
                     "Canadian music industry publication",
-                    "Canadian sport in which opposing teams of twelve players attempt to score by advancing a ball by running, passing and kicking",
+                    "citizens or residents of Canada",
                     "public broadcaster",
-                    "air warfare branch of Canada's military",
+                    "Canadian sport in which opposing teams of twelve players attempt to score by advancing a ball by running, passing and kicking",
                     "sovereign state in North America",
-                    "professional Canadian football league",
-                    "lower house of the Parliament of Canada"
+                    "lower house of the Parliament of Canada",
+                    "air warfare branch of Canada's military",
+                    "top-level subdivisions of Canada",
+                    "professional Canadian football league"
                 ],
                 "span_l":9,
                 "span_r":10,
-                "sent_idx":45,
+                "sent_idx":65,
                 "sent_alias_idx":3,
                 "alias_idx":3,
-                "guid_idx":"45_3",
+                "guid_idx":"65_150",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -26094,10 +29435,10 @@ const ned_info_gld = [
                 ],
                 "span_l":20,
                 "span_r":21,
-                "sent_idx":45,
+                "sent_idx":65,
                 "sent_alias_idx":4,
                 "alias_idx":4,
-                "guid_idx":"45_4",
+                "guid_idx":"65_151",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -26241,23 +29582,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":24,
                 "span_r":25,
-                "sent_idx":45,
+                "sent_idx":65,
                 "sent_alias_idx":5,
                 "alias_idx":5,
-                "guid_idx":"45_5",
+                "guid_idx":"65_152",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -26401,44 +29742,44 @@ const ned_info_gld = [
                 "alias":"danish",
                 "pop_qid":"Q164714",
                 "candidates":[
-                    "Q35",
-                    "Q62651",
-                    "Q25417",
-                    "Q9035",
-                    "Q131785",
-                    "Q877429",
-                    "Q164714",
                     "Q12567",
-                    "Q204752"
+                    "Q164714",
+                    "Q62651",
+                    "Q131785",
+                    "Q25417",
+                    "Q35",
+                    "Q204752",
+                    "Q9035",
+                    "Q877429"
                 ],
                 "candidate_titles":[
-                    "Denmark",
-                    "Denmark\u2013Norway",
-                    "Danish krone",
-                    "Danish language",
-                    "Denmark national football team",
-                    "Danes (Germanic tribe)",
-                    "Danes",
                     "Vikings",
-                    "Danish Superliga"
+                    "Danes",
+                    "Denmark\u2013Norway",
+                    "Denmark national football team",
+                    "Danish krone",
+                    "Denmark",
+                    "Danish Superliga",
+                    "Danish language",
+                    "Danes (Germanic tribe)"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in northern Europe that is part of the Kingdom of Denmark",
-                    "political union in Northern Europe between 1524\u20141814",
-                    "official currency of Denmark, Greenland and the Faroe Islands",
-                    "North Germanic language spoken in Denmark",
-                    "men's national association football team representing Denmark",
-                    "ancient germanic tribe",
-                    "North Germanic ethnic group native to Denmark",
                     "Norse explorers, warriors, merchants, and pirates",
-                    "sports league"
+                    "North Germanic ethnic group native to Denmark",
+                    "political union in Northern Europe between 1524\u20141814",
+                    "men's national association football team representing Denmark",
+                    "official currency of Denmark, Greenland and the Faroe Islands",
+                    "sovereign state in northern Europe that is part of the Kingdom of Denmark",
+                    "sports league",
+                    "North Germanic language spoken in Denmark",
+                    "ancient germanic tribe"
                 ],
                 "span_l":31,
                 "span_r":32,
-                "sent_idx":46,
+                "sent_idx":66,
                 "sent_alias_idx":0,
                 "alias_idx":6,
-                "guid_idx":"46_6",
+                "guid_idx":"66_153",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -26584,42 +29925,42 @@ const ned_info_gld = [
                 "candidates":[
                     "Q28083137",
                     "Q2829181",
-                    "Q2736",
                     "Q703957",
-                    "Q5465720",
-                    "Q951054",
-                    "Q19915397",
                     "Q50776",
-                    "Q526464"
+                    "Q951054",
+                    "Q526464",
+                    "Q5465720",
+                    "Q19915397",
+                    "Q2736"
                 ],
                 "candidate_titles":[
                     "Football team",
                     "Akwa United F.C.",
-                    "Association football",
                     "Football in Germany",
-                    "Foot-Ball Club",
-                    "List of association football clubs",
-                    "FC Sherdor",
                     "Australian rules football",
-                    "Football club (GDR)"
+                    "List of association football clubs",
+                    "Football club (GDR)",
+                    "Foot-Ball Club",
+                    "FC Sherdor",
+                    "Association football"
                 ],
                 "candidate_descriptions":[
                     "sports team for one of the various sports called football (association football, American football, Canadian football, etc.)",
                     "association football club in Nigeria",
-                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
                     "Association football in Germany",
-                    "Scottish association football club (1824-41)",
-                    "Wikimedia list article",
-                    "Football Club Sherdor",
                     "sport",
-                    "designation for football clubs in GDR"
+                    "Wikimedia list article",
+                    "designation for football clubs in GDR",
+                    "Scottish association football club (1824-41)",
+                    "Football Club Sherdor",
+                    "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team"
                 ],
                 "span_l":32,
                 "span_r":34,
-                "sent_idx":46,
+                "sent_idx":66,
                 "sent_alias_idx":1,
                 "alias_idx":7,
-                "guid_idx":"46_7",
+                "guid_idx":"66_154",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -26776,10 +30117,10 @@ const ned_info_gld = [
                 ],
                 "span_l":34,
                 "span_r":36,
-                "sent_idx":46,
+                "sent_idx":66,
                 "sent_alias_idx":2,
                 "alias_idx":8,
-                "guid_idx":"46_8",
+                "guid_idx":"66_155",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -26923,44 +30264,44 @@ const ned_info_gld = [
                 "alias":"nascar",
                 "pop_qid":"Q233929",
                 "candidates":[
-                    "Q1764128",
-                    "Q3336168",
                     "Q3247929",
-                    "Q6952515",
                     "Q612944",
-                    "Q233929",
-                    "Q2707177",
+                    "Q3336168",
                     "Q16768882",
+                    "Q233929",
+                    "Q6952515",
+                    "Q1764128",
+                    "Q2707177",
                     "Q3336170"
                 ],
                 "candidate_titles":[
-                    "Fox NASCAR",
-                    "NASCAR on CBS",
                     "EA Sports NASCAR",
-                    "NASCAR in Australia",
                     "NASCAR on NBC",
-                    "NASCAR",
-                    "NASCAR Cup Series",
+                    "NASCAR on CBS",
                     "Chevrolet Silverado 250",
+                    "NASCAR",
+                    "NASCAR in Australia",
+                    "Fox NASCAR",
+                    "NASCAR Cup Series",
                     "NASCAR on ESPN"
                 ],
                 "candidate_descriptions":[
-                    "US television program",
-                    "television series",
                     "Series of NASCAR games",
-                    "",
                     "television series",
-                    "organization that sanctions and governs multiple auto-racing sports events",
-                    "top auto racing division within NASCAR",
+                    "television series",
                     "",
+                    "organization that sanctions and governs multiple auto-racing sports events",
+                    "",
+                    "US television program",
+                    "top auto racing division within NASCAR",
                     "US television program"
                 ],
                 "span_l":49,
                 "span_r":50,
-                "sent_idx":47,
+                "sent_idx":67,
                 "sent_alias_idx":0,
                 "alias_idx":9,
-                "guid_idx":"47_9",
+                "guid_idx":"67_156",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -27104,23 +30445,23 @@ const ned_info_gld = [
                 "alias":"jacques villeneuve",
                 "pop_qid":"Q172843",
                 "candidates":[
-                    "Q374813",
-                    "Q172843"
+                    "Q172843",
+                    "Q374813"
                 ],
                 "candidate_titles":[
-                    "Jacques Villeneuve (racing driver, born 1953)",
-                    "Jacques Villeneuve"
+                    "Jacques Villeneuve",
+                    "Jacques Villeneuve (racing driver, born 1953)"
                 ],
                 "candidate_descriptions":[
-                    "Canadian racecar driver born in 1953",
-                    "Canadian racecar driver"
+                    "Canadian racecar driver",
+                    "Canadian racecar driver born in 1953"
                 ],
                 "span_l":51,
                 "span_r":53,
-                "sent_idx":47,
+                "sent_idx":67,
                 "sent_alias_idx":1,
                 "alias_idx":10,
-                "guid_idx":"47_10",
+                "guid_idx":"67_157",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -27277,10 +30618,10 @@ const ned_info_gld = [
                 ],
                 "span_l":57,
                 "span_r":58,
-                "sent_idx":47,
+                "sent_idx":67,
                 "sent_alias_idx":2,
                 "alias_idx":11,
-                "guid_idx":"47_11",
+                "guid_idx":"67_158",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -27434,10 +30775,10 @@ const ned_info_gld = [
                 ],
                 "span_l":63,
                 "span_r":66,
-                "sent_idx":47,
+                "sent_idx":67,
                 "sent_alias_idx":3,
                 "alias_idx":12,
-                "guid_idx":"47_12",
+                "guid_idx":"67_159",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -27581,44 +30922,44 @@ const ned_info_gld = [
                 "alias":"nascar",
                 "pop_qid":"Q233929",
                 "candidates":[
-                    "Q3247929",
-                    "Q1764128",
-                    "Q3336168",
-                    "Q233929",
-                    "Q3336170",
                     "Q16768882",
                     "Q612944",
-                    "Q6952515",
-                    "Q2707177"
+                    "Q1764128",
+                    "Q3336170",
+                    "Q2707177",
+                    "Q233929",
+                    "Q3336168",
+                    "Q3247929",
+                    "Q6952515"
                 ],
                 "candidate_titles":[
-                    "EA Sports NASCAR",
-                    "Fox NASCAR",
-                    "NASCAR on CBS",
-                    "NASCAR",
-                    "NASCAR on ESPN",
                     "Chevrolet Silverado 250",
                     "NASCAR on NBC",
-                    "NASCAR in Australia",
-                    "NASCAR Cup Series"
+                    "Fox NASCAR",
+                    "NASCAR on ESPN",
+                    "NASCAR Cup Series",
+                    "NASCAR",
+                    "NASCAR on CBS",
+                    "EA Sports NASCAR",
+                    "NASCAR in Australia"
                 ],
                 "candidate_descriptions":[
-                    "Series of NASCAR games",
-                    "US television program",
+                    "",
                     "television series",
+                    "US television program",
+                    "US television program",
+                    "top auto racing division within NASCAR",
                     "organization that sanctions and governs multiple auto-racing sports events",
-                    "US television program",
-                    "",
                     "television series",
-                    "",
-                    "top auto racing division within NASCAR"
+                    "Series of NASCAR games",
+                    ""
                 ],
                 "span_l":70,
                 "span_r":71,
-                "sent_idx":47,
+                "sent_idx":67,
                 "sent_alias_idx":4,
                 "alias_idx":13,
-                "guid_idx":"47_13",
+                "guid_idx":"67_160",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -27762,23 +31103,23 @@ const ned_info_gld = [
                 "alias":"craftsman truck series",
                 "pop_qid":"Q255911",
                 "candidates":[
-                    "Q255911",
-                    "Q113087"
+                    "Q113087",
+                    "Q255911"
                 ],
                 "candidate_titles":[
-                    "NASCAR Gander Outdoors Truck Series",
-                    "2006 NASCAR Craftsman Truck Series"
+                    "2006 NASCAR Craftsman Truck Series",
+                    "NASCAR Gander Outdoors Truck Series"
                 ],
                 "candidate_descriptions":[
-                    "pickup truck racing series",
-                    "12th season of third-tier NASCAR Craftsman Truck Series"
+                    "12th season of third-tier NASCAR Craftsman Truck Series",
+                    "pickup truck racing series"
                 ],
                 "span_l":71,
                 "span_r":74,
-                "sent_idx":47,
+                "sent_idx":67,
                 "sent_alias_idx":5,
                 "alias_idx":14,
-                "guid_idx":"47_14",
+                "guid_idx":"67_161",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -27922,44 +31263,44 @@ const ned_info_gld = [
                 "alias":"australian",
                 "pop_qid":"Q1318423",
                 "candidates":[
-                    "Q275029",
-                    "Q408",
-                    "Q741691",
-                    "Q823635",
-                    "Q2991162",
-                    "Q142555",
                     "Q50776",
                     "Q3589757",
-                    "Q219586"
+                    "Q219586",
+                    "Q142555",
+                    "Q408",
+                    "Q275029",
+                    "Q741691",
+                    "Q2991162",
+                    "Q823635"
                 ],
                 "candidate_titles":[
-                    "ARIA Charts",
-                    "Australia",
-                    "Royal Australian Navy",
-                    "Royal Australian Air Force",
-                    "Government of Australia",
-                    "Australia national cricket team",
                     "Australian rules football",
                     "Australia national rugby league team",
-                    "A-League"
+                    "A-League",
+                    "Australia national cricket team",
+                    "Australia",
+                    "ARIA Charts",
+                    "Royal Australian Navy",
+                    "Government of Australia",
+                    "Royal Australian Air Force"
                 ],
                 "candidate_descriptions":[
-                    "main Australian music sales charts",
-                    "island country in the Southern hemisphere",
-                    "naval warfare branch of the Australian Defence Force",
-                    "air warfare branch of Australia's armed forces",
-                    "federal democratic administrative authority of Australia",
-                    "national sports team",
                     "sport",
                     "sports team",
-                    "Australian premier association football league"
+                    "Australian premier association football league",
+                    "national sports team",
+                    "island country in the Southern hemisphere",
+                    "main Australian music sales charts",
+                    "naval warfare branch of the Australian Defence Force",
+                    "federal democratic administrative authority of Australia",
+                    "air warfare branch of Australia's armed forces"
                 ],
                 "span_l":75,
                 "span_r":76,
-                "sent_idx":48,
+                "sent_idx":68,
                 "sent_alias_idx":0,
                 "alias_idx":15,
-                "guid_idx":"48_15",
+                "guid_idx":"68_162",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -28103,29 +31444,29 @@ const ned_info_gld = [
                 "alias":"aleague",
                 "pop_qid":"Q219586",
                 "candidates":[
-                    "Q219586",
-                    "Q4646905",
                     "Q2185898",
-                    "Q1351694"
+                    "Q1351694",
+                    "Q219586",
+                    "Q4646905"
                 ],
                 "candidate_titles":[
-                    "A-League",
-                    "A-League (1995\u20132004)",
                     "American Professional Soccer League",
-                    "USL First Division"
+                    "USL First Division",
+                    "A-League",
+                    "A-League (1995\u20132004)"
                 ],
                 "candidate_descriptions":[
-                    "Australian premier association football league",
-                    "defunct American soccer league",
                     "",
-                    "association football league"
+                    "association football league",
+                    "Australian premier association football league",
+                    "defunct American soccer league"
                 ],
                 "span_l":76,
                 "span_r":77,
-                "sent_idx":48,
+                "sent_idx":68,
                 "sent_alias_idx":1,
                 "alias_idx":16,
-                "guid_idx":"48_16",
+                "guid_idx":"68_163",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -28282,10 +31623,10 @@ const ned_info_gld = [
                 ],
                 "span_l":78,
                 "span_r":80,
-                "sent_idx":48,
+                "sent_idx":68,
                 "sent_alias_idx":2,
                 "alias_idx":17,
-                "guid_idx":"48_17",
+                "guid_idx":"68_164",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -28442,10 +31783,10 @@ const ned_info_gld = [
                 ],
                 "span_l":89,
                 "span_r":90,
-                "sent_idx":48,
+                "sent_idx":68,
                 "sent_alias_idx":3,
                 "alias_idx":18,
-                "guid_idx":"48_18",
+                "guid_idx":"68_165",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -28589,32 +31930,32 @@ const ned_info_gld = [
                 "alias":"asiapacific region",
                 "pop_qid":"Q1070940",
                 "candidates":[
-                    "Q20925268",
-                    "Q3234367",
                     "Q4806267",
+                    "Q9301187",
+                    "Q3234367",
                     "Q1070940",
-                    "Q9301187"
+                    "Q20925268"
                 ],
                 "candidate_titles":[
-                    "Senior League World Series (Asia\u2013Pacific Region)",
-                    "Asia-Pacific Scout Region (World Organization of the Scout Movement)",
                     "Asia-Pacific region",
+                    "Pacific Rim",
+                    "Asia-Pacific Scout Region (World Organization of the Scout Movement)",
                     "Asia-Pacific",
-                    "Pacific Rim"
+                    "Senior League World Series (Asia\u2013Pacific Region)"
                 ],
                 "candidate_descriptions":[
-                    "region for the Senior League World Series",
-                    "",
                     "Wikimedia disambiguation page",
+                    "land area comprising the rim of the Pacific Ocean",
+                    "",
                     "part of the world in or near the Western Pacific Ocean; typically includes East Asia, South Asia, Southeast Asia, and Oceania",
-                    "land area comprising the rim of the Pacific Ocean"
+                    "region for the Senior League World Series"
                 ],
                 "span_l":96,
                 "span_r":98,
-                "sent_idx":48,
+                "sent_idx":68,
                 "sent_alias_idx":4,
                 "alias_idx":19,
-                "guid_idx":"48_19",
+                "guid_idx":"68_166",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -28758,23 +32099,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":104,
                 "span_r":105,
-                "sent_idx":48,
+                "sent_idx":68,
                 "sent_alias_idx":5,
                 "alias_idx":20,
-                "guid_idx":"48_20",
+                "guid_idx":"68_167",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -28918,33 +32259,33 @@ const ned_info_gld = [
                 "alias":"botswana",
                 "pop_qid":"Q963",
                 "candidates":[
-                    "Q28446456",
                     "Q2380000",
-                    "Q3067093",
-                    "Q1148224",
-                    "Q963",
                     "Q29469110",
+                    "Q3067093",
+                    "Q963",
+                    "Q1148224",
+                    "Q28446456",
                     "Q740258",
                     "Q119322",
                     "Q4948968"
                 ],
                 "candidate_titles":[
-                    "Botswana women's national cricket team",
                     "Botswana Stock Exchange",
-                    "Botswana women's national football team",
-                    "Politics of Botswana",
-                    "Botswana",
                     "Science and technology in Botswana",
+                    "Botswana women's national football team",
+                    "Botswana",
+                    "Politics of Botswana",
+                    "Botswana women's national cricket team",
                     "Botswana Defence Force",
                     "Botswana national football team",
                     "Botswana national cricket team"
                 ],
                 "candidate_descriptions":[
-                    "",
                     "Stock exchange located in Gaborone, Botswana",
+                    "",
                     "national association football team",
-                    "Political system of Botswana",
                     "sovereign state in Southern Africa",
+                    "Political system of Botswana",
                     "",
                     "combined military forces of Botswana",
                     "national association football team",
@@ -28952,10 +32293,10 @@ const ned_info_gld = [
                 ],
                 "span_l":116,
                 "span_r":117,
-                "sent_idx":49,
+                "sent_idx":69,
                 "sent_alias_idx":0,
                 "alias_idx":21,
-                "guid_idx":"49_21",
+                "guid_idx":"69_168",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -29099,23 +32440,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":118,
                 "span_r":119,
-                "sent_idx":49,
+                "sent_idx":69,
                 "sent_alias_idx":1,
                 "alias_idx":22,
-                "guid_idx":"49_22",
+                "guid_idx":"69_169",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -29259,44 +32600,44 @@ const ned_info_gld = [
                 "alias":"botswana",
                 "pop_qid":"Q963",
                 "candidates":[
-                    "Q963",
                     "Q119322",
                     "Q29469110",
-                    "Q28446456",
-                    "Q740258",
-                    "Q1148224",
                     "Q4948968",
                     "Q3067093",
-                    "Q2380000"
+                    "Q28446456",
+                    "Q1148224",
+                    "Q2380000",
+                    "Q740258",
+                    "Q963"
                 ],
                 "candidate_titles":[
-                    "Botswana",
                     "Botswana national football team",
                     "Science and technology in Botswana",
-                    "Botswana women's national cricket team",
-                    "Botswana Defence Force",
-                    "Politics of Botswana",
                     "Botswana national cricket team",
                     "Botswana women's national football team",
-                    "Botswana Stock Exchange"
+                    "Botswana women's national cricket team",
+                    "Politics of Botswana",
+                    "Botswana Stock Exchange",
+                    "Botswana Defence Force",
+                    "Botswana"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in Southern Africa",
                     "national association football team",
                     "",
                     "",
-                    "combined military forces of Botswana",
+                    "national association football team",
+                    "",
                     "Political system of Botswana",
-                    "",
-                    "national association football team",
-                    "Stock exchange located in Gaborone, Botswana"
+                    "Stock exchange located in Gaborone, Botswana",
+                    "combined military forces of Botswana",
+                    "sovereign state in Southern Africa"
                 ],
                 "span_l":132,
                 "span_r":133,
-                "sent_idx":49,
+                "sent_idx":69,
                 "sent_alias_idx":2,
                 "alias_idx":23,
-                "guid_idx":"49_23",
+                "guid_idx":"69_170",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -29440,32 +32781,32 @@ const ned_info_gld = [
                 "alias":"nonprofit organization",
                 "pop_qid":"Q163740",
                 "candidates":[
+                    "Q240625",
+                    "Q708676",
                     "Q163740",
                     "Q18325436",
-                    "Q708676",
-                    "Q79913",
-                    "Q240625"
+                    "Q79913"
                 ],
                 "candidate_titles":[
+                    "501(c) organization",
+                    "Charitable organization",
                     "Nonprofit organization",
                     "501(c)(3) organization",
-                    "Charitable organization",
-                    "Non-governmental organization",
-                    "501(c) organization"
+                    "Non-governmental organization"
                 ],
                 "candidate_descriptions":[
+                    "tax-exempt nonprofit organization in the United States",
+                    "non-profit organization with a charitable purpose",
                     "organization that uses its income to achieve its goals rather than distributing it as profit or dividends",
                     "type of nonprofit organization in the United States exempt from federal income tax",
-                    "non-profit organization with a charitable purpose",
-                    "organization that is neither a part of a government nor a conventional for-profit business",
-                    "tax-exempt nonprofit organization in the United States"
+                    "organization that is neither a part of a government nor a conventional for-profit business"
                 ],
                 "span_l":134,
                 "span_r":136,
-                "sent_idx":49,
+                "sent_idx":69,
                 "sent_alias_idx":3,
                 "alias_idx":24,
-                "guid_idx":"49_24",
+                "guid_idx":"69_171",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -29619,10 +32960,10 @@ const ned_info_gld = [
                 ],
                 "span_l":136,
                 "span_r":137,
-                "sent_idx":49,
+                "sent_idx":69,
                 "sent_alias_idx":4,
                 "alias_idx":25,
-                "guid_idx":"49_25",
+                "guid_idx":"69_172",
                 "sentence":"The Swedish club Hammarby IF followed the Spanish and Canadian lead on 14 April 2007 , also raising funds for UNICEF and displaying the UNICEF name on their sportswear . The Danish football club Br\u00f8ndby IF participated in a similar arrangement from 2008 to 2013 . In 2007 , NASCAR driver Jacques Villeneuve has occasionally placed the UNICEF logo on the # 27 Bill Davis Racing pickup truck in the NASCAR Craftsman Truck Series . Australian A-League club Sydney FC announced they would also enter into a partnership with UNICEF raising funds for children in the Asia-Pacific region , and would also display the UNICEF logo for the remainder of the 2011-12 A-League season . In Botswana , UNICEF has funded the development of new state-of-the-art HIV\/AIDS education for every schoolchild in Botswana from nonprofit organization TeachAIDS .",
                 "all_aliases":[
                     "swedish",
@@ -29766,23 +33107,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":0,
                 "span_r":1,
-                "sent_idx":50,
+                "sent_idx":70,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"50_0",
+                "guid_idx":"70_173",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -29861,44 +33202,44 @@ const ned_info_gld = [
                 "alias":"scottish",
                 "pop_qid":"Q22",
                 "candidates":[
-                    "Q145",
-                    "Q22",
-                    "Q2261276",
                     "Q842438",
-                    "Q922480",
-                    "Q9314",
-                    "Q174193",
+                    "Q2261276",
                     "Q34044",
-                    "Q181634"
+                    "Q174193",
+                    "Q181634",
+                    "Q9314",
+                    "Q145",
+                    "Q922480",
+                    "Q22"
                 ],
                 "candidate_titles":[
-                    "United Kingdom",
-                    "Scotland",
-                    "Scottish Football League",
                     "British people",
-                    "Church of Scotland",
-                    "Scottish Gaelic",
-                    "United Kingdom of Great Britain and Ireland",
+                    "Scottish Football League",
                     "Scotland national football team",
-                    "Scottish people"
+                    "United Kingdom of Great Britain and Ireland",
+                    "Scottish people",
+                    "Scottish Gaelic",
+                    "United Kingdom",
+                    "Church of Scotland",
+                    "Scotland"
                 ],
                 "candidate_descriptions":[
-                    "sovereign state in western Europe",
-                    "country in Northwest Europe, part of the United Kingdom",
-                    "former league in Scotland",
                     "Citizens of the United Kingdom of Great Britain and Northern Ireland, British Overseas Territories, Crown Dependencies, and their descendants",
-                    "national church of Scotland",
-                    "Celtic language native to Scotland",
-                    "historical sovereign state from 1801 to 1927",
+                    "former league in Scotland",
                     "men's association football team representing Scotland",
-                    "ethnic inhabitants of Scotland"
+                    "historical sovereign state from 1801 to 1927",
+                    "ethnic inhabitants of Scotland",
+                    "Celtic language native to Scotland",
+                    "sovereign state in western Europe",
+                    "national church of Scotland",
+                    "country in Northwest Europe, part of the United Kingdom"
                 ],
                 "span_l":6,
                 "span_r":7,
-                "sent_idx":50,
+                "sent_idx":70,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"50_1",
+                "guid_idx":"70_174",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -29993,10 +33334,10 @@ const ned_info_gld = [
                 ],
                 "span_l":8,
                 "span_r":10,
-                "sent_idx":50,
+                "sent_idx":70,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"50_2",
+                "guid_idx":"70_175",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30075,23 +33416,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":10,
                 "span_r":11,
-                "sent_idx":50,
+                "sent_idx":70,
                 "sent_alias_idx":3,
                 "alias_idx":3,
-                "guid_idx":"50_3",
+                "guid_idx":"70_176",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30180,10 +33521,10 @@ const ned_info_gld = [
                 ],
                 "span_l":14,
                 "span_r":17,
-                "sent_idx":50,
+                "sent_idx":70,
                 "sent_alias_idx":4,
                 "alias_idx":4,
-                "guid_idx":"50_4",
+                "guid_idx":"70_177",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30262,23 +33603,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":28,
                 "span_r":29,
-                "sent_idx":51,
+                "sent_idx":71,
                 "sent_alias_idx":0,
                 "alias_idx":5,
-                "guid_idx":"51_5",
+                "guid_idx":"71_178",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30367,10 +33708,10 @@ const ned_info_gld = [
                 ],
                 "span_l":33,
                 "span_r":36,
-                "sent_idx":51,
+                "sent_idx":71,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"51_6",
+                "guid_idx":"71_179",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30449,23 +33790,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":44,
                 "span_r":45,
-                "sent_idx":51,
+                "sent_idx":71,
                 "sent_alias_idx":2,
                 "alias_idx":7,
-                "guid_idx":"51_7",
+                "guid_idx":"71_180",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30554,10 +33895,10 @@ const ned_info_gld = [
                 ],
                 "span_l":53,
                 "span_r":56,
-                "sent_idx":52,
+                "sent_idx":72,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"52_8",
+                "guid_idx":"72_181",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30636,44 +33977,44 @@ const ned_info_gld = [
                 "alias":"greek",
                 "pop_qid":"Q539051",
                 "candidates":[
-                    "Q539051",
                     "Q41",
+                    "Q1513688",
+                    "Q9129",
+                    "Q34726",
+                    "Q539051",
+                    "Q35497",
                     "Q12544",
                     "Q35032",
-                    "Q35497",
-                    "Q9129",
-                    "Q1513688",
-                    "Q1860",
-                    "Q34726"
+                    "Q1860"
                 ],
                 "candidate_titles":[
-                    "Greeks",
                     "Greece",
+                    "Greek Revival architecture",
+                    "Greek language",
+                    "Greek mythology",
+                    "Greeks",
+                    "Ancient Greek",
                     "Byzantine Empire",
                     "Eastern Orthodox Church",
-                    "Ancient Greek",
-                    "Greek language",
-                    "Greek Revival architecture",
-                    "English language",
-                    "Greek mythology"
+                    "English language"
                 ],
                 "candidate_descriptions":[
-                    "people of southeastern Europe",
                     "sovereign state in southeastern Europe",
+                    "architectural movement of the late 18th and early 19th centuries",
+                    "language spoken in Greece, Cyprus and Southern Albania",
+                    "body of myths of the ancient Greeks",
+                    "people of southeastern Europe",
+                    "version of the Greek language used from roughly the 9th century BCE to the 6th century CE",
                     "Eastern Roman Empire during Late Antiquity and the Middle Ages",
                     "Christian Church",
-                    "version of the Greek language used from roughly the 9th century BCE to the 6th century CE",
-                    "language spoken in Greece, Cyprus and Southern Albania",
-                    "architectural movement of the late 18th and early 19th centuries",
-                    "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin",
-                    "body of myths of the ancient Greeks"
+                    "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin"
                 ],
                 "span_l":81,
                 "span_r":82,
-                "sent_idx":53,
+                "sent_idx":73,
                 "sent_alias_idx":0,
                 "alias_idx":9,
-                "guid_idx":"53_9",
+                "guid_idx":"73_182",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30752,38 +34093,38 @@ const ned_info_gld = [
                 "alias":"association football",
                 "pop_qid":"Q2736",
                 "candidates":[
-                    "Q12252328",
-                    "Q948174",
-                    "Q703957",
-                    "Q995111",
-                    "Q1318821",
                     "Q2736",
+                    "Q948174",
+                    "Q995111",
+                    "Q703957",
+                    "Q1318821",
+                    "Q12252328",
                     "Q1478118"
                 ],
                 "candidate_titles":[
-                    "Ball (association football)",
-                    "Football in Italy",
-                    "Football in Germany",
-                    "Football at the Island Games",
-                    "Football in Sweden",
                     "Association football",
+                    "Football in Italy",
+                    "Football at the Island Games",
+                    "Football in Germany",
+                    "Football in Sweden",
+                    "Ball (association football)",
                     "Football in Argentina"
                 ],
                 "candidate_descriptions":[
-                    "ball used in the sport of association football",
-                    "overview of association football practiced in Italy",
-                    "Association football in Germany",
-                    "",
-                    "overview of association football practiced in Sweden",
                     "team field sport with the objective to score points by shooting a ball into the goal frame of the opponent team",
+                    "overview of association football practiced in Italy",
+                    "",
+                    "Association football in Germany",
+                    "overview of association football practiced in Sweden",
+                    "ball used in the sport of association football",
                     ""
                 ],
                 "span_l":82,
                 "span_r":84,
-                "sent_idx":53,
+                "sent_idx":73,
                 "sent_alias_idx":1,
                 "alias_idx":10,
-                "guid_idx":"53_10",
+                "guid_idx":"73_183",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30872,10 +34213,10 @@ const ned_info_gld = [
                 ],
                 "span_l":85,
                 "span_r":87,
-                "sent_idx":53,
+                "sent_idx":73,
                 "sent_alias_idx":2,
                 "alias_idx":11,
-                "guid_idx":"53_11",
+                "guid_idx":"73_184",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -30967,10 +34308,10 @@ const ned_info_gld = [
                 ],
                 "span_l":111,
                 "span_r":112,
-                "sent_idx":54,
+                "sent_idx":74,
                 "sent_alias_idx":0,
                 "alias_idx":12,
-                "guid_idx":"54_12",
+                "guid_idx":"74_185",
                 "sentence":"UNICEF announced a landmark partnership with Scottish club Rangers FC UNICEF partnered with the Rangers Charity Foundation and pledged to raise \u00a3300,000 by 2011 . In 2010 , UNICEF created a partnership with Phi Iota Alpha , making them the first Greek Lettered Organization UNICEF has ever worked with . In 2011 , Phi Iota Alpha raised over $ 20,000 for the Tap Project and the Trick or Treats for UNICEF Campaign . In 2013 , they agreed a contract with Greek association football champions Olympiacos FC who will show the organization 's logo on the front of their shirts . Started in 2015 , Kid Power is a division of UNICEF that was created as an effort to involve kids in helping other kids in need .",
                 "all_aliases":[
                     "unicef",
@@ -31059,10 +34400,10 @@ const ned_info_gld = [
                 ],
                 "span_l":0,
                 "span_r":3,
-                "sent_idx":55,
+                "sent_idx":75,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"55_0",
+                "guid_idx":"75_186",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31151,10 +34492,10 @@ const ned_info_gld = [
                 ],
                 "span_l":22,
                 "span_r":24,
-                "sent_idx":55,
+                "sent_idx":75,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"55_1",
+                "guid_idx":"75_187",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31243,10 +34584,10 @@ const ned_info_gld = [
                 ],
                 "span_l":29,
                 "span_r":31,
-                "sent_idx":55,
+                "sent_idx":75,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"55_2",
+                "guid_idx":"75_188",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31325,23 +34666,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":45,
                 "span_r":46,
-                "sent_idx":56,
+                "sent_idx":76,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"56_3",
+                "guid_idx":"76_189",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31421,43 +34762,43 @@ const ned_info_gld = [
                 "pop_qid":"Q1345",
                 "candidates":[
                     "Q510324",
-                    "Q192083",
-                    "Q650840",
-                    "Q1345",
-                    "Q3805",
                     "Q659181",
-                    "Q504339",
+                    "Q1345",
+                    "Q138089",
+                    "Q3805",
                     "Q219714",
-                    "Q138089"
+                    "Q504339",
+                    "Q192083",
+                    "Q650840"
                 ],
                 "candidate_titles":[
                     "Philadelphia Museum of Art",
-                    "Philadelphia Flyers",
-                    "Philadelphia Phillies",
-                    "Philadelphia",
-                    "Amman",
                     "Philadelphia Orchestra",
-                    "Oakland Athletics",
+                    "Philadelphia",
+                    "Philadelphia 76ers",
+                    "Amman",
                     "Philadelphia Eagles",
-                    "Philadelphia 76ers"
+                    "Oakland Athletics",
+                    "Philadelphia Flyers",
+                    "Philadelphia Phillies"
                 ],
                 "candidate_descriptions":[
                     "museum in Philadelphia, Pennsylvania",
-                    "professional ice hockey team",
-                    "baseball team in Philadelphia, Pennsylvania, United States",
-                    "largest city in Pennsylvania",
-                    "capital of Jordan",
                     "American symphony orchestra in Philadelphia, PA",
-                    "baseball team and Major League Baseball franchise in Oakland, California, United States",
+                    "largest city in Pennsylvania",
+                    "American professional basketball team",
+                    "capital of Jordan",
                     "American football team",
-                    "American professional basketball team"
+                    "baseball team and Major League Baseball franchise in Oakland, California, United States",
+                    "professional ice hockey team",
+                    "baseball team in Philadelphia, Pennsylvania, United States"
                 ],
                 "span_l":70,
                 "span_r":71,
-                "sent_idx":57,
+                "sent_idx":77,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"57_4",
+                "guid_idx":"77_190",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31536,44 +34877,44 @@ const ned_info_gld = [
                 "alias":"pennsylvania",
                 "pop_qid":"Q1400",
                 "candidates":[
-                    "Q702220",
-                    "Q1197895",
-                    "Q49117",
+                    "Q1400",
                     "Q594697",
                     "Q2145217",
-                    "Q1345",
                     "Q2867077",
-                    "Q1400",
-                    "Q623935"
+                    "Q623935",
+                    "Q1197895",
+                    "Q702220",
+                    "Q1345",
+                    "Q49117"
                 ],
                 "candidate_titles":[
-                    "Pennsylvania Dutch",
-                    "Pennsylvania Railroad",
-                    "University of Pennsylvania",
+                    "Pennsylvania",
                     "Washington, Pennsylvania",
                     "Pennsylvania House of Representatives",
-                    "Philadelphia",
                     "Pennsylvania General Assembly",
-                    "Pennsylvania",
-                    "Pennsylvania Turnpike"
+                    "Pennsylvania Turnpike",
+                    "Pennsylvania Railroad",
+                    "Pennsylvania Dutch",
+                    "Philadelphia",
+                    "University of Pennsylvania"
                 ],
                 "candidate_descriptions":[
-                    "a group of German-descended Americans",
-                    "former American Class I railroad",
-                    "private research university in Philadelphia, Pennsylvania",
+                    "state in the northeastern United States",
                     "town in Pennsylvania",
                     "Lower house of legislature of the U.S. state of Pennsylvania",
-                    "largest city in Pennsylvania",
                     "state legislature of the US state of Pennsylvania",
-                    "state in the northeastern United States",
-                    "highway in Pennsylvania"
+                    "highway in Pennsylvania",
+                    "former American Class I railroad",
+                    "a group of German-descended Americans",
+                    "largest city in Pennsylvania",
+                    "private research university in Philadelphia, Pennsylvania"
                 ],
                 "span_l":72,
                 "span_r":73,
-                "sent_idx":57,
+                "sent_idx":77,
                 "sent_alias_idx":1,
                 "alias_idx":5,
-                "guid_idx":"57_5",
+                "guid_idx":"77_191",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31652,44 +34993,44 @@ const ned_info_gld = [
                 "alias":"halloween",
                 "pop_qid":"Q251868",
                 "candidates":[
-                    "Q251868",
-                    "Q909063",
-                    "Q20666646",
-                    "Q5383",
                     "Q1364022",
-                    "Q59456",
                     "Q221103",
+                    "Q59456",
+                    "Q5383",
                     "Q5643093",
-                    "Q16744113"
+                    "Q20666646",
+                    "Q16744113",
+                    "Q251868",
+                    "Q909063"
                 ],
                 "candidate_titles":[
-                    "Halloween",
-                    "Halloween (2007 film)",
-                    "Halloween (2018 film)",
-                    "David Bowie",
                     "Halloween (franchise)",
-                    "List of M\u00c4R characters",
                     "Halloween (1978 film)",
+                    "List of M\u00c4R characters",
+                    "David Bowie",
                     "Halloween (wrestler)",
-                    "Halloween (The Office)"
+                    "Halloween (2018 film)",
+                    "Halloween (The Office)",
+                    "Halloween",
+                    "Halloween (2007 film)"
                 ],
                 "candidate_descriptions":[
-                    "holiday celebrated on 31 October",
-                    "2007 film by Rob Zombie",
-                    "2018 film by David Gordon Green",
-                    "British singer, musician, and actor (1947-2016)",
                     "horror film franchise",
-                    "Wikimedia list article",
                     "1978 film by John Carpenter",
+                    "Wikimedia list article",
+                    "British singer, musician, and actor (1947-2016)",
                     "Mexican professional wrestler",
-                    "episode of The Office (S2 E5)"
+                    "2018 film by David Gordon Green",
+                    "episode of The Office (S2 E5)",
+                    "holiday celebrated on 31 October",
+                    "2007 film by Rob Zombie"
                 ],
                 "span_l":81,
                 "span_r":82,
-                "sent_idx":57,
+                "sent_idx":77,
                 "sent_alias_idx":2,
                 "alias_idx":6,
-                "guid_idx":"57_6",
+                "guid_idx":"77_192",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31768,44 +35109,44 @@ const ned_info_gld = [
                 "alias":"north america",
                 "pop_qid":"Q49",
                 "candidates":[
-                    "Q36747",
-                    "Q49297",
-                    "Q160549",
-                    "Q248452",
-                    "Q49",
                     "Q220305",
-                    "Q170604",
+                    "Q49297",
+                    "Q36747",
+                    "Q160549",
                     "Q184716",
-                    "Q30"
+                    "Q30",
+                    "Q170604",
+                    "Q49",
+                    "Q248452"
                 ],
                 "candidate_titles":[
-                    "Indigenous peoples of the Americas",
-                    "Native Americans in the United States",
-                    "CONCACAF",
-                    "British North America",
-                    "North America",
                     "North American Plate",
-                    "New France",
+                    "Native Americans in the United States",
+                    "Indigenous peoples of the Americas",
+                    "CONCACAF",
                     "European colonization of the Americas",
-                    "United States"
+                    "United States",
+                    "New France",
+                    "North America",
+                    "British North America"
                 ],
                 "candidate_descriptions":[
-                    "inhabitants of North and South America and their descendants",
-                    "North American indigenous peoples within the boundaries of the present-day United States (including Alaska and Hawaii)",
-                    "international sport governing body",
-                    "former British posessions in North America",
-                    "continent on the Earth's northwestern quadrant",
                     "tectonic plate",
-                    "area colonized by France in North America",
+                    "North American indigenous peoples within the boundaries of the present-day United States (including Alaska and Hawaii)",
+                    "inhabitants of North and South America and their descendants",
+                    "international sport governing body",
                     "Settlement and conquest of North and South America by Europeans",
-                    "sovereign state in North America"
+                    "sovereign state in North America",
+                    "area colonized by France in North America",
+                    "continent on the Earth's northwestern quadrant",
+                    "former British posessions in North America"
                 ],
                 "span_l":98,
                 "span_r":100,
-                "sent_idx":57,
+                "sent_idx":77,
                 "sent_alias_idx":3,
                 "alias_idx":7,
-                "guid_idx":"57_7",
+                "guid_idx":"77_193",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -31884,44 +35225,44 @@ const ned_info_gld = [
                 "alias":"c",
                 "pop_qid":"Q1104069",
                 "candidates":[
-                    "Q2407",
-                    "Q7785",
                     "Q715772",
-                    "Q82778",
+                    "Q1541",
                     "Q9626",
-                    "Q15777",
+                    "Q82778",
                     "Q7850",
                     "Q1048",
-                    "Q1541"
+                    "Q2407",
+                    "Q15777",
+                    "Q7785"
                 ],
                 "candidate_titles":[
-                    "C++",
-                    "Commonwealth of Nations",
                     "Captain (association football)",
-                    "Pliny the Elder",
+                    "Cicero",
                     "Conservative Party (UK)",
-                    "C (programming language)",
+                    "Pliny the Elder",
                     "Chinese language",
                     "Julius Caesar",
-                    "Cicero"
+                    "C++",
+                    "C (programming language)",
+                    "Commonwealth of Nations"
                 ],
                 "candidate_descriptions":[
-                    "general purpose high-level programming language",
-                    "intergovernmental organisation",
                     "team captain of an association football team",
-                    "Roman military commander and writer",
+                    "Roman philosopher and statesman",
                     "political party in the United Kingdom",
-                    "general-purpose programming language",
+                    "Roman military commander and writer",
                     "group of languages that belongs to the Sino-Tibetan family",
                     "Roman general, statesman and dictator (100 BC-44 BC)",
-                    "Roman philosopher and statesman"
+                    "general purpose high-level programming language",
+                    "general-purpose programming language",
+                    "intergovernmental organisation"
                 ],
                 "span_l":113,
                 "span_r":115,
-                "sent_idx":58,
+                "sent_idx":78,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"58_8",
+                "guid_idx":"78_194",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -32000,44 +35341,44 @@ const ned_info_gld = [
                 "alias":"canada",
                 "pop_qid":"Q16",
                 "candidates":[
-                    "Q392316",
-                    "Q176",
-                    "Q1196645",
-                    "Q839078",
                     "Q16",
-                    "Q1344164",
-                    "Q1032175",
                     "Q25456",
-                    "Q2879"
+                    "Q1196645",
+                    "Q392316",
+                    "Q839078",
+                    "Q2879",
+                    "Q1344164",
+                    "Q176",
+                    "Q1032175"
                 ],
                 "candidate_titles":[
-                    "First Nations",
-                    "Quebec",
-                    "Canadians",
-                    "Prime Minister of Canada",
                     "Canada",
-                    "RPM (magazine)",
-                    "Canadian Football League",
                     "Royal Canadian Air Force",
-                    "Provinces and territories of Canada"
+                    "Canadians",
+                    "First Nations",
+                    "Prime Minister of Canada",
+                    "Provinces and territories of Canada",
+                    "RPM (magazine)",
+                    "Quebec",
+                    "Canadian Football League"
                 ],
                 "candidate_descriptions":[
-                    "term used for Indigenous peoples in Canada who are neither Inuit nor M\u00e9tis",
-                    "province of Canada",
-                    "citizens or residents of Canada",
-                    "head of government for Canada",
                     "sovereign state in North America",
-                    "Canadian music industry publication",
-                    "professional Canadian football league",
                     "air warfare branch of Canada's military",
-                    "top-level subdivisions of Canada"
+                    "citizens or residents of Canada",
+                    "term used for Indigenous peoples in Canada who are neither Inuit nor M\u00e9tis",
+                    "head of government for Canada",
+                    "top-level subdivisions of Canada",
+                    "Canadian music industry publication",
+                    "province of Canada",
+                    "professional Canadian football league"
                 ],
                 "span_l":118,
                 "span_r":119,
-                "sent_idx":58,
+                "sent_idx":78,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"58_9",
+                "guid_idx":"78_195",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -32116,44 +35457,44 @@ const ned_info_gld = [
                 "alias":"us",
                 "pop_qid":"Q4917",
                 "candidates":[
-                    "Q11696",
-                    "Q188819",
-                    "Q180072",
-                    "Q30",
                     "Q485240",
-                    "Q35657",
                     "Q9212",
+                    "Q180072",
+                    "Q35657",
+                    "Q188819",
+                    "Q11220",
                     "Q11223",
-                    "Q11220"
+                    "Q11696",
+                    "Q30"
                 ],
                 "candidate_titles":[
-                    "President of the United States",
-                    "Billboard 200",
-                    "Billboard Hot 100",
-                    "United States",
                     "Billboard (magazine)",
-                    "U.S. state",
                     "United States Army",
+                    "Billboard Hot 100",
+                    "U.S. state",
+                    "Billboard 200",
+                    "United States Navy",
                     "United States Air Force",
-                    "United States Navy"
+                    "President of the United States",
+                    "United States"
                 ],
                 "candidate_descriptions":[
-                    "head of state and of government of the United States",
-                    "US weekly album chart published by Billboard Magazine",
-                    "single charts in U.S",
-                    "sovereign state in North America",
                     "US music magazine",
-                    "constituent political entity sharing sovereignty as the United States of America",
                     "branch of the United States Armed Forces",
+                    "single charts in U.S",
+                    "constituent political entity sharing sovereignty as the United States of America",
+                    "US weekly album chart published by Billboard Magazine",
+                    "maritime warfare branch of the United States' military",
                     "air warfare branch of the United States Armed Forces",
-                    "maritime warfare branch of the United States' military"
+                    "head of state and of government of the United States",
+                    "sovereign state in North America"
                 ],
                 "span_l":121,
                 "span_r":123,
-                "sent_idx":58,
+                "sent_idx":78,
                 "sent_alias_idx":2,
                 "alias_idx":10,
-                "guid_idx":"58_10",
+                "guid_idx":"78_196",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -32232,44 +35573,44 @@ const ned_info_gld = [
                 "alias":"us",
                 "pop_qid":"Q30",
                 "candidates":[
-                    "Q35657",
-                    "Q9212",
-                    "Q180072",
-                    "Q188819",
-                    "Q485240",
-                    "Q11696",
-                    "Q11220",
                     "Q30",
-                    "Q11223"
+                    "Q11223",
+                    "Q188819",
+                    "Q35657",
+                    "Q11220",
+                    "Q9212",
+                    "Q11696",
+                    "Q180072",
+                    "Q485240"
                 ],
                 "candidate_titles":[
-                    "U.S. state",
-                    "United States Army",
-                    "Billboard Hot 100",
-                    "Billboard 200",
-                    "Billboard (magazine)",
-                    "President of the United States",
-                    "United States Navy",
                     "United States",
-                    "United States Air Force"
+                    "United States Air Force",
+                    "Billboard 200",
+                    "U.S. state",
+                    "United States Navy",
+                    "United States Army",
+                    "President of the United States",
+                    "Billboard Hot 100",
+                    "Billboard (magazine)"
                 ],
                 "candidate_descriptions":[
-                    "constituent political entity sharing sovereignty as the United States of America",
-                    "branch of the United States Armed Forces",
-                    "single charts in U.S",
-                    "US weekly album chart published by Billboard Magazine",
-                    "US music magazine",
-                    "head of state and of government of the United States",
-                    "maritime warfare branch of the United States' military",
                     "sovereign state in North America",
-                    "air warfare branch of the United States Armed Forces"
+                    "air warfare branch of the United States Armed Forces",
+                    "US weekly album chart published by Billboard Magazine",
+                    "constituent political entity sharing sovereignty as the United States of America",
+                    "maritime warfare branch of the United States' military",
+                    "branch of the United States Armed Forces",
+                    "head of state and of government of the United States",
+                    "single charts in U.S",
+                    "US music magazine"
                 ],
                 "span_l":127,
                 "span_r":128,
-                "sent_idx":58,
+                "sent_idx":78,
                 "sent_alias_idx":3,
                 "alias_idx":11,
-                "guid_idx":"58_11",
+                "guid_idx":"78_197",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -32361,10 +35702,10 @@ const ned_info_gld = [
                 ],
                 "span_l":132,
                 "span_r":133,
-                "sent_idx":59,
+                "sent_idx":79,
                 "sent_alias_idx":0,
                 "alias_idx":12,
-                "guid_idx":"59_12",
+                "guid_idx":"79_198",
                 "sentence":"UNICEF Kid Power developed the world 's first Wearable for Good , called Kid Power Bands , which is a kids \u2019 fitness tracker bracelet that connects to a smartphone app . The points then unlock funding from partners , which is then used by UNICEF to deliver lifesaving packets of therapeutic food to severely malnourished children around the world . Since 1950 , when a group of children in Philadelphia , Pennsylvania , donated $ 17 which they received on Halloween to help post-World War II victims , the Trick-or-Treat UNICEF box has become a tradition in North America during the fall . , the Trick-or-Treat for UNICEF campaign has collected approximately C $ 91 million in Canada and over US $ 167 million in the US . In 1994 , UNICEF held a summit encouraging animation studios around the world to create individual animated spots demonstrating the international rights of children .",
                 "all_aliases":[
                     "unicef kid power",
@@ -32443,23 +35784,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":13,
                 "span_r":14,
-                "sent_idx":60,
+                "sent_idx":80,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"60_0",
+                "guid_idx":"80_199",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -32533,10 +35874,10 @@ const ned_info_gld = [
                 ],
                 "span_l":15,
                 "span_r":22,
-                "sent_idx":60,
+                "sent_idx":80,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"60_1",
+                "guid_idx":"80_200",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -32600,23 +35941,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":34,
                 "span_r":35,
-                "sent_idx":61,
+                "sent_idx":81,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"61_2",
+                "guid_idx":"81_201",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -32680,38 +36021,38 @@ const ned_info_gld = [
                 "alias":"montblanc",
                 "pop_qid":"Q142691",
                 "candidates":[
+                    "Q761735",
                     "Q639920",
-                    "Q4891425",
-                    "Q3224754",
                     "Q12949724",
-                    "Q2528268",
+                    "Q4891425",
                     "Q142691",
-                    "Q761735"
+                    "Q2528268",
+                    "Q3224754"
                 ],
                 "candidate_titles":[
+                    "Montblanc, Tarragona",
                     "Montblanc, H\u00e9rault",
-                    "Guillem Seguer",
-                    "French ship Mont-Blanc (1791)",
                     "Montblanc",
-                    "Mont-Blanc (department)",
+                    "Guillem Seguer",
                     "Montblanc (company)",
-                    "Montblanc, Tarragona"
+                    "Mont-Blanc (department)",
+                    "French ship Mont-Blanc (1791)"
                 ],
                 "candidate_descriptions":[
+                    "town in the province of Tarragona, Catalonia",
                     "commune in H\u00e9rault, France",
-                    "Spanish artist",
-                    "74-gun ship of the line of the French Navy launched in 1791",
                     "Wikimedia disambiguation page",
-                    "former French department (1792-1814)",
+                    "Spanish artist",
                     "German company",
-                    "town in the province of Tarragona, Catalonia"
+                    "former French department (1792-1814)",
+                    "74-gun ship of the line of the French Navy launched in 1791"
                 ],
                 "span_l":58,
                 "span_r":59,
-                "sent_idx":62,
+                "sent_idx":82,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"62_3",
+                "guid_idx":"82_202",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -32775,23 +36116,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":87,
                 "span_r":88,
-                "sent_idx":63,
+                "sent_idx":83,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"63_4",
+                "guid_idx":"83_203",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -32856,37 +36197,37 @@ const ned_info_gld = [
                 "pop_qid":"Q15787",
                 "candidates":[
                     "Q5627948",
-                    "Q15787",
-                    "Q5750270",
-                    "Q20573587",
-                    "Q382776",
                     "Q12199",
+                    "Q15787",
+                    "Q382776",
+                    "Q20573587",
+                    "Q5750270",
                     "Q28451598"
                 ],
                 "candidate_titles":[
                     "H.IV+ (Hoarse Industrial Viremia)",
-                    "HIV",
-                    "Hedley Hi-V (New York City Subway car)",
-                    ".hiv",
-                    "Horten H.IV",
                     "HIV\/AIDS",
+                    "HIV",
+                    "Horten H.IV",
+                    ".hiv",
+                    "Hedley Hi-V (New York City Subway car)",
                     "H.I.V (album)"
                 ],
                 "candidate_descriptions":[
                     "album by Havoc Unit",
-                    "human retrovirus, cause of AIDS",
-                    "",
-                    "top level domain",
-                    "glider",
                     "human disease resulting from HIV II",
+                    "human retrovirus, cause of AIDS",
+                    "glider",
+                    "top level domain",
+                    "",
                     "album"
                 ],
                 "span_l":96,
                 "span_r":97,
-                "sent_idx":63,
+                "sent_idx":83,
                 "sent_alias_idx":1,
                 "alias_idx":5,
-                "guid_idx":"63_5",
+                "guid_idx":"83_204",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -32966,10 +36307,10 @@ const ned_info_gld = [
                 ],
                 "span_l":98,
                 "span_r":99,
-                "sent_idx":63,
+                "sent_idx":83,
                 "sent_alias_idx":2,
                 "alias_idx":6,
-                "guid_idx":"63_6",
+                "guid_idx":"83_205",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -33033,44 +36374,44 @@ const ned_info_gld = [
                 "alias":"south africa",
                 "pop_qid":"Q258",
                 "candidates":[
-                    "Q215112",
                     "Q170327",
-                    "Q498478",
-                    "Q1423651",
                     "Q27394",
-                    "Q258",
-                    "Q193619",
+                    "Q1423651",
                     "Q176883",
-                    "Q370736"
+                    "Q370736",
+                    "Q215112",
+                    "Q193619",
+                    "Q498478",
+                    "Q258"
                 ],
                 "candidate_titles":[
-                    "Second Boer War",
                     "South Africa national football team",
-                    "South Africa national rugby union team",
-                    "South Africa national cricket team",
                     "Southern Africa",
-                    "South Africa",
-                    "Union of South Africa",
+                    "South Africa national cricket team",
                     "2010 FIFA World Cup",
-                    "Cape Colony"
+                    "Cape Colony",
+                    "Second Boer War",
+                    "Union of South Africa",
+                    "South Africa national rugby union team",
+                    "South Africa"
                 ],
                 "candidate_descriptions":[
-                    "war between two Boer Republics (South African Republic and Orange Free State) and the United Kingdom",
                     "South African men's national association football team",
-                    "national sports team",
-                    "South African cricket team",
                     "southernmost region of the African continent",
-                    "sovereign state in Southern Africa",
-                    "state in southern Africa from 1910 to 1961, predecessor to the Republic of South Africa",
+                    "South African cricket team",
                     "19th FIFA World Cup, held in South Africa in 2010",
-                    "Dutch and British colony in Southern Africa"
+                    "Dutch and British colony in Southern Africa",
+                    "war between two Boer Republics (South African Republic and Orange Free State) and the United Kingdom",
+                    "state in southern Africa from 1910 to 1961, predecessor to the Republic of South Africa",
+                    "national sports team",
+                    "sovereign state in Southern Africa"
                 ],
                 "span_l":101,
                 "span_r":103,
-                "sent_idx":63,
+                "sent_idx":83,
                 "sent_alias_idx":3,
                 "alias_idx":7,
-                "guid_idx":"63_7",
+                "guid_idx":"83_206",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -33134,145 +36475,145 @@ const ned_info_gld = [
                 "alias":"merck",
                 "pop_qid":"Q247489",
                 "candidates":[
-                    "Q214774",
-                    "Q70318",
                     "Q1508452",
-                    "Q1251600",
-                    "Q11882084",
-                    "Q156959",
-                    "Q1038779",
-                    "Q99910",
-                    "Q2779401"
-                ],
-                "candidate_titles":[
-                    "Ernst Merck",
-                    "Johann Heinrich Merck",
-                    "George W. Merck",
-                    "Friedrich Jacob Merck",
-                    "Merck Mercuriadis",
-                    "Merck Group",
-                    "Carl Merck",
-                    "Heinrich Emanuel Merck",
-                    "Merck Serono"
-                ],
-                "candidate_descriptions":[
-                    "German politician (1811-1863)",
-                    "German writer",
-                    "American chemist",
-                    "German pharmacist",
-                    "Canadian-American music industry executive and entrepreneur",
-                    "German chemical, pharmaceutical and life sciences company",
-                    "German politician (1809-1880)",
-                    "German pharmacist",
-                    "pharmaceutical company headquartered in Darmstadt, Germany, and a brand and division of Merck focused on biopharmaceuticals"
-                ],
-                "span_l":104,
-                "span_r":105,
-                "sent_idx":64,
-                "sent_alias_idx":0,
-                "alias_idx":8,
-                "guid_idx":"64_8",
-                "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
-                "all_aliases":[
-                    "unicef",
-                    "convention on the rights of the child",
-                    "unicef",
-                    "montblanc",
-                    "unicef",
-                    "hiv",
-                    "tuberculosis",
-                    "south africa",
-                    "merck",
-                    "merck"
-                ],
-                "all_spans":[
-                    [
-                        13,
-                        14
-                    ],
-                    [
-                        15,
-                        22
-                    ],
-                    [
-                        34,
-                        35
-                    ],
-                    [
-                        58,
-                        59
-                    ],
-                    [
-                        87,
-                        88
-                    ],
-                    [
-                        96,
-                        97
-                    ],
-                    [
-                        98,
-                        99
-                    ],
-                    [
-                        101,
-                        103
-                    ],
-                    [
-                        104,
-                        105
-                    ],
-                    [
-                        108,
-                        109
-                    ]
-                ]
-            },
-            {
-                "doc_qid":"Q740308",
-                "doc_title":"UNICEF",
-                "doc_sent_idx":76,
-                "alias":"merck",
-                "pop_qid":"Q247489",
-                "candidates":[
                     "Q1251600",
                     "Q2779401",
-                    "Q99910",
                     "Q156959",
-                    "Q1508452",
+                    "Q214774",
                     "Q70318",
                     "Q11882084",
-                    "Q214774",
+                    "Q99910",
                     "Q1038779"
                 ],
                 "candidate_titles":[
+                    "George W. Merck",
                     "Friedrich Jacob Merck",
                     "Merck Serono",
-                    "Heinrich Emanuel Merck",
                     "Merck Group",
-                    "George W. Merck",
+                    "Ernst Merck",
                     "Johann Heinrich Merck",
                     "Merck Mercuriadis",
-                    "Ernst Merck",
+                    "Heinrich Emanuel Merck",
                     "Carl Merck"
                 ],
                 "candidate_descriptions":[
+                    "American chemist",
                     "German pharmacist",
                     "pharmaceutical company headquartered in Darmstadt, Germany, and a brand and division of Merck focused on biopharmaceuticals",
-                    "German pharmacist",
                     "German chemical, pharmaceutical and life sciences company",
-                    "American chemist",
+                    "German politician (1811-1863)",
                     "German writer",
                     "Canadian-American music industry executive and entrepreneur",
-                    "German politician (1811-1863)",
+                    "German pharmacist",
                     "German politician (1809-1880)"
+                ],
+                "span_l":104,
+                "span_r":105,
+                "sent_idx":84,
+                "sent_alias_idx":0,
+                "alias_idx":8,
+                "guid_idx":"84_207",
+                "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
+                "all_aliases":[
+                    "unicef",
+                    "convention on the rights of the child",
+                    "unicef",
+                    "montblanc",
+                    "unicef",
+                    "hiv",
+                    "tuberculosis",
+                    "south africa",
+                    "merck",
+                    "merck"
+                ],
+                "all_spans":[
+                    [
+                        13,
+                        14
+                    ],
+                    [
+                        15,
+                        22
+                    ],
+                    [
+                        34,
+                        35
+                    ],
+                    [
+                        58,
+                        59
+                    ],
+                    [
+                        87,
+                        88
+                    ],
+                    [
+                        96,
+                        97
+                    ],
+                    [
+                        98,
+                        99
+                    ],
+                    [
+                        101,
+                        103
+                    ],
+                    [
+                        104,
+                        105
+                    ],
+                    [
+                        108,
+                        109
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q740308",
+                "doc_title":"UNICEF",
+                "doc_sent_idx":76,
+                "alias":"merck",
+                "pop_qid":"Q247489",
+                "candidates":[
+                    "Q1508452",
+                    "Q1251600",
+                    "Q99910",
+                    "Q11882084",
+                    "Q70318",
+                    "Q214774",
+                    "Q156959",
+                    "Q1038779",
+                    "Q2779401"
+                ],
+                "candidate_titles":[
+                    "George W. Merck",
+                    "Friedrich Jacob Merck",
+                    "Heinrich Emanuel Merck",
+                    "Merck Mercuriadis",
+                    "Johann Heinrich Merck",
+                    "Ernst Merck",
+                    "Merck Group",
+                    "Carl Merck",
+                    "Merck Serono"
+                ],
+                "candidate_descriptions":[
+                    "American chemist",
+                    "German pharmacist",
+                    "German pharmacist",
+                    "Canadian-American music industry executive and entrepreneur",
+                    "German writer",
+                    "German politician (1811-1863)",
+                    "German chemical, pharmaceutical and life sciences company",
+                    "German politician (1809-1880)",
+                    "pharmaceutical company headquartered in Darmstadt, Germany, and a brand and division of Merck focused on biopharmaceuticals"
                 ],
                 "span_l":108,
                 "span_r":109,
-                "sent_idx":64,
+                "sent_idx":84,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"64_9",
+                "guid_idx":"84_208",
                 "sentence":"Cartoons for Children 's Rights is the collection of animated shorts based on UNICEF 's Convention on the Rights of the Child . To raise money to support its Education and Literacy Programs , UNICEF collaborates with companies worldwide \u2013 international as well as small- and medium-sized businesses . Since 2004 , the organization has been supported by Montblanc , working collaboratively to help the world 's children getting better access to education . According to `` Vaccine News Daily '' , Merck & Co partnered with UNICEF in June 2013 to decrease maternal mortality , HIV and tuberculosis prevalence in South Africa . Merck 's program `` Merck for Mothers '' will give US $ 500 million worldwide for programs that improve health for expectant mothers and their children .",
                 "all_aliases":[
                     "unicef",
@@ -33346,10 +36687,10 @@ const ned_info_gld = [
                 ],
                 "span_l":4,
                 "span_r":6,
-                "sent_idx":65,
+                "sent_idx":85,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"65_0",
+                "guid_idx":"85_209",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33426,10 +36767,10 @@ const ned_info_gld = [
                 ],
                 "span_l":15,
                 "span_r":16,
-                "sent_idx":65,
+                "sent_idx":85,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"65_1",
+                "guid_idx":"85_210",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33493,23 +36834,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":28,
                 "span_r":29,
-                "sent_idx":66,
+                "sent_idx":86,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"66_2",
+                "guid_idx":"86_211",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33586,10 +36927,10 @@ const ned_info_gld = [
                 ],
                 "span_l":73,
                 "span_r":74,
-                "sent_idx":67,
+                "sent_idx":87,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"67_3",
+                "guid_idx":"87_212",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33653,35 +36994,35 @@ const ned_info_gld = [
                 "alias":"save the children",
                 "pop_qid":"Q215934",
                 "candidates":[
-                    "Q215934",
-                    "Q7428096",
+                    "Q7428098",
                     "Q7428099",
-                    "Q19363808",
+                    "Q215934",
                     "Q25203373",
-                    "Q7428098"
+                    "Q19363808",
+                    "Q7428096"
                 ],
                 "candidate_titles":[
-                    "Save the Children",
-                    "Save the Children International",
+                    "Save the Children (song)",
                     "Save the Children USA",
-                    "Save the Children (film)",
+                    "Save the Children",
                     "Save the Children (album)",
-                    "Save the Children (song)"
+                    "Save the Children (film)",
+                    "Save the Children International"
                 ],
                 "candidate_descriptions":[
-                    "London-based international non-profit organisation",
-                    "Non-profit organization",
+                    "song",
                     "organization",
-                    "1973 film by Stan Lathan",
+                    "London-based international non-profit organisation",
                     "album by Bobby Womack",
-                    "song"
+                    "1973 film by Stan Lathan",
+                    "Non-profit organization"
                 ],
                 "span_l":76,
                 "span_r":79,
-                "sent_idx":67,
+                "sent_idx":87,
                 "sent_alias_idx":1,
                 "alias_idx":4,
-                "guid_idx":"67_4",
+                "guid_idx":"87_213",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33755,10 +37096,10 @@ const ned_info_gld = [
                 ],
                 "span_l":81,
                 "span_r":85,
-                "sent_idx":67,
+                "sent_idx":87,
                 "sent_alias_idx":2,
                 "alias_idx":5,
-                "guid_idx":"67_5",
+                "guid_idx":"87_214",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33835,10 +37176,10 @@ const ned_info_gld = [
                 ],
                 "span_l":101,
                 "span_r":102,
-                "sent_idx":67,
+                "sent_idx":87,
                 "sent_alias_idx":3,
                 "alias_idx":6,
-                "guid_idx":"67_6",
+                "guid_idx":"87_215",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33915,10 +37256,10 @@ const ned_info_gld = [
                 ],
                 "span_l":107,
                 "span_r":108,
-                "sent_idx":68,
+                "sent_idx":88,
                 "sent_alias_idx":0,
                 "alias_idx":7,
-                "guid_idx":"68_7",
+                "guid_idx":"88_216",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -33982,26 +37323,26 @@ const ned_info_gld = [
                 "alias":"child labor",
                 "pop_qid":"Q192571",
                 "candidates":[
-                    "Q5097851",
+                    "Q192571",
                     "Q946725",
-                    "Q192571"
+                    "Q5097851"
                 ],
                 "candidate_titles":[
-                    "Child labor laws in the United States",
+                    "Child labour",
                     "Cotton mill",
-                    "Child labour"
+                    "Child labor laws in the United States"
                 ],
                 "candidate_descriptions":[
-                    "overview about the child labor laws in the United States",
+                    "exploitation of children through any form of work",
                     "factory housing powered spinning or weaving machinery for the production of yarn or cloth from cotton",
-                    "exploitation of children through any form of work"
+                    "overview about the child labor laws in the United States"
                 ],
                 "span_l":134,
                 "span_r":136,
-                "sent_idx":68,
+                "sent_idx":88,
                 "sent_alias_idx":1,
                 "alias_idx":8,
-                "guid_idx":"68_8",
+                "guid_idx":"88_217",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -34065,44 +37406,44 @@ const ned_info_gld = [
                 "alias":"india",
                 "pop_qid":"Q668",
                 "candidates":[
-                    "Q1445",
                     "Q328799",
-                    "Q668",
                     "Q2767140",
-                    "Q2385925",
-                    "Q93196",
+                    "Q1445",
                     "Q129286",
+                    "Q33296",
+                    "Q2385925",
                     "Q9439",
-                    "Q33296"
+                    "Q668",
+                    "Q93196"
                 ],
                 "candidate_titles":[
-                    "Tamil Nadu",
                     "Cinema of India",
-                    "India",
                     "Government of India",
-                    "Presidencies and provinces of British India",
-                    "Bollywood",
+                    "Tamil Nadu",
                     "British Raj",
+                    "Mughal Empire",
+                    "Presidencies and provinces of British India",
                     "Queen Victoria",
-                    "Mughal Empire"
+                    "India",
+                    "Bollywood"
                 ],
                 "candidate_descriptions":[
-                    "Indian state",
                     "filmmaking industry in India",
-                    "sovereign state in South Asia",
                     "national union government of India",
-                    "administrative divisions of British governance in India",
-                    "Hindi language film industry",
+                    "Indian state",
                     "British rule in the Indian subcontinent, 1858\u20131947",
+                    "dynastic empire once extending over large parts of the Indian subcontinent",
+                    "administrative divisions of British governance in India",
                     "British monarch who reigned 1837\u20131901",
-                    "dynastic empire once extending over large parts of the Indian subcontinent"
+                    "sovereign state in South Asia",
+                    "Hindi language film industry"
                 ],
                 "span_l":174,
                 "span_r":175,
-                "sent_idx":69,
+                "sent_idx":89,
                 "sent_alias_idx":0,
                 "alias_idx":9,
-                "guid_idx":"69_9",
+                "guid_idx":"89_218",
                 "sentence":"In May 2010 , Crucell NV announced an additional US $ 110 million award from UNICEF to supply its pentavalent pediatric vaccine Quinvaxem to the developing world . UNICEF works directly with companies to improve their business practices , bringing them in line with obligations under international law , and ensuring that they respect children 's rights in the realms of the marketplace , workplace , and the community . In 2012 , UNICEF worked with Save the Children and The United Nations Global Compact to develop the Children 's Rights and Business Principles and now these guidelines form the basis UNICEF 's advice to companies . UNICEF works with companies seeking to improve their social sustainability by guiding them through a due diligence process where issues throughout their supply chain , such as child labor , can be identified and actions to ratify them are put in place . The Girl Star project is a series of films which documents stories of girls from the most disadvantaged communities across five northern states in India who , through via education , have managed to break socio-economic constraints to make a success of their lives and become self-sufficient .",
                 "all_aliases":[
                     "crucell nv",
@@ -34166,44 +37507,44 @@ const ned_info_gld = [
                 "alias":"nursing",
                 "pop_qid":"Q121176",
                 "candidates":[
-                    "Q174876",
                     "Q16959526",
-                    "Q719426",
+                    "Q174876",
                     "Q446901",
-                    "Q16198392",
-                    "Q6785254",
                     "Q7896141",
+                    "Q719426",
                     "Q121176",
-                    "Q4838827"
+                    "Q16198392",
+                    "Q4838827",
+                    "Q6785254"
                 ],
                 "candidate_titles":[
-                    "Breastfeeding",
                     "University of Saskatchewan academics",
-                    "Lactation",
+                    "Breastfeeding",
                     "Nursing school",
-                    "Colleges and Schools of North Carolina Agricultural and Technical State University",
-                    "Master of Science in Nursing",
                     "University of Pittsburgh School of Nursing",
+                    "Lactation",
                     "Nursing",
-                    "Bachelor of Science in Nursing"
+                    "Colleges and Schools of North Carolina Agricultural and Technical State University",
+                    "Bachelor of Science in Nursing",
+                    "Master of Science in Nursing"
                 ],
                 "candidate_descriptions":[
+                    "",
                     "feeding of babies and young children with milk from a woman's breast",
                     "",
+                    "",
                     "the regulated release of milk from the mammary glands and the period of time that a mother lactates to feed her young",
-                    "",
-                    "",
-                    "",
-                    "",
                     "activity within the health care sector",
-                    "undergraduate degree in nursing"
+                    "",
+                    "undergraduate degree in nursing",
+                    ""
                 ],
                 "span_l":12,
                 "span_r":13,
-                "sent_idx":70,
+                "sent_idx":90,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"70_0",
+                "guid_idx":"90_219",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34267,44 +37608,44 @@ const ned_info_gld = [
                 "alias":"archery",
                 "pop_qid":"Q108429",
                 "candidates":[
-                    "Q477981",
-                    "Q385007",
-                    "Q654150",
+                    "Q575675",
                     "Q108429",
-                    "Q575661",
                     "Q2393462",
+                    "Q654150",
                     "Q702716",
+                    "Q477981",
                     "Q273125",
-                    "Q575675"
+                    "Q385007",
+                    "Q575661"
                 ],
                 "candidate_titles":[
-                    "Archery at the 1920 Summer Olympics",
-                    "Archery at the 1904 Summer Olympics",
-                    "Archery at the Summer Olympics",
+                    "Archery at the 2004 Summer Olympics",
                     "Archery",
-                    "Archery at the 2000 Summer Olympics",
                     "Target archery",
+                    "Archery at the Summer Olympics",
                     "Archery at the 1972 Summer Olympics",
+                    "Archery at the 1920 Summer Olympics",
                     "Ky\u016bd\u014d",
-                    "Archery at the 2004 Summer Olympics"
+                    "Archery at the 1904 Summer Olympics",
+                    "Archery at the 2000 Summer Olympics"
                 ],
                 "candidate_descriptions":[
-                    "Archery at the Oympics",
-                    "Archery at the Olympics",
                     "",
                     "art, sport, practice or skill of using a bow to shoot arrows",
-                    "Archery at the Olympics",
                     "modern competitive sport",
                     "",
+                    "",
+                    "Archery at the Oympics",
                     "art of Japanese archery",
-                    ""
+                    "Archery at the Olympics",
+                    "Archery at the Olympics"
                 ],
                 "span_l":19,
                 "span_r":20,
-                "sent_idx":70,
+                "sent_idx":90,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"70_1",
+                "guid_idx":"90_220",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34368,23 +37709,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":41,
                 "span_r":42,
-                "sent_idx":71,
+                "sent_idx":91,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"71_2",
+                "guid_idx":"91_221",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34458,10 +37799,10 @@ const ned_info_gld = [
                 ],
                 "span_l":47,
                 "span_r":49,
-                "sent_idx":72,
+                "sent_idx":92,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"72_3",
+                "guid_idx":"92_222",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34525,44 +37866,44 @@ const ned_info_gld = [
                 "alias":"french",
                 "pop_qid":"Q121842",
                 "candidates":[
-                    "Q3769",
-                    "Q6534",
-                    "Q517",
-                    "Q121842",
-                    "Q13394",
                     "Q142",
+                    "Q13394",
+                    "Q121842",
+                    "Q217406",
+                    "Q3769",
                     "Q78994",
+                    "Q6534",
                     "Q150",
-                    "Q217406"
+                    "Q517"
                 ],
                 "candidate_titles":[
-                    "French Guiana",
-                    "French Revolution",
-                    "Napoleon",
-                    "French people",
-                    "Ligue 1",
                     "France",
+                    "Ligue 1",
+                    "French people",
+                    "French Navy",
+                    "French Guiana",
                     "Napoleonic Wars",
+                    "French Revolution",
                     "French language",
-                    "French Navy"
+                    "Napoleon"
                 ],
                 "candidate_descriptions":[
-                    "overseas French department in the Guianas region",
-                    "social and political revolution in France and its colonies occurring from 1789 to 1799",
-                    "French general and emperor (1769-1821)",
-                    "people from France",
-                    "French professional league for association football clubs",
                     "sovereign state with mainland in Europe and several overseas territories",
+                    "French professional league for association football clubs",
+                    "people from France",
+                    "maritime arm of the French military",
+                    "overseas French department in the Guianas region",
                     "series of wars between Napoleon's French Empire and the 2nd to the 7th coalition of European powers",
+                    "social and political revolution in France and its colonies occurring from 1789 to 1799",
                     "Romance language of the Indo-European family",
-                    "maritime arm of the French military"
+                    "French general and emperor (1769-1821)"
                 ],
                 "span_l":51,
                 "span_r":52,
-                "sent_idx":72,
+                "sent_idx":92,
                 "sent_alias_idx":1,
                 "alias_idx":4,
-                "guid_idx":"72_4",
+                "guid_idx":"92_223",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34639,10 +37980,10 @@ const ned_info_gld = [
                 ],
                 "span_l":78,
                 "span_r":79,
-                "sent_idx":73,
+                "sent_idx":93,
                 "sent_alias_idx":0,
                 "alias_idx":5,
-                "guid_idx":"73_5",
+                "guid_idx":"93_224",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34716,10 +38057,10 @@ const ned_info_gld = [
                 ],
                 "span_l":84,
                 "span_r":86,
-                "sent_idx":73,
+                "sent_idx":93,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"73_6",
+                "guid_idx":"93_225",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34783,44 +38124,44 @@ const ned_info_gld = [
                 "alias":"corneille",
                 "pop_qid":"Q324327",
                 "candidates":[
+                    "Q469335",
+                    "Q518767",
+                    "Q318943",
                     "Q551787",
                     "Q474934",
-                    "Q318943",
-                    "Q747",
-                    "Q469335",
                     "Q324327",
-                    "Q518767",
-                    "Q592396",
-                    "Q167220"
+                    "Q747",
+                    "Q167220",
+                    "Q592396"
                 ],
                 "candidate_titles":[
+                    "Corneille Guillaume Beverloo",
+                    "Cornelis Bloemaert",
+                    "Cornelius Jansen",
                     "Thomas Corneille",
                     "Cornelis de Vos",
-                    "Cornelius Jansen",
-                    "Pierre Corneille",
-                    "Corneille Guillaume Beverloo",
                     "Corneille (singer)",
-                    "Cornelis Bloemaert",
-                    "Cornelis Schut",
-                    "Cornelis Cort"
+                    "Pierre Corneille",
+                    "Cornelis Cort",
+                    "Cornelis Schut"
                 ],
                 "candidate_descriptions":[
+                    "Dutch artist of the COBRA movement better known as Corneille (1922-2010)",
+                    "Dutch painter (1603-1692)",
+                    "Bishop and theologian",
                     "French dramatist",
                     "Flemish painter",
-                    "Bishop and theologian",
-                    "French tragedian",
-                    "Dutch artist of the COBRA movement better known as Corneille (1922-2010)",
                     "Canadian singer of Rwandan origin",
-                    "Dutch painter (1603-1692)",
-                    "Flemish painter (1597-1655)",
-                    "Dutch artist"
+                    "French tragedian",
+                    "Dutch artist",
+                    "Flemish painter (1597-1655)"
                 ],
                 "span_l":87,
                 "span_r":88,
-                "sent_idx":73,
+                "sent_idx":93,
                 "sent_alias_idx":2,
                 "alias_idx":7,
-                "guid_idx":"73_7",
+                "guid_idx":"93_226",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34884,44 +38225,44 @@ const ned_info_gld = [
                 "alias":"francophone",
                 "pop_qid":"Q150",
                 "candidates":[
+                    "Q1003588",
                     "Q150",
-                    "Q5501667",
-                    "Q231",
-                    "Q134102",
                     "Q214086",
-                    "Q89959",
-                    "Q955944",
+                    "Q134102",
+                    "Q231",
                     "Q857880",
-                    "Q1003588"
+                    "Q955944",
+                    "Q89959",
+                    "Q5501667"
                 ],
                 "candidate_titles":[
+                    "Francophonie",
                     "French language",
-                    "French-speaking Quebecer",
-                    "Wallonia",
-                    "Organisation internationale de la Francophonie",
                     "Romandy",
-                    "French Community of Belgium",
-                    "Franco-Ontarian",
+                    "Organisation internationale de la Francophonie",
+                    "Wallonia",
                     "French Canadians",
-                    "Francophonie"
+                    "Franco-Ontarian",
+                    "French Community of Belgium",
+                    "French-speaking Quebecer"
                 ],
                 "candidate_descriptions":[
+                    "French language room",
                     "Romance language of the Indo-European family",
-                    "Someone whose ancestors were the first to explore north-America",
-                    "federal region of Belgium",
-                    "intergovernmental organization",
                     "French-speaking part of Switzerland",
-                    "one of the three official communities in Belgium",
-                    "ethnic group",
+                    "intergovernmental organization",
+                    "federal region of Belgium",
                     "North American ethnic group",
-                    "French language room"
+                    "ethnic group",
+                    "one of the three official communities in Belgium",
+                    "Someone whose ancestors were the first to explore north-America"
                 ],
                 "span_l":90,
                 "span_r":91,
-                "sent_idx":73,
+                "sent_idx":93,
                 "sent_alias_idx":3,
                 "alias_idx":8,
-                "guid_idx":"73_8",
+                "guid_idx":"93_227",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -34985,44 +38326,44 @@ const ned_info_gld = [
                 "alias":"france",
                 "pop_qid":"Q142",
                 "candidates":[
-                    "Q78994",
                     "Q7742",
-                    "Q152989",
+                    "Q142",
                     "Q6534",
-                    "Q13394",
+                    "Q78994",
                     "Q121842",
-                    "Q46083",
                     "Q217406",
-                    "Q142"
+                    "Q46083",
+                    "Q152989",
+                    "Q13394"
                 ],
                 "candidate_titles":[
-                    "Napoleonic Wars",
                     "Louis XIV of France",
-                    "Western Front (World War I)",
+                    "France",
                     "French Revolution",
-                    "Ligue 1",
+                    "Napoleonic Wars",
                     "French people",
-                    "Franco-Prussian War",
                     "French Navy",
-                    "France"
+                    "Franco-Prussian War",
+                    "Western Front (World War I)",
+                    "Ligue 1"
                 ],
                 "candidate_descriptions":[
-                    "series of wars between Napoleon's French Empire and the 2nd to the 7th coalition of European powers",
                     "King of France and Navarra, from 1643 to 1715",
-                    "main theatre of war during the First World War",
+                    "sovereign state with mainland in Europe and several overseas territories",
                     "social and political revolution in France and its colonies occurring from 1789 to 1799",
-                    "French professional league for association football clubs",
+                    "series of wars between Napoleon's French Empire and the 2nd to the 7th coalition of European powers",
                     "people from France",
-                    "1870-1871 military conflict of the Second French Empire versus Prussia and its allies",
                     "maritime arm of the French military",
-                    "sovereign state with mainland in Europe and several overseas territories"
+                    "1870-1871 military conflict of the Second French Empire versus Prussia and its allies",
+                    "main theatre of war during the First World War",
+                    "French professional league for association football clubs"
                 ],
                 "span_l":119,
                 "span_r":120,
-                "sent_idx":74,
+                "sent_idx":94,
                 "sent_alias_idx":0,
                 "alias_idx":9,
-                "guid_idx":"74_9",
+                "guid_idx":"94_228",
                 "sentence":"They have selected professions from the most conventional such as teaching and nursing , to the most unconventional like archery , bee-keeping , , often entering what has traditionally been a man 's domain . Girl Star is also one of UNICEF 's most known projects . Kids United is a French musical group of four children ( six children when the group was formed ) born between 2000 and 2007 . It has been created to support UNICEF campaigns and is sponsored by H\u00e9l\u00e8ne S\u00e9gara and Corneille , two Francophone singers . The first album Un monde meilleur ( A better world ) was launched on Universal Children 's Day in 2015 , it received gold certification in France .",
                 "all_aliases":[
                     "nursing",
@@ -35096,10 +38437,10 @@ const ned_info_gld = [
                 ],
                 "span_l":0,
                 "span_r":1,
-                "sent_idx":75,
+                "sent_idx":95,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"75_0",
+                "guid_idx":"95_229",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35158,44 +38499,44 @@ const ned_info_gld = [
                 "alias":"sms",
                 "pop_qid":"Q43024",
                 "candidates":[
+                    "Q209868",
+                    "Q639955",
+                    "Q757297",
+                    "Q13271",
+                    "Q17166101",
+                    "Q7662207",
                     "Q43024",
                     "Q15059840",
-                    "Q2295338",
-                    "Q209868",
-                    "Q757297",
-                    "Q639955",
-                    "Q7662207",
-                    "Q13271",
-                    "Q17166101"
+                    "Q2295338"
                 ],
                 "candidate_titles":[
+                    "Master System",
+                    "Super Mario Sunshine",
+                    "Her Majesty's Ship",
+                    "Skolt Sami language",
+                    "Text messaging",
+                    "Synchronous Meteorological Satellite",
                     "SMS",
                     "SMS (Bangerz)",
-                    "Smith\u2013Magenis syndrome",
-                    "Master System",
-                    "Her Majesty's Ship",
-                    "Super Mario Sunshine",
-                    "Synchronous Meteorological Satellite",
-                    "Skolt Sami language",
-                    "Text messaging"
+                    "Smith\u2013Magenis syndrome"
                 ],
                 "candidate_descriptions":[
+                    "third-generation home video game console developed by Sega",
+                    "2002 platform video game developed by Nintendo",
+                    "ship prefix used in the United Kingdom and some other monarchies",
+                    "Uralic, Sami language spoken by approximately 400 speakers in Finland",
+                    "act of typing and sending a brief, digital message",
+                    "weather satellite program of the United States",
                     "text messaging service component",
                     "song by Miley Cyrus and Britney Spears",
-                    "Human disease",
-                    "third-generation home video game console developed by Sega",
-                    "ship prefix used in the United Kingdom and some other monarchies",
-                    "2002 platform video game developed by Nintendo",
-                    "weather satellite program of the United States",
-                    "Uralic, Sami language spoken by approximately 400 speakers in Finland",
-                    "act of typing and sending a brief, digital message"
+                    "Human disease"
                 ],
                 "span_l":4,
                 "span_r":5,
-                "sent_idx":75,
+                "sent_idx":95,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"75_1",
+                "guid_idx":"95_230",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35255,43 +38596,43 @@ const ned_info_gld = [
                 "pop_qid":"Q43024",
                 "candidates":[
                     "Q13271",
-                    "Q639955",
-                    "Q43024",
-                    "Q757297",
-                    "Q17166101",
                     "Q7662207",
+                    "Q17166101",
+                    "Q757297",
                     "Q2295338",
                     "Q15059840",
-                    "Q209868"
+                    "Q639955",
+                    "Q209868",
+                    "Q43024"
                 ],
                 "candidate_titles":[
                     "Skolt Sami language",
-                    "Super Mario Sunshine",
-                    "SMS",
-                    "Her Majesty's Ship",
-                    "Text messaging",
                     "Synchronous Meteorological Satellite",
+                    "Text messaging",
+                    "Her Majesty's Ship",
                     "Smith\u2013Magenis syndrome",
                     "SMS (Bangerz)",
-                    "Master System"
+                    "Super Mario Sunshine",
+                    "Master System",
+                    "SMS"
                 ],
                 "candidate_descriptions":[
                     "Uralic, Sami language spoken by approximately 400 speakers in Finland",
-                    "2002 platform video game developed by Nintendo",
-                    "text messaging service component",
-                    "ship prefix used in the United Kingdom and some other monarchies",
-                    "act of typing and sending a brief, digital message",
                     "weather satellite program of the United States",
+                    "act of typing and sending a brief, digital message",
+                    "ship prefix used in the United Kingdom and some other monarchies",
                     "Human disease",
                     "song by Miley Cyrus and Britney Spears",
-                    "third-generation home video game console developed by Sega"
+                    "2002 platform video game developed by Nintendo",
+                    "third-generation home video game console developed by Sega",
+                    "text messaging service component"
                 ],
                 "span_l":29,
                 "span_r":30,
-                "sent_idx":76,
+                "sent_idx":96,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"76_2",
+                "guid_idx":"96_231",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35360,10 +38701,10 @@ const ned_info_gld = [
                 ],
                 "span_l":51,
                 "span_r":56,
-                "sent_idx":77,
+                "sent_idx":97,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"77_3",
+                "guid_idx":"97_232",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35422,44 +38763,44 @@ const ned_info_gld = [
                 "alias":"england",
                 "pop_qid":"Q21",
                 "candidates":[
-                    "Q82708",
-                    "Q145",
-                    "Q38370",
                     "Q23666",
                     "Q8680",
-                    "Q9448",
+                    "Q38370",
                     "Q42406",
                     "Q47762",
-                    "Q21"
+                    "Q145",
+                    "Q21",
+                    "Q82708",
+                    "Q9448"
                 ],
                 "candidate_titles":[
-                    "Church of England",
-                    "United Kingdom",
-                    "Henry VIII of England",
                     "Great Britain",
                     "British Empire",
-                    "Premier League",
+                    "Henry VIII of England",
                     "English people",
                     "England national football team",
-                    "England"
+                    "United Kingdom",
+                    "England",
+                    "Church of England",
+                    "Premier League"
                 ],
                 "candidate_descriptions":[
-                    "Christian church in England and the Mother Church of the worldwide Anglican Communion",
-                    "sovereign state in western Europe",
-                    "King of England from 1509 until 1547",
                     "island in the North Atlantic off the north-west coast of continental Europe",
                     "dominions of the United Kingdom",
-                    "association football league",
+                    "King of England from 1509 until 1547",
                     "nation and ethnic group native to England",
                     "men's association football team representing England",
-                    "country in north-west Europe, part of the United Kingdom"
+                    "sovereign state in western Europe",
+                    "country in north-west Europe, part of the United Kingdom",
+                    "Christian church in England and the Mother Church of the worldwide Anglican Communion",
+                    "association football league"
                 ],
                 "span_l":57,
                 "span_r":58,
-                "sent_idx":77,
+                "sent_idx":97,
                 "sent_alias_idx":1,
                 "alias_idx":4,
-                "guid_idx":"77_4",
+                "guid_idx":"97_233",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35518,23 +38859,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":61,
                 "span_r":62,
-                "sent_idx":77,
+                "sent_idx":97,
                 "sent_alias_idx":2,
                 "alias_idx":5,
-                "guid_idx":"77_5",
+                "guid_idx":"97_234",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35603,10 +38944,10 @@ const ned_info_gld = [
                 ],
                 "span_l":74,
                 "span_r":78,
-                "sent_idx":78,
+                "sent_idx":98,
                 "sent_alias_idx":0,
                 "alias_idx":6,
-                "guid_idx":"78_6",
+                "guid_idx":"98_235",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35665,20 +39006,20 @@ const ned_info_gld = [
                 "alias":"rugby league world cup",
                 "pop_qid":"Q1639293",
                 "candidates":[
-                    "Q592039",
+                    "Q3000722",
                     "Q3000715",
                     "Q1639293",
-                    "Q3000719",
-                    "Q3000722",
-                    "Q3000717"
+                    "Q3000717",
+                    "Q592039",
+                    "Q3000719"
                 ],
                 "candidate_titles":[
-                    "1975 Rugby League World Cup",
+                    "2008 Rugby League World Cup",
                     "1995 Rugby League World Cup",
                     "Rugby League World Cup",
-                    "2013 Rugby League World Cup",
-                    "2008 Rugby League World Cup",
-                    "2000 Rugby League World Cup"
+                    "2000 Rugby League World Cup",
+                    "1975 Rugby League World Cup",
+                    "2013 Rugby League World Cup"
                 ],
                 "candidate_descriptions":[
                     "",
@@ -35690,10 +39031,10 @@ const ned_info_gld = [
                 ],
                 "span_l":86,
                 "span_r":90,
-                "sent_idx":78,
+                "sent_idx":98,
                 "sent_alias_idx":1,
                 "alias_idx":7,
-                "guid_idx":"78_7",
+                "guid_idx":"98_236",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35752,23 +39093,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":113,
                 "span_r":114,
-                "sent_idx":79,
+                "sent_idx":99,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"79_8",
+                "guid_idx":"99_237",
                 "sentence":"U-Report is a free SMS social monitoring tool and real-time information system for community participation , designed to strengthen community-led development , citizen engagement , and positive change . SMS polls and alerts are sent out to U-reporters and real-time response information is collected . On the 19th June 2019 the 2021 Rugby League World Cup ( England ) announced that Unicef would become the official tournament charity . The announcement was made at Mansion House , London as part of a launch event for the Rugby League World Cup legacy program called 'Inspired by RLWC2021 ' . The partnership aims to use the power of sport to raise awareness and funds for Unicef 's work protecting children in danger around the world .",
                 "all_aliases":[
                     "ureport",
@@ -35837,10 +39178,10 @@ const ned_info_gld = [
                 ],
                 "span_l":15,
                 "span_r":20,
-                "sent_idx":80,
+                "sent_idx":100,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"80_0",
+                "guid_idx":"100_238",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -35932,10 +39273,10 @@ const ned_info_gld = [
                 ],
                 "span_l":33,
                 "span_r":34,
-                "sent_idx":80,
+                "sent_idx":100,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"80_1",
+                "guid_idx":"100_239",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36027,10 +39368,10 @@ const ned_info_gld = [
                 ],
                 "span_l":45,
                 "span_r":46,
-                "sent_idx":81,
+                "sent_idx":101,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"81_2",
+                "guid_idx":"101_240",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36109,23 +39450,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":94,
                 "span_r":95,
-                "sent_idx":82,
+                "sent_idx":102,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"82_3",
+                "guid_idx":"102_241",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36204,23 +39545,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":98,
                 "span_r":99,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"83_4",
+                "guid_idx":"103_242",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36299,44 +39640,44 @@ const ned_info_gld = [
                 "alias":"denmark",
                 "pop_qid":"Q35",
                 "candidates":[
-                    "Q131785",
-                    "Q164714",
-                    "Q150939",
-                    "Q158248",
-                    "Q35",
                     "Q153586",
+                    "Q35",
+                    "Q204752",
+                    "Q158248",
+                    "Q131785",
                     "Q80976",
+                    "Q150939",
                     "Q152260",
-                    "Q204752"
+                    "Q164714"
                 ],
                 "candidate_titles":[
-                    "Denmark national football team",
-                    "Danes",
-                    "Operation Weser\u00fcbung",
-                    "Anne of Denmark",
-                    "Denmark",
                     "Christian IV of Denmark",
+                    "Denmark",
+                    "Danish Superliga",
+                    "Anne of Denmark",
+                    "Denmark national football team",
                     "Prince Philip, Duke of Edinburgh",
+                    "Operation Weser\u00fcbung",
                     "Alexandra of Denmark",
-                    "Danish Superliga"
+                    "Danes"
                 ],
                 "candidate_descriptions":[
-                    "men's national association football team representing Denmark",
-                    "North Germanic ethnic group native to Denmark",
-                    "code name for Germany's assault on Denmark and Norway during the Second World War",
-                    "Queen consort of James VI of Scots, I of England (1574-1619)",
-                    "sovereign state in northern Europe that is part of the Kingdom of Denmark",
                     "King of Denmark and Norway (1577-1648)",
+                    "sovereign state in northern Europe that is part of the Kingdom of Denmark",
+                    "sports league",
+                    "Queen consort of James VI of Scots, I of England (1574-1619)",
+                    "men's national association football team representing Denmark",
                     "member of the British Royal Family, consort of Queen Elizabeth II (born 1921)",
+                    "code name for Germany's assault on Denmark and Norway during the Second World War",
                     "queen-empress consort as wife of Edward VII",
-                    "sports league"
+                    "North Germanic ethnic group native to Denmark"
                 ],
                 "span_l":106,
                 "span_r":107,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":1,
                 "alias_idx":5,
-                "guid_idx":"83_5",
+                "guid_idx":"103_243",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36428,10 +39769,10 @@ const ned_info_gld = [
                 ],
                 "span_l":110,
                 "span_r":111,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":2,
                 "alias_idx":6,
-                "guid_idx":"83_6",
+                "guid_idx":"103_244",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36523,10 +39864,10 @@ const ned_info_gld = [
                 ],
                 "span_l":120,
                 "span_r":126,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":3,
                 "alias_idx":7,
-                "guid_idx":"83_7",
+                "guid_idx":"103_245",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36615,10 +39956,10 @@ const ned_info_gld = [
                 ],
                 "span_l":127,
                 "span_r":128,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":4,
                 "alias_idx":8,
-                "guid_idx":"83_8",
+                "guid_idx":"103_246",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36697,23 +40038,23 @@ const ned_info_gld = [
                 "alias":"international federation of red cross and red crescent societies",
                 "pop_qid":"Q1069175",
                 "candidates":[
-                    "Q7178",
-                    "Q1069175"
+                    "Q1069175",
+                    "Q7178"
                 ],
                 "candidate_titles":[
-                    "International Red Cross and Red Crescent Movement",
-                    "International Federation of Red Cross and Red Crescent Societies"
+                    "International Federation of Red Cross and Red Crescent Societies",
+                    "International Red Cross and Red Crescent Movement"
                 ],
                 "candidate_descriptions":[
-                    "The International Red Cross and Red Crescent Movement is an international humanitarian movement",
-                    "humanitarian organization"
+                    "humanitarian organization",
+                    "The International Red Cross and Red Crescent Movement is an international humanitarian movement"
                 ],
                 "span_l":131,
                 "span_r":140,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":5,
                 "alias_idx":9,
-                "guid_idx":"83_9",
+                "guid_idx":"103_247",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36792,23 +40133,23 @@ const ned_info_gld = [
                 "alias":"ifrc",
                 "pop_qid":"Q1069175",
                 "candidates":[
-                    "Q1069175",
-                    "Q18027631"
+                    "Q18027631",
+                    "Q1069175"
                 ],
                 "candidate_titles":[
-                    "International Federation of Red Cross and Red Crescent Societies",
-                    "IFNAR1"
+                    "IFNAR1",
+                    "International Federation of Red Cross and Red Crescent Societies"
                 ],
                 "candidate_descriptions":[
-                    "humanitarian organization",
-                    "protein-coding gene in the species Homo sapiens"
+                    "protein-coding gene in the species Homo sapiens",
+                    "humanitarian organization"
                 ],
                 "span_l":141,
                 "span_r":142,
-                "sent_idx":83,
+                "sent_idx":103,
                 "sent_alias_idx":6,
                 "alias_idx":10,
-                "guid_idx":"83_10",
+                "guid_idx":"103_248",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36897,10 +40238,10 @@ const ned_info_gld = [
                 ],
                 "span_l":153,
                 "span_r":154,
-                "sent_idx":84,
+                "sent_idx":104,
                 "sent_alias_idx":0,
                 "alias_idx":11,
-                "guid_idx":"84_11",
+                "guid_idx":"104_249",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -36979,44 +40320,44 @@ const ned_info_gld = [
                 "alias":"copenhagen",
                 "pop_qid":"Q1748",
                 "candidates":[
-                    "Q1495052",
-                    "Q188430",
-                    "Q1748",
                     "Q206277",
-                    "Q755955",
-                    "Q186285",
+                    "Q188430",
+                    "Q376154",
                     "Q33003",
                     "Q244444",
-                    "Q376154"
+                    "Q1748",
+                    "Q186285",
+                    "Q1495052",
+                    "Q755955"
                 ],
                 "candidate_titles":[
-                    "Copenhagen Central Station",
-                    "F.C. Copenhagen",
-                    "Copenhagen",
                     "Copenhagen Airport",
-                    "Battle of Copenhagen (1801)",
-                    "University of Copenhagen",
+                    "F.C. Copenhagen",
+                    "Battle of Copenhagen (1807)",
                     "Parken Stadium",
                     "2009 United Nations Climate Change Conference",
-                    "Battle of Copenhagen (1807)"
+                    "Copenhagen",
+                    "University of Copenhagen",
+                    "Copenhagen Central Station",
+                    "Battle of Copenhagen (1801)"
                 ],
                 "candidate_descriptions":[
-                    "railway station in Copenhagen Municipality, Denmark",
-                    "association football club",
-                    "capital city of Denmark",
                     "international airport serving Copenhagen, Denmark",
-                    "1801 battle",
-                    "public research university in Copenhagen, Denmark",
+                    "association football club",
+                    "British bombardment of Copenhagen in 1807",
                     "football stadium in Denmark",
                     "international climate change conference in Copenhagen, Denmark in December 2009",
-                    "British bombardment of Copenhagen in 1807"
+                    "capital city of Denmark",
+                    "public research university in Copenhagen, Denmark",
+                    "railway station in Copenhagen Municipality, Denmark",
+                    "1801 battle"
                 ],
                 "span_l":155,
                 "span_r":156,
-                "sent_idx":84,
+                "sent_idx":104,
                 "sent_alias_idx":1,
                 "alias_idx":12,
-                "guid_idx":"84_12",
+                "guid_idx":"104_250",
                 "sentence":"In addition to the general promotion of the charity at matches and events , the 2021 Rugby League World Cup Chief Executive has also stated that there will be an officially designated ' Unicef ' game at some point during the mens world cup . UNICEF Ambassadors are leaders in the entertainment industry , representing the fields of film , television , music , sports and beyond . They help raise awareness of the needs of children , and use their talent and fame to fund-raise , advocate , and educate on behalf of UNICEF . The old UNICEF World Warehouse is a large facility in Denmark , which hosts UNICEF deliverable goods as well as co-hosts emergency goods for United Nations High Commissioner for Refugees ( UNHCR ) and the International Federation of Red Cross and Red Crescent Societies ( IFRC ) . Until 2012 the facilities was a 25,000m warehouse at Marmormolen in Copenhagen .",
                 "all_aliases":[
                     "2021 rugby league world cup",
@@ -37105,10 +40446,10 @@ const ned_info_gld = [
                 ],
                 "span_l":5,
                 "span_r":7,
-                "sent_idx":85,
+                "sent_idx":105,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"85_0",
+                "guid_idx":"105_251",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37192,44 +40533,44 @@ const ned_info_gld = [
                 "alias":"un",
                 "pop_qid":"Q1065",
                 "candidates":[
-                    "Q9711",
-                    "Q56226",
                     "Q1150419",
                     "Q504557",
+                    "Q1065",
                     "Q219575",
+                    "Q9711",
                     "Q132551",
                     "Q482864",
-                    "Q1065",
+                    "Q56226",
                     "Q161718"
                 ],
                 "candidate_titles":[
-                    "Honor\u00e9 de Balzac",
-                    "Kim Jong-un",
                     "National University of Colombia",
                     "United Nations Interim Administration Mission in Kosovo",
+                    "United Nations",
                     "United Nations peacekeeping",
+                    "Honor\u00e9 de Balzac",
                     "United Nations High Commissioner for Refugees",
                     "United Nations Command",
-                    "United Nations",
+                    "Kim Jong-un",
                     "United Nations Development Programme"
                 ],
                 "candidate_descriptions":[
-                    "French writer",
-                    "3rd Supreme Leader of North Korea",
                     "university",
                     "the officially mandated mission of the United Nations in Kosovo",
+                    "global international and intergovernmental organisation",
                     "The monitoring and observation of peace processes in post-conflict areas",
+                    "French writer",
                     "United Nations agency mandated to protect and support refugees",
                     "multinational forces supporting South Korea during and after the Korean War",
-                    "global international and intergovernmental organisation",
+                    "3rd Supreme Leader of North Korea",
                     "global network for development of United Nations"
                 ],
                 "span_l":12,
                 "span_r":13,
-                "sent_idx":85,
+                "sent_idx":105,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"85_1",
+                "guid_idx":"105_252",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37313,44 +40654,44 @@ const ned_info_gld = [
                 "alias":"copenhagen",
                 "pop_qid":"Q1748",
                 "candidates":[
-                    "Q1495052",
                     "Q33003",
+                    "Q188430",
+                    "Q244444",
+                    "Q1495052",
                     "Q1748",
                     "Q186285",
                     "Q376154",
                     "Q755955",
-                    "Q188430",
-                    "Q244444",
                     "Q206277"
                 ],
                 "candidate_titles":[
-                    "Copenhagen Central Station",
                     "Parken Stadium",
+                    "F.C. Copenhagen",
+                    "2009 United Nations Climate Change Conference",
+                    "Copenhagen Central Station",
                     "Copenhagen",
                     "University of Copenhagen",
                     "Battle of Copenhagen (1807)",
                     "Battle of Copenhagen (1801)",
-                    "F.C. Copenhagen",
-                    "2009 United Nations Climate Change Conference",
                     "Copenhagen Airport"
                 ],
                 "candidate_descriptions":[
-                    "railway station in Copenhagen Municipality, Denmark",
                     "football stadium in Denmark",
+                    "association football club",
+                    "international climate change conference in Copenhagen, Denmark in December 2009",
+                    "railway station in Copenhagen Municipality, Denmark",
                     "capital city of Denmark",
                     "public research university in Copenhagen, Denmark",
                     "British bombardment of Copenhagen in 1807",
                     "1801 battle",
-                    "association football club",
-                    "international climate change conference in Copenhagen, Denmark in December 2009",
                     "international airport serving Copenhagen, Denmark"
                 ],
                 "span_l":15,
                 "span_r":16,
-                "sent_idx":85,
+                "sent_idx":105,
                 "sent_alias_idx":2,
                 "alias_idx":2,
-                "guid_idx":"85_2",
+                "guid_idx":"105_253",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37444,10 +40785,10 @@ const ned_info_gld = [
                 ],
                 "span_l":31,
                 "span_r":34,
-                "sent_idx":85,
+                "sent_idx":105,
                 "sent_alias_idx":3,
                 "alias_idx":3,
-                "guid_idx":"85_3",
+                "guid_idx":"105_254",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37531,23 +40872,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":39,
                 "span_r":40,
-                "sent_idx":86,
+                "sent_idx":106,
                 "sent_alias_idx":0,
                 "alias_idx":4,
-                "guid_idx":"86_4",
+                "guid_idx":"106_255",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37632,43 +40973,43 @@ const ned_info_gld = [
                 "pop_qid":"Q612",
                 "candidates":[
                     "Q612",
-                    "Q613",
-                    "Q2293983",
+                    "Q588356",
                     "Q299409",
-                    "Q193439",
                     "Q1065127",
+                    "Q613",
                     "Q1187515",
-                    "Q3070706",
-                    "Q588356"
+                    "Q2293983",
+                    "Q193439",
+                    "Q3070706"
                 ],
                 "candidate_titles":[
                     "Dubai",
-                    "Emirate of Dubai",
-                    "Shawn Daivari",
+                    "Dubai Autodrome",
                     "Dubai Tennis Championships",
-                    "Dubai International Airport",
                     "Dubai Sevens",
+                    "Emirate of Dubai",
                     "Dubai Marathon",
-                    "Dubai International Film Festival",
-                    "Dubai Autodrome"
+                    "Shawn Daivari",
+                    "Dubai International Airport",
+                    "Dubai International Film Festival"
                 ],
                 "candidate_descriptions":[
                     "city in the United Arab Emirates",
-                    "one of the seven emirates of the United Arab Emirates",
-                    "American professional wrestler",
+                    "motorsport venue in the United Arab Emirates",
                     "tennis tournament held in Dubai, United Arab Emirates",
-                    "international airport in Dubai, United Arab Emirates",
                     "",
+                    "one of the seven emirates of the United Arab Emirates",
                     "marathon running race held in Dubai, United Arab Emirates",
-                    "film festival in UAE, founded 2004",
-                    "motorsport venue in the United Arab Emirates"
+                    "American professional wrestler",
+                    "international airport in Dubai, United Arab Emirates",
+                    "film festival in UAE, founded 2004"
                 ],
                 "span_l":48,
                 "span_r":49,
-                "sent_idx":86,
+                "sent_idx":106,
                 "sent_alias_idx":1,
                 "alias_idx":5,
-                "guid_idx":"86_5",
+                "guid_idx":"106_256",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37752,44 +41093,44 @@ const ned_info_gld = [
                 "alias":"panama",
                 "pop_qid":"Q804",
                 "candidates":[
-                    "Q3306",
-                    "Q498979",
                     "Q223748",
-                    "Q804",
-                    "Q557506",
-                    "Q459282",
-                    "Q7350",
                     "Q295606",
-                    "Q182139"
+                    "Q557506",
+                    "Q7350",
+                    "Q182139",
+                    "Q498979",
+                    "Q3306",
+                    "Q804",
+                    "Q459282"
                 ],
                 "candidate_titles":[
-                    "Panama City",
-                    "Panama Canal Zone",
                     "Panama national football team",
-                    "Panama",
-                    "Panam\u00e1 Province",
-                    "United States invasion of Panama",
-                    "Panama Canal",
                     "Liga Paname\u00f1a de F\u00fatbol",
-                    "Isthmus of Panama"
+                    "Panam\u00e1 Province",
+                    "Panama Canal",
+                    "Isthmus of Panama",
+                    "Panama Canal Zone",
+                    "Panama City",
+                    "Panama",
+                    "United States invasion of Panama"
                 ],
                 "candidate_descriptions":[
-                    "capital of Panama",
-                    "former U.S. territory within the Republic of Panama",
                     "national association football team",
-                    "sovereign state in Central America",
-                    "Province of Panama",
-                    "conflict in Panama involving the United States and the Panamanian Defense Force",
-                    "large canal in Panama",
                     "association football league in Panama",
-                    "narrow landstrip in Panama"
+                    "Province of Panama",
+                    "large canal in Panama",
+                    "narrow landstrip in Panama",
+                    "former U.S. territory within the Republic of Panama",
+                    "capital of Panama",
+                    "sovereign state in Central America",
+                    "conflict in Panama involving the United States and the Panamanian Defense Force"
                 ],
                 "span_l":52,
                 "span_r":53,
-                "sent_idx":86,
+                "sent_idx":106,
                 "sent_alias_idx":2,
                 "alias_idx":6,
-                "guid_idx":"86_6",
+                "guid_idx":"106_257",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37873,44 +41214,44 @@ const ned_info_gld = [
                 "alias":"shanghai",
                 "pop_qid":"Q8686",
                 "candidates":[
+                    "Q739514",
+                    "Q8686",
+                    "Q171358",
+                    "Q477369",
+                    "Q254599",
                     "Q2170587",
                     "Q36718",
-                    "Q8686",
-                    "Q477369",
-                    "Q739514",
-                    "Q171358",
                     "Q462201",
-                    "Q254599",
                     "Q725367"
                 ],
                 "candidate_titles":[
+                    "Shanghai Stock Exchange",
+                    "Shanghai",
+                    "Shanghai International Circuit",
+                    "Shanghai International Film Festival",
+                    "Battle of Shanghai",
                     "Shanghai International Settlement",
                     "Shanghainese",
-                    "Shanghai",
-                    "Shanghai International Film Festival",
-                    "Shanghai Stock Exchange",
-                    "Shanghai International Circuit",
                     "Shanghai Metro",
-                    "Battle of Shanghai",
                     "Shanghai Greenland Shenhua F.C."
                 ],
                 "candidate_descriptions":[
+                    "stock exchange that is based in the city of Shanghai, China",
+                    "municipality of China",
+                    "motorsport track in China",
+                    "annual film festival held in Shanghai, China",
+                    "1937 battle of the Second Sino-Japanese War",
                     "area of Shanghai which joined the British Concession as the International Settlement in 1863",
                     "Wu dialect as spoken in the financial capital of the PRC",
-                    "municipality of China",
-                    "annual film festival held in Shanghai, China",
-                    "stock exchange that is based in the city of Shanghai, China",
-                    "motorsport track in China",
                     "metro system in Shanghai, China",
-                    "1937 battle of the Second Sino-Japanese War",
                     "professional football club in Shanghai, China"
                 ],
                 "span_l":54,
                 "span_r":55,
-                "sent_idx":86,
+                "sent_idx":106,
                 "sent_alias_idx":3,
                 "alias_idx":7,
-                "guid_idx":"86_7",
+                "guid_idx":"106_258",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -37994,23 +41335,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q740308",
-                    "Q7865280"
+                    "Q7865280",
+                    "Q740308"
                 ],
                 "candidate_titles":[
-                    "UNICEF",
-                    "UNICEF UK"
+                    "UNICEF UK",
+                    "UNICEF"
                 ],
                 "candidate_descriptions":[
-                    "development policy organization of the UN",
-                    "organization"
+                    "organization",
+                    "development policy organization of the UN"
                 ],
                 "span_l":57,
                 "span_r":58,
-                "sent_idx":87,
+                "sent_idx":107,
                 "sent_alias_idx":0,
                 "alias_idx":8,
-                "guid_idx":"87_8",
+                "guid_idx":"107_259",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -38095,43 +41436,43 @@ const ned_info_gld = [
                 "pop_qid":"Q2044",
                 "candidates":[
                     "Q148540",
-                    "Q820887",
                     "Q2044",
-                    "Q79743",
-                    "Q154849",
-                    "Q597842",
                     "Q37103",
-                    "Q321032",
-                    "Q217360"
+                    "Q154849",
+                    "Q79743",
+                    "Q217360",
+                    "Q597842",
+                    "Q820887",
+                    "Q321032"
                 ],
                 "candidate_titles":[
                     "Republic of Florence",
-                    "University of Florence",
                     "Florence",
-                    "Florence, Alabama",
-                    "Grand Duchy of Tuscany",
-                    "Florence, South Carolina",
                     "Florence Nightingale",
-                    "Council of Florence",
-                    "Florence and the Machine"
+                    "Grand Duchy of Tuscany",
+                    "Florence, Alabama",
+                    "Florence and the Machine",
+                    "Florence, South Carolina",
+                    "University of Florence",
+                    "Council of Florence"
                 ],
                 "candidate_descriptions":[
                     "city-state on the Appenine Peninsula between 1115\u20131569",
-                    "university in Italy",
                     "Italian city, located in Tuscany",
-                    "county seat of Lauderdale County, Alabama, United States",
-                    "former Italian state (1569\u20131801; 1815\u20131859)",
-                    "county seat of Florence County, South Carolina, United States",
                     "English social reformer, statistician, and founder of modern nursing (1820-1910)",
-                    "17th Ecumenical Council of the Catholic Church",
-                    "British indie rock band"
+                    "former Italian state (1569\u20131801; 1815\u20131859)",
+                    "county seat of Lauderdale County, Alabama, United States",
+                    "British indie rock band",
+                    "county seat of Florence County, South Carolina, United States",
+                    "university in Italy",
+                    "17th Ecumenical Council of the Catholic Church"
                 ],
                 "span_l":62,
                 "span_r":63,
-                "sent_idx":87,
+                "sent_idx":107,
                 "sent_alias_idx":1,
                 "alias_idx":9,
-                "guid_idx":"87_9",
+                "guid_idx":"107_260",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -38216,43 +41557,43 @@ const ned_info_gld = [
                 "pop_qid":"Q38",
                 "candidates":[
                     "Q15804",
-                    "Q38",
-                    "Q652",
-                    "Q676899",
-                    "Q1747689",
-                    "Q50001",
                     "Q172579",
+                    "Q652",
+                    "Q1747689",
+                    "Q676899",
+                    "Q38",
+                    "Q641",
                     "Q517",
-                    "Q641"
+                    "Q50001"
                 ],
                 "candidate_titles":[
                     "Serie A",
-                    "Italy",
-                    "Italian language",
-                    "Italy national football team",
-                    "Ancient Rome",
-                    "Italians",
                     "Kingdom of Italy",
+                    "Italian language",
+                    "Ancient Rome",
+                    "Italy national football team",
+                    "Italy",
+                    "Venice",
                     "Napoleon",
-                    "Venice"
+                    "Italians"
                 ],
                 "candidate_descriptions":[
                     "a professional league competition for football clubs located at the top of the Italian football league system",
-                    "sovereign state in southern Europe",
-                    "Romance language",
-                    "men's national association football team representing Italy",
-                    "civilisation that began growing on the Italian Peninsula from 8th century BC",
-                    "nation and ethnic group native to Italy",
                     "kingdom in southern Europe between 1861 and 1946",
+                    "Romance language",
+                    "civilisation that began growing on the Italian Peninsula from 8th century BC",
+                    "men's national association football team representing Italy",
+                    "sovereign state in southern Europe",
+                    "capital city of Veneto, Italy",
                     "French general and emperor (1769-1821)",
-                    "capital city of Veneto, Italy"
+                    "nation and ethnic group native to Italy"
                 ],
                 "span_l":64,
                 "span_r":65,
-                "sent_idx":87,
+                "sent_idx":107,
                 "sent_alias_idx":2,
                 "alias_idx":10,
-                "guid_idx":"87_10",
+                "guid_idx":"107_261",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -38336,44 +41677,44 @@ const ned_info_gld = [
                 "alias":"united nations",
                 "pop_qid":"Q1065",
                 "candidates":[
-                    "Q7809",
-                    "Q219575",
-                    "Q47423",
-                    "Q11297",
-                    "Q329888",
-                    "Q1387974",
-                    "Q1065",
+                    "Q482864",
                     "Q1501987",
-                    "Q482864"
+                    "Q47423",
+                    "Q329888",
+                    "Q11297",
+                    "Q1065",
+                    "Q219575",
+                    "Q1387974",
+                    "Q7809"
                 ],
                 "candidate_titles":[
-                    "UNESCO",
-                    "United Nations peacekeeping",
-                    "United Nations General Assembly",
-                    "Headquarters of the United Nations",
-                    "Allies of World War II",
-                    "United Nations Global Compact",
-                    "United Nations",
+                    "United Nations Command",
                     "MONUSCO",
-                    "United Nations Command"
+                    "United Nations General Assembly",
+                    "Allies of World War II",
+                    "Headquarters of the United Nations",
+                    "United Nations",
+                    "United Nations peacekeeping",
+                    "United Nations Global Compact",
+                    "UNESCO"
                 ],
                 "candidate_descriptions":[
-                    "specialized agency of the UN that promotes education, science and culture",
-                    "The monitoring and observation of peace processes in post-conflict areas",
+                    "multinational forces supporting South Korea during and after the Korean War",
+                    "organization",
                     "principal organ of the United Nations",
-                    "group of buildings in New York City",
                     "Grouping of the victorious countries of World War II",
-                    "organization",
+                    "group of buildings in New York City",
                     "global international and intergovernmental organisation",
+                    "The monitoring and observation of peace processes in post-conflict areas",
                     "organization",
-                    "multinational forces supporting South Korea during and after the Korean War"
+                    "specialized agency of the UN that promotes education, science and culture"
                 ],
                 "span_l":120,
                 "span_r":122,
-                "sent_idx":88,
+                "sent_idx":108,
                 "sent_alias_idx":0,
                 "alias_idx":11,
-                "guid_idx":"88_11",
+                "guid_idx":"108_262",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -38467,10 +41808,10 @@ const ned_info_gld = [
                 ],
                 "span_l":122,
                 "span_r":129,
-                "sent_idx":88,
+                "sent_idx":108,
                 "sent_alias_idx":1,
                 "alias_idx":12,
-                "guid_idx":"88_12",
+                "guid_idx":"108_263",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -38554,23 +41895,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":142,
                 "span_r":143,
-                "sent_idx":89,
+                "sent_idx":109,
                 "sent_alias_idx":0,
                 "alias_idx":13,
-                "guid_idx":"89_13",
+                "guid_idx":"109_264",
                 "sentence":"With construction of a 45,000m UN City that is to house all UN activities in Copenhagen under one roof , the warehouse service has been relocated to outer parts of the Freeport of Copenhagen . The facility houses the UNICEF Supply Division which manages strategic transport hubs in Dubai , Kualalumpur , Panama and Shanghai . The UNICEF Innocenti Research Centre in Florence , Italy , was established in 1988 . The centre , formally known as the International Child Development Centres , has as its prime objectives to improve international understanding of issues relating to children 's rights , to promote economic policies that advance the cause of children , and to help facilitate the full implementation of the United Nations Convention on the Rights of the Child in industrialized and developing countries . The program for 2006\u20132008 was approved by UNICEF Executive Board in September 2005 .",
                 "all_aliases":[
                     "un city",
@@ -38667,10 +42008,10 @@ const ned_info_gld = [
                 ],
                 "span_l":10,
                 "span_r":11,
-                "sent_idx":90,
+                "sent_idx":110,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"90_0",
+                "guid_idx":"110_265",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -38737,10 +42078,10 @@ const ned_info_gld = [
                 ],
                 "span_l":54,
                 "span_r":55,
-                "sent_idx":90,
+                "sent_idx":110,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"90_1",
+                "guid_idx":"110_266",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -38807,10 +42148,10 @@ const ned_info_gld = [
                 ],
                 "span_l":74,
                 "span_r":75,
-                "sent_idx":91,
+                "sent_idx":111,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"91_2",
+                "guid_idx":"111_267",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -38877,10 +42218,10 @@ const ned_info_gld = [
                 ],
                 "span_l":109,
                 "span_r":110,
-                "sent_idx":92,
+                "sent_idx":112,
                 "sent_alias_idx":0,
                 "alias_idx":3,
-                "guid_idx":"92_3",
+                "guid_idx":"112_268",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -38947,80 +42288,10 @@ const ned_info_gld = [
                 ],
                 "span_l":128,
                 "span_r":129,
-                "sent_idx":92,
+                "sent_idx":112,
                 "sent_alias_idx":1,
                 "alias_idx":4,
-                "guid_idx":"92_4",
-                "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
-                "all_aliases":[
-                    "unicef",
-                    "unicef",
-                    "unicef",
-                    "unicef",
-                    "unicef",
-                    "unicef",
-                    "unicef",
-                    "elizabeth bartholet"
-                ],
-                "all_spans":[
-                    [
-                        10,
-                        11
-                    ],
-                    [
-                        54,
-                        55
-                    ],
-                    [
-                        74,
-                        75
-                    ],
-                    [
-                        109,
-                        110
-                    ],
-                    [
-                        128,
-                        129
-                    ],
-                    [
-                        161,
-                        162
-                    ],
-                    [
-                        194,
-                        195
-                    ],
-                    [
-                        209,
-                        211
-                    ]
-                ]
-            },
-            {
-                "doc_qid":"Q740308",
-                "doc_title":"UNICEF",
-                "doc_sent_idx":112,
-                "alias":"unicef",
-                "pop_qid":"Q740308",
-                "candidates":[
-                    "Q7865280",
-                    "Q740308"
-                ],
-                "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
-                ],
-                "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
-                ],
-                "span_l":161,
-                "span_r":162,
-                "sent_idx":93,
-                "sent_alias_idx":0,
-                "alias_idx":5,
-                "guid_idx":"93_5",
+                "guid_idx":"112_269",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -39085,12 +42356,82 @@ const ned_info_gld = [
                     "development policy organization of the UN",
                     "organization"
                 ],
+                "span_l":161,
+                "span_r":162,
+                "sent_idx":113,
+                "sent_alias_idx":0,
+                "alias_idx":5,
+                "guid_idx":"113_270",
+                "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
+                "all_aliases":[
+                    "unicef",
+                    "unicef",
+                    "unicef",
+                    "unicef",
+                    "unicef",
+                    "unicef",
+                    "unicef",
+                    "elizabeth bartholet"
+                ],
+                "all_spans":[
+                    [
+                        10,
+                        11
+                    ],
+                    [
+                        54,
+                        55
+                    ],
+                    [
+                        74,
+                        75
+                    ],
+                    [
+                        109,
+                        110
+                    ],
+                    [
+                        128,
+                        129
+                    ],
+                    [
+                        161,
+                        162
+                    ],
+                    [
+                        194,
+                        195
+                    ],
+                    [
+                        209,
+                        211
+                    ]
+                ]
+            },
+            {
+                "doc_qid":"Q740308",
+                "doc_title":"UNICEF",
+                "doc_sent_idx":112,
+                "alias":"unicef",
+                "pop_qid":"Q740308",
+                "candidates":[
+                    "Q7865280",
+                    "Q740308"
+                ],
+                "candidate_titles":[
+                    "UNICEF UK",
+                    "UNICEF"
+                ],
+                "candidate_descriptions":[
+                    "organization",
+                    "development policy organization of the UN"
+                ],
                 "span_l":194,
                 "span_r":195,
-                "sent_idx":93,
+                "sent_idx":113,
                 "sent_alias_idx":1,
                 "alias_idx":6,
-                "guid_idx":"93_6",
+                "guid_idx":"113_271",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -39154,10 +42495,10 @@ const ned_info_gld = [
                 ],
                 "span_l":209,
                 "span_r":211,
-                "sent_idx":94,
+                "sent_idx":114,
                 "sent_alias_idx":0,
                 "alias_idx":7,
-                "guid_idx":"94_7",
+                "guid_idx":"114_272",
                 "sentence":"It capitalizes on IRC 's role as an interface between UNICEF field experience , international experts , research networks and policy makers and is designed to strengthen the centre 's institutional collaboration with regional academic and policy institutions , pursuing the following goals : Three interrelated strategies guide the achievement of these goals : UNICEF has a policy preferring orphanages only be used as temporary accommodation for children when there is no alternative . UNICEF has historically opposed the creation of large-scale , permanent orphanages for children , preferring instead to find children places in their ( extended ) families and communities , wherever possible . This has led UNICEF to be skeptical of international adoption efforts as a solution to child care problems in developing countries ; UNICEF has preferred to see children cared for in their birth countries rather than be adopted by foreign parents . A 2015 article in `` US News & World Report `` magazine asserted UNICEF 's intervention that on giving large cash payments to developing countries can lead to a cessation of international adoptions until all of its recommendations are in place , and have even labeled UNICEF a `` villain '' for the extent of its negative impact on orphans . Elizabeth Bartholet and Paulo Barrozo have written in this context , encouraging adoption protocols to take on a more child-centric viewpoint .",
                 "all_aliases":[
                     "unicef",
@@ -39211,26 +42552,26 @@ const ned_info_gld = [
                 "alias":"richard horton",
                 "pop_qid":"Q3430882",
                 "candidates":[
-                    "Q7326547",
+                    "Q3430882",
                     "Q7326546",
-                    "Q3430882"
+                    "Q7326547"
                 ],
                 "candidate_titles":[
-                    "Richard Horton (blogger)",
+                    "Richard Horton (editor)",
                     "Richard Horton",
-                    "Richard Horton (editor)"
+                    "Richard Horton (blogger)"
                 ],
                 "candidate_descriptions":[
-                    "British police officer",
+                    "British medical editor",
                     "Wikimedia disambiguation page",
-                    "British medical editor"
+                    "British police officer"
                 ],
                 "span_l":3,
                 "span_r":5,
-                "sent_idx":95,
+                "sent_idx":115,
                 "sent_alias_idx":0,
                 "alias_idx":0,
-                "guid_idx":"95_0",
+                "guid_idx":"115_273",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
@@ -39289,10 +42630,10 @@ const ned_info_gld = [
                 ],
                 "span_l":8,
                 "span_r":10,
-                "sent_idx":95,
+                "sent_idx":115,
                 "sent_alias_idx":1,
                 "alias_idx":1,
-                "guid_idx":"95_1",
+                "guid_idx":"115_274",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
@@ -39351,10 +42692,10 @@ const ned_info_gld = [
                 ],
                 "span_l":55,
                 "span_r":57,
-                "sent_idx":96,
+                "sent_idx":116,
                 "sent_alias_idx":0,
                 "alias_idx":2,
-                "guid_idx":"96_2",
+                "guid_idx":"116_275",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
@@ -39403,23 +42744,23 @@ const ned_info_gld = [
                 "alias":"unicef",
                 "pop_qid":"Q740308",
                 "candidates":[
-                    "Q7865280",
-                    "Q740308"
+                    "Q740308",
+                    "Q7865280"
                 ],
                 "candidate_titles":[
-                    "UNICEF UK",
-                    "UNICEF"
+                    "UNICEF",
+                    "UNICEF UK"
                 ],
                 "candidate_descriptions":[
-                    "organization",
-                    "development policy organization of the UN"
+                    "development policy organization of the UN",
+                    "organization"
                 ],
                 "span_l":63,
                 "span_r":64,
-                "sent_idx":96,
+                "sent_idx":116,
                 "sent_alias_idx":1,
                 "alias_idx":3,
-                "guid_idx":"96_3",
+                "guid_idx":"116_276",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
@@ -39468,44 +42809,44 @@ const ned_info_gld = [
                 "alias":"british",
                 "pop_qid":"Q842438",
                 "candidates":[
-                    "Q1860",
-                    "Q165862",
-                    "Q23666",
-                    "Q222595",
                     "Q21",
-                    "Q30",
+                    "Q145",
                     "Q172771",
+                    "Q165862",
+                    "Q222595",
                     "Q193259",
-                    "Q145"
+                    "Q30",
+                    "Q23666",
+                    "Q1860"
                 ],
                 "candidate_titles":[
-                    "English language",
-                    "Royal Air Force",
-                    "Great Britain",
-                    "British Army",
                     "England",
-                    "United States",
+                    "United Kingdom",
                     "Royal Navy",
+                    "Royal Air Force",
+                    "British Army",
                     "UK Singles Chart",
-                    "United Kingdom"
+                    "United States",
+                    "Great Britain",
+                    "English language"
                 ],
                 "candidate_descriptions":[
-                    "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin",
-                    "aerial warfare service branch of the British Armed Forces",
-                    "island in the North Atlantic off the north-west coast of continental Europe",
-                    "principal land warfare force of the United Kingdom, a part of British Armed Forces",
                     "country in north-west Europe, part of the United Kingdom",
-                    "sovereign state in North America",
+                    "sovereign state in western Europe",
                     "maritime warfare branch of the United Kingdom's military",
+                    "aerial warfare service branch of the British Armed Forces",
+                    "principal land warfare force of the United Kingdom, a part of British Armed Forces",
                     "British singles sales chart",
-                    "sovereign state in western Europe"
+                    "sovereign state in North America",
+                    "island in the North Atlantic off the north-west coast of continental Europe",
+                    "West Germanic language originating in England with linguistic roots in French, German and Vulgar Latin"
                 ],
                 "span_l":71,
                 "span_r":72,
-                "sent_idx":96,
+                "sent_idx":116,
                 "sent_alias_idx":2,
                 "alias_idx":4,
-                "guid_idx":"96_4",
+                "guid_idx":"116_277",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
@@ -39554,44 +42895,44 @@ const ned_info_gld = [
                 "alias":"american",
                 "pop_qid":"Q846570",
                 "candidates":[
-                    "Q11220",
-                    "Q49",
                     "Q11223",
-                    "Q30",
                     "Q9212",
-                    "Q180072",
+                    "Q30",
+                    "Q846570",
+                    "Q49",
                     "Q188819",
-                    "Q41323",
-                    "Q846570"
+                    "Q11220",
+                    "Q180072",
+                    "Q41323"
                 ],
                 "candidate_titles":[
-                    "United States Navy",
-                    "North America",
                     "United States Air Force",
-                    "United States",
                     "United States Army",
-                    "Billboard Hot 100",
+                    "United States",
+                    "Americans",
+                    "North America",
                     "Billboard 200",
-                    "American football",
-                    "Americans"
+                    "United States Navy",
+                    "Billboard Hot 100",
+                    "American football"
                 ],
                 "candidate_descriptions":[
-                    "maritime warfare branch of the United States' military",
-                    "continent on the Earth's northwestern quadrant",
                     "air warfare branch of the United States Armed Forces",
-                    "sovereign state in North America",
                     "branch of the United States Armed Forces",
-                    "single charts in U.S",
+                    "sovereign state in North America",
+                    "citizens or residents of the United States of America",
+                    "continent on the Earth's northwestern quadrant",
                     "US weekly album chart published by Billboard Magazine",
-                    "a form of team game played with an oval ball on a field marked out as a gridiron",
-                    "citizens or residents of the United States of America"
+                    "maritime warfare branch of the United States' military",
+                    "single charts in U.S",
+                    "a form of team game played with an oval ball on a field marked out as a gridiron"
                 ],
                 "span_l":73,
                 "span_r":74,
-                "sent_idx":96,
+                "sent_idx":116,
                 "sent_alias_idx":3,
                 "alias_idx":5,
-                "guid_idx":"96_5",
+                "guid_idx":"116_278",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
@@ -39640,35 +42981,35 @@ const ned_info_gld = [
                 "alias":"intelligence agencies",
                 "pop_qid":"Q47913",
                 "candidates":[
-                    "Q47913",
                     "Q786878",
-                    "Q6624135",
                     "Q2426814",
+                    "Q4431136",
+                    "Q47913",
                     "Q1369460",
-                    "Q4431136"
+                    "Q6624135"
                 ],
                 "candidate_titles":[
-                    "Intelligence agency",
                     "United States Intelligence Community",
-                    "List of intelligence agencies of Germany",
                     "Intelligence Bureau (India)",
+                    "Pakistani intelligence community",
+                    "Intelligence agency",
                     "List of intelligence agencies",
-                    "Pakistani intelligence community"
+                    "List of intelligence agencies of Germany"
                 ],
                 "candidate_descriptions":[
-                    "government agency responsible for the collection, analysis or exploitation of information and intelligence",
                     "collective term for U.S. intelligence and security agencies",
-                    "Wikimedia list article",
                     "",
+                    "Wikimedia list article",
+                    "government agency responsible for the collection, analysis or exploitation of information and intelligence",
                     "Wikimedia list article",
                     "Wikimedia list article"
                 ],
                 "span_l":74,
                 "span_r":76,
-                "sent_idx":96,
+                "sent_idx":116,
                 "sent_alias_idx":4,
                 "alias_idx":6,
-                "guid_idx":"96_6",
+                "guid_idx":"116_279",
                 "sentence":"In 2005 , Richard Horton editor-in-chief of `` The Lancet `` , editorialized that `` over 60 % of these deaths were and remain preventable '' and that the coverage levels for these interventions are `` appallingly low in the 42 countries that account for 90 % of child deaths '' . Documents released by Edward Snowden in December 2013 showed that `` UNICEF '' was among the surveillance targets of British and American intelligence agencies .",
                 "all_aliases":[
                     "richard horton",
