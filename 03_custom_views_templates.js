@@ -144,12 +144,11 @@ const custom_entity_choice = function (config, triggerNextView) {
 
             $("main").html(`
                         <div class='magpie-view'>
-                        
+                        <div style="width:30%">
+                            <div class="progress" id="outer-progress"></div>
+                            <div class="progress" id="progress"></div>
+                        </div>
                         <h1 class='magpie-view-title'>Choose the Right Entity</h1>
-                        <div class="progress" id="outer-progress"></div>
-                        <div class="progress" id="progress"></div>
-                        <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
-<!--                        <h1 class='my-magpie-view-title'>Choose the right entity</h1>-->
                         <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Taken from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
                         <div class="annotation-head"></div>
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
@@ -294,17 +293,14 @@ const custom_entity_choice = function (config, triggerNextView) {
                     }
                 }, true);
 
-                // var line = new ProgressBar.Line('#container');
-                // var ProgressBar = require('progressbar.js');
-                //
                 var bar = new ProgressBar.Line('#progress', {
-                    strokeWidth: 4,
+                    strokeWidth: 2.3,
                     easing: 'easeInOut',
                     duration: 0,
-                    color: '#FFEA82',
+                    color: '#0f7934',
                     trailColor: '#eee',
                     trailWidth: 1,
-                    svgStyle: {width: '100%', height: '100%'},
+                    svgStyle: {width: '30%', height: '30%'},
                     text: {
                         style: {
                             // Text color.
@@ -319,7 +315,7 @@ const custom_entity_choice = function (config, triggerNextView) {
                         },
                         autoStyleContainer: true
                     },
-                    from: {color: '#FFEA82'},
+                    from: {color: '#0f7934'},
                     to: {color: '#ED6A5A'},
                     step: (state, bar) => {
                         bar.setText(Math.round(bar.value() * 100) + ' %');
@@ -329,13 +325,13 @@ const custom_entity_choice = function (config, triggerNextView) {
 
                 var outerbar = new ProgressBar.Line('#outer-progress',
                     {
-                        strokeWidth: 4,
+                        strokeWidth: 2.3,
                         easing: 'easeInOut',
                         duration: 0,
                         color: '#ff7069',
                         trailColor: '#eee',
                         trailWidth: 1,
-                        svgStyle: {width: '100%', height: '100%'},
+                        svgStyle: {width: '30%', height: '30%'},
                         text: {
                             style: {
                                 // Text color.
@@ -448,8 +444,6 @@ const custom_entity_choice_doc = function (config) {
                     }
                 }, true);
             });
-            sub_entity_choice.render(0, magpie);
-
             global_docs_so_far = global_docs_so_far + 1;
         }
     };
