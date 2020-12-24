@@ -137,23 +137,24 @@ const thanks = magpieViews.view_generator("thanks", {
  * All about the properties of trial views
  * https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#trial-views
  */
-
 // Here, we initialize a normal forced_choice view
 const entity_choice = custom_entity_choice_doc({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
     trials: 1,
     // name should be identical to the variable name
     name: 'entity_choice',
-    data: ned_info,
-    isGoldExample: false,
+
+    data: slice_mentions(ned_info, worker_rand_num),
+    rand_worker_num: worker_rand_num,
+    is_gold_example: false,
     // you can add custom functions at different stages through a view's life cycle
     // hook: {
     //     after_response_enabled: check_response
     // }
-    mousetracking: {
-        autostart: true,
-        rate: 50
-    }
+    // mousetracking: {
+    //     autostart: true,
+    //     rate: 50
+    // }
 });
 
 const entity_choice_gld = custom_entity_choice_doc({
@@ -161,8 +162,9 @@ const entity_choice_gld = custom_entity_choice_doc({
     trials: 1,
     // name should be identical to the variable name
     name: 'entity_choice_gld',
-    data: ned_info_gld,
-    isGoldExample: true,
+    data: slice_mentions(ned_info_gld, worker_rand_num),
+    rand_worker_num: worker_rand_num,
+    is_gold_example: true,
 });
 
 // There are many more templates available:

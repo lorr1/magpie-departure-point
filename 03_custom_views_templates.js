@@ -10,7 +10,7 @@
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
 
 // In this view the user can click on buttons to label entities
-const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
+const custom_entity_choice = function (config, triggerNextView) {
     const view = {
         name: config.name,
         CT: 0,
@@ -36,6 +36,7 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
                     trial_name: config.name,
                     trial_number: CT,
                     trial_time: Date.now() - startTime,
+                    rand_worker_num: config.rand_worker_num,
                     guid_idx: selection.target.guid_idx,
                     response_id: selection.target.id,
                     response_alias: selection.target.alias,
@@ -44,10 +45,9 @@ const custom_entity_choice = function (config, triggerNextView, isGoldExample) {
                     span_l: selection.target.span_l,
                     response_sent_idx: selection.target.sent_idx,
                     response_doc_title: selection.target.doc_title,
-                    is_gold_example: isGoldExample,
+                    is_gold_example: config.is_gold_example,
                     metadata_links_clicked: links_clicked,
                 };
-                console.log(trial_data)
                 // Often it makes sense to also save the config information
                 // trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
                 triggerNextView(trial_data);
@@ -265,8 +265,9 @@ const custom_entity_choice_doc = function (config) {
                 // name should be identical to the variable name
                 name: 'sub_entity_choice',
                 data: config.data[CT].mentions,
-                handle_inner_view: handle_inner_view
-            }, handle_inner_view, config.isGoldExample);
+                rand_worker_num: config.rand_worker_num,
+                is_gold_example: config.is_gold_example,
+            }, handle_inner_view);
 
             sub_entity_choice.render(0, magpie)
         }

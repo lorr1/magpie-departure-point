@@ -66,6 +66,21 @@ convert_wikipedia_title = function(title) {
     return title.replace(" ", "_")
 }
 
+slice_mentions = function(ned_info, user_id) {
+    ned_info.forEach(function(doc, doc_idx) {
+        ned_info[doc_idx].mentions.forEach(function(mention, mention_idx) {
+            // Mentions are pre-shuffled
+            const men_chunks = _.chunk(mention.candidates, 9);
+            ned_info[doc_idx].mentions[mention_idx].candidates = men_chunks[user_id%men_chunks.length];
+            ned_info[doc_idx].mentions[mention_idx].candidate_titles = _.chunk(mention.candidate_titles, 9)[user_id%men_chunks.length];
+            ned_info[doc_idx].mentions[mention_idx].candidate_descriptions = _.chunk(mention.candidate_descriptions, 9)[user_id%men_chunks.length];
+        });
+    });
+    return ned_info
+}
+
+const worker_rand_num = _.random(0, 1000)
+
 /* Generators for custom view templates, answer container elements and enable response functions
 *
 *
