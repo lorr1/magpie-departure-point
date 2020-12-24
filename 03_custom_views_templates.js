@@ -70,7 +70,6 @@ const custom_screening = function(config) {
 // and a render function, the render function gets CT and the magpie-object as input
 // and has to call magpie.findNextView() eventually to proceed to the next view (or the next trial in this view),
 // if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
-var global_docs_so_far = 0;
 // In this view the user can click on buttons to label entities
 const custom_entity_choice = function (config, triggerNextView) {
     const view = {
@@ -375,8 +374,11 @@ const custom_entity_choice_doc = function (config) {
         render: function (CT, magpie) {
             const labels = [];
             var sub_CT = 0;
+            var startTime = Date.now();
+            var endTime = -1;
 
             const start_labeling = function(e) {
+                endTime = Date.now()
                 sub_entity_choice.render(sub_CT, magpie)
             }
 
@@ -387,6 +389,7 @@ const custom_entity_choice_doc = function (config) {
                 sub_CT += 1;
                 if (sub_CT >= config.data[CT].mentions.length) {
                     labels.forEach(function (data, data_idx) {
+                        data.doc_page_time = endTime-startTime;
                         magpie.trial_data.push(data);
                     });
                     magpie.findNextView();
@@ -403,7 +406,7 @@ const custom_entity_choice_doc = function (config) {
                 data: config.data[CT].mentions,
                 rand_worker_num: config.rand_worker_num,
                 is_gold_example: config.is_gold_example,
-                doc_progress: (global_docs_so_far + 1) / config.total_trials,
+                doc_progress: (global_docs_so_far + 1) / (config.total_trials),
             }, handle_inner_view);
 
             $("main").html(`
