@@ -149,7 +149,7 @@ const custom_entity_choice = function (config, triggerNextView) {
                         <div class="progress" id="outer-progress"></div>
                         <div class="progress" id="progress"></div>
                         <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
-                        <h1 class='my-magpie-view-title'>Choose the right entity</h1>
+<!--                        <h1 class='my-magpie-view-title'>Choose the right entity</h1>-->
                         <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Taken from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
                         <div class="annotation-head"></div>
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
