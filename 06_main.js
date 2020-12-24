@@ -38,8 +38,9 @@ $("document").ready(function() {
             in: [
                 // list the view-names of the views for which you want a progress bar
                 // forced_choice_2A.name,
-                entity_choice.name,
-                entity_choice_gld.name
+
+                // entity_choice.name,
+                // entity_choice_gld.name
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "separate",

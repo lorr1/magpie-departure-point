@@ -137,10 +137,15 @@ const thanks = magpieViews.view_generator("thanks", {
  * All about the properties of trial views
  * https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#trial-views
  */
+var normal_trials = 3;
+var gold_trials = 1;
+var total_trials = normal_trials + gold_trials;
+
 // Here, we initialize a normal forced_choice view
 const entity_choice = custom_entity_choice_doc({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: 3,
+    trials: normal_trials,
+    total_trials: total_trials, // used for progressbar
     // name should be identical to the variable name
     name: 'entity_choice',
 
@@ -159,7 +164,8 @@ const entity_choice = custom_entity_choice_doc({
 
 const entity_choice_gld = custom_entity_choice_doc({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: 1,
+    trials: gold_trials,
+    total_trials: total_trials, // used for progressbar
     // name should be identical to the variable name
     name: 'entity_choice_gld',
     data: slice_mentions(ned_info_gld, worker_rand_num),

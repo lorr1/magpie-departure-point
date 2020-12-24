@@ -62,6 +62,15 @@ const custom_screening = function(config) {
     // We have to return the view, so that it can be used in 05_views.js
     return view;
 };
+
+// A view template is a function that returns a view,
+// this functions gets some config (e.g. trial_data, name, etc.) information as input
+// A view is an object, that has a name, CT (the counter of how many times this view occurred in the experiment),
+// trials the maximum number of times this view is repeated
+// and a render function, the render function gets CT and the magpie-object as input
+// and has to call magpie.findNextView() eventually to proceed to the next view (or the next trial in this view),
+// if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
+var global_docs_so_far = 0;
 // In this view the user can click on buttons to label entities
 const custom_entity_choice = function (config, triggerNextView) {
     const view = {
@@ -73,6 +82,11 @@ const custom_entity_choice = function (config, triggerNextView) {
             let startTime = Date.now();
             const links_clicked = [];
             var selection = null;
+
+
+            // Assuming we have an empty <div id="container"></div> in
+            // HTML
+
 
             // Here, you can do whatever you want, eventually you should call magpie.findNextView()
             // to proceed to the next view and if it is an trial type view,
@@ -110,8 +124,7 @@ const custom_entity_choice = function (config, triggerNextView) {
                 // Any earlier button selection should be cleared
                 if (selection != null) {
                     $('#' + selection.target.id).css('background-color', 'rgb(239, 239, 239)');
-                }
-                else {
+                } else {
                     // Add button call backs after being added to DOM
                     $("#enter").on("click", handle_click);
                 }
@@ -133,6 +146,10 @@ const custom_entity_choice = function (config, triggerNextView) {
                         <div class='magpie-view'>
                         
                         <h1 class='magpie-view-title'>Choose the Right Entity</h1>
+                        <div class="progress" id="outer-progress"></div>
+                        <div class="progress" id="progress"></div>
+                        <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
+                        <h1 class='my-magpie-view-title'>Choose the right entity</h1>
                         <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Taken from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
                         <div class="annotation-head"></div>
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
@@ -277,6 +294,71 @@ const custom_entity_choice = function (config, triggerNextView) {
                     }
                 }, true);
 
+                // var line = new ProgressBar.Line('#container');
+                // var ProgressBar = require('progressbar.js');
+                //
+                var bar = new ProgressBar.Line('#progress', {
+                    strokeWidth: 4,
+                    easing: 'easeInOut',
+                    duration: 0,
+                    color: '#FFEA82',
+                    trailColor: '#eee',
+                    trailWidth: 1,
+                    svgStyle: {width: '100%', height: '100%'},
+                    text: {
+                        style: {
+                            // Text color.
+                            // Default: same as stroke color (options.color)
+                            color: 'pink',
+                            // position: 'absolute',
+                            // right: '0',
+                            // top: '30px',
+                            // padding: 0,
+                            // margin: 0,
+                            // transform: null
+                        },
+                        autoStyleContainer: true
+                    },
+                    from: {color: '#FFEA82'},
+                    to: {color: '#ED6A5A'},
+                    step: (state, bar) => {
+                        bar.setText(Math.round(bar.value() * 100) + ' %');
+                    }
+                });
+                bar.set((CT + 1) / config.trials);  // Value from 0.0 to 1.0
+
+                var outerbar = new ProgressBar.Line('#outer-progress',
+                    {
+                        strokeWidth: 4,
+                        easing: 'easeInOut',
+                        duration: 0,
+                        color: '#ff7069',
+                        trailColor: '#eee',
+                        trailWidth: 1,
+                        svgStyle: {width: '100%', height: '100%'},
+                        text: {
+                            style: {
+                                // Text color.
+                                // Default: same as stroke color (options.color)
+                                color: 'pink',
+                                // position: 'absolute',
+                                // right: '0',
+                                // top: '30px',
+                                // padding: 0,
+                                // margin: 0,
+                                // transform: null
+                            },
+                            autoStyleContainer: true
+                        },
+                        from: {color: '#FFEA82'},
+                        to: {color: '#ED6A5A'},
+                        step: (state, bar) => {
+                            outerbar.setText(Math.round(outerbar.value() * 100) + ' %');
+                        }
+                    }
+                );
+                outerbar.set(config.doc_progress);  // Value from 0.0 to 1.0
+
 
                 // Start the clock
                 // magpieTimer()
@@ -295,8 +377,8 @@ const custom_entity_choice_doc = function (config) {
         trials: config.trials,
         // The render functions gets the magpie object as well as the current trial in view counter as input
         render: function (CT, magpie) {
-            const labels = []
-            var sub_CT = 0
+            const labels = [];
+            var sub_CT = 0;
 
             const start_labeling = function(e) {
                 sub_entity_choice.render(sub_CT, magpie)
@@ -308,7 +390,7 @@ const custom_entity_choice_doc = function (config) {
                 labels.push(trial_data)
                 sub_CT += 1;
                 if (sub_CT >= config.data[CT].mentions.length) {
-                    labels.forEach(function(data, data_idx) {
+                    labels.forEach(function (data, data_idx) {
                         magpie.trial_data.push(data);
                     });
                     magpie.findNextView();
@@ -325,6 +407,7 @@ const custom_entity_choice_doc = function (config) {
                 data: config.data[CT].mentions,
                 rand_worker_num: config.rand_worker_num,
                 is_gold_example: config.is_gold_example,
+                doc_progress: (global_docs_so_far + 1) / config.total_trials,
             }, handle_inner_view);
 
             $("main").html(`
@@ -365,6 +448,9 @@ const custom_entity_choice_doc = function (config) {
                     }
                 }, true);
             });
+            sub_entity_choice.render(0, magpie);
+
+            global_docs_so_far = global_docs_so_far + 1;
         }
     };
     // We have to return the view, so that it can be used in 05_views.js
