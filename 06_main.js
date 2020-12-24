@@ -15,11 +15,11 @@ $("document").ready(function() {
     window.magpie_monitor = magpieInit({
         // You have to specify all views you want to use in this experiment and the order of them
         views_seq: [
-            // screening,
+            screening,
             instructions,
             entity_choice,
             entity_choice_gld,
-            // post_test,
+            post_test,
             thanks,
         ],
         // Here, you can specify all information for the deployment
@@ -39,6 +39,7 @@ $("document").ready(function() {
                 // list the view-names of the views for which you want a progress bar
                 // forced_choice_2A.name,
                 entity_choice.name,
+                entity_choice_gld.name
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "separate",

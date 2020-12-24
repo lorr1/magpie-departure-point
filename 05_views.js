@@ -17,53 +17,15 @@
  * More about the properties and functions of the wrapping views - https://magpie-ea.github.io/magpie-docs/01_designing_experiments/01_template_views/#wrapping-views
 
  */
+const screening = custom_screening({
+    // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+    trials: 1,
+    title: 'Answer Question to Begin (you have 3 tries)',
+    // name should be identical to the variable name
+    name: 'screening',
+    data: screening_info,
 
-// Every experiment should start with an intro view. Here you can welcome your participants and tell them what the experiment is about
-// const screening = magpieViews.view_generator("textbox_input", {
-//     trials: 1,
-//     name: 'screening',
-//     data: screening_info
-// },
-// {
-//     handle_response_function: function(config, CT, magpie, answer_container_generator, startingTime) {
-//         let next;
-//         let textInput;
-//         const minChars = config.data[CT].min_chars === undefined ? 10 : config.data[CT].min_chars;
-//
-//         $(".magpie-view").append(answer_container_generator(config, CT));
-//
-//         next = $("#next");
-//         textInput = $("textarea");
-//
-//         // attaches an event listener to the textbox input
-//         textInput.on("keyup", function() {
-//             // if the text is longer than (in this case) 10 characters without the spaces
-//             // the 'next' button appears
-//             if (textInput.val().trim().length > minChars) {
-//                 next.removeClass("magpie-nodisplay");
-//             } else {
-//                 next.addClass("magpie-nodisplay");
-//             }
-//         });
-//
-//         // the trial data gets added to the trial object
-//         next.on("click", function() {
-//
-//             const RT = Date.now() - startingTime; // measure RT before anything else
-//             let trial_data = {
-//                 trial_name: config.name,
-//                 trial_number: CT + 1,
-//                 response: textInput.val().trim(),
-//                 RT: RT
-//             };
-//
-//             trial_data = magpieUtils.view.save_config_trial_data(config.data[CT], trial_data);
-//
-//             magpie.trial_data.push(trial_data);
-//             magpie.findNextView();
-//         });
-//     }
-// });
+});
 
 // For most tasks, you need instructions views
 const instructions = magpieViews.view_generator("instructions", {
@@ -137,23 +99,12 @@ const instructions = magpieViews.view_generator("instructions", {
 const post_test = magpieViews.view_generator("post_test", {
     trials: 1,
     name: 'post_test',
-    title: 'Additional information',
-    text: 'Answering the following questions is optional, but your answers will help us analyze our results.'
-
+    title: 'Survey',
+    text: 'Answering the following questions is optional, but your answers will help us analyze our results.',
     // You can change much of what appears here, e.g., to present it in a different language, as follows:
-    // buttonText: 'Weiter',
-    // age_question: 'Alter',
-    // gender_question: 'Geschlecht',
-    // gender_male: 'männlich',
-    // gender_female: 'weiblich',
-    // gender_other: 'divers',
-    // edu_question: 'Höchster Bildungsabschluss',
-    // edu_graduated_high_school: 'Abitur',
-    // edu_graduated_college: 'Hochschulabschluss',
-    // edu_higher_degree: 'Universitärer Abschluss',
-    // languages_question: 'Muttersprache',
-    // languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
-    // comments_question: 'Weitere Kommentare'
+    buttonText: 'Proceed',
+    languages_question: 'What languages do you speak',
+    comments_question: 'Did you find the task too long? Too short? Did you have enough information to answer the question? Were there too many candidates to choose from? Any other comments?'
 });
 
 // The 'thanks' view is crucial; never delete it; it submits the results!

@@ -37,7 +37,7 @@
 
 .my-magpie-view-text {
     color: rgba(0, 0, 0, 0.87);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 27px;
     font-family: "Lato", "Noto Sans", sans-serif;
     margin: 0 auto;
@@ -79,8 +79,8 @@
 .annotation-head {
     padding-top: 7px;
     color: rgba(0, 0, 0, 0.87);
-    font-family: "Playfair Display", "Noto Serif", serif;
-    font-size: 14px;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
+    font-size: 16px;
     /*text-align: center;*/
 }
 
@@ -90,7 +90,7 @@
 
 .annotation-segment {
     color: rgba(0, 0, 0, 0.87);
-    font-family: "Playfair Display", "Noto Serif", serif;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
     font-size: 16px;
     padding-bottom: 30px;
     text-align: left;
@@ -98,13 +98,13 @@
 
 .marker {
     /*background: lightgreen;*/
-    font-family: "Playfair Display", "Noto Serif", serif;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
     white-space: nowrap;
 }
 
 .marker-anno {
     background: rgba(200, 232, 181, 0.87);
-    font-family: "Playfair Display", "Noto Serif", serif;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
 }
 
 .anno {
@@ -124,7 +124,7 @@
 
     /*display: inline-block;*/
     padding: 4px 0;
-    font-family: "Playfair Display", "Noto Serif", serif;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
     font-size: 20px;
     /*font-weight: bold;*/
     line-height: 24px;
@@ -142,7 +142,7 @@
 
     display: inline-block;
     padding: 4px 0;
-    font-family: "Playfair Display", "Noto Serif", serif;
+    /*font-family: "Playfair Display", "Noto Serif", serif;*/
     font-size: 20px;
     /*font-weight: bold;*/
     line-height: 24px;

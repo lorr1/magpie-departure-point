@@ -1,14 +1,67 @@
 // In this file you can create your own custom view templates
+const custom_screening = function(config) {
+    const view = {
+        name: config.name,
+        CT: 0,
+        trials: config.trials,
+        // The render functions gets the magpie object as well as the current trial in view counter as input
+        render: function (CT, magpie) {
+            $('main').html(`
+                  <div class='magpie-view'>
+                    <h1 class='magpie-view-title'>${config.title}</h1>
+                    <section class="magpie-text-container">
+                    </section>
+                  </div>`);
 
+            $(document).ready(function() {
+                var numAttempts = 0
+                let next;
+                let textInput;
+                const minChars = config.data[CT].min_chars === undefined ? 10 : config.data[CT].min_chars;
 
-// A view template is a function that returns a view,
-// this functions gets some config (e.g. trial_data, name, etc.) information as input
-// A view is an object, that has a name, CT (the counter of how many times this view occurred in the experiment),
-// trials the maximum number of times this view is repeated
-// and a render function, the render function gets CT and the magpie-object as input
-// and has to call magpie.findNextView() eventually to proceed to the next view (or the next trial in this view),
-// if it is an trial view it also makes sense to call magpie.trial_data.push(trial_data) to save the trial information
+                $(".magpie-view").append(`
+                    <div id='question' class='magpie-view-question'>${config.data[CT].questions[numAttempts]}</div>
+                    <div class='magpie-view-answer-container'>
+                        <textarea name='textbox-input' rows=2 cols=30 class='magpie-response-text' />
+                    </div>
+                    <button id='next' class='magpie-view-button magpie-nodisplay'>Next</button>`);
+                next = $("#next");
+                question_area = $("#question");
+                textInput = $("textarea");
 
+                // attaches an event listener to the textbox input
+                textInput.on("keyup", function() {
+                    // if the text is longer than (in this case) 10 characters without the spaces
+                    // the 'next' button appears
+                    if (textInput.val().trim().length > minChars) {
+                        next.removeClass("magpie-nodisplay");
+                    } else {
+                        next.addClass("magpie-nodisplay");
+                    }
+                });
+
+                // the trial data gets added to the trial object
+                next.on("click", function() {
+                    const response = textInput.val().trim().toLowerCase();
+                    if (response === config.data[CT].answers[numAttempts].toLowerCase() && numAttempts < 3) {
+                        magpie.findNextView();
+                    } else {
+                        numAttempts += 1;
+                        if (numAttempts >= 3) {
+                            question_area.text('I am sorry. You have answered too many questions wrong to continue');
+                            textInput.text('')
+                        } else {
+                            question_area.text(config.data[CT].questions[numAttempts]);
+                            textInput.val('');
+                        }
+                    }
+                });
+            });
+        }
+    };
+    // We have to return the view, so that it can be used in 05_views.js
+    return view;
+};
 // In this view the user can click on buttons to label entities
 const custom_entity_choice = function (config, triggerNextView) {
     const view = {
@@ -79,7 +132,7 @@ const custom_entity_choice = function (config, triggerNextView) {
             $("main").html(`
                         <div class='magpie-view'>
                         
-                        <h1 class='my-magpie-view-title'>Choose the right entity</h1>
+                        <h1 class='magpie-view-title'>Choose the Right Entity</h1>
                         <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Taken from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
                         <div class="annotation-head"></div>
                             <div  id="sentence-text"  class="annotation-segment my-magpie-view-text">                   
@@ -207,9 +260,9 @@ const custom_entity_choice = function (config, triggerNextView) {
 
 
                 window.addEventListener("keydown", function (event) {
-                    event.preventDefault();
                     // If key is 0-9
                     if (event.keyCode >= 48 && event.keyCode <= 57) {
+                        // event.preventDefault();
                         // cand_idx = (parseInt(event.key) + 9) % 10;
                         cand_idx = parseInt(event.key);
                         // +1 for None of the Above option
@@ -217,8 +270,9 @@ const custom_entity_choice = function (config, triggerNextView) {
                             $("#button_" + cand_idx.toString()).click();
                         }
                     }
-                    // If key is 0-9
+                    // If key is enter
                     if (event.keyCode === 13) {
+                        event.preventDefault();
                         $("#enter").click();
                     }
                 }, true);
@@ -243,6 +297,10 @@ const custom_entity_choice_doc = function (config) {
         render: function (CT, magpie) {
             const labels = []
             var sub_CT = 0
+
+            const start_labeling = function(e) {
+                sub_entity_choice.render(sub_CT, magpie)
+            }
 
             // This function will handle  the response
             const handle_inner_view = function (trial_data) {
@@ -269,7 +327,44 @@ const custom_entity_choice_doc = function (config) {
                 is_gold_example: config.is_gold_example,
             }, handle_inner_view);
 
-            sub_entity_choice.render(0, magpie)
+            $("main").html(`
+                        <div class='magpie-view'>
+                        
+                        <h1 class='magpie-view-title'>Passage to Label</h1>
+                        <h6 class="my-magpie-view-text" style="text-align: center; margin: auto">(Taken from Wikipedia page for <a href="" id="wikipage_link">  </a>)</h6>
+                        <div class="annotation-head"></div>
+                            <div  id="sentence-text"  class="my-magpie-view-text">                   
+                        </div>
+                        <div  id="ready-button" class="my-magpie-view-text" style="text-align: right;"></div>
+                      `);
+            $(document).ready(function () {
+                document.getElementById('wikipage_link').href = "https://en.wikipedia.org/wiki/" + convert_wikipedia_title(config.data[CT]["doc_title"]);
+                document.getElementById('wikipage_link').innerHTML = config.data[CT]["doc_title"];
+                document.getElementById('wikipage_link').target = "_blank";
+                // mentions is config.data[CT]
+                var new_span = document.createElement('span');
+                new_span.textContent = config.data[CT]["doc_text"];
+                $("#sentence-text").append(new_span)
+
+                // Tell the user they have to press Enter
+                var new_div = document.createElement('div');
+                // new_div.className = "annotation-choice";
+                var button_div = document.createElement("button");
+                button_div.className = "magpie-respond-sentence button-choice";
+                button_div.id = "enter";
+                button_div.textContent = "[Enter] Begin Task";
+                new_div.appendChild(button_div);
+                $('#ready-button').append(new_div);
+                $("#enter").on("click", start_labeling);
+
+                window.addEventListener("keydown", function (event) {
+                    // If key is enter
+                    if (event.keyCode === 13) {
+                        event.preventDefault();
+                        $("#enter").click();
+                    }
+                }, true);
+            });
         }
     };
     // We have to return the view, so that it can be used in 05_views.js
