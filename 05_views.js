@@ -189,7 +189,7 @@ const thanks = magpieViews.view_generator("thanks", {
 // Here, we initialize a normal forced_choice view
 const entity_choice = custom_entity_choice_doc({
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: 1,
+    trials: 3,
     // name should be identical to the variable name
     name: 'entity_choice',
 
