@@ -61,8 +61,8 @@ def get_all_aliases(alis2qids_f, cut_off):
 
 class MentionExtractor:
     def __init__(self, max_alias_len, max_candidates, alias2qids=None, qid2title=None, tri_collection=None):
-        # Overall max candidates we allow any alias - we sample max_candidates from this amount
-        cut_off = 50
+        # Overall max candidates we allow any alias - we take max_candidates from this amount
+        cut_off = 100
 
         if alias2qids is None and qid2title is None:
             assert tri_collection is not None, f"You must provide either alias2qids and qid2title or a tri_collection"
@@ -130,8 +130,8 @@ class MentionExtractor:
 
     def extract_mentions(self, sentence):
         PUNC = string.punctuation
-        KEEP_POS = set(["PROPN", "NOUN", "ADJ", "ADV", "VERB"]) # VERB, ADV, SYM
-        plural = set(["s", "'s"])
+        KEEP_POS = {"PROPN", "NOUN", "ADJ"}  # VERB, ADV, SYM
+        plural = {"s", "'s"}
         table = str.maketrans(dict.fromkeys(PUNC))  # OR {key: None for key in string.punctuation}
         used_aliases = []
         doc = nlp(sentence)
@@ -161,17 +161,17 @@ class MentionExtractor:
                 if len(gram_words) > 1 and not any(g.pos_ in KEEP_POS for g in gram_words):
                     continue
                 # print("@", gram_words, [g.pos_ for g in gram_words])
-                # if len(gram_words) == 1 and gram_words[0].pos_ == "PROPN":
-                #     if j_st > 0 and doc[j_st - 1].pos_ == "PROPN":
-                #         continue
-                #     # End spans are exclusive so no +1
-                #     if j_end < len(doc) and doc[j_end].pos_ == "PROPN":
-                #         continue
-                print("3", gram_words, [g.pos_ for g in gram_words])
+                if len(gram_words) == 1 and gram_words[0].pos_ == "PROPN":
+                    if j_st > 0 and doc[j_st - 1].pos_ == "PROPN":
+                        continue
+                    # End spans are exclusive so no +1
+                    if j_end < len(doc) and doc[j_end].pos_ == "PROPN":
+                        continue
+                print("3", j_st, gram_words, [g.pos_ for g in gram_words])
                 # We don't want punctuation words to be used at the beginning/end
                 if len(gram_words[0].text.translate(table).strip()) == 0 or len(gram_words[-1].text.translate(table).strip()) == 0 \
-                        or gram_words[-1].text in plural or gram_words[0].text in plural or \
-                        (gram_words[0].text in all_stopwords and not gram_words[0].text[0].isupper()):
+                        or gram_words[-1].text in plural or gram_words[0].text in plural \
+                        or (gram_words[0].text.lower() in all_stopwords and (not gram_words[0].text[0].isupper() or j_st == 0)):
                     continue
                 assert j_st_adjusted != j_end_adjusted
                 joined_gram = " ".join(split_sent[j_st_adjusted:j_end_adjusted])
@@ -183,13 +183,13 @@ class MentionExtractor:
                 if gram_attempt.isnumeric():
                     continue
                 final_gram = None
-                # print("4", gram_attempt, [g.pos_ for g in gram_words])
+                print("4", gram_attempt, [g.pos_ for g in gram_words])
                 if self.does_alias_exist(gram_attempt):
                     final_gram = gram_attempt
                 elif self.does_alias_exist(gram_attempt_merged_plural):
                     final_gram = gram_attempt_merged_plural
                     # print("5", final_gram, [g.pos_ for g in gram_words])
-                # print("FINAL GRAM", final_gram)
+                print("FINAL GRAM", final_gram)
                 if final_gram is not None:
                     keep = True
                     # We start from the largest n-grams and go down in size. This prevents us from adding an alias that is a subset of another.

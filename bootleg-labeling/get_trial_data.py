@@ -14,8 +14,8 @@ def get_arg_parser():
     parser.add_argument('--data_dir', type=str, default='/lfs/raiders8/0/lorr1/data/wiki_dump/alias_filtered_sentences', help='Where files loaded')
     parser.add_argument('--out_dir', type=str, default='/dfs/scratch0/lorr1/magpie-departure-point/bootleg-labeling/data', help='Where files saved')
     parser.add_argument('--subfolder', type=str, default='final')
-    parser.add_argument('--alias2cands', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-internal/tutorial_data/data/wiki_entity_data/entity_mappings/alias2qids.json')
-    parser.add_argument('--qid2title', type=str, default='/dfs/scratch0/lorr1/bootleg/bootleg-internal/tutorial_data/data/wiki_entity_data/entity_mappings/qid2title.json')
+    parser.add_argument('--alias2cands', type=str, default='/dfs/scratch0/lorr1/magpie-departure-point/bootleg-labeling/data/full_entity_mappings/alias2qids.json')
+    parser.add_argument('--qid2title', type=str, default='/dfs/scratch0/lorr1/magpie-departure-point/bootleg-labeling/data/full_entity_mappings/qid2title.json')
     parser.add_argument('--qid2desc', type=str, default='/lfs/raiders8/0/lorr1/qid2desc.json')
     parser.add_argument('--sampler', type=str, default='Doc', choices=['Doc'])
     parser.add_argument('--sample_perc', type=float, default=0.0005)
@@ -80,7 +80,7 @@ def sample_data(args, sampler, in_files):
                                ]) for i in range(len(in_files))]
     pool = multiprocessing.Pool(processes=args.processes, initializer=sample_data_init, initargs=[sampler])
     st = time.time()
-    for _ in pool.imap_unordered(sample_data_hlp, all_process_args, chunksize=1):
+    for _ in pool.imap(sample_data_hlp, all_process_args, chunksize=1):
         pass
     pool.close()
 
@@ -133,18 +133,55 @@ def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentence
         mention_aliases_spans.append(res)
     pool.close()
     print(f"Finished mention extraction in {time.time() - st}s")
-
+    temp = set()
+    for line in list_of_kept_sentences:
+        temp.add(line["doc_title"])
+    print("HERE", temp)
     # Add the Not in List candidate
     random.seed(args.seed)
     mention_extractor = MentionExtractor.load(mention_dump_dir)
     out_file = os.path.join(args.out_data_dir, "04_trials.js")
+    unique_sents = {}
+    all_data = []
+    sent_idx_offset = 0
+    cur_doc = list_of_kept_sentences[0]["doc_title"]
+    list_of_sentences, mention_aliases = [], []
+    for i, sent in enumerate(list_of_kept_sentences):
+        if sent["doc_title"] == cur_doc:
+            list_of_sentences.append(sent)
+            mention_aliases.append(mention_aliases_spans[i])
+        else:
+            res = single_doc_data(sent_idx_offset, list_of_sentences, mention_aliases, mention_extractor, qid2desc, qid2title, unique_sents)
+            sent_idx_offset += len(list_of_sentences)
+            all_data.append({
+                "doc_title": cur_doc,
+                "doc_qid": sent["doc_qid"],
+                "doc_text": " ".join(map(lambda x: x["sentence"], list_of_sentences)),
+                "mentions": res
+            })
+            cur_doc = sent["doc_title"]
+            list_of_sentences, mention_aliases = [], []
+    # Run last doc
+    res = single_doc_data(sent_idx_offset, list_of_sentences, mention_aliases, mention_extractor, qid2desc, qid2title, unique_sents)
+    all_data.append({
+        "doc_title": cur_doc,
+        "doc_qid": sent["doc_qid"],
+        "doc_text": " ".join(map(lambda x: x["sentence"], list_of_sentences)),
+        "mentions": res
+    })
+
+    with open(out_file, "w") as out_f:
+        out_f.write("const ned_info = " + ujson.dumps(all_data, indent=4))
+    return
+
+
+def single_doc_data(sent_idx_offset, list_of_kept_sentences, mention_aliases_spans, mention_extractor, qid2desc, qid2title, unique_sents):
     mentions = []
-    sent_idx = 0
-    window_offset = 0
-    max_context_window = 3
+    sent_idx = sent_idx_offset
+    global_alias_idx = 0
+    max_context_window = 4
     end_context_len = max_context_window
     start_context_len = 0
-    unique_sents = {}
     for line_idx, mention_pair in tqdm(enumerate(mention_aliases_spans), desc="Dumping mentions"):
         # Ensure uniqueness
         line = list_of_kept_sentences[line_idx]
@@ -154,15 +191,20 @@ def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentence
         unique_sents[line["doc_title"]].add(line["doc_sent_idx"])
 
         # Gather aliases and spans for a 5 line window, making sure spans are consistent within this block and the rest of the doc
-        sentence_window = [x["sentence"] for x in list_of_kept_sentences[line_idx-start_context_len:line_idx+end_context_len]]
-        all_aliases, all_spans = zip(*mention_aliases_spans[line_idx-start_context_len:line_idx+end_context_len])
-        all_spans_adjusted = [all_spans[0]]
-        for i in range(1, len(all_spans)):
-            offset = len(sentence_window[i-1].split())
-            all_spans_adjusted.append([[sp[0]+offset+window_offset, sp[1]+offset+window_offset] for sp in all_spans[i]])
-        print(sentence_window, all_spans, all_spans_adjusted)
+        sentence_window = [x["sentence"] for x in list_of_kept_sentences[line_idx - start_context_len:line_idx + end_context_len]]
+        all_aliases, all_spans = zip(*mention_aliases_spans[line_idx - start_context_len:line_idx + end_context_len])
+        all_spans_adjusted = []
+        offset = 0
+        for i in range(0, len(all_spans)):
+            if i > 0:
+                offset += len(sentence_window[i - 1].split())
+            all_spans_adjusted.append([[sp[0] + offset, sp[1] + offset] for sp in all_spans[i]])
         for al_idx, (alias, span) in enumerate(zip(all_aliases[start_context_len], all_spans_adjusted[start_context_len])):
             # Shuffle the candidate lists to not add bias toward selecting the first entity
+            alias_idx_offset = 0
+            for sub_al_list in all_aliases[0:start_context_len]:
+                alias_idx_offset += len(sub_al_list)
+
             cands = mention_extractor.get_candidates(alias)
             random.shuffle(cands)
             res = {
@@ -170,30 +212,31 @@ def dump_data(args, mention_dump_dir, qid2title, qid2desc, list_of_kept_sentence
                 "doc_title": line["doc_title"],
                 "doc_sent_idx": line["doc_sent_idx"],
                 "alias": alias,
+                "pop_qid": cands[0],
                 "candidates": cands,
                 "candidate_titles": [qid2title.get(q, "") for q in cands],
                 "candidate_descriptions": [qid2desc.get(q, "") for q in cands],
                 "span_l": span[0],
                 "span_r": span[1],
                 "sent_idx": sent_idx,
-                "alias_idx": al_idx,
-                "guid_idx": f"{sent_idx}_{al_idx}",
+                "sent_alias_idx": al_idx,
+                "alias_idx": al_idx + alias_idx_offset,
+                "guid_idx": f"{sent_idx}_{global_alias_idx}",
                 "sentence": " ".join(sentence_window),
                 "all_aliases": flatten(all_aliases),
                 "all_spans": flatten(all_spans_adjusted)
             }
             mentions.append(res)
+            global_alias_idx += 1
         sent_idx += 1
-        if start_context_len < int(max_context_window/2):
+        if start_context_len < max_context_window - 1:
             start_context_len += 1
             end_context_len -= 1
         else:
-            window_offset += len(line["sentence"].split())+1
-    flattened_data = {"mentions": mentions}
+            start_context_len = 0
+            end_context_len = max_context_window
+    return mentions
 
-    with open(out_file, "w") as out_f:
-        out_f.write("const ned_info = " + ujson.dumps(flattened_data, indent=4))
-    return
 
 def dump_data_hlp(line):
     return mention_extractor_global.extract_mentions(line["sentence"])
@@ -216,7 +259,7 @@ def main():
     os.makedirs(args.out_data_dir)
 
     print(f"Loading data from {args.data_dir}...")
-    files = glob.glob(f"{args.data_dir}/*.jsonl")
+    files = sorted(glob.glob(f"{args.data_dir}/*.jsonl"))
     if args.test:
         files = files[:1]
     if len(files) <= 0:
@@ -244,7 +287,7 @@ def main():
 
     # with open(temp_file, "rb") as in_f:
     #     sampler = pickle.load(in_f)
-    
+
     #==============================================
     # SAMPLE FROM FILES
     #==============================================
@@ -264,7 +307,7 @@ def main():
     if not os.path.exists(mention_dump_dir) or args.overwrite:
         os.makedirs(mention_dump_dir, exist_ok=True)
         print(f"Building mention extractor for {mention_dump_dir}")
-        mention_extractor = MentionExtractor(max_alias_len=5, max_candidates=9, alias2qids=args.alias2cands, qid2title=qid2title)
+        mention_extractor = MentionExtractor(max_alias_len=5, max_candidates=27, alias2qids=args.alias2cands, qid2title=qid2title)
         mention_extractor.dump(mention_dump_dir)
     print(f"Loading qid2desc from {args.qid2desc}")
     with open(args.qid2desc) as in_f:
