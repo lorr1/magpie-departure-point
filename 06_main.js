@@ -29,7 +29,7 @@ $("document").ready(function() {
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "MTurkSandbox",
+            deployMethod: "MTurk",
             contact_email: "lorr1@cs.stanford.edu",
             // prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
