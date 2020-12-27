@@ -61,6 +61,7 @@
     min-width: 180px;
     text-align: left;
     font-size: 14px;
+    background-color: rgb(239, 239, 239);
     /*font-family: "Playfair Display", "Noto Serif", serif;*/
     /*flex: 5px;*/
 }
