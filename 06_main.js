@@ -15,8 +15,8 @@ $("document").ready(function() {
     window.magpie_monitor = magpieInit({
         // You have to specify all views you want to use in this experiment and the order of them
         views_seq: [
-            // screening,
-            // instructions,
+            screening,
+            instructions,
             entity_choice,
             entity_choice_gld,
             post_test,
@@ -29,7 +29,7 @@ $("document").ready(function() {
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "directLink",
+            deployMethod: "MTurkSandbox",
             contact_email: "lorr1@cs.stanford.edu",
             // prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
