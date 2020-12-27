@@ -42,14 +42,17 @@ const custom_screening = function(config) {
 
                 // the trial data gets added to the trial object
                 next.on("click", function() {
-                    const response = textInput.val().trim().toLowerCase();
+                    var response = textInput.val().trim()
+                    if (response.length > 0) {
+                        response = response.toLowerCase();
+                    }
                     if (response === config.data[CT].answers[numAttempts].toLowerCase() && numAttempts < 3) {
                         magpie.findNextView();
                     } else {
                         numAttempts += 1;
                         if (numAttempts >= 3) {
                             question_area.text('I am sorry. You have answered too many questions wrong to continue');
-                            textInput.text('')
+                            textInput.val('')
                         } else {
                             question_area.text(config.data[CT].questions[numAttempts]);
                             textInput.val('');
