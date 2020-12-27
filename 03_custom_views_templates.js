@@ -42,11 +42,8 @@ const custom_screening = function(config) {
 
                 // the trial data gets added to the trial object
                 next.on("click", function() {
-                    var response = textInput.val().trim()
-                    if (response.length > 0) {
-                        response = response.toLowerCase();
-                    }
-                    if (response === config.data[CT].answers[numAttempts].toLowerCase() && numAttempts < 3) {
+                    const response = textInput.val().trim().toLowerCase();
+                    if ( numAttempts < 3 && response === config.data[CT].answers[numAttempts].toLowerCase()) {
                         magpie.findNextView();
                     } else {
                         numAttempts += 1;
